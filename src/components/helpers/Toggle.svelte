@@ -1,7 +1,7 @@
 <script>
 	export let label;
 	export let style = "inner";
-	export let options = ["on", "off"];
+	export let options = [true, false];
 	export let value = options[0];
 
 	let checked = value === options[0];

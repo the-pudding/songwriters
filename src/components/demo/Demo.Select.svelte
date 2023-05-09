@@ -12,6 +12,6 @@
 </script>
 
 <section id="demo-select">
-	<h2>Select <span>{value}</span></h2>
+	<h2>hi <span>{value}</span></h2>
 	<Select label={"Select something"} {options} bind:value />
 </section>

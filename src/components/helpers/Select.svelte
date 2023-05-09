@@ -5,6 +5,7 @@
 	export let value = options.length ? options[0].value : "";
 
 	const id = `select-${Math.floor(Math.random() * 1000000)}`;
+
 </script>
 
 <div class="select">
