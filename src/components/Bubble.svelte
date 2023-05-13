@@ -66,6 +66,7 @@
 	
 
 </script>
+<p>[this chart sitll needs work!]</p>
 
 
 {#if mounted}
@@ -85,6 +86,8 @@
 		</div>
 	</div>
 {/if}
+
+
 
 <div class="bubble-chart">
 	{#each dataForChart as datum}
