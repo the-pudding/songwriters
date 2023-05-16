@@ -12,6 +12,8 @@ export async function load() {
 			song_key: d.song_key,
 			womenOnly: d["has no men"],
 			menOnly: d["has no women"],
+			cut: d["cut"],
+			artist_gender: d["artist_gender"],
 			genderArray: songwritersArray,
 		}
 	})

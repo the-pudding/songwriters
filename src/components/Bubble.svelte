@@ -5,6 +5,8 @@
 	import YearDropDown from "$components/YearDropDown.svelte";
 	import GenderToggle from "$components/GenderToggle.svelte";
 
+	import { group, groups } from "d3";
+
 	const data = getContext("data");
 	
 	let mounted = false;
@@ -13,6 +15,11 @@
 	let dateRange = [yearStart,yearEnd]
 	let onlyWomen = false;
 	let onlyMen = false;
+	let performerGender = "all"
+
+	let performerArray = ["m","f","all","m;f"].map(d => {
+		return {"value":`${d}`};
+	});
 
 	let songSelected;
 
@@ -26,26 +33,41 @@
 		return {"value":`${d}`};
 	});
 
-	function getData(data,dateRange,onlyWomen,onlyMen){
+	function getData(data,dateRange,performerGender){
 
 		let tempData = data.filter(d => {
 			return +d.year >= +dateRange[0] && +d.year <= +dateRange[1];
 		})
 
-		if(onlyWomen) {	
-			tempData = tempData.filter(d => {
-				return  d.womenOnly == "only women"
-			})
-		}
-
-		if(onlyMen) {	
-			tempData = tempData.filter(d => {
-				console.log(d)
-				return  d.menOnly == "only men"
-			})
-		}
+		tempData = tempData.filter(d => {
+			if(performerGender == "all") {
+				return d;
+			}
+			return  d.artist_gender == performerGender;
+		});
 
 
+		
+
+		tempData = groups(tempData, d => d.cut);
+
+
+
+		// if(onlyWomen) {	
+		// 	console.log(groups(tempData, d => d.womenOnly));
+		// 	tempData = tempData.filter(d => {
+		// 		return  d.womenOnly == "only women"
+		// 	})
+		// }
+
+		// if(onlyMen) {	
+		// 	tempData = tempData.filter(d => {
+		// 		console.log(d)
+		// 		return  d.menOnly == "only men"
+		// 	})
+		// }
+
+		console.log(tempData)
 
 		return tempData;
 
@@ -57,7 +79,7 @@
 	}
 
 	$: dateRange = [+yearStart,+yearEnd];
-	$: dataForChart = getData(data,dateRange,onlyWomen,onlyMen)
+	$: dataForChart = getData(data,dateRange,performerGender)
 
 
 	onMount(async () => {
@@ -66,23 +88,23 @@
 	
 
 </script>
-<p>[this chart sitll needs work!]</p>
-
 
 {#if mounted}
 	<div class="toggles">
 		<div class="year-range">
 			<p>From</p>
-				<YearDropDown {yearsArray} bind:value={yearStart}/>
+				<YearDropDown options={yearsArray} bind:value={yearStart}/>
 			<p>To</p>
 			<div class="year">
-				<YearDropDown {yearsArray} bind:value={yearEnd}/>
+				<YearDropDown options={yearsArray} bind:value={yearEnd}/>
 			</div>
+		</div>
+		<div class="gender-toggles">
+			<p>Performer Gender</p>
 
-			<div class="gender-toggles">
-				<GenderToggle label={"Women Only Songs"} bind:value={onlyWomen} />
-				<GenderToggle label={"Men Only Songs"} bind:value={onlyMen}/>
-			</div>
+			<YearDropDown options={performerArray} bind:value={performerGender}/>
+			<!-- <GenderToggle label={"Women Only Songs"} bind:value={onlyWomen} /> -->
+			<!-- <GenderToggle label={"Men Only Songs"} bind:value={onlyMen}/> -->
 		</div>
 	</div>
 {/if}
@@ -90,17 +112,49 @@
 
 
 <div class="bubble-chart">
-	{#each dataForChart as datum}
-        <div on:mouseover={() => getSong(datum)} class="song {datum["menOnly"] == "only men" ? 'men' : ''}">
-        </div>
+	{#each dataForChart as cut}
+		<div class="cut">
+			<p>{cut[0]}</p>
+			<div class="cut-wrapper">
+				{#each cut[1] as datum}
+					<!-- svelte-ignore a11y-mouse-events-have-key-events -->
+					<div on:mouseover={() => getSong(datum)} class="song">
+					</div>
+				{/each}
+			</div>
+		</div>
+
 	{/each}
 </div>
 
 <p>song: {songSelected}</p>
 
 <style>
+
+	.cut p {
+		width: 100%;
+	}
+
+	.cut {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+
+	.gender-toggles {
+		width: 100%;
+	}
+	
+
+	.cut-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+
 	.toggles {
 		margin-bottom: 50px;
+
 	}
     .bubble-chart {
 		display: flex;

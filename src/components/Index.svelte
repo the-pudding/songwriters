@@ -13,9 +13,6 @@
 	const data = getContext("data");
     let dataByYear = groups(data.slice(0,500), d => d.year);
 
-
-
-	
 </script>
 
 <IntroAll />
@@ -23,6 +20,7 @@
 <IntroSong {dataByYear}/>
 
 <Body />
+
 
 <Bubble />
 <!-- <Demo /> -->

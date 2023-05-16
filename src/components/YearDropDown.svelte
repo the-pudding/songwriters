@@ -2,13 +2,13 @@
     import Select from "$components/helpers/Select.svelte";
 
     export let value;
-    export let yearsArray;
+    export let options;
 
     // $: value = yearStart
 </script>
 
 <div class="year">	
-    <Select label={""} options={yearsArray} bind:value={value} />
+    <Select label={""} options={options} bind:value={value} />
 </div>
 
 <style>
