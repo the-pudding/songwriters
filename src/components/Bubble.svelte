@@ -130,7 +130,7 @@
 <p>song: {songSelected}</p>
 
 <style>
-
+	
 	.cut p {
 		width: 100%;
 	}

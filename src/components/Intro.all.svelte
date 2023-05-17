@@ -15,17 +15,6 @@
     
 </script>
 
-<p>[Chris, my line notes are all in square brackets!]</p>
-<p>[the intro needs to be tightened up, at least enough to intro the main point that the industry is 14% women]</p>
-<p>
-    Women have been excluded from nearly every role in the music industry since the beginning of time. A study sponsored by Spotify and USC’s Annenberg Institute found that only 14% of songwriters and 2.8% of producers who worked on the 1,100 most popular songs released between 2012 and 2022 were women.
-</p>
-<p>
-    That is a depressing statistic. Given that that study only looked at the last decade, we wondered if expanding the temporal scope would tell a different story. So we grabbed songwriting credits on all 3,083 top 5 hits on the Billboard Hot 100 between 1958 and 2022. We then used a combination of interviews, obituaries, official bios, Discogs, and Wikipedia to identify the gender of all 6100+ songwriters.
-</p>
-<p>
-    [this "chart" will be beautified, but right now each letter is a songwriter credit. imagine that it's just a sea of people and we color code them by gender. this will make it easy to "see" the 13%. we'll make this smaller so it can fit on one screen]
-</p>
 
 <div class="song-wrapper">
     {#each dataByGender as gender}

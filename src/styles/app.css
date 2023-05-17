@@ -10,6 +10,9 @@
 	--serif: "Tiempos Text Web", Iowan Old Style, Times New Roman, Times, serif;
 	--mono: Menlo, Consolas, Monaco, monospace;
 
+	--col-width: 600px;
+
+
 	/* z-index */
 	--z-bottom: -100;
 	--z-middle: 0;
@@ -66,6 +69,29 @@
 	:root {
 		--1s: 1s;
 	}
+}
+
+.center-col {
+	margin: 0 auto;
+	max-width: var(--col-width);
+}
+
+.double-col-para-wrapper {
+	background-color: white;
+	border: 1px solid red;
+	margin: 25px;
+	padding: 0 25px;
+}
+
+.double-col-step {
+	max-width: 500px;
+	z-index: 1000;
+	position: relative;
+}
+
+.para {
+	font-size: 18px;
+	margin: 2em auto;
 }
 
 h1 {

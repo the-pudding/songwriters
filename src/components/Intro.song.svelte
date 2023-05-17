@@ -5,69 +5,90 @@
     export let dataByYear;
     let value;
     let textKeys = [];
+    let textValue;
 
     let text = {
-        0: "tktk look at all the men",
-        1: "tktk so many songs written just by men",
-        2: "where are all the songs written by <ul>just</ul> women?",
-        5: "wonder how long it'll take before we see a song written by all women...",
-        12: "oh here it is! we actually went 10 years without one happening"
-
+        0: "There’s a few with some female writers …",
+        1: "But mostly men …",
+        4: "It’s been 5 years. How long is this going to take???",
+        7: "This is getting ridiculous",
+        8: "Wait! Here are 2 …"
     }
 
+    const getText = () => {
+        if(textKeys.indexOf(value) > -1){
+            textValue = text[value];
+        }
+        // textValue = "hi";
+    };
+
+    $: getText(value)
     $: textKeys = Object.keys(text).map(d => +d);
 
     $: console.log(textKeys.indexOf(value),value)
 </script>
 
-
-<p>[all the text in this is super placeholder—but meant to make the point you wanted to do in your first table in your draft where "In fact, since the year 2000 there have been so few top 5 hits written exclusively by women that I can list them all.
-    "]</p>
-
 <section id="scrolly">
-    {#if textKeys.indexOf(value) > -1}
+    <!-- {#if textKeys.indexOf(value) > -1} -->
         <h2>
-            {@html text[value]}
+            {@html textValue}
         </h2>
-    {/if}
-	<div class="spacer" />
+    <!-- {/if} -->
     <div class="song-wrapper">
+
         <Scrolly bind:value>
-            {#each dataByYear as dataYear,i}
+            {#each dataByYear.filter(d => +d[0] < 2020 && +d[0] > 2009) as dataYear,i}
                 {@const active = value === i}
 
                 <div class="step year-section" class:active>
                     <p class="year">{dataYear[0]}</p>
                     {#each dataYear[1] as song}
-                        <div style="width:100%; display:flex; justify-content:center;">
+                        <div
+                            class=""
+                            style="width:100%; display:flex; justify-content:center;">
                             <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-                            <div class="song"
-                                on:mouseover={() => console.log(song)}
-                                style="
-                                background-color:{song.menOnly == "only men" ? "rgba(0,0,255,.15)" : song.womenOnly == "only women" ? 'rgba(255,0,0,.15)' : ''};
-                                "
+                            <div
+                                class="song-container {song.womenOnly == "only women" ? "women-only" : ''}"
                             >
-                                {#each song.genderArray as songwriter}
-                                    <div class="songwriter"
-                                        style="
-                                            color:{songwriter == "m" ? "blue" : songwriter == "f" ? "red" : ''};
-                                        "
-                                    >
-                                        {songwriter}
-                                    </div>
-                                {/each}
-                                
+
+                                <div class="song"
+                                    on:mouseover={() => console.log(song)}
+                                    style="
+                                    background-color:{song.menOnly == "only men" ? "rgba(0,0,255,.15)" : song.womenOnly == "only women" ? 'rgba(255,0,0,.15)' : ''};
+                                    "
+                                >
+                                    {#each song.genderArray as songwriter}
+                                        <div class="songwriter"
+                                            style="
+                                                color:{songwriter == "m" ? "blue" : songwriter == "f" ? "red" : ''};
+                                            "
+                                        >
+                                            {songwriter}
+                                        </div>
+                                    {/each}
+                                    
+                                </div>
+                                {song.song_key}
                             </div>
-                            {song.song_key}
                         </div>
                     {/each}
                 </div>
             {/each}
         </Scrolly>
+
     </div>
 </section>
 
 <style>
+
+    .song-container {
+        display: inline-flex;
+    }
+
+    .women-only {
+        border: 5px solid red;
+    }
+
     .year {
         text-align: center;
     }
@@ -87,10 +108,6 @@
     h2 {
 		position: sticky;
 		top: 4em;
-	}
-
-	.spacer {
-		height: 75vh;
 	}
 </style>
 
