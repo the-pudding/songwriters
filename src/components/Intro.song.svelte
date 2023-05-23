@@ -3,17 +3,13 @@
 	import Scrolly from "$components/helpers/Scrolly.svelte";
 
     export let dataByYear;
+    export let text;
+
     let value;
     let textKeys = [];
     let textValue;
 
-    let text = {
-        0: "There’s a few with some female writers …",
-        1: "But mostly men …",
-        4: "It’s been 5 years. How long is this going to take???",
-        7: "This is getting ridiculous",
-        8: "Wait! Here are 2 …"
-    }
+
 
     const getText = () => {
         if(textKeys.indexOf(value) > -1){
@@ -25,22 +21,24 @@
     $: getText(value)
     $: textKeys = Object.keys(text).map(d => +d);
 
-    $: console.log(textKeys.indexOf(value),value)
 </script>
 
 <section id="scrolly">
     <!-- {#if textKeys.indexOf(value) > -1} -->
-        <h2>
-            {@html textValue}
-        </h2>
+        {#if textValue}
+            <h2>
+                {@html textValue}
+            </h2>
+        {/if}
     <!-- {/if} -->
     <div class="song-wrapper">
 
         <Scrolly bind:value>
-            {#each dataByYear.filter(d => +d[0] < 2020 && +d[0] > 2009) as dataYear,i}
+            {#each dataByYear as dataYear,i}
                 {@const active = value === i}
 
                 <div class="step year-section" class:active>
+                    
                     <p class="year">{dataYear[0]}</p>
                     {#each dataYear[1] as song}
                         <div

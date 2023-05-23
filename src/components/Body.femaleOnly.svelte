@@ -2,10 +2,13 @@
     import { onMount,getContext } from "svelte";
     import Scrolly from "$components/helpers/Scrolly.svelte";
 	import SortTable from "./helpers/SortTable.svelte";
+    import { flip } from "svelte/animate";
+    import { groups } from "d3";
 
     export let dataByGender;
-
-    let value;
+    export let dataByYearWomenOnly;
+    export let slides;
+    let value = 0;
     let dataForChart;
     
     let performerKey = {
@@ -16,88 +19,91 @@
 
     const updateData = () => {
         let tempData;
-        
-        if(value > 0) {
-            console.log("here")
-            tempData = JSON.parse(JSON.stringify(dataByGender))
-            tempData.forEach((d) => {
-                d[1] = d[1].filter(j => {
-                    return +j[0] < 2010;
-                })
+        if(value == 0 || value == undefined) {
+
+
+            tempData = JSON.parse(JSON.stringify(dataByYearWomenOnly));
+            tempData = tempData.filter((d) => {
+                return d[0] < 2023 && d[0] > 1999;
             });
+
+
+
+            // tempData = JSON.parse(JSON.stringify(dataByGender))
+            // tempData.forEach((d) => {
+            //     d[1] = d[1].filter(j => {
+            //         return +j[0] < 2023;
+            //     })
+            // });
+
+        }
+        else if(value > 0){
+            tempData = JSON.parse(JSON.stringify(dataByYearWomenOnly))
+            tempData = tempData.map(d => d[1]).flat(1);
+            tempData = groups(tempData, d => d.artist_gender);
+            tempData = tempData.reverse();
+            console.log(tempData)
 
         }
         else {
-            tempData = JSON.parse(JSON.stringify(dataByGender))
-            console.log(tempData)
-            tempData.forEach((d) => {
-                d[1] = d[1].filter(j => {
-                    return +j[0] > 1999 && +j[0] < 2010;
-                })
-            });
+            tempData = JSON.parse(JSON.stringify(dataByYearWomenOnly))
+
+        //     tempData = JSON.parse(JSON.stringify(dataByGender))
+        //     console.log(tempData)
+        //     tempData.forEach((d) => {
+        //         d[1] = d[1].filter(j => {
+        //             return +j[0] > 1999 && +j[0] < 2023;
+        //         })
+        //     });
+        // }
+        // tempData = tempData.filter(d => {
+        //     return d[1].length > 0;
+        // })
         }
-        tempData = tempData.filter(d => {
-            return d[1].length > 0;
-        })
+
 
         return tempData;
     }
 
-    let slides= [
-        "If we keep going back into the past, things don’t look better. In fact, since the year 2000 there have been so few top 5 hits written exclusively by women that I can list them all.",
-        "Note how all of these songs were performed by women. Men rarely perform hits written exclusively by women. In fact, there are only 13 top 5 hits since the inception of the Hot 100 written exclusively by women and performed exclusively by men.",
-        "Even if we expand our search to top 5 hits written exclusively by women and performed by groups that contain at least one woman, the list of songs only grows by 16."
-    ]
-
-
-
-
     $: dataForChart = updateData(value);
-    $: console.log(dataByGender)
     
+
+
 
 </script>
 
 
 <section class="wrapper">
-    <div class="song-wrapper">
-        <p>songs written by women</p>        
-        {#each dataForChart as performer}
-            <div class="performer">
-                {performerKey[performer[0]]}
-                
-                {#each performer[1] as dataYear}
-                    <!-- <div class="year-section"> -->
-                        <p class="year">{dataYear[0]}</p>
-                        <!-- <div class="song-container"> -->
-                            {#each dataYear[1].slice(0,10) as song}
-                                <div class="song-row" style="">
-                                    <div class="song"
-                                        on:mouseover={() => console.log(song)}
-                                        style="
-                                        background-color:{song.menOnly == "only men" ? "rgba(0,0,255,.15)" : song.womenOnly == "only women" ? 'rgba(255,0,0,.15)' : ''};
-                                        "
-                                    >
-                                        {#each song.genderArray as songwriter}
-                                            <div class="songwriter"
-                                                style="
-                                                    color:{songwriter == "m" ? "blue" : songwriter == "f" ? "red" : ''};
-                                                "
-                                            >
-                                                {songwriter}
-                                            </div>
-                                        {/each}
-                                        
-                                    </div>
-                                    {song.song_key}
-                                </div>
-                            {/each}
-                        <!-- </div> -->
-                    <!-- </div> -->
+    <div class="song-wrapper {value == 3 ? 'performer-slide' : ''}">
+        <p class="chart-header">songs written by women</p>    
+        
+        {#if value < 2 || value == undefined}
+            {#each dataForChart as dataYear}
+                <p class="year">{dataYear[0]}</p>
+                {#each dataYear[1] as song, i (song.song_key)}
+                    <div class="song-row" style="" animate:flip={{ duration: 1000 }}>
+                        {song.song_key}, written by {song["songwriters"].map(d => d.writer).join(", ")}
+                    </div>
                 {/each}
-            </div>
-
-        {/each}
+            {/each}
+        {:else}
+            {#each dataForChart as performer}
+                <div class="performer">
+                    {performerKey[performer[0]]}
+                    {#each performer[1] as song}
+                        <div class="song-row" style="">
+                            {song.song_key}, written by&nbsp;
+                            {#each song["songwriters"] as songwriter, i}
+                                <span class="{songwriter["Songwriter is Artist"] == "1" ? "performer-flag" : ''}">{songwriter.writer}</span>
+                                {#if i !== song["songwriters"].length - 1}
+                                    ,&nbsp;
+                                {/if}
+                            {/each}
+                        </div>
+                    {/each}
+                </div>
+            {/each}
+        {/if}
     </div>
     <Scrolly bind:value>
         {#each slides as slide,i}
@@ -105,7 +111,7 @@
                 <div class="step double-col-step" class:active>
                     <div class="double-col-para-wrapper">
                         <p class="double-col para">
-                            {slide}
+                            {@html slide}
                         </p>
                     </div>
                     
@@ -116,6 +122,11 @@
 
 
 <style>
+
+    .performer-slide .performer-flag {
+        color: red;
+    }
+
     .performer {
         display: flex;
         flex-wrap: wrap;
@@ -139,6 +150,9 @@
         top: 1rem;
         display: flex;
         flex-wrap: wrap;
+        height: 100vh;
+        overflow: hidden;
+        align-content: flex-start;
     }
 
     .song-container {

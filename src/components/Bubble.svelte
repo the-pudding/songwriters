@@ -7,8 +7,7 @@
 
 	import { group, groups } from "d3";
 
-	const data = getContext("data");
-	
+	export let data;	
 	let mounted = false;
 	let yearStart = "1958";
 	let yearEnd = "2022";
@@ -112,6 +111,7 @@
 
 
 <div class="bubble-chart">
+	<p>[tk matt to add in roll up percentages]</p>
 	{#each dataForChart as cut}
 		<div class="cut">
 			<p>{cut[0]}</p>

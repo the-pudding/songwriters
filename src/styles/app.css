@@ -89,8 +89,16 @@
 	position: relative;
 }
 
+.red {
+	color: red;
+}
+
+.chart-header {
+	width: 100%;
+}
+
 .para {
-	font-size: 18px;
+	font-size: 24px;
 	margin: 2em auto;
 }
 

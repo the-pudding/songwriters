@@ -1,8 +1,10 @@
 import Songs from "$data/songs.csv";
+import Writers from "$data/writerKey.csv";
+import { group } from "d3";
 
 export async function load() {
 
-	let data = Songs.map((d,i) => {
+	let songs = Songs.map((d,i) => {
 
 		let songwritersArray = JSON.parse(d["songwriter_gender"].replace(/'/g, '"'));
 
@@ -18,9 +20,16 @@ export async function load() {
 		}
 	})
 
-	data = data.sort((a,b) => {
+	songs = songs.sort((a,b) => {
 		return b.year - a.year;
 	})
+
+	let writerKey = group(Writers, d => d["title_artist_name"].toLowerCase());
+
+	let data = {
+		songs: songs,
+		writerKey: writerKey
+	}
 
 	return { data };
 }

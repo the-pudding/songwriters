@@ -1,7 +1,7 @@
 title_id,song_key,peak_position,year,songwriter_gender,song writer count,count of women,cut,has no women,has no men,artist_gender
 338309,Dancing Machine by Jackson 5,2,1974,"['?', 'm', 'm']",3,0,no women,only men,1 or more men,m
 580109,"1, 2, 3, Red Light by 1910 Fruitgum Co.",5,1968,"['?', 'm']",2,0,no women,only men,1 or more men,m
-new_056,homicide by logic featuring eminem,5,2019,"['?', 'pm', '?', 'm', 'm', 'm', '?']",7,0,no women,only men,1 or more men,m
+new_056,homicide by logic featuring eminem,5,2019,"['?', 'm', '?', 'm', 'm', 'm', '?']",7,0,no women,only men,1 or more men,m
 7490,Secret Lovers by Atlantic Starr,3,1986,"['m', 'm']",2,0,no women,only men,1 or more men,m;f
 451123,Sunshine by Lil' Flip Featuring Lea,2,2004,"['m', '?', 'm', '?']",4,0,no women,only men,1 or more men,m;f
 new_137,amari by j. cole,5,2021,"['m', '?', 'm', 'm']",4,0,no women,only men,1 or more men,m
@@ -103,10 +103,10 @@ new_121,save your tears by the weeknd & ariana grande,1,2021,"['m', 'm', 'm', 'm
 new_127,wants and needs by drake featuring lil baby,2,2021,"['m', 'm', 'm', 'm', 'm', 'm']",6,0,no women,only men,1 or more men,m
 new_172,n95 by kendrick lamar,3,2022,"['m', 'm', 'm', 'm', 'm', 'm']",6,0,no women,only men,1 or more men,m
 new_159,enemy by imagine dragons x jid,5,2022,"['m', 'm', 'm', 'm', 'm', 'nb', 'm', 'm']",8,0,no women,only men,1 or more men,m
-new_178,jimmy cooks by drake featuring 21 savage,1,2022,"['m', 'm', 'm', 'm', 'm', 'pm', 'm', 'm', 'm', 'm']",10,0,no women,only men,1 or more men,m
-new_136,"my.life by j. cole, 21 savage & morray",2,2021,"['m', 'm', 'm', 'm', 'm', 'pm', 'm', 'pm']",8,0,no women,only men,1 or more men,m
-66141,Get It On Tonite by Montell Jordan,4,2000,"['m', 'm', 'm', 'm', 'm', 'pm', 'pm']",7,0,no women,only men,1 or more men,m
-new_109,laugh now cry later by drake featuring lil durk,2,2020,"['m', 'm', 'm', 'm', 'm', 'pm']",6,0,no women,only men,1 or more men,m
+new_178,jimmy cooks by drake featuring 21 savage,1,2022,"['m', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm']",10,0,no women,only men,1 or more men,m
+new_136,"my.life by j. cole, 21 savage & morray",2,2021,"['m', 'm', 'm', 'm', 'm', 'm', 'm', 'm']",8,0,no women,only men,1 or more men,m
+66141,Get It On Tonite by Montell Jordan,4,2000,"['m', 'm', 'm', 'm', 'm', 'm', 'm']",7,0,no women,only men,1 or more men,m
+new_109,laugh now cry later by drake featuring lil durk,2,2020,"['m', 'm', 'm', 'm', 'm', 'm']",6,0,no women,only men,1 or more men,m
 430994,Turn Me On by Kevin Lyttle Featuring Spragga Benz,4,2004,"['m', 'm', 'm', 'm', 'm', 'x', 'm', 'm', 'm']",9,0,no women,only men,1 or more men,m
 574015,Last Night by Mar-Keys,3,1961,"['m', 'm', 'm', 'm', 'm']",5,0,no women,only men,1 or more men,m
 576284,I Will Follow Him by Little Peggy March,1,1963,"['m', 'm', 'm', 'm', 'm']",5,0,no women,only men,1 or more men,f
@@ -187,8 +187,8 @@ new_134,rapstar by polo g,1,2021,"['m', 'm', 'm', 'm', 'm']",5,0,no women,only m
 new_131,ghost by justin bieber,5,2022,"['m', 'm', 'm', 'm', 'm']",5,0,no women,only men,1 or more men,m
 new_192,major distribution by drake & 21 savage,3,2022,"['m', 'm', 'm', 'm', 'm']",5,0,no women,only men,1 or more men,m
 571228,The Lion Sleeps Tonight by Robert John,3,1972,"['m', 'm', 'm', 'm', 'mixed', 'm']",6,0,no women,only men,1 or more men,m
-new_148,way 2 sexy by drake featuring future & young thug,1,2021,"['m', 'm', 'm', 'm', 'pm', 'm', 'm', 'm']",8,0,no women,only men,1 or more men,m
-1008500,iSpy by KYLE Featuring Lil Yachty,4,2017,"['m', 'm', 'm', 'm', 'pm']",5,0,no women,only men,1 or more men,m
+new_148,way 2 sexy by drake featuring future & young thug,1,2021,"['m', 'm', 'm', 'm', 'm', 'm', 'm', 'm']",8,0,no women,only men,1 or more men,m
+1008500,iSpy by KYLE Featuring Lil Yachty,4,2017,"['m', 'm', 'm', 'm', 'm']",5,0,no women,only men,1 or more men,m
 29182,"Here Comes The Hotstepper (From \Ready To Wear\"")"" by Ini Kamoze",1,1994,"['m', 'm', 'm', 'm', 'x', 'm']",6,0,no women,only men,1 or more men,m
 574532,Quarter To Three by U.S. Bonds,1,1961,"['m', 'm', 'm', 'm']",4,0,no women,only men,1 or more men,m
 574936,The Lion Sleeps Tonight by The Tokens,1,1961,"['m', 'm', 'm', 'm']",4,0,no women,only men,1 or more men,m
@@ -328,8 +328,8 @@ new_171,you proof by morgan wallen,5,2022,"['m', 'm', 'm', 'm']",4,0,no women,on
 1013252,Believer by Imagine Dragons,4,2017,"['m', 'm', 'm', 'nb', 'm', 'm', 'm']",7,0,no women,only men,1 or more men,m
 987759,Closer by The Chainsmokers Featuring Halsey,1,2016,"['m', 'm', 'm', 'nb', 'm', 'm']",6,0,no women,only men,1 or more men,m;nb
 new_057,if i can't have you by shawn mendes,2,2019,"['m', 'm', 'm', 'nb']",4,0,no women,only men,1 or more men,m
-new_169,moscow mule by bad bunny,4,2022,"['m', 'm', 'm', 'pm', 'm', 'm']",6,0,no women,only men,1 or more men,m
-58369,Because Of You by 98 Degrees,3,1998,"['m', 'm', 'm', 'pm']",4,0,no women,only men,1 or more men,m
+new_169,moscow mule by bad bunny,4,2022,"['m', 'm', 'm', 'm', 'm', 'm']",6,0,no women,only men,1 or more men,m
+58369,Because Of You by 98 Degrees,3,1998,"['m', 'm', 'm', 'm']",4,0,no women,only men,1 or more men,m
 331173,All Or Nothing by Milli Vanilli,4,1990,"['m', 'm', 'm', 'x']",4,0,no women,only men,1 or more men,m
 575129,It's Just A Matter Of Time by Brook Benton,3,1959,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
 576530,There Goes My Baby by The Drifters,2,1959,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
@@ -639,20 +639,20 @@ new_164,as it was by harry styles,1,2022,"['m', 'm', 'm']",3,0,no women,only men
 new_175,sunroof by nicky youre & dazy,4,2022,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m 
 820210,Stay With Me by Sam Smith,2,2014,"['m', 'm', 'nb', 'm', 'm']",5,0,no women,only men,1 or more men,nb
 1044309,Too Good At Goodbyes by Sam Smith,4,2017,"['m', 'm', 'nb', 'm']",4,0,no women,only men,1 or more men,nb
-606223,Sugar by Flo Rida Featuring Wynter,5,2009,"['m', 'm', 'pm', 'm', 'm', 'm', 'm', 'm', 'm', 'm']",10,0,no women,only men,1 or more men,m;f
-10262,Live And Learn by Joe Public,4,1992,"['m', 'm', 'pm', 'm', 'm', 'm', 'm']",7,0,no women,only men,1 or more men,m
-566516,Forever by Chris Brown,2,2008,"['m', 'm', 'pm', 'm', 'm']",5,0,no women,only men,1 or more men,m
-new_191,on bs by drake & 21 savage,4,2022,"['m', 'm', 'pm', 'm', 'm']",5,0,no women,only men,1 or more men,m
-60250,Every Morning by Sugar Ray,3,1999,"['m', 'm', 'pm', 'm', 'pm']",5,0,no women,only men,1 or more men,m
-new_170,titi me pregunto by bad bunny,5,2022,"['m', 'm', 'pm', 'm']",4,0,no women,only men,1 or more men,m
-575302,Lonely Street by Andy Williams,5,1959,"['m', 'm', 'pm']",3,0,no women,only men,1 or more men,m
-575997,My True Story by The Jive Five With Joe Rene And Orchestra,3,1961,"['m', 'm', 'pm']",3,0,no women,only men,1 or more men,m
-570498,My Boy Lollipop by Millie Small,2,1964,"['m', 'm', 'pm']",3,0,no women,only men,1 or more men,f
-332340,C'est La Vie by Robbie Nevil,2,1987,"['m', 'm', 'pm']",3,0,no women,only men,1 or more men,m
-3926,This House by Tracie Spencer,3,1991,"['m', 'm', 'pm']",3,0,no women,only men,1 or more men,f
-182387,Boombastic/In The Summertime by Shaggy,3,1995,"['m', 'm', 'pm']",3,0,no women,only men,1 or more men,m
-461231,Over And Over by Nelly Featuring Tim McGraw,3,2004,"['m', 'm', 'pm']",3,0,no women,only men,1 or more men,m
-557859,Sexy Can I by Ray J & Yung Berg,3,2008,"['m', 'm', 'pm']",3,0,no women,only men,1 or more men,m
+606223,Sugar by Flo Rida Featuring Wynter,5,2009,"['m', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm']",10,0,no women,only men,1 or more men,m;f
+10262,Live And Learn by Joe Public,4,1992,"['m', 'm', 'm', 'm', 'm', 'm', 'm']",7,0,no women,only men,1 or more men,m
+566516,Forever by Chris Brown,2,2008,"['m', 'm', 'm', 'm', 'm']",5,0,no women,only men,1 or more men,m
+new_191,on bs by drake & 21 savage,4,2022,"['m', 'm', 'm', 'm', 'm']",5,0,no women,only men,1 or more men,m
+60250,Every Morning by Sugar Ray,3,1999,"['m', 'm', 'm', 'm', 'm']",5,0,no women,only men,1 or more men,m
+new_170,titi me pregunto by bad bunny,5,2022,"['m', 'm', 'm', 'm']",4,0,no women,only men,1 or more men,m
+575302,Lonely Street by Andy Williams,5,1959,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
+575997,My True Story by The Jive Five With Joe Rene And Orchestra,3,1961,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
+570498,My Boy Lollipop by Millie Small,2,1964,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,f
+332340,C'est La Vie by Robbie Nevil,2,1987,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
+3926,This House by Tracie Spencer,3,1991,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,f
+182387,Boombastic/In The Summertime by Shaggy,3,1995,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
+461231,Over And Over by Nelly Featuring Tim McGraw,3,2004,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
+557859,Sexy Can I by Ray J & Yung Berg,3,2008,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
 570550,Beep Beep by The Playmates,4,1958,"['m', 'm']",2,0,no women,only men,1 or more men,m
 575951,Tears On My Pillow by Little Anthony And The Imperials,4,1958,"['m', 'm']",2,0,no women,only men,1 or more men,m
 577084,Splish Splash by Bobby Darin,3,1958,"['m', 'm']",2,0,no women,only men,1 or more men,m
@@ -1438,18 +1438,18 @@ new_092,toosie slide by drake,1,2020,"['m', 'm']",2,0,no women,only men,1 or mor
 new_102,come & go by juice wrld x marshmello,2,2020,"['m', 'm']",2,0,no women,only men,1 or more men,m
 new_005,it's the most wonderful time of the year by andy williams,5,2021,"['m', 'm']",2,0,no women,only men,1 or more men,m
 new_174,late night talking by harry styles,3,2022,"['m', 'm']",2,0,no women,only men,1 or more men,m
-new_125,calling my phone by lil tjay featuring 6lack,3,2021,"['m', 'pm', '?', 'm', 'pm', 'm']",6,0,no women,only men,1 or more men,m
-new_167,puffin on zootiez by future,4,2022,"['m', 'pm', 'm', 'm']",4,0,no women,only men,1 or more men,m
-320810,Rump Shaker by Wreckx-N-Effect,2,1992,"['m', 'pm', 'm', 'pm']",4,0,no women,only men,1 or more men,m
-334677,Even The Nights Are Better by Air Supply,5,1982,"['m', 'pm', 'm']",3,0,no women,only men,1 or more men,m
-332354,Touch Me (I Want Your Body) by Samantha Fox,4,1987,"['m', 'pm', 'm']",3,0,no women,only men,1 or more men,f
-22587,Gangsta Lean by DRS,4,1993,"['m', 'pm', 'm']",3,0,no women,only men,1 or more men,m
-561571,Love In This Club by Usher Featuring Young Jeezy,1,2008,"['m', 'pm', 'm']",3,0,no women,only men,1 or more men,m
-new_184,california breeze by lil baby,4,2022,"['m', 'pm', 'm']",3,0,no women,only men,1 or more men,m
-new_087,intentions by justin bieber featuring quavo,5,2020,"['m', 'pm', 'pm', 'm', 'm']",5,0,no women,only men,1 or more men,m
-573442,Fire by The Crazy World Of Arthur Brown,2,1968,"['m', 'pm', 'pm', 'm']",4,0,no women,only men,1 or more men,m
-578961,Mr. Big Stuff by Jean Knight,2,1971,"['m', 'pm', 'pm']",3,0,no women,only men,1 or more men,f
-332899,Dreamtime by Daryl Hall,5,1986,"['m', 'pm']",2,0,no women,only men,1 or more men,m
+new_125,calling my phone by lil tjay featuring 6lack,3,2021,"['m', 'm', '?', 'm', 'm', 'm']",6,0,no women,only men,1 or more men,m
+new_167,puffin on zootiez by future,4,2022,"['m', 'm', 'm', 'm']",4,0,no women,only men,1 or more men,m
+320810,Rump Shaker by Wreckx-N-Effect,2,1992,"['m', 'm', 'm', 'm']",4,0,no women,only men,1 or more men,m
+334677,Even The Nights Are Better by Air Supply,5,1982,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
+332354,Touch Me (I Want Your Body) by Samantha Fox,4,1987,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,f
+22587,Gangsta Lean by DRS,4,1993,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
+561571,Love In This Club by Usher Featuring Young Jeezy,1,2008,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
+new_184,california breeze by lil baby,4,2022,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
+new_087,intentions by justin bieber featuring quavo,5,2020,"['m', 'm', 'm', 'm', 'm']",5,0,no women,only men,1 or more men,m
+573442,Fire by The Crazy World Of Arthur Brown,2,1968,"['m', 'm', 'm', 'm']",4,0,no women,only men,1 or more men,m
+578961,Mr. Big Stuff by Jean Knight,2,1971,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,f
+332899,Dreamtime by Daryl Hall,5,1986,"['m', 'm']",2,0,no women,only men,1 or more men,m
 55476,Do You Really Want To Hurt Me by Culture Club,2,1983,"['m', 'x', 'm', 'm', 'm']",5,0,no women,only men,1 or more men,m
 15623,Right Here (Human Nature)/Downtown by SWV,2,1993,"['m', 'x', 'm', 'm', 'x', 'm']",6,0,no women,only men,1 or more men,f
 581248,I'm Gonna Make You Love Me by Diana Ross And The Supremes & The Temptations,2,1969,"['m', 'x', 'm']",3,0,no women,only men,1 or more men,m;f
@@ -2280,36 +2280,36 @@ new_162,"we don't talk about bruno by carolina gaitan, mauro castillo, adassa, r
 883076,Stitches by Shawn Mendes,4,2015,"['nb', 'm', 'm']",3,0,no women,only men,1 or more men,m
 1029084,Bad At Love by Halsey,5,2018,"['nb', 'm', 'nb', 'm']",4,0,no women,only men,1 or more men,nb
 848240,I'm Not The Only One by Sam Smith,5,2014,"['nb', 'm']",2,0,no women,only men,1 or more men,nb
-575843,Bread And Butter by The Newbeats,2,1964,"['pm', '?']",2,0,no women,only men,1 or more men,m
-572861,Can I Change My Mind by Tyrone Davis,5,1969,"['pm', '?']",2,0,no women,only men,1 or more men,m
-52509,Body Bumpin' Yippie-Yi-Yo by Public Announcement,5,1998,"['pm', 'm', '?']",3,0,no women,only men,1 or more men,m
-new_095,go crazy by chris brown & young thug,3,2021,"['pm', 'm', 'm', 'm', 'm', 'm', 'm', '?', 'm', 'm']",10,0,no women,only men,1 or more men,m
-522262,Party Like A Rockstar by Shop Boyz,2,2007,"['pm', 'm', 'm', 'm', 'm', 'm']",6,0,no women,only men,1 or more men,m
-new_116,dakiti by bad bunny & jhay cortez,5,2020,"['pm', 'm', 'm', 'm', 'm', 'pm', 'm', 'm']",8,0,no women,only men,1 or more men,m
-430336,Get Low by Lil Jon & The East Side Boyz Featuring Ying Yang Twins,2,2003,"['pm', 'm', 'm', 'm']",4,0,no women,only men,1 or more men,m
-578285,A Hundred Pounds Of Clay by Gene McDaniels,3,1961,"['pm', 'm', 'm']",3,0,no women,only men,1 or more men,m
-572979,You Can't Sit Down by The Dovells,3,1963,"['pm', 'm', 'm']",3,0,no women,only men,1 or more men,m
-574833,Louie Louie by The Kingsmen,2,1963,"['pm', 'm', 'm']",3,0,no women,only men,1 or more men,m
-573173,Walk Away Renee by The Left Banke,5,1966,"['pm', 'm', 'm']",3,0,no women,only men,1 or more men,m
-571799,(If Loving You Is Wrong) I Don't Want To Be Right by Luther Ingram,3,1972,"['pm', 'm', 'm']",3,0,no women,only men,1 or more men,m
-22299,(your Love Has Lifted Me) Higher And Higher by Rita Coolidge,2,1977,"['pm', 'm', 'm']",3,0,no women,only men,1 or more men,f
-434683,Damn! by YoungBloodZ Featuring Lil Jon,4,2003,"['pm', 'm', 'm']",3,0,no women,only men,1 or more men,m
-765359,Stay by Rihanna Featuring Mikky Ekko,3,2013,"['pm', 'm', 'm']",3,0,no women,only men,1 or more men,m;f
-575848,You Don't Know What You've Got (Until You Lose It) by Ral Donner,4,1961,"['pm', 'm']",2,0,no women,only men,1 or more men,m
-580441,Rescue Me by Fontella Bass,4,1965,"['pm', 'm']",2,0,no women,only men,1 or more men,f
-373866,(Every Time I Turn Around) Back In Love Again by LTD,4,1977,"['pm', 'm']",2,0,no women,only men,1 or more men,m
-579833,(There's) No Gettin' Over Me by Ronnie Milsap,5,1981,"['pm', 'm']",2,0,no women,only men,1 or more men,m
-342566,She Blinded Me With Science by Thomas Dolby,5,1983,"['pm', 'm']",2,0,no women,only men,1 or more men,m
-434683,Damn! by YoungBloodZ Featuring Lil Jon,4,2003,"['pm', 'pm', 'pm', 'pm', 'm', 'm']",6,0,no women,only men,1 or more men,m
-577812,There's A Moon Out Tonight by The Capris,3,1961,"['pm', 'pm', 'pm']",3,0,no women,only men,1 or more men,m
-581234,Girl Watcher by The O'Kaysions,5,1968,"['pm', 'pm']",2,0,no women,only men,1 or more men,m
-580967,I've Found Someone Of My Own by The Free Movement,5,1971,['pm'],1,0,no women,only men,1 or more men,m;f
-338273,The Lord's Prayer by Sister Janet Mead,4,1974,['pm'],1,0,no women,only men,1 or more men,f
-new_183,unholy by sam smith & kim petras,1,2022,['pm'],1,0,no women,only men,1 or more men,f;nb
+575843,Bread And Butter by The Newbeats,2,1964,"['m', '?']",2,0,no women,only men,1 or more men,m
+572861,Can I Change My Mind by Tyrone Davis,5,1969,"['m', '?']",2,0,no women,only men,1 or more men,m
+52509,Body Bumpin' Yippie-Yi-Yo by Public Announcement,5,1998,"['m', 'm', '?']",3,0,no women,only men,1 or more men,m
+new_095,go crazy by chris brown & young thug,3,2021,"['m', 'm', 'm', 'm', 'm', 'm', 'm', '?', 'm', 'm']",10,0,no women,only men,1 or more men,m
+522262,Party Like A Rockstar by Shop Boyz,2,2007,"['m', 'm', 'm', 'm', 'm', 'm']",6,0,no women,only men,1 or more men,m
+new_116,dakiti by bad bunny & jhay cortez,5,2020,"['m', 'm', 'm', 'm', 'm', 'm', 'm', 'm']",8,0,no women,only men,1 or more men,m
+430336,Get Low by Lil Jon & The East Side Boyz Featuring Ying Yang Twins,2,2003,"['m', 'm', 'm', 'm']",4,0,no women,only men,1 or more men,m
+578285,A Hundred Pounds Of Clay by Gene McDaniels,3,1961,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
+572979,You Can't Sit Down by The Dovells,3,1963,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
+574833,Louie Louie by The Kingsmen,2,1963,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
+573173,Walk Away Renee by The Left Banke,5,1966,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
+571799,(If Loving You Is Wrong) I Don't Want To Be Right by Luther Ingram,3,1972,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
+22299,(your Love Has Lifted Me) Higher And Higher by Rita Coolidge,2,1977,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,f
+434683,Damn! by YoungBloodZ Featuring Lil Jon,4,2003,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
+765359,Stay by Rihanna Featuring Mikky Ekko,3,2013,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m;f
+575848,You Don't Know What You've Got (Until You Lose It) by Ral Donner,4,1961,"['m', 'm']",2,0,no women,only men,1 or more men,m
+580441,Rescue Me by Fontella Bass,4,1965,"['m', 'm']",2,0,no women,only men,1 or more men,f
+373866,(Every Time I Turn Around) Back In Love Again by LTD,4,1977,"['m', 'm']",2,0,no women,only men,1 or more men,m
+579833,(There's) No Gettin' Over Me by Ronnie Milsap,5,1981,"['m', 'm']",2,0,no women,only men,1 or more men,m
+342566,She Blinded Me With Science by Thomas Dolby,5,1983,"['m', 'm']",2,0,no women,only men,1 or more men,m
+434683,Damn! by YoungBloodZ Featuring Lil Jon,4,2003,"['m', 'm', 'm', 'm', 'm', 'm']",6,0,no women,only men,1 or more men,m
+577812,There's A Moon Out Tonight by The Capris,3,1961,"['m', 'm', 'm']",3,0,no women,only men,1 or more men,m
+581234,Girl Watcher by The O'Kaysions,5,1968,"['m', 'm']",2,0,no women,only men,1 or more men,m
+580967,I've Found Someone Of My Own by The Free Movement,5,1971,['m'],1,0,no women,only men,1 or more men,m;f
+338273,The Lord's Prayer by Sister Janet Mead,4,1974,['m'],1,0,no women,only men,1 or more men,f
+new_183,unholy by sam smith & kim petras,1,2022,['m'],1,0,no women,only men,1 or more men,f;nb
 556740,House Of The Rising Sun by The Animals,1,1964,"['x', 'm']",2,0,no women,only men,1 or more men,m
-332787,Two Of Hearts by Stacey Q,3,1986,"['?', 'x', 'x']",3,0,no women,only men,only women,f
-577575,Michael by The Highwaymen,1,1961,['?'],1,0,no women,only men,only women,m
-577495,Love Shack by The B-52s,3,1989,['?'],1,0,no women,only men,only women,m;f
+new_176,running up that hill (a deal with god) by kate bush,3,2022,['f'],1,1,only women,1 or more women in credits,only women,f
+new_158,all too well (taylor's version) by taylor swift,1,2021,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
+new_072,dance monkey by tones and i,4,2020,['f'],1,1,only women,1 or more women in credits,only women,f
 1032744,Mi Gente by J Balvin & Willy William Featuring Beyonce,3,2017,"['f', 'm', 'm', 'm', 'm', 'm', 'm', 'm']",8,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 577228,Express by B.T. Express,4,1975,"['f', 'm', 'm', 'm', 'm', 'm', 'm']",7,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 962957,Work by Rihanna Featuring Drake,1,2016,"['f', 'm', 'm', 'm', 'm', 'm', 'm']",7,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
@@ -2322,7 +2322,7 @@ new_124,up by cardi b,1,2021,"['f', 'm', 'm', 'm', 'm', 'm']",6,1,at least 1 wom
 791346,Applause by Lady Gaga,4,2013,"['f', 'm', 'm', 'm', 'm']",5,1,at least 1 woman,1 or more women in credits,1 or more men,f
 new_083,yummy by justin bieber,2,2020,"['f', 'm', 'm', 'm', 'm']",5,1,at least 1 woman,1 or more women in credits,1 or more men,m
 new_177,i like you (a happier song) by post malone featuring doja cat,3,2022,"['f', 'm', 'm', 'm', 'm']",5,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
-new_042,zeze by kodak black featuring travis scott & offset,2,2018,"['f', 'm', 'm', 'm', 'pm', 'm', 'm']",7,1,at least 1 woman,1 or more women in credits,1 or more men,m
+new_042,zeze by kodak black featuring travis scott & offset,2,2018,"['f', 'm', 'm', 'm', 'm', 'm', 'm']",7,1,at least 1 woman,1 or more women in credits,1 or more men,m
 573686,Who's Making Love by Johnnie Taylor,5,1968,"['f', 'm', 'm', 'm']",4,1,at least 1 woman,1 or more women in credits,1 or more men,m
 40102,She Bop by Cyndi Lauper,3,1984,"['f', 'm', 'm', 'm']",4,1,at least 1 woman,1 or more women in credits,1 or more men,f
 53365,Together Again by Janet,1,1997,"['f', 'm', 'm', 'm']",4,1,at least 1 woman,1 or more women in credits,1 or more men,f
@@ -2338,7 +2338,7 @@ new_042,zeze by kodak black featuring travis scott & offset,2,2018,"['f', 'm', '
 814925,Habits (Stay High) by Tove Lo,3,2014,"['f', 'm', 'm', 'm']",4,1,at least 1 woman,1 or more women in credits,1 or more men,f
 new_013,meant to be by bebe rexha & florida georgia line,2,2018,"['f', 'm', 'm', 'm']",4,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 new_081,i hope by gabby barrett featuring charlie puth,3,2020,"['f', 'm', 'm', 'm']",4,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
-45945,No Diggity by BLACKstreet (Featuring Dr. Dre),1,1996,"['f', 'm', 'm', 'x', 'pm', 'm', 'm', 'm']",8,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
+45945,No Diggity by BLACKstreet (Featuring Dr. Dre),1,1996,"['f', 'm', 'm', 'x', 'm', 'm', 'm', 'm']",8,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 574988,Sleep Walk by Santo & Johnny,1,1959,"['f', 'm', 'm']",3,1,at least 1 woman,1 or more women in credits,1 or more men,m
 577581,He'll Have To Stay by Jeanne Black,4,1960,"['f', 'm', 'm']",3,1,at least 1 woman,1 or more women in credits,1 or more men,f
 578694,Duke Of Earl by Gene Chandler,1,1962,"['f', 'm', 'm']",3,1,at least 1 woman,1 or more women in credits,1 or more men,m
@@ -2391,7 +2391,7 @@ new_081,i hope by gabby barrett featuring charlie puth,3,2020,"['f', 'm', 'm', '
 759093,Just Give Me A Reason by P!nk Featuring Nate Ruess,1,2013,"['f', 'm', 'm']",3,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 1007265,I Don't Wanna Live Forever (Fifty Shades Darker) by Zayn / Taylor Swift,2,2017,"['f', 'm', 'm']",3,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 963164,Love On The Brain by Rihanna,5,2017,"['f', 'm', 'm']",3,1,at least 1 woman,1 or more women in credits,1 or more men,f
-8170,Finally by CeCe Peniston,5,1992,"['f', 'm', 'pm', 'm']",4,1,at least 1 woman,1 or more women in credits,1 or more men,f
+8170,Finally by CeCe Peniston,5,1992,"['f', 'm', 'm', 'm']",4,1,at least 1 woman,1 or more women in credits,1 or more men,f
 430766,Can't Let You Go by Fabolous Featuring Mike Shorey & Lil' Mo,4,2003,"['f', 'm', 'x', 'm']",4,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 573352,Teen Angel by Mark Dinning,1,1960,"['f', 'm']",2,1,at least 1 woman,1 or more women in credits,1 or more men,m
 576475,He'll Have To Go by Jim Reeves,2,1960,"['f', 'm']",2,1,at least 1 woman,1 or more women in credits,1 or more men,m
@@ -2703,8 +2703,8 @@ new_039,shallow by lady gaga & bradley cooper,1,2018,"['m', 'm', 'f', 'm']",4,1,
 new_152,shivers by ed sheeran,4,2021,"['m', 'm', 'f', 'm']",4,1,at least 1 woman,1 or more women in credits,1 or more men,m
 new_163,do we have a problem? by nicki minaj x lil baby,2,2022,"['m', 'm', 'f', 'm']",4,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 948401,Sorry by Justin Bieber,1,2015,"['m', 'm', 'f', 'nb', 'm']",5,1,at least 1 woman,1 or more women in credits,1 or more men,m
-57441,Crush by Jennifer Paige,3,1998,"['m', 'm', 'f', 'pm']",4,1,at least 1 woman,1 or more women in credits,1 or more men,f
-65947,"Jumpin', Jumpin' by Destiny's Child",3,2000,"['m', 'm', 'f', 'pm']",4,1,at least 1 woman,1 or more women in credits,1 or more men,f
+57441,Crush by Jennifer Paige,3,1998,"['m', 'm', 'f', 'm']",4,1,at least 1 woman,1 or more women in credits,1 or more men,f
+65947,"Jumpin', Jumpin' by Destiny's Child",3,2000,"['m', 'm', 'f', 'm']",4,1,at least 1 woman,1 or more women in credits,1 or more men,f
 579572,(You're the) Devil In Disguise by Elvis Presley With The Jordanaires,3,1963,"['m', 'm', 'f']",3,1,at least 1 woman,1 or more women in credits,1 or more men,m
 450817,Uptight (Everything's Alright) by Stevie Wonder,3,1966,"['m', 'm', 'f']",3,1,at least 1 woman,1 or more women in credits,1 or more men,m
 572719,Little Ole Man (Uptight-Everything's Alright) by Bill Cosby,4,1967,"['m', 'm', 'f']",3,1,at least 1 woman,1 or more women in credits,1 or more men,m
@@ -2766,7 +2766,7 @@ new_166,about damn time by lizzo,1,2022,"['m', 'm', 'm', 'f', 'm', 'm', 'm']",7,
 606221,Knock You Down by Keri Hilson Featuring Kanye West & Ne-Yo,3,2009,"['m', 'm', 'm', 'f', 'm', 'm']",6,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 612457,I Gotta Feeling by The Black Eyed Peas,1,2009,"['m', 'm', 'm', 'f', 'm', 'm']",6,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 new_032,fefe by 6ix9ine featuring nicki minaj & murda beatz,3,2018,"['m', 'm', 'm', 'f', 'm', 'm']",6,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
-new_066,goodbyes by post malone featuring young thug,3,2019,"['m', 'm', 'm', 'f', 'm', 'pm', 'm']",7,1,at least 1 woman,1 or more women in credits,1 or more men,m
+new_066,goodbyes by post malone featuring young thug,3,2019,"['m', 'm', 'm', 'f', 'm', 'm', 'm']",7,1,at least 1 woman,1 or more women in credits,1 or more men,m
 56390,The Boy Is Mine by Brandy & Monica,1,1998,"['m', 'm', 'm', 'f', 'm']",5,1,at least 1 woman,1 or more women in credits,1 or more men,f
 456977,My Boo by Usher And Alicia Keys,1,2004,"['m', 'm', 'm', 'f', 'm']",5,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 511546,Glamorous by Fergie Featuring Ludacris,1,2007,"['m', 'm', 'm', 'f', 'm']",5,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
@@ -2778,7 +2778,7 @@ new_066,goodbyes by post malone featuring young thug,3,2019,"['m', 'm', 'm', 'f'
 970470,One Dance by Drake Featuring WizKid & Kyla,1,2016,"['m', 'm', 'm', 'f', 'm']",5,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 1042199,Look What You Made Me Do by Taylor Swift,1,2017,"['m', 'm', 'm', 'f', 'm']",5,1,at least 1 woman,1 or more women in credits,1 or more men,f
 new_031,nonstop by drake,2,2018,"['m', 'm', 'm', 'f', 'm']",5,1,at least 1 woman,1 or more women in credits,1 or more men,m
-61002,Who Dat by JT Money Featuring Sole,5,1999,"['m', 'm', 'm', 'f', 'pm']",5,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
+61002,Who Dat by JT Money Featuring Sole,5,1999,"['m', 'm', 'm', 'f', 'm']",5,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 580726,Wooden Heart by Joe Dowell,1,1961,"['m', 'm', 'm', 'f']",4,1,at least 1 woman,1 or more women in credits,1 or more men,m
 330645,I Wanna Be Rich by Calloway,2,1990,"['m', 'm', 'm', 'f']",4,1,at least 1 woman,1 or more women in credits,1 or more men,m
 349908,Rhythm Is A Dancer by Snap!,5,1993,"['m', 'm', 'm', 'f']",4,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
@@ -2792,7 +2792,7 @@ new_031,nonstop by drake,2,2018,"['m', 'm', 'm', 'f', 'm']",5,1,at least 1 woman
 686171,Till The World Ends by Britney Spears Featuring Nicki Minaj & Ke$ha,3,2011,"['m', 'm', 'm', 'f']",4,1,at least 1 woman,1 or more women in credits,1 or more men,f
 719565,Stronger (What Doesn't Kill You) by Kelly Clarkson,1,2012,"['m', 'm', 'm', 'f']",4,1,at least 1 woman,1 or more women in credits,1 or more men,f
 759536,Diamonds by Rihanna,1,2012,"['m', 'm', 'm', 'f']",4,1,at least 1 woman,1 or more women in credits,1 or more men,f
-new_173,"die hard by kendrick lamar, blxst & amanda reifer",5,2022,"['m', 'm', 'm', 'm', 'f', 'm', 'm', 'm', 'm', 'm', 'pm', 'm', 'm', 'm']",14,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
+new_173,"die hard by kendrick lamar, blxst & amanda reifer",5,2022,"['m', 'm', 'm', 'm', 'f', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm']",14,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 589963,Swagga Like Us by Jay-Z & T.I. Featuring Kanye West & Lil Wayne,5,2008,"['m', 'm', 'm', 'm', 'f', 'm', 'm', 'm', 'm', 'm']",10,1,at least 1 woman,1 or more women in credits,1 or more men,m
 new_112,franchise by travis scott featuring young thug & m.i.a.,1,2020,"['m', 'm', 'm', 'm', 'f', 'm', 'm', 'm', 'm']",9,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 681804,On The Floor by Jennifer Lopez Featuring Pitbull,3,2011,"['m', 'm', 'm', 'm', 'f', 'm', 'm', 'm']",8,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
@@ -2824,81 +2824,50 @@ new_062,no guidance by chris brown featuring drake,5,2019,"['m', 'm', 'm', 'm', 
 900143,Here by Alessia Cara,5,2016,"['m', 'm', 'm', 'm', 'm', 'm', 'm', 'f']",8,1,at least 1 woman,1 or more women in credits,1 or more men,f
 493496,Control Myself by LL Cool J Featuring Jennifer Lopez,4,2006,"['m', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'f']",9,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 626888,BedRock by Young Money Featuring Lloyd,2,2010,"['m', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'f', 'm']",11,1,at least 1 woman,1 or more women in credits,1 or more men,m
-new_168,wait for u by future featuring drake & tems,1,2022,"['m', 'm', 'm', 'm', 'pm', 'm', 'm', 'm', 'm', 'm', 'f']",11,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
-new_165,first class by jack harlow,1,2022,"['m', 'm', 'm', 'pm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'f', 'm']",13,1,at least 1 woman,1 or more women in credits,1 or more men,m
-571529,Gotta Travel On by Billy Grammer,4,1959,"['m', 'm', 'pm', 'f', 'm', 'm', 'm']",7,1,at least 1 woman,1 or more women in credits,1 or more men,m
-new_194,spin bout u by drake & 21 savage,5,2022,"['m', 'm', 'pm', 'pm', 'm', 'f']",6,1,at least 1 woman,1 or more women in credits,1 or more men,m
+new_168,wait for u by future featuring drake & tems,1,2022,"['m', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'f']",11,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
+new_165,first class by jack harlow,1,2022,"['m', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'f', 'm']",13,1,at least 1 woman,1 or more women in credits,1 or more men,m
+571529,Gotta Travel On by Billy Grammer,4,1959,"['m', 'm', 'm', 'f', 'm', 'm', 'm']",7,1,at least 1 woman,1 or more women in credits,1 or more men,m
+new_194,spin bout u by drake & 21 savage,5,2022,"['m', 'm', 'm', 'm', 'm', 'f']",6,1,at least 1 woman,1 or more women in credits,1 or more men,m
 332,The Power by Snap!,2,1990,"['m', 'm', 'x', 'f']",4,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
-581377,16 Candles by The Crests,2,1959,"['m', 'pf']",2,1,at least 1 woman,1 or more women in credits,1 or more men,m
-new_129,lemon pepper freestyle by drake featuring rick ross,3,2021,"['m', 'pm', 'm', 'f', 'm', 'm', 'm', 'm', 'm', 'm']",10,1,at least 1 woman,1 or more women in credits,1 or more men,m
-new_075,roxanne by arizona zervas,4,2019,"['m', 'pm', 'm', 'f']",4,1,at least 1 woman,1 or more women in credits,1 or more men,m
-new_100,trollz by 6ix9ine & nicki minaj,1,2020,"['m', 'pm', 'm', 'm', 'f', 'm']",6,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
-578173,Black Is Black by Los Bravos,4,1966,"['pf', '?', 'pm']",3,1,at least 1 woman,1 or more women in credits,1 or more men,m
-215,If Wishes Came True by Sweet Sensation,1,1990,"['pf', 'pm', 'm']",3,1,at least 1 woman,1 or more women in credits,1 or more men,f
-572917,Hey Little Cobra by The Rip Chords,4,1964,"['f', '?']",2,1,at least 1 woman,1 or more women in credits,only women,m
-581724,Poor Little Fool by Ricky Nelson,1,1958,['f'],1,1,only women,1 or more women in credits,only women,m
-574280,Pink Shoe Laces by Dodie Stevens,3,1959,['f'],1,1,only women,1 or more women in credits,only women,f
-571719,Fool #1 by Brenda Lee,3,1961,['f'],1,1,only women,1 or more women in credits,only women,f
-579825,Angel Baby by Rosie And The Originals,5,1961,['f'],1,1,only women,1 or more women in credits,only women,m;f
-581573,Goodbye Cruel World by James Darren,3,1961,['f'],1,1,only women,1 or more women in credits,only women,m
-570663,Dream Baby (How Long Must I Dream) by Roy Orbison,4,1962,['f'],1,1,only women,1 or more women in credits,only women,m
-571388,Party Lights by Claudine Clark,5,1962,['f'],1,1,only women,1 or more women in credits,only women,f
-572321,Let Me In by The Sensations,4,1962,['f'],1,1,only women,1 or more women in credits,only women,m;f
-572574,I Know (You Don't Love Me No More) by Barbara George,3,1962,['f'],1,1,only women,1 or more women in credits,only women,f
-574668,Hello Stranger by Barbara Lewis,3,1963,['f'],1,1,only women,1 or more women in credits,only women,f
-578508,Dominique by The Singing Nun (Soeur Sourire),1,1963,['f'],1,1,only women,1 or more women in credits,only women,f
-576420,We'll Sing In The Sunshine by Gale Garnett,4,1964,['f'],1,1,only women,1 or more women in credits,only women,f
-572728,You Were On My Mind by We Five,3,1965,['f'],1,1,only women,1 or more women in credits,only women,m;f
-580255,"Yes, I'm Ready by Barbara Mason",5,1965,['f'],1,1,only women,1 or more women in credits,only women,f
-572063,Come Back When You Grow Up by Bobby Vee And The Strangers,3,1967,['f'],1,1,only women,1 or more women in credits,only women,m
-572421,Windy by The Association,1,1967,['f'],1,1,only women,1 or more women in credits,only women,m
-574965,Ode To Billie Joe by Bobbie Gentry,1,1967,['f'],1,1,only women,1 or more women in credits,only women,f
-575726,Stoned Soul Picnic by The 5th Dimension,3,1968,['f'],1,1,only women,1 or more women in credits,only women,m;f
-571931,"And When I Die by Blood, Sweat & Tears",2,1969,['f'],1,1,only women,1 or more women in credits,only women,m
-573488,Wedding Bell Blues by The 5th Dimension,1,1969,['f'],1,1,only women,1 or more women in credits,only women,m;f
-390251,You've Got A Friend by James Taylor,1,1971,['f'],1,1,only women,1 or more women in credits,only women,m
-579047,Brand New Key by Melanie,1,1971,['f'],1,1,only women,1 or more women in credits,only women,f
-575826,You're So Vain by Carly Simon,1,1972,['f'],1,1,only women,1 or more women in credits,only women,f
-581541,Day Dreaming by Aretha Franklin,5,1972,['f'],1,1,only women,1 or more women in credits,only women,f
-338902,Leave Me Alone (ruby Red Dress) by Helen Reddy,3,1973,['f'],1,1,only women,1 or more women in credits,only women,f
-339079,Pillow Talk by Sylvia (r&b),3,1973,['f'],1,1,only women,1 or more women in credits,only women,f
-572445,Funny Face by Donna Fargo,5,1973,['f'],1,1,only women,1 or more women in credits,only women,f
-337968,Poetry Man by Phoebe Snow,5,1975,['f'],1,1,only women,1 or more women in credits,only women,f
-338113,I'm Not Lisa by Jessi Colter,4,1975,['f'],1,1,only women,1 or more women in credits,only women,f
-338191,At Seventeen by Janis Ian,3,1975,['f'],1,1,only women,1 or more women in credits,only women,f
-571633,The Way I Want To Touch You by Captain & Tennille,4,1975,['f'],1,1,only women,1 or more women in credits,only women,m;f
-15988,Don't Stop by Fleetwood Mac,3,1977,['f'],1,1,only women,1 or more women in credits,only women,m;f
-20999,Dreams by Fleetwood Mac,1,1977,['f'],1,1,only women,1 or more women in credits,only women,m;f
-335719,Dim All The Lights by Donna Summer,2,1979,['f'],1,1,only women,1 or more women in credits,only women,f
-574059,Chuck E.'s In Love by Rickie Lee Jones,4,1979,['f'],1,1,only women,1 or more women in credits,only women,f
-21466,The Rose by Bette Midler,3,1980,['f'],1,1,only women,1 or more women in credits,only women,f
-574022,"Yes, I'm Ready by Teri DeSario With K.C.",2,1980,['f'],1,1,only women,1 or more women in credits,only women,m;f
-575350,Do That To Me One More Time by Captain & Tennille,1,1980,['f'],1,1,only women,1 or more women in credits,only women,m;f
-343127,9 To 5 by Dolly Parton,1,1981,['f'],1,1,only women,1 or more women in credits,only women,f
-673053,Morning Train (Nine To Five) by Sheena Easton,1,1981,['f'],1,1,only women,1 or more women in credits,only women,f
-334487,We Got The Beat by Go-Go's,2,1982,['f'],1,1,only women,1 or more women in credits,only women,f
-35262,Back On The Chain Gang by Pretenders,5,1983,['f'],1,1,only women,1 or more women in credits,only women,m;f
-333472,Lucky Star by Madonna,4,1984,['f'],1,1,only women,1 or more women in credits,only women,f
-31705,You Give Good Love by Whitney Houston,3,1985,['f'],1,1,only women,1 or more women in credits,only women,f
-333133,I Miss You by Klymaxx,5,1985,['f'],1,1,only women,1 or more women in credits,only women,f
-333562,Lover Girl by Teena Marie,4,1985,['f'],1,1,only women,1 or more women in credits,only women,f
-333666,Rhythm Of The Night by Debarge,3,1985,['f'],1,1,only women,1 or more women in credits,only women,m;f
-21473,Words Get In The Way by Miami Sound Machine,5,1986,['f'],1,1,only women,1 or more women in credits,only women,m;f
-347947,Only In My Dreams by Debbie Gibson,4,1987,['f'],1,1,only women,1 or more women in credits,only women,f
-332006,Luka by Suzanne Vega,3,1987,['f'],1,1,only women,1 or more women in credits,only women,f
-332194,Shake Your Love by Debbie Gibson,4,1987,['f'],1,1,only women,1 or more women in credits,only women,f
-21738,I Get Weak by Belinda Carlisle,2,1988,['f'],1,1,only women,1 or more women in credits,only women,f
-331264,Look Away by Chicago,1,1988,['f'],1,1,only women,1 or more women in credits,only women,m
-331583,Out Of The Blue by Debbie Gibson,3,1988,['f'],1,1,only women,1 or more women in credits,only women,f
-331747,Mercedes Boy by Pebbles,2,1988,['f'],1,1,only women,1 or more women in credits,only women,f
-332284,Foolish Beat by Debbie Gibson,1,1988,['f'],1,1,only women,1 or more women in credits,only women,f
-332295,Anything For You by Gloria Estefan & Miami Sound Machine,1,1988,['f'],1,1,only women,1 or more women in credits,only women,m;f
-340419,Could've Been by Tiffany,1,1988,['f'],1,1,only women,1 or more women in credits,only women,f
-330991,If I Could Turn Back Time by Cher,3,1989,['f'],1,1,only women,1 or more women in credits,only women,f
-330995,Don't Wanna Lose You by Gloria Estefan,1,1989,['f'],1,1,only women,1 or more women in credits,only women,f
-331080,When I See You Smile by Bad English,1,1989,['f'],1,1,only women,1 or more women in credits,only women,m
-331104,Blame It On The Rain by Milli Vanilli,1,1989,['f'],1,1,only women,1 or more women in credits,only women,m
-331453,Lost In Your Eyes by Debbie Gibson,1,1989,['f'],1,1,only women,1 or more women in credits,only women,f
+581377,16 Candles by The Crests,2,1959,"['m', 'f']",2,1,at least 1 woman,1 or more women in credits,1 or more men,m
+new_129,lemon pepper freestyle by drake featuring rick ross,3,2021,"['m', 'm', 'm', 'f', 'm', 'm', 'm', 'm', 'm', 'm']",10,1,at least 1 woman,1 or more women in credits,1 or more men,m
+new_075,roxanne by arizona zervas,4,2019,"['m', 'm', 'm', 'f']",4,1,at least 1 woman,1 or more women in credits,1 or more men,m
+new_100,trollz by 6ix9ine & nicki minaj,1,2020,"['m', 'm', 'm', 'm', 'f', 'm']",6,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
+578173,Black Is Black by Los Bravos,4,1966,"['f', '?', 'm']",3,1,at least 1 woman,1 or more women in credits,1 or more men,m
+215,If Wishes Came True by Sweet Sensation,1,1990,"['f', 'm', 'm']",3,1,at least 1 woman,1 or more women in credits,1 or more men,f
+640788,Today Was A Fairytale by Taylor Swift,2,2010,['f'],1,1,only women,1 or more women in credits,only women,f
+661729,Mine by Taylor Swift,3,2010,['f'],1,1,only women,1 or more women in credits,only women,f
+597125,You Belong With Me by Taylor Swift,2,2009,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
+532565,Love Song by Sara Bareilles,4,2008,['f'],1,1,only women,1 or more women in credits,only women,f
+591032,Love Story by Taylor Swift,4,2008,['f'],1,1,only women,1 or more women in credits,only women,f
+446067,If I Ain't Got You by Alicia Keys,4,2004,['f'],1,1,only women,1 or more women in credits,only women,f
+427470,Beautiful by Christina Aguilera,2,2003,['f'],1,1,only women,1 or more women in credits,only women,f
+415447,A Thousand Miles by Vanessa Carlton,5,2002,['f'],1,1,only women,1 or more women in credits,only women,f
+402410,Fallin' by Alicia Keys,1,2001,['f'],1,1,only women,1 or more women in credits,only women,f
+406521,Turn Off The Light by Nelly Furtado,5,2001,['f'],1,1,only women,1 or more women in credits,only women,f
+410696,Get The Party Started by P!nk,4,2001,['f'],1,1,only women,1 or more women in credits,only women,f
+386616,I Turn To You by Christina Aguilera,3,2000,['f'],1,1,only women,1 or more women in credits,only women,f
+66681,Breathe by Faith Hill,2,2000,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
+57212,Have You Ever? by Brandy,1,1999,['f'],1,1,only women,1 or more women in credits,only women,f
+65607,Music Of My Heart by N Sync & Gloria Estefan,2,1999,['f'],1,1,only women,1 or more women in credits,only women,m;f
+56278,"Make It Hot by Nicole Featuring Missy \Misdemeanor\"" Elliott & Mocha""",5,1998,['f'],1,1,only women,1 or more women in credits,only women,f
+56747,I Don't Want To Miss A Thing by Aerosmith,1,1998,['f'],1,1,only women,1 or more women in credits,only women,m
+58351,Doo Wop (That Thing) by Lauryn Hill,1,1998,['f'],1,1,only women,1 or more women in credits,only women,f
+48125,"For You I Will (From \Space Jam\"")"" by Monica",4,1997,['f'],1,1,only women,1 or more women in credits,only women,f
+50892,How Do I Live by LeAnn Rimes,2,1997,['f'],1,1,only women,1 or more women in credits,only women,f
+49817,Bitch by Meredith Brooks,2,1997,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
+41995,Give Me One Reason by Tracy Chapman,3,1996,['f'],1,1,only women,1 or more women in credits,only women,f
+42227,"Because You Loved Me (From \Up Close & Personal\"")"" by Celine Dion",1,1996,['f'],1,1,only women,1 or more women in credits,only women,f
+43404,I Love You Always Forever by Donna Lewis,2,1996,['f'],1,1,only women,1 or more women in credits,only women,f
+45309,Un-Break My Heart by Toni Braxton,1,1996,['f'],1,1,only women,1 or more women in credits,only women,f
+45822,Mouth by Merril Bainbridge,4,1996,['f'],1,1,only women,1 or more women in credits,only women,f
+209639,"Stay (I Missed You) (From \Reality Bites\"")"" by Lisa Loeb & Nine Stories",1,1994,['f'],1,1,only women,1 or more women in credits,only women,f
+"90210\"")""",Saving Forever For You (From \Beverly Hills by Shanice,13,1993,['f'],1,1,only women,1 or more women in credits,only women,f
+10427,Damn I Wish I Was Your Lover by Sophie B. Hawkins,5,1992,['f'],1,1,only women,1 or more women in credits,only women,f
+10717,If You Asked Me To by Celine Dion,4,1992,['f'],1,1,only women,1 or more women in credits,only women,f
+15629,I Will Always Love You by Whitney Houston,1,1992,['f'],1,1,only women,1 or more women in credits,only women,f
+367966,Get Here by Oleta Adams,5,1991,['f'],1,1,only women,1 or more women in credits,only women,f
+6955,Something To Talk About by Bonnie Raitt,5,1991,['f'],1,1,only women,1 or more women in credits,only women,f
 2127,Black Cat by Janet Jackson,1,1990,['f'],1,1,only women,1 or more women in credits,only women,f
 2506,Tom's Diner by DNA Featuring Suzanne Vega,5,1990,['f'],1,1,only women,1 or more women in credits,only women,m;f
 2563,From A Distance by Bette Midler,2,1990,['f'],1,1,only women,1 or more women in credits,only women,f
@@ -2906,39 +2875,70 @@ new_100,trollz by 6ix9ine & nicki minaj,1,2020,"['m', 'pm', 'm', 'm', 'f', 'm']"
 331199,Love Will Lead You Back by Taylor Dayne,1,1990,['f'],1,1,only women,1 or more women in credits,only women,f
 3450,Release Me by Wilson Phillips,1,1990,['f'],1,1,only women,1 or more women in credits,only women,f
 367669,Don't Wanna Fall In Love by Jane Child,2,1990,['f'],1,1,only women,1 or more women in credits,only women,f
-367966,Get Here by Oleta Adams,5,1991,['f'],1,1,only women,1 or more women in credits,only women,f
-6955,Something To Talk About by Bonnie Raitt,5,1991,['f'],1,1,only women,1 or more women in credits,only women,f
-10427,Damn I Wish I Was Your Lover by Sophie B. Hawkins,5,1992,['f'],1,1,only women,1 or more women in credits,only women,f
-10717,If You Asked Me To by Celine Dion,4,1992,['f'],1,1,only women,1 or more women in credits,only women,f
-15629,I Will Always Love You by Whitney Houston,1,1992,['f'],1,1,only women,1 or more women in credits,only women,f
-"90210\"")""",Saving Forever For You (From \Beverly Hills by Shanice,13,1993,['f'],1,1,only women,1 or more women in credits,only women,f
-209639,"Stay (I Missed You) (From \Reality Bites\"")"" by Lisa Loeb & Nine Stories",1,1994,['f'],1,1,only women,1 or more women in credits,only women,f
-41995,Give Me One Reason by Tracy Chapman,3,1996,['f'],1,1,only women,1 or more women in credits,only women,f
-42227,"Because You Loved Me (From \Up Close & Personal\"")"" by Celine Dion",1,1996,['f'],1,1,only women,1 or more women in credits,only women,f
-43404,I Love You Always Forever by Donna Lewis,2,1996,['f'],1,1,only women,1 or more women in credits,only women,f
-45309,Un-Break My Heart by Toni Braxton,1,1996,['f'],1,1,only women,1 or more women in credits,only women,f
-45822,Mouth by Merril Bainbridge,4,1996,['f'],1,1,only women,1 or more women in credits,only women,f
-48125,"For You I Will (From \Space Jam\"")"" by Monica",4,1997,['f'],1,1,only women,1 or more women in credits,only women,f
-50892,How Do I Live by LeAnn Rimes,2,1997,['f'],1,1,only women,1 or more women in credits,only women,f
-56278,"Make It Hot by Nicole Featuring Missy \Misdemeanor\"" Elliott & Mocha""",5,1998,['f'],1,1,only women,1 or more women in credits,only women,f
-56747,I Don't Want To Miss A Thing by Aerosmith,1,1998,['f'],1,1,only women,1 or more women in credits,only women,m
-58351,Doo Wop (That Thing) by Lauryn Hill,1,1998,['f'],1,1,only women,1 or more women in credits,only women,f
-57212,Have You Ever? by Brandy,1,1999,['f'],1,1,only women,1 or more women in credits,only women,f
-65607,Music Of My Heart by N Sync & Gloria Estefan,2,1999,['f'],1,1,only women,1 or more women in credits,only women,m;f
-386616,I Turn To You by Christina Aguilera,3,2000,['f'],1,1,only women,1 or more women in credits,only women,f
-402410,Fallin' by Alicia Keys,1,2001,['f'],1,1,only women,1 or more women in credits,only women,f
-406521,Turn Off The Light by Nelly Furtado,5,2001,['f'],1,1,only women,1 or more women in credits,only women,f
-410696,Get The Party Started by P!nk,4,2001,['f'],1,1,only women,1 or more women in credits,only women,f
-415447,A Thousand Miles by Vanessa Carlton,5,2002,['f'],1,1,only women,1 or more women in credits,only women,f
-427470,Beautiful by Christina Aguilera,2,2003,['f'],1,1,only women,1 or more women in credits,only women,f
-446067,If I Ain't Got You by Alicia Keys,4,2004,['f'],1,1,only women,1 or more women in credits,only women,f
-532565,Love Song by Sara Bareilles,4,2008,['f'],1,1,only women,1 or more women in credits,only women,f
-591032,Love Story by Taylor Swift,4,2008,['f'],1,1,only women,1 or more women in credits,only women,f
-640788,Today Was A Fairytale by Taylor Swift,2,2010,['f'],1,1,only women,1 or more women in credits,only women,f
-661729,Mine by Taylor Swift,3,2010,['f'],1,1,only women,1 or more women in credits,only women,f
-new_072,dance monkey by tones and i,4,2020,['f'],1,1,only women,1 or more women in credits,only women,f
-new_176,running up that hill (a deal with god) by kate bush,3,2022,['f'],1,1,only women,1 or more women in credits,only women,f
-379846,Don't Rush Me by Taylor Dayne,2,1989,['pf'],1,1,only women,1 or more women in credits,only women,f
+577495,Love Shack by The B-52s,3,1989,['?'],1,0,no women,only men,only women,m;f
+330991,If I Could Turn Back Time by Cher,3,1989,['f'],1,1,only women,1 or more women in credits,only women,f
+330995,Don't Wanna Lose You by Gloria Estefan,1,1989,['f'],1,1,only women,1 or more women in credits,only women,f
+331080,When I See You Smile by Bad English,1,1989,['f'],1,1,only women,1 or more women in credits,only women,m
+331104,Blame It On The Rain by Milli Vanilli,1,1989,['f'],1,1,only women,1 or more women in credits,only women,m
+331453,Lost In Your Eyes by Debbie Gibson,1,1989,['f'],1,1,only women,1 or more women in credits,only women,f
+379846,Don't Rush Me by Taylor Dayne,2,1989,['f'],1,1,only women,1 or more women in credits,only women,f
+21738,I Get Weak by Belinda Carlisle,2,1988,['f'],1,1,only women,1 or more women in credits,only women,f
+331264,Look Away by Chicago,1,1988,['f'],1,1,only women,1 or more women in credits,only women,m
+331583,Out Of The Blue by Debbie Gibson,3,1988,['f'],1,1,only women,1 or more women in credits,only women,f
+331747,Mercedes Boy by Pebbles,2,1988,['f'],1,1,only women,1 or more women in credits,only women,f
+332284,Foolish Beat by Debbie Gibson,1,1988,['f'],1,1,only women,1 or more women in credits,only women,f
+332295,Anything For You by Gloria Estefan & Miami Sound Machine,1,1988,['f'],1,1,only women,1 or more women in credits,only women,m;f
+340419,Could've Been by Tiffany,1,1988,['f'],1,1,only women,1 or more women in credits,only women,f
+340121,Groovy Kind Of Love by Phil Collins,1,1988,"['f', 'f']",2,2,only women,1 or more women in credits,only women,m
+347947,Only In My Dreams by Debbie Gibson,4,1987,['f'],1,1,only women,1 or more women in credits,only women,f
+332006,Luka by Suzanne Vega,3,1987,['f'],1,1,only women,1 or more women in credits,only women,f
+332194,Shake Your Love by Debbie Gibson,4,1987,['f'],1,1,only women,1 or more women in credits,only women,f
+332411,Change Of Heart by Cyndi Lauper,3,1987,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
+332787,Two Of Hearts by Stacey Q,3,1986,"['?', 'x', 'x']",3,0,no women,only men,only women,f
+21473,Words Get In The Way by Miami Sound Machine,5,1986,['f'],1,1,only women,1 or more women in credits,only women,m;f
+31705,You Give Good Love by Whitney Houston,3,1985,['f'],1,1,only women,1 or more women in credits,only women,f
+333133,I Miss You by Klymaxx,5,1985,['f'],1,1,only women,1 or more women in credits,only women,f
+333562,Lover Girl by Teena Marie,4,1985,['f'],1,1,only women,1 or more women in credits,only women,f
+333666,Rhythm Of The Night by Debarge,3,1985,['f'],1,1,only women,1 or more women in credits,only women,m;f
+333137,Dress You Up by Madonna,5,1985,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
+333472,Lucky Star by Madonna,4,1984,['f'],1,1,only women,1 or more women in credits,only women,f
+35262,Back On The Chain Gang by Pretenders,5,1983,['f'],1,1,only women,1 or more women in credits,only women,m;f
+334487,We Got The Beat by Go-Go's,2,1982,['f'],1,1,only women,1 or more women in credits,only women,f
+343127,9 To 5 by Dolly Parton,1,1981,['f'],1,1,only women,1 or more women in credits,only women,f
+673053,Morning Train (Nine To Five) by Sheena Easton,1,1981,['f'],1,1,only women,1 or more women in credits,only women,f
+24449,Bette Davis Eyes by Kim Carnes,1,1981,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
+21466,The Rose by Bette Midler,3,1980,['f'],1,1,only women,1 or more women in credits,only women,f
+574022,"Yes, I'm Ready by Teri DeSario With K.C.",2,1980,['f'],1,1,only women,1 or more women in credits,only women,m;f
+575350,Do That To Me One More Time by Captain & Tennille,1,1980,['f'],1,1,only women,1 or more women in credits,only women,m;f
+335719,Dim All The Lights by Donna Summer,2,1979,['f'],1,1,only women,1 or more women in credits,only women,f
+574059,Chuck E.'s In Love by Rickie Lee Jones,4,1979,['f'],1,1,only women,1 or more women in credits,only women,f
+29694,I Love The Nightlife (Disco 'round) by Alicia Bridges,5,1978,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
+15988,Don't Stop by Fleetwood Mac,3,1977,['f'],1,1,only women,1 or more women in credits,only women,m;f
+20999,Dreams by Fleetwood Mac,1,1977,['f'],1,1,only women,1 or more women in credits,only women,m;f
+337161,Love Hangover by Diana Ross,1,1976,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
+337968,Poetry Man by Phoebe Snow,5,1975,['f'],1,1,only women,1 or more women in credits,only women,f
+338113,I'm Not Lisa by Jessi Colter,4,1975,['f'],1,1,only women,1 or more women in credits,only women,f
+338191,At Seventeen by Janis Ian,3,1975,['f'],1,1,only women,1 or more women in credits,only women,f
+571633,The Way I Want To Touch You by Captain & Tennille,4,1975,['f'],1,1,only women,1 or more women in credits,only women,m;f
+338902,Leave Me Alone (ruby Red Dress) by Helen Reddy,3,1973,['f'],1,1,only women,1 or more women in credits,only women,f
+339079,Pillow Talk by Sylvia (r&b),3,1973,['f'],1,1,only women,1 or more women in credits,only women,f
+572445,Funny Face by Donna Fargo,5,1973,['f'],1,1,only women,1 or more women in credits,only women,f
+575826,You're So Vain by Carly Simon,1,1972,['f'],1,1,only women,1 or more women in credits,only women,f
+581541,Day Dreaming by Aretha Franklin,5,1972,['f'],1,1,only women,1 or more women in credits,only women,f
+390251,You've Got A Friend by James Taylor,1,1971,['f'],1,1,only women,1 or more women in credits,only women,m
+579047,Brand New Key by Melanie,1,1971,['f'],1,1,only women,1 or more women in credits,only women,f
+578443,It's Too Late/I Feel The Earth Move by Carole King,1,1971,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
+571931,"And When I Die by Blood, Sweat & Tears",2,1969,['f'],1,1,only women,1 or more women in credits,only women,m
+573488,Wedding Bell Blues by The 5th Dimension,1,1969,['f'],1,1,only women,1 or more women in credits,only women,m;f
+575726,Stoned Soul Picnic by The 5th Dimension,3,1968,['f'],1,1,only women,1 or more women in credits,only women,m;f
+572063,Come Back When You Grow Up by Bobby Vee And The Strangers,3,1967,['f'],1,1,only women,1 or more women in credits,only women,m
+572421,Windy by The Association,1,1967,['f'],1,1,only women,1 or more women in credits,only women,m
+574965,Ode To Billie Joe by Bobbie Gentry,1,1967,['f'],1,1,only women,1 or more women in credits,only women,f
+572965,A Groovy Kind Of Love by The Mindbenders,2,1966,"['f', 'f']",2,2,only women,1 or more women in credits,only women,m
+572728,You Were On My Mind by We Five,3,1965,['f'],1,1,only women,1 or more women in credits,only women,m;f
+580255,"Yes, I'm Ready by Barbara Mason",5,1965,['f'],1,1,only women,1 or more women in credits,only women,f
+572917,Hey Little Cobra by The Rip Chords,4,1964,"['f', '?']",2,1,at least 1 woman,1 or more women in credits,only women,m
+576420,We'll Sing In The Sunshine by Gale Garnett,4,1964,['f'],1,1,only women,1 or more women in credits,only women,f
 new_058,truth hurts by lizzo,1,2019,"['f', 'f', 'm', 'm', 'm']",5,2,at least 1 woman,1 or more women in credits,1 or more men,f
 new_180,bad habit by steve lacy,1,2022,"['f', 'f', 'm', 'm', 'm']",5,2,at least 1 woman,1 or more women in credits,1 or more men,m
 22145,All That She Wants by Ace Of Base,2,1993,"['f', 'f', 'm', 'm']",4,2,at least 1 woman,1 or more women in credits,1 or more men,m;f
@@ -2968,7 +2968,7 @@ new_189,snow on the beach by taylor swift featuring lana del rey,4,2022,"['f', '
 new_118,life goes on by bts,1,2020,"['f', 'm', 'm', 'm', 'm', 'f', 'm']",7,2,at least 1 woman,1 or more women in credits,1 or more men,m
 428803,Mesmerize by Ja Rule Featuring Ashanti,2,2003,"['f', 'm', 'm', 'm', 'm', 'f']",6,2,at least 1 woman,1 or more women in credits,1 or more men,m;f
 705860,Good Feeling by Flo Rida,3,2011,"['f', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'f']",9,2,at least 1 woman,1 or more women in credits,1 or more men,m
-new_135,kiss me more by doja cat featuring sza,3,2021,"['f', 'm', 'm', 'pm', 'm', 'm', 'f', 'm', 'm']",9,2,at least 1 woman,1 or more women in credits,1 or more men,f
+new_135,kiss me more by doja cat featuring sza,3,2021,"['f', 'm', 'm', 'm', 'm', 'm', 'f', 'm', 'm']",9,2,at least 1 woman,1 or more women in credits,1 or more men,f
 new_073,lose you to love me by selena gomez,1,2019,"['f', 'nb', 'm', 'm', 'f']",5,2,at least 1 woman,1 or more women in credits,1 or more men,f
 802889,The Monster by Eminem Featuring Rihanna,1,2013,"['m', 'f', 'f', 'm', 'm', 'm', 'm']",7,2,at least 1 woman,1 or more women in credits,1 or more men,m;f
 1010129,Shape Of You by Ed Sheeran,1,2017,"['m', 'f', 'f', 'm', 'm', 'm']",6,2,at least 1 woman,1 or more women in credits,1 or more men,m
@@ -3022,27 +3022,27 @@ new_182,super freaky girl by nicki minaj,1,2022,"['m', 'm', 'f', 'm', 'm', 'f', 
 473966,We Belong Together by Mariah Carey,1,2005,"['m', 'm', 'm', 'f', 'm', 'm', 'm', 'm', 'm', 'f']",10,2,at least 1 woman,1 or more women in credits,1 or more men,f
 916568,Good For You by Selena Gomez Featuring A$AP Rocky,5,2015,"['m', 'm', 'm', 'f', 'nb', 'm', 'f']",7,2,at least 1 woman,1 or more women in credits,1 or more men,m;f
 new_186,lavender haze by taylor swift,2,2022,"['m', 'm', 'm', 'm', 'f', 'f']",6,2,at least 1 woman,1 or more women in credits,1 or more men,f
-677350,Just Can't Get Enough by The Black Eyed Peas,3,2011,"['m', 'm', 'm', 'm', 'm', 'f', 'pm', 'pm', 'f', '?']",10,2,at least 1 woman,1 or more women in credits,1 or more men,m;f
-new_193,rich flex by drake & 21 savage,2,2022,"['m', 'm', 'm', 'm', 'm', 'm', 'm', 'pf', 'm', 'm', 'm', 'f', 'm', 'm']",14,2,at least 1 woman,1 or more women in credits,1 or more men,m
-574008,The Night Has A Thousand Eyes by Bobby Vee,3,1963,"['m', 'pf', 'pf']",3,2,at least 1 woman,1 or more women in credits,1 or more men,m
+677350,Just Can't Get Enough by The Black Eyed Peas,3,2011,"['m', 'm', 'm', 'm', 'm', 'f', 'm', 'm', 'f', '?']",10,2,at least 1 woman,1 or more women in credits,1 or more men,m;f
+new_193,rich flex by drake & 21 savage,2,2022,"['m', 'm', 'm', 'm', 'm', 'm', 'm', 'f', 'm', 'm', 'm', 'f', 'm', 'm']",14,2,at least 1 woman,1 or more women in credits,1 or more men,m
+574008,The Night Has A Thousand Eyes by Bobby Vee,3,1963,"['m', 'f', 'f']",3,2,at least 1 woman,1 or more women in credits,1 or more men,m
 new_133,deja vu by olivia rodrigo,3,2021,"['nb', 'm', 'm', 'f', 'f']",5,2,at least 1 woman,1 or more women in credits,1 or more men,f
-578949,One Night by Elvis Presley,4,1958,"['pf', 'm', 'f']",3,2,at least 1 woman,1 or more women in credits,1 or more men,m
+578949,One Night by Elvis Presley,4,1958,"['f', 'm', 'f']",3,2,at least 1 woman,1 or more women in credits,1 or more men,m
 816327,Fancy by Iggy Azalea Featuring Charli XCX,1,2014,"['x', 'm', 'x', 'm', 'm', 'f', 'f', 'm']",8,2,at least 1 woman,1 or more women in credits,1 or more men,f
-580329,Dum Dum by Brenda Lee,4,1961,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
+574668,Hello Stranger by Barbara Lewis,3,1963,['f'],1,1,only women,1 or more women in credits,only women,f
+578508,Dominique by The Singing Nun (Soeur Sourire),1,1963,['f'],1,1,only women,1 or more women in credits,only women,f
 576282,Judy's Turn To Cry by Lesley Gore,5,1963,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
 578933,"Sally, Go 'round The Roses by The Jaynetts",2,1963,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
-572965,A Groovy Kind Of Love by The Mindbenders,2,1966,"['f', 'f']",2,2,only women,1 or more women in credits,only women,m
-578443,It's Too Late/I Feel The Earth Move by Carole King,1,1971,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
-337161,Love Hangover by Diana Ross,1,1976,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
-29694,I Love The Nightlife (Disco 'round) by Alicia Bridges,5,1978,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
-24449,Bette Davis Eyes by Kim Carnes,1,1981,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
-333137,Dress You Up by Madonna,5,1985,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
-332411,Change Of Heart by Cyndi Lauper,3,1987,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
-340121,Groovy Kind Of Love by Phil Collins,1,1988,"['f', 'f']",2,2,only women,1 or more women in credits,only women,m
-49817,Bitch by Meredith Brooks,2,1997,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
-66681,Breathe by Faith Hill,2,2000,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
-597125,You Belong With Me by Taylor Swift,2,2009,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
-new_158,all too well (taylor's version) by taylor swift,1,2021,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
+570663,Dream Baby (How Long Must I Dream) by Roy Orbison,4,1962,['f'],1,1,only women,1 or more women in credits,only women,m
+571388,Party Lights by Claudine Clark,5,1962,['f'],1,1,only women,1 or more women in credits,only women,f
+572321,Let Me In by The Sensations,4,1962,['f'],1,1,only women,1 or more women in credits,only women,m;f
+572574,I Know (You Don't Love Me No More) by Barbara George,3,1962,['f'],1,1,only women,1 or more women in credits,only women,f
+577575,Michael by The Highwaymen,1,1961,['?'],1,0,no women,only men,only women,m
+571719,Fool #1 by Brenda Lee,3,1961,['f'],1,1,only women,1 or more women in credits,only women,f
+579825,Angel Baby by Rosie And The Originals,5,1961,['f'],1,1,only women,1 or more women in credits,only women,m;f
+581573,Goodbye Cruel World by James Darren,3,1961,['f'],1,1,only women,1 or more women in credits,only women,m
+580329,Dum Dum by Brenda Lee,4,1961,"['f', 'f']",2,2,only women,1 or more women in credits,only women,f
+574280,Pink Shoe Laces by Dodie Stevens,3,1959,['f'],1,1,only women,1 or more women in credits,only women,f
+581724,Poor Little Fool by Ricky Nelson,1,1958,['f'],1,1,only women,1 or more women in credits,only women,m
 332070,"I Heard A Rumour (From \Disorderlies\"")"" by Bananarama",4,1987,"['f', 'f', 'f', 'm', 'm', 'm']",6,3,at least 1 woman,1 or more women in credits,1 or more men,f
 new_074,don't start now by dua lipa,2,2020,"['f', 'f', 'f', 'm']",4,3,at least 1 woman,1 or more women in credits,1 or more men,f
 448608,Dip It Low by Christina Milian,5,2004,"['f', 'f', 'm', 'f', 'm']",5,3,at least 1 woman,1 or more women in credits,1 or more men,f
@@ -3063,7 +3063,7 @@ new_082,say so by doja cat featuring nicki minaj,1,2020,"['m', 'f', 'm', 'f', 'f
 new_045,"thank u, next by ariana grande",1,2018,"['m', 'f', 'm', 'f', 'm', 'nb', 'f']",7,3,at least 1 woman,1 or more women in credits,1 or more men,f
 436744,Naughty Girl by Beyonce,3,2004,"['m', 'f', 'm', 'm', 'm', 'm', 'm', 'f', 'm', 'f', 'm']",11,3,at least 1 woman,1 or more women in credits,1 or more men,f
 842485,Black Widow by Iggy Azalea Featuring Rita Ora,3,2014,"['m', 'm', 'f', 'm', 'f', 'f']",6,3,at least 1 woman,1 or more women in credits,1 or more men,f
-new_150,fair trade by drake featuring travis scott,3,2021,"['m', 'm', 'f', 'm', 'f', 'm', 'm', 'f', 'pm', 'm', 'm', 'pm', 'm', 'pm']",14,3,at least 1 woman,1 or more women in credits,1 or more men,m
+new_150,fair trade by drake featuring travis scott,3,2021,"['m', 'm', 'f', 'm', 'f', 'm', 'm', 'f', 'm', 'm', 'm', 'm', 'm', 'm']",14,3,at least 1 woman,1 or more women in credits,1 or more men,m
 460812,Lose My Breath by Destiny's Child,3,2004,"['m', 'm', 'f', 'm', 'm', 'f', 'm', 'f']",8,3,at least 1 woman,1 or more women in credits,1 or more men,f
 1038176,Havana by Camila Cabello Featuring Young Thug,1,2017,"['m', 'm', 'f', 'm', 'm', 'm', 'm', 'f', 'm', 'f', 'm']",11,3,at least 1 woman,1 or more women in credits,1 or more men,m;f
 799595,Timber by Pitbull Featuring Ke$ha,1,2013,"['m', 'm', 'm', 'f', 'f', 'm', 'm', 'm', 'f', 'm']",10,3,at least 1 woman,1 or more women in credits,1 or more men,m;f
@@ -3072,12 +3072,12 @@ new_030,in my feelings by drake,1,2018,"['m', 'm', 'm', 'm', 'f', 'm', 'm', 'f',
 new_022,nice for what by drake,1,2018,"['m', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'f', 'm', 'f', 'f', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm', 'm']",22,3,at least 1 woman,1 or more women in credits,1 or more men,m
 63311,"Bills, Bills, Bills by Destiny's Child",1,1999,"['f', 'm', 'f', 'f', 'f']",5,4,at least 1 woman,1 or more women in credits,1 or more men,f
 new_047,7 rings by ariana grande,1,2019,"['f', 'm', 'f', 'm', 'f', 'm', 'm', 'm', 'nb', 'f']",10,4,at least 1 woman,1 or more women in credits,1 or more men,f
-new_088,on by bts,4,2020,"['f', 'm', 'm', 'pf', 'f', 'f', 'm', 'm', 'm', 'm']",10,4,at least 1 woman,1 or more women in credits,1 or more men,m
+new_088,on by bts,4,2020,"['f', 'm', 'm', 'f', 'f', 'f', 'm', 'm', 'm', 'm']",10,4,at least 1 woman,1 or more women in credits,1 or more men,m
 623387,Empire State Of Mind by Jay-Z + Alicia Keys,1,2009,"['m', 'f', 'f', 'f', 'm', 'f', 'm']",7,4,at least 1 woman,1 or more women in credits,1 or more men,m;f
 503586,Deja Vu by Beyonce Featuring Jay Z,4,2006,"['m', 'm', 'f', 'f', 'f', 'f', 'm']",7,4,at least 1 woman,1 or more women in credits,1 or more men,m;f
 new_028,high hopes by panic! at the disco,4,2018,"['m', 'm', 'f', 'm', 'f', 'm', 'f', 'm', 'f']",9,4,at least 1 woman,1 or more women in credits,1 or more men,m
 67145,Say My Name by Destiny's Child,1,2000,"['m', 'm', 'm', 'f', 'f', 'f', 'f']",7,4,at least 1 woman,1 or more women in credits,1 or more men,f
 511021,Fergalicious by Fergie,2,2006,"['f', 'f', 'm', 'm', 'f', 'f', 'm', 'f']",8,5,at least 1 woman,1 or more women in credits,1 or more men,f
-new_098,rain on me by lady gaga & ariana grande,1,2020,"['f', 'f', 'm', 'm', 'pm', 'f', 'm', 'f', 'm', 'm', 'f']",11,5,at least 1 woman,1 or more women in credits,1 or more men,f
-new_120,34+35 by ariana grande feat. doja cat & megan thee stallion,2,2021,"['m', 'f', 'f', 'pm', 'f', 'm', 'm', 'm', 'f', 'm', 'f']",11,5,at least 1 woman,1 or more women in credits,1 or more men,f
-64897,Bring It All To Me by Blaque,5,2000,"['m', 'm', 'f', 'm', 'f', 'f', 'pf', 'f']",8,5,at least 1 woman,1 or more women in credits,1 or more men,f
+new_098,rain on me by lady gaga & ariana grande,1,2020,"['f', 'f', 'm', 'm', 'm', 'f', 'm', 'f', 'm', 'm', 'f']",11,5,at least 1 woman,1 or more women in credits,1 or more men,f
+new_120,34+35 by ariana grande feat. doja cat & megan thee stallion,2,2021,"['m', 'f', 'f', 'm', 'f', 'm', 'm', 'm', 'f', 'm', 'f']",11,5,at least 1 woman,1 or more women in credits,1 or more men,f
+64897,Bring It All To Me by Blaque,5,2000,"['m', 'm', 'f', 'm', 'f', 'f', 'f', 'f']",8,5,at least 1 woman,1 or more women in credits,1 or more men,f
