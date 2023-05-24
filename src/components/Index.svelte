@@ -5,7 +5,8 @@
 	import IntroAll from '$components/Intro.all.svelte'
 	import Demo from "$components/demo/Demo.svelte";
 	import Female from "$components/Body.femaleOnly.svelte"
-
+	import Waffle from "$components/Waffle.svelte"
+	import WaffleWriter from "$components/WaffleWriter.svelte";
 	import { groups } from "d3";
 
 	// import Footer from "$components/Footer.svelte";
@@ -22,6 +23,11 @@
 		d["songwriters"] = writerKey.get(d.song_key.toLowerCase());
 		return d;
 	}), v => v.year)
+
+	let waffleWriterData = songs.map((d) => {
+		d["songwriters"] = writerKey.get(d.song_key.toLowerCase());
+		return d;
+	})
 
 	let textFirst = {
         0: "",
@@ -92,6 +98,11 @@
 <p class="center-col para">
 	A century-plus later, it’s clear that there is still so much progress to be made. And that’s just in terms of creating more equity generally for women in the music industry. Below, we provide you with a tool to sift through the artist and songwriter gender data that we gathered. You will quickly see that women are still actively impeded from songwriting at the highest levels of the pop world, and that women of color face even more impediments.
 </p>
+
+<WaffleWriter data={waffleWriterData}/>
+
+<Waffle data={data.songs}/>
+
 
 <Bubble data={data.songs}/>
 <!-- <Demo /> -->

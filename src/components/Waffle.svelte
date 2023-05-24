@@ -119,8 +119,7 @@
 				<div class="cut-wrapper">
 					{#each cut[1] as datum}
 						<!-- svelte-ignore a11y-mouse-events-have-key-events -->
-						<div on:mouseover={() => getSong(datum)} class="song">
-							{datum.song_key}
+						<div on:mouseover={() => getSong(datum)} class="song {cut[0] == "no women" ? "men-only" : ''} {cut[0] == "at least 1 woman" ? "mixed": ''}">
 						</div>
 					{/each}
 				</div>
@@ -144,7 +143,6 @@
 
 	.cut {
 		display: flex;
-		max-width: 33%;
 		flex-wrap: wrap;
 		justify-content: flex-start;
 		align-content: flex-start;
@@ -182,15 +180,19 @@
 	}
 
 	.song {
-		/* width: 10px; */
-		/* height: 10px; */
+		width: 10px;
+		height: 10px;
 		margin: 1px;
 		font-size: 10px;
-		/* background-color: red; */
+		background-color: red;
 	}
 
-	.men {
+	.men-only {
 		background-color: blue;
 	}
+
+    .mixed {
+        background-color: purple;
+    }
 
 </style>

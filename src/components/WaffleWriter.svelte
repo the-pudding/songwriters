@@ -49,24 +49,10 @@
 		
 
 		tempData = groups(tempData, d => d.cut);
-
-
-
-		// if(onlyWomen) {	
-		// 	console.log(groups(tempData, d => d.womenOnly));
-		// 	tempData = tempData.filter(d => {
-		// 		return  d.womenOnly == "only women"
-		// 	})
-		// }
-
-		// if(onlyMen) {	
-		// 	tempData = tempData.filter(d => {
-		// 		console.log(d)
-		// 		return  d.menOnly == "only men"
-		// 	})
-		// }
-
-		console.log(tempData)
+		
+		// tempData = groups(tempData, d => d.year).sort((a,b) => {
+		// 	return +b - +a;
+		// });
 
 		return tempData;
 
@@ -78,6 +64,9 @@
 	}
 
 	$: dateRange = [+yearStart,+yearEnd];
+
+	console.log(data)
+
 	$: dataForChart = getData(data,dateRange,performerGender)
 
 
@@ -117,17 +106,21 @@
 			<div class="cut">
 				<p>{cut[0]}</p>
 				<div class="cut-wrapper">
-					{#each cut[1] as datum}
-						<!-- svelte-ignore a11y-mouse-events-have-key-events -->
-						<div on:mouseover={() => getSong(datum)} class="song">
-							{datum.song_key}
+					{#each cut[1] as song}
+						<div class="song {song.song_key}">
+							{#if song.songwriters}
+								{#each song.songwriters as songwriter}
+									<div class="songwriter {["m","pm"].indexOf(songwriter.gender) > -1 ? 'men-only' : ''}">
+									</div>
+								{/each}							
+							{/if}
+							
 						</div>
 					{/each}
 				</div>
 			</div>
 		{/each}
 	</div>
-	
 </div>
 
 <p>song: {songSelected}</p>
@@ -144,7 +137,6 @@
 
 	.cut {
 		display: flex;
-		max-width: 33%;
 		flex-wrap: wrap;
 		justify-content: flex-start;
 		align-content: flex-start;
@@ -182,15 +174,25 @@
 	}
 
 	.song {
-		/* width: 10px; */
-		/* height: 10px; */
+		display: flex;
+		border: 1px solid black;
 		margin: 1px;
-		font-size: 10px;
-		/* background-color: red; */
 	}
 
-	.men {
+	.songwriter {
+		width: 5px;
+		height: 5px;
+		margin: 1px;
+		font-size: 10px;
+		background-color: red;
+	}
+
+	.men-only {
 		background-color: blue;
 	}
+
+    .mixed {
+        background-color: purple;
+    }
 
 </style>
