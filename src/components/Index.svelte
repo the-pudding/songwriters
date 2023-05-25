@@ -17,6 +17,21 @@
 	const songs = data.songs;
 	const writerKey = data.writerKey;
 
+	let priorOne = {
+		"no men":0,
+		"no women": 0,
+		"only women": 0,
+		"at least 1 woman":0
+	}
+
+
+	let priorTwo = {
+		"no men":0,
+		"no women": 169,
+		"only women": 2,
+		"at least 1 woman":139
+    }
+
     let dataByYear = groups(songs, d => d.year);
     let dataByGender = groups(songs.filter(d => d.cut == "only women"), d => d.artist_gender, v => v.year);
 	let dataByYearWomenOnly = groups(songs.filter(d => d.cut == "only women").map(function(d){
@@ -63,16 +78,16 @@
 
 <!-- <IntroAll /> -->
 
-<IntroSong dataByYear={dataByYear.filter(d => +d[0] < 2020 && +d[0] > 2009)} text={textFirst}/>
+<IntroSong dataByYear={dataByYear.filter(d => +d[0] < 2020 && +d[0] > 2009)} text={textFirst} priorStats={priorOne}/>
 
 <p class="center-col para">
-	And the songwriting credits were Taylor Swift herself. That means that if Taylor Swift didn’t exist, there would only be a pair of top 5 hits written exclusively by women between 2010 and 2022. One of those two songs - “Running Up that Hill (A Deal with God)” - was written in 1985 and only saw resurgence because it was featured in the hit Netflix show Stranger Things.
+	Both are Taylor Swift songs, and the songwriter credit is also Taylor Swift. That means without Taylor Swift the singer-songwriter, there would only be 2 top-5 hits written exclusively by women between 2010 and 2022. One of those two songs, “Running Up that Hill (A Deal with God)”, was written in 1985 and only resurged because it was featured in the hit Netflix show <i>Stranger Things</i>.
 </p>
 <p class="center-col para">
 	If we keep going back into the past, things don’t look better.
 </p>
 
-<!-- <IntroSong dataByYear={dataByYear.filter(d => +d[0] < 2010 && +d[0] > 1999)} text={textSecond}/> -->
+<IntroSong dataByYear={dataByYear.filter(d => +d[0] < 2010 && +d[0] > 1999)} text={textSecond} priorStats={priorTwo}/>
 
 <p class="center-col para">
 	To recap the results from the past 22 years and 800 songs, there have been so few top 5 hits written exclusively by women that I can list them all.

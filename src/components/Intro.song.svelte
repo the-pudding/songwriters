@@ -5,7 +5,8 @@
 
     export let dataByYear;
     export let text;
-
+    export let priorStats;
+    
     let value;
     let textKeys = [];
     let textValue;
@@ -48,12 +49,7 @@
 
         if(dataByYear) {
 
-            let counts = {
-                "no men":0,
-                "no women": 0,
-                "only women": 0,
-                "at least 1 woman":0
-            }
+            let counts = priorStats
 
             let totalLength = dataByYear.flat(2).length;
 
