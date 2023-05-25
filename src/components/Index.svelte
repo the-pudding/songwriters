@@ -35,7 +35,7 @@
         2: "But mostly men …",
         4: "It’s been 5 years. How long is this going to take???",
         7: "This is getting ridiculous",
-        8: "Wait! Here are 2 …"
+        9: "Wait! Here are 2 …"
     }
 
 	let textSecond = {
@@ -47,8 +47,9 @@
 	let slides= [
         "tk point to expand to inception",
         "Note how all of these songs were performed by women. Men rarely perform hits written exclusively by women. In fact, there are only 13 top 5 hits since the inception of the Hot 100 written exclusively by women and performed exclusively by men.",
-        "Even if we expand our search to top 5 hits written exclusively by women and performed by groups that contain at least one woman, the list of songs only grows by 16.",
-		"Note how women who wrote more than half of these songs <span class=red>were vocalists<span> in the performing groups."
+        "Even if we expand our search to top 5 hits written exclusively by women and performed by groups that contain at least one woman, the list of songs only grows by 16."
+		// ,
+		// "Note how women who wrote more than half of these songs <span class=red>were vocalists<span> in the performing groups."
     ]
 
 
@@ -74,7 +75,7 @@
 <IntroSong dataByYear={dataByYear.filter(d => +d[0] < 2010 && +d[0] > 1999)} text={textSecond}/>
 
 <p class="center-col para">
-	To recap the results from the past 12 years,  In that same period,  there have been so few top 5 hits written exclusively by women that I can list them all.
+	To recap the results from the past 22 years and 800 songs, there have been so few top 5 hits written exclusively by women that I can list them all.
 </p>
 
 
