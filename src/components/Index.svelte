@@ -72,7 +72,7 @@
 	If we keep going back into the past, things don’t look better.
 </p>
 
-<IntroSong dataByYear={dataByYear.filter(d => +d[0] < 2010 && +d[0] > 1999)} text={textSecond}/>
+<!-- <IntroSong dataByYear={dataByYear.filter(d => +d[0] < 2010 && +d[0] > 1999)} text={textSecond}/> -->
 
 <p class="center-col para">
 	To recap the results from the past 22 years and 800 songs, there have been so few top 5 hits written exclusively by women that I can list them all.

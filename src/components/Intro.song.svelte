@@ -1,6 +1,7 @@
 <script>
     import { onMount,getContext } from "svelte";	
 	import Scrolly from "$components/helpers/Scrolly.svelte";
+    import Scroller from "@sveltejs/svelte-scroller";
 
     export let dataByYear;
     export let text;
@@ -8,74 +9,151 @@
     let value;
     let textKeys = [];
     let textValue;
+    let songColHeight;
+    let textToShow;
+
+    let index, offset, progress;
+    let threshold = 1;
+    let top = 1;
+    let bottom = 1;
+    let progressCounts = [];
+
+    const clamp = (num, min, max) => Math.min(Math.max(num, min), max);
 
 
+    let progressAdjusted;
+    
 
     const getText = () => {
+
         if(textKeys.indexOf(value) > -1){
             textValue = text[value];
         }
-        // textValue = "hi";
     };
 
+    const getProgressText = (progressAdjusted) => {
+        if(progressAdjusted) {
+
+            let text = progressCounts[Math.floor(Math.min(progressAdjusted*progressCounts.length-1),1)];
+            return text;
+
+        }
+        return textToShow;
+    }
+
+    const calcProgress = () => {
+
+
+        console.log("calculating pgoress")
+
+        if(dataByYear) {
+
+            let counts = {
+                "no men":0,
+                "no women": 0,
+                "only women": 0,
+                "at least 1 woman":0
+            }
+
+            let totalLength = dataByYear.flat(2).length;
+
+            let tally = 0
+            let progressTally = 0;
+
+            dataByYear.flat(2).map(d => {
+
+                tally = tally + 1;
+                progressTally = tally/totalLength;
+
+                counts[d.cut] = counts[d.cut] + 1;
+
+                progressCounts.push(JSON.parse(JSON.stringify(counts)))
+                return d;
+            })
+
+        }
+
+    }
+
     $: getText(value)
+
+    // $: console.log(textToShow)
     $: textKeys = Object.keys(text).map(d => +d);
+    $: progressAdjusted = clamp(progress,0,1);
+    $: dataByYear, calcProgress();
+
+    $: textToShow = getProgressText(progressAdjusted);
+    
+    $: console.log(value)
 
 </script>
 
-<section id="scrolly">
-    <!-- {#if textKeys.indexOf(value) > -1} -->
-        {#if textValue}
-            <h2>
-                {@html textValue}
-            </h2>
-        {/if}
-    <!-- {/if} -->
-    <div class="song-wrapper">
 
-        <Scrolly bind:value>
-            {#each dataByYear as dataYear,i}
-                {@const active = value === i}
 
-                <div class="step year-section" class:active>
-                    
-                    <p class="year">{dataYear[0]}</p>
-                    {#each dataYear[1] as song}
-                        <div
-                            class=""
-                            style="width:100%; display:flex; justify-content:center;">
-                            <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-                            <div
-                                class="song-container {song.womenOnly == "only women" ? "women-only" : ''}"
-                            >
+<Scroller top="{top}" bottom="{bottom}" {threshold} bind:index={value} bind:offset bind:progress>    
+    <div slot="foreground">
+        <div id="scrolly">
+            <div class="fixed">
+                {#if progressCounts && progress}
+                    <!-- <h2> -->
+                        <h2>{@html textValue}</h2>
 
-                                <div class="song"
-                                    on:mouseover={() => console.log(song)}
-                                    style="
-                                    background-color:{song.menOnly == "only men" ? "rgba(0,0,255,.15)" : song.womenOnly == "only women" ? 'rgba(255,0,0,.15)' : ''};
-                                    "
-                                >
-                                    {#each song.genderArray as songwriter}
-                                        <div class="songwriter"
+                        {#if textToShow}
+                            <p>at least 1 woman: {textToShow["at least 1 woman"]}</p>
+                            <p>only men: {textToShow["no women"]}</p>
+                            <p>only women: {textToShow["only women"]}</p>
+                        {/if}
+                    <!-- </h2> -->
+                {/if}
+            </div>
+            <div class="song-wrapper">
+                <!-- <Scrolly bind:value> -->
+                    <div bind:clientHeight={songColHeight} class="song-col-height">
+
+                    {#each dataByYear as dataYear,i}
+                        {@const active = value === i}
+                        <section class="step year-section" class:active>
+                            
+                            <p class="year">{dataYear[0]}</p>
+                            {#each dataYear[1] as song}
+                                <div
+                                    class=""
+                                    style="width:100%; display:flex; justify-content:center;">
+                                    <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+                                    <div
+                                        class="song-container {song.womenOnly == "only women" ? "women-only" : ''}"
+                                    >
+
+                                        <div class="song"
+                                            on:mouseover={() => console.log(song)}
                                             style="
-                                                color:{songwriter == "m" ? "blue" : songwriter == "f" ? "red" : ''};
+                                            background-color:{song.menOnly == "only men" ? "rgba(0,0,255,.15)" : song.womenOnly == "only women" ? 'rgba(255,0,0,.15)' : ''};
                                             "
                                         >
-                                            {songwriter}
+                                            {#each song.genderArray as songwriter}
+                                                <div class="songwriter"
+                                                    style="
+                                                        color:{songwriter == "m" ? "blue" : songwriter == "f" ? "red" : ''};
+                                                    "
+                                                >
+                                                    {songwriter}
+                                                </div>
+                                            {/each}
+                                            
                                         </div>
-                                    {/each}
-                                    
+                                        {song.song_key}
+                                    </div>
                                 </div>
-                                {song.song_key}
-                            </div>
-                        </div>
+                            {/each}
+                        </section>
                     {/each}
-                </div>
-            {/each}
-        </Scrolly>
+                    </div>
+                <!-- </Scrolly> -->
 
+            </div>
+        </div>
     </div>
-</section>
+</Scroller>
 
 <style>
 
@@ -103,7 +181,7 @@
         padding: 0 10px;
     }
 
-    h2 {
+    .fixed {
 		position: sticky;
 		top: 4em;
 	}
