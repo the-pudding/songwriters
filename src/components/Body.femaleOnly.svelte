@@ -3,12 +3,12 @@
     import Scrolly from "$components/helpers/Scrolly.svelte";
 	import SortTable from "./helpers/SortTable.svelte";
     import { flip } from "svelte/animate";
-    import { groups } from "d3";
+    import { groups, scaleLinear } from "d3";
     import { fade } from "svelte/transition";
 	import viewport from "$stores/viewport.js";
 	import { Divide } from "lucide-svelte";
 
-
+    export let dataByYear;
     export let dataByGender;
     export let dataByYearWomenOnly;
     export let slides;
@@ -24,47 +24,34 @@
         "m;f": "mixed gender band"
     }
 
-    const updateData = () => {
-        let tempData;
-        if(value == undefined) {
+    let colorRange = scaleLinear().domain([0,1]).range(["purple","green"]);
 
-            tempData = JSON.parse(JSON.stringify(dataByYearWomenOnly));
+    const getColor = (first) => {
+        return colorRange(first.percent);
+    }
+
+    const updateData = () => {
+
+        if(!dataForChart) {
+            let tempData;
+            tempData = JSON.parse(JSON.stringify(dataByYear));
+
             tempData = tempData.filter((d) => {
                 return d[0] < 2023 && d[0] > 1999;
-            });
-
-            tempData = tempData.map(d => d[1]).flat(1);
-
-
-            // tempData = JSON.parse(JSON.stringify(dataByGender))
-            // tempData.forEach((d) => {
-            //     d[1] = d[1].filter(j => {
-            //         return +j[0] < 2023;
-            //     })
-            // });
-            cardWidthDecease = 1;
-            widthChange = 1;
-
-
-        }
-
-        else if(value == 0){            
-
-            tempData = JSON.parse(JSON.stringify(dataByYearWomenOnly));
-
-            tempData = tempData.filter((d) => {
-                return d[0] < 2023 && d[0] > 1958;
-            });
+            })
 
             const totalTiles = tempData.reduce(
                 (accumulator, currentValue) => accumulator + currentValue[1].length,
                 0,
             );
 
-            tempData = tempData.map(d => d[1]).flat(1);
+            tempData = tempData.map(d => d[1]).flat(1).sort((a,b) => {
+                return b.percent - a.percent;
+            });
 
 
             let viewportPixels = $viewport.height * $viewport.width;
+
             let cardPixels = 322 * 121 * totalTiles;
             let scaleReduction = cardPixels/viewportPixels;
             let cardArea = 322 * 121 / scaleReduction;
@@ -73,36 +60,65 @@
             let newCardWidth = newCardHeight*2.6611;
 
             let formerCardCountWidth = $viewport.width/322;
-            
+
             cardWidthDecease = newCardWidth/322;
             widthChange = formerCardCountWidth/cardWidthDecease/formerCardCountWidth;
 
-        }
+            let newCardCountWidth = Math.floor($viewport.width * widthChange / 322);
+            let secondCountWidth = Math.floor($viewport.width * 1 / 322);
 
-        else if(value > 0){
-            tempData = JSON.parse(JSON.stringify(dataByYearWomenOnly))
-            tempData = tempData.filter((d) => {
-                return d[0] < 2023 && d[0] > 1958;
-            });
 
-            tempData = tempData.map(d => d[1]).flat(1);
-            tempData = tempData.sort((a,b) => {
-                return a.artist_gender.localeCompare(b.artist_gender);
+            tempData.forEach((d,i) => {
+                if(d.cutTwo == "only women"){
+                    d.targetX = Math.floor(i % secondCountWidth * 322);
+                    d.targetY = Math.floor(i / secondCountWidth) * 126;
+                }
+                d.x = Math.floor(i % newCardCountWidth * 322);
+                d.y = Math.floor(i / newCardCountWidth) * 126;
+
+                if(d.cutTwo == "only women"){
+                    d.targetX = Math.floor(i % secondCountWidth * 322);
+                    d.targetY = Math.floor(i / secondCountWidth) * 126;
+                }
+                else {
+                    d.targetX = d.x;
+                    d.targetY = d.y;
+                }
+
             })
 
 
-        }        
-        return tempData;
+
+
+            dataForChart = tempData;
+        }
+        
+
+
+        // else if(value > 0){
+        //     tempData = JSON.parse(JSON.stringify(dataByYearWomenOnly))
+        //     tempData = tempData.filter((d) => {
+        //         return d[0] < 2023 && d[0] > 1958;
+        //     });
+
+        //     tempData = tempData.map(d => d[1]).flat(1);
+        //     tempData = tempData.sort((a,b) => {
+        //         return a.artist_gender.localeCompare(b.artist_gender);
+        //     })
+        // }        
     }
 
-    $: dataForChart = updateData(value);
+    $: updateData(value);
 
-    $: console.log(dataForChart,value)
+    
+
+    // $: console.log(dataForChart,value)
     
 
 
 
 </script>
+<!--  -->
 
 
 <section class="wrapper">
@@ -111,21 +127,26 @@
         
         {#if value < 3 || value == undefined}
             <div class="song-col-wrapper {value == 0 ? 'expanded' : ''}"
-                style="width:{widthChange*100}%; transform:translate(0,0) scale({cardWidthDecease});"
+                style="width:{widthChange*100}%; transform:translate3d(0,0,0) scale({value == undefined ? cardWidthDecease : 1});"
             >
                 <div class="song-col">
-                    {#each dataForChart as song, i (song.song_key)}
+                    {#each dataForChart as song, i (song.id)}
                         <div 
-                            animate:flip={{duration:1000}}
-                            class="song-row {value == 2 && song.artist_gender == "m;f" ? 'mixed-performer' : ''} {value == 1 && song.artist_gender == "m" ? 'male-performer' : ''}" style="">
-                            <p class="song-name">
-                                {song.song_key}
-                            </p>
-                            {#if song["songwriters"].length > 0}
-                            <p class="writer-name">
-                                written by {song["songwriters"].map(d => d.writer).join(", ")}
-                            </p>
-                            {/if}
+                            style="
+                                transform:translate3d({value == 0 ? song.targetX : song.x}px,{value == 0 ? song.targetY : song.y}px, 0);
+                                background-color:{getColor(song)};
+                                
+                                opacity:{value == 0 && song.percent < 1 ? 0 : 1};
+                            "
+                            class="song-row {value == 2 && song.artist_gender == "m;f" ? 'mixed-performer' : ''} {value == 1 && song.artist_gender == "m" ? 'male-performer' : ''}">
+                                <!-- <p class="song-name">
+                                    {song.song_key}
+                                </p>
+                                {#if song["songwriters"].length > 0}
+                                <p class="writer-name">
+                                    written by {song["songwriters"].map(d => d.writer).join(", ")}
+                                </p>
+                                {/if} -->
                         </div>
                     {/each}
                 </div>
@@ -165,6 +186,11 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
+
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
     }
 
     .performer {
@@ -185,6 +211,16 @@
         border-left: 2px solid red;
         padding: 10px;
         background-color: #f7f7f7;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 300px;
+        height: 122px;
+
+        transition: opacity 1s;
+
+        
         /* max-width: 150px; */
     }
 
@@ -225,6 +261,7 @@
         left: 0;
         transform: translate(0%,0%) scale(1);
         transform-origin: top left;
+        transition: transform 1s;
 
 
     }
@@ -257,9 +294,9 @@
 	}
 
     .expanded {
-        width: 238%;
-        transform: translate(0%,0%) scale(.43);
-        transition: transform .5s;
+        /* width: 238%; */
+        /* transform: translate(0%,0%) scale(.43); */
+        /* transition: transform .5s; */
 
     }
 

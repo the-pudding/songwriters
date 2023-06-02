@@ -7,7 +7,9 @@
 	import Female from "$components/Body.femaleOnly.svelte"
 	import Waffle from "$components/Waffle.svelte"
 	import WaffleWriter from "$components/WaffleWriter.svelte";
+	import IntroAnimation from "$components/Intro.animation.svelte"
 	import { groups } from "d3";
+	import Treemap from "$components/Treemap.svelte";
 
 	// import Footer from "$components/Footer.svelte";
 
@@ -23,7 +25,6 @@
 		"only women": 0,
 		"at least 1 woman":0
 	}
-
 
 	let priorTwo = {
 		"no men":0,
@@ -44,6 +45,11 @@
 		return d;
 	})
 
+	let introAnimationText = [
+		"Last year, a study by the Annenberg institute found that only 14% of songs are written by women.",
+		"As depressing as this might seem, what’s shocking is how often tracks are written exclusively by an all-men songwriting team. In 2022, 42 songs cracked the top 5 of the Billboard Hot 100, but only 1 was written exclusively by women.",
+	]
+
 	let textFirst = {
         0: "",
         1: "There’s a few with some female writers …",
@@ -55,8 +61,9 @@
 
 	let textSecond = {
         0: "",
-        1: "Between 2000 and 2022, there were 446 top 5 hits written exclusively by men—tk% of songs.",
+        1: "tk point",
 		4: "",
+		6: "tk point"
     }
 
 	let slides= [
@@ -67,34 +74,44 @@
 		// "Note how women who wrote more than half of these songs <span class=red>were vocalists<span> in the performing groups."
     ]
 
-
-
 </script>
 
+<!-- <IntroAnimation text={introAnimationText} /> -->
+
+<!-- <p class="center-col para">
+    Between 2020 and 2022, 65 songs cracked the top 5 of the Billboard Hot 100 that were exclusively by men. In that same period, there were only 3 written exclusively by women: “Running Up that Hill (A Deal with God)” by Kate Bush, “All Too Well (10 Minute Version)” by Taylor Swift, and “Dance Monkey” by Tones and I. How far back do you think we have to go before we find another?
+</p> -->
 
 <p class="center-col para">
-    Between 2020 and 2022, 65 songs cracked the top 5 of the Billboard Hot 100 that were exclusively by men. In that same period, there were only 3 written exclusively by women: “Running Up that Hill (A Deal with God)” by Kate Bush, “All Too Well (10 Minute Version)” by Taylor Swift, and “Dance Monkey” by Tones and I. How far back do you think we have to go before we find another?
+	Songs written by <i>just</i> women are rarer than you think. How often has it happened in the past 10 years?
 </p>
 
 <!-- <IntroAll /> -->
 
-<IntroSong dataByYear={dataByYear.filter(d => +d[0] < 2020 && +d[0] > 2009)} text={textFirst} priorStats={priorOne}/>
+<!-- <IntroSong dataByYear={dataByYear.filter(d => +d[0] < 2022 && +d[0] > 2009)} text={textFirst} priorStats={priorOne}/> -->
 
 <p class="center-col para">
-	Both are Taylor Swift songs, and the songwriter credit is also Taylor Swift. That means without Taylor Swift the singer-songwriter, there would only be 2 top-5 hits written exclusively by women between 2010 and 2022. One of those two songs, “Running Up that Hill (A Deal with God)”, was written in 1985 and only resurged because it was featured in the hit Netflix show <i>Stranger Things</i>.
+	Both are performed and written by Taylor Swift. This common—TK point about women performers also being songwriters (which we’ll explore more later). 
 </p>
+<div class="center-col">
+	<h1>The Gender Breakdown of Songwriting Teams</h1>
+	<h3>dek</h3>
+	<p>by chris dalla riva</p>
+</div>
 <p class="center-col para">
-	If we keep going back into the past, things don’t look better.
+	To recap the results from the past 22 years…
 </p>
 
-<IntroSong dataByYear={dataByYear.filter(d => +d[0] < 2010 && +d[0] > 1999)} text={textSecond} priorStats={priorTwo}/>
+<!-- <Treemap data={dataByYear} /> -->
+
+<!-- <IntroSong dataByYear={dataByYear.filter(d => +d[0] < 2010 && +d[0] > 1999)} text={textSecond} priorStats={priorTwo}/> -->
 
 <p class="center-col para">
 	To recap the results from the past 22 years and 800 songs, there have been so few top 5 hits written exclusively by women that I can list them all.
 </p>
 
 
-<Female {dataByGender} {dataByYearWomenOnly} {slides}/>
+<Female {dataByYear} {dataByGender} {dataByYearWomenOnly} {slides}/>
 
 <p class="center-col para">
 	Furthermore, when they weren’t they often were singers and released the song at an earlier time. For example, “Wedding Bell Blues” topped the charts in 1969 by The Fifth Dimension, but it was first released by its songwriter, Laura Nyro, 2 years earlier. Nyro sang on the track.
@@ -115,14 +132,13 @@
 	A century-plus later, it’s clear that there is still so much progress to be made. And that’s just in terms of creating more equity generally for women in the music industry. Below, we provide you with a tool to sift through the artist and songwriter gender data that we gathered. You will quickly see that women are still actively impeded from songwriting at the highest levels of the pop world, and that women of color face even more impediments.
 </p>
 
-<WaffleWriter data={waffleWriterData}/>
+<!-- <WaffleWriter data={waffleWriterData}/> -->
 
-<Waffle data={data.songs}/>
+<!-- <Waffle data={data.songs}/> -->
 
 
-<Bubble data={data.songs}/>
+<!-- <Bubble data={data.songs}/> -->
 <!-- <Demo /> -->
 <style>
-
 
 </style>

@@ -15,6 +15,8 @@ export async function load() {
 			womenOnly: d["has no men"],
 			menOnly: d["has no women"],
 			cut: d["cut"],
+			percent: d["count of women"]/d["song writer count"],
+			cutTwo: d["cut_two"],
 			artist_gender: d["artist_gender"],
 			genderArray: songwritersArray,
 		}
