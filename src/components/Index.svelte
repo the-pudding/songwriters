@@ -150,7 +150,6 @@
 	TK transition to points about trends
 </p>
 
-<h1>line charts</h1>
 <Line dataByYear={writersByYear} />
 
 <p class="center-col para">
