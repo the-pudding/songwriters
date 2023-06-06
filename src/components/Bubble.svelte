@@ -8,6 +8,7 @@
 	import { group, groups } from "d3";
 
 	export let data;	
+	
 	let mounted = false;
 	let yearStart = "1958";
 	let yearEnd = "2022";
@@ -15,12 +16,21 @@
 	let onlyWomen = false;
 	let onlyMen = false;
 	let performerGender = "all"
+	let totalSongs = 1;
 
 	let performerArray = ["m","f","all","m;f"].map(d => {
 		return {"value":`${d}`};
 	});
 
 	let songSelected;
+
+	let sort = {
+		"only men": 0,
+		"mixed, majority men": 1,
+		"parity":2,
+		"mixed, majority women":3,
+		"only women":4
+	}
 
 	const arrayRange = (start, stop, step) =>
 	    Array.from(
@@ -45,10 +55,12 @@
 			return  d.artist_gender == performerGender;
 		});
 
+		totalSongs = tempData.length;
 
-		
-
-		tempData = groups(tempData, d => d.cut);
+		tempData = groups(tempData, d => d.cutTwo);
+		tempData.sort((a,b) => {
+			return sort[b[0]] - sort[a[0]];
+		})
 
 
 
@@ -115,13 +127,19 @@
 	<div class="cut-wrapper">
 		{#each dataForChart as cut}
 			<div class="cut">
-				<p>{cut[0]}</p>
-				<div class="cut-wrapper">
-					{#each cut[1] as datum}
-						<!-- svelte-ignore a11y-mouse-events-have-key-events -->
-						<div on:mouseover={() => getSong(datum)} class="song">
-							{datum.song_key}
-						</div>
+				<p>{cut[0]}, {cut[1].length} songs ({Math.round(cut[1].length/totalSongs * 100)}% of total)</p>
+				<div class="cut-songs">
+					{#each cut[1] as song}
+						<details class="song">
+							<summary class="para recommendation">{song.song_key.split(" by ")[0]} »</summary>
+							<div class="inner">
+								by {song.song_key.split(" by ")[1]},
+								{#if song["songwriters"]}
+									written by {song["songwriters"].map(d => d.writer).join(", ")}
+								{/if}
+							</div>
+						</details>
+								
 					{/each}
 				</div>
 			</div>
@@ -136,15 +154,21 @@
 
 	.cut-wrapper {
 		display: flex;
+		flex-direction: column;
 	}
 	
 	.cut p {
 		width: 100%;
 	}
 
+	.cut-songs {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
 	.cut {
 		display: flex;
-		max-width: 33%;
+		/* max-width: 20%; */
 		flex-wrap: wrap;
 		justify-content: flex-start;
 		align-content: flex-start;
@@ -181,12 +205,15 @@
 		margin: 0 20px;
 	}
 
-	.song {
+	summary, .song {
 		/* width: 10px; */
 		/* height: 10px; */
 		margin: 1px;
-		font-size: 10px;
+		font-size: 12px;
 		/* background-color: red; */
+	}
+
+	.song span {
 	}
 
 	.men {

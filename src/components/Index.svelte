@@ -162,7 +162,7 @@
 <!-- <Waffle data={data.songs}/> -->
 
 
-<Bubble data={data.songs}/>
+<Bubble data={waffleWriterData} />
 <!-- <Demo /> -->
 <style>
 
