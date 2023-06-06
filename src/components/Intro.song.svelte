@@ -45,8 +45,6 @@
     const calcProgress = () => {
 
 
-        console.log("calculating pgoress")
-
         if(dataByYear) {
 
             let counts = priorStats
@@ -73,14 +71,12 @@
 
     $: getText(value)
 
-    // $: console.log(textToShow)
     $: textKeys = Object.keys(text).map(d => +d);
     $: progressAdjusted = clamp(progress,0,1);
     $: dataByYear, calcProgress();
 
     $: textToShow = getProgressText(progressAdjusted);
     
-    $: console.log(value)
 
 </script>
 
@@ -121,7 +117,6 @@
                                     >
 
                                         <div class="song"
-                                            on:mouseover={() => console.log(song)}
                                             style="
                                             background-color:{song.menOnly == "only men" ? "rgba(0,0,255,.15)" : song.womenOnly == "only women" ? 'rgba(255,0,0,.15)' : ''};
                                             "
@@ -180,6 +175,8 @@
     .fixed {
 		position: sticky;
 		top: 4em;
+        z-index: 10000;
+        background: rgba(255,255,255,.78);
 	}
 </style>
 

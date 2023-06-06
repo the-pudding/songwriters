@@ -1,6 +1,6 @@
 import Songs from "$data/songs.csv";
 import Writers from "$data/writerKey.csv";
-import { group } from "d3";
+import { group, groups } from "d3";
 
 export async function load() {
 
@@ -19,6 +19,7 @@ export async function load() {
 			cutTwo: d["cut_two"],
 			artist_gender: d["artist_gender"],
 			genderArray: songwritersArray,
+
 		}
 	})
 
@@ -27,10 +28,16 @@ export async function load() {
 	})
 
 	let writerKey = group(Writers, d => d["title_artist_name"].toLowerCase());
+	let writersByYear = groups(Writers, d => d["year"].toLowerCase()).sort((a,b) => {
+		return a[0] - b[0];
+	}).filter(d => {
+		return d[0] > 1958;
+	});
 
 	let data = {
 		songs: songs,
-		writerKey: writerKey
+		writerKey: writerKey,
+		writersByYear:writersByYear
 	}
 
 	return { data };
