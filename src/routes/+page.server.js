@@ -34,10 +34,13 @@ export async function load() {
 		return d[0] > 1958;
 	});
 
+	let cutCategories = groups(songs, d => d["cutTwo"]).map(d => d[0]);
+
 	let data = {
 		songs: songs,
 		writerKey: writerKey,
-		writersByYear:writersByYear
+		writersByYear:writersByYear,
+		cutCategories:cutCategories
 	}
 
 	return { data };

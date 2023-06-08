@@ -83,6 +83,11 @@
 	padding: 0 25px;
 }
 
+.chart-hed {
+	font-family: "Arial";
+	font-size: 48px;
+}
+
 .double-col-step {
 	max-width: 500px;
 	z-index: 1000;

@@ -59,7 +59,7 @@
                 tally = tally + 1;
                 progressTally = tally/totalLength;
 
-                counts[d.cut] = counts[d.cut] + 1;
+                counts[d.cutTwo] = counts[d.cutTwo] + 1;
 
                 progressCounts.push(JSON.parse(JSON.stringify(counts)))
                 return d;
@@ -76,7 +76,7 @@
     $: dataByYear, calcProgress();
 
     $: textToShow = getProgressText(progressAdjusted);
-    
+    $: console.log(priorStats)
 
 </script>
 
@@ -91,9 +91,9 @@
                         <h2>{@html textValue}</h2>
 
                         {#if textToShow}
-                            <p>at least 1 woman: {textToShow["at least 1 woman"]}</p>
-                            <p>only men: {textToShow["no women"]}</p>
-                            <p>only women: {textToShow["only women"]}</p>
+                            {#each Object.keys(priorStats) as statCat}
+                                <p>{statCat}: {textToShow[statCat]}</p>
+                            {/each}
                         {/if}
                     <!-- </h2> -->
                 {/if}
