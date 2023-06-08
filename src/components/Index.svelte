@@ -43,7 +43,7 @@
 	})
 
 	let introAnimationText = [
-		"Last year, a study by the Annenberg Institute found that only 14% of songs were written by women.",
+		"Last year, a study by the Annenberg Institute found that only 14% of songwriters were women.",
 		"What might be even more alarming is how often women are outnumbered by men in songwriting teams.",
 	]
 
@@ -79,6 +79,10 @@
 	]
 
 </script>
+
+<svelte:head>
+  <link href="https://fonts.googleapis.com/css?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</svelte:head>
 
 <IntroAnimation text={introAnimationText} />
 
