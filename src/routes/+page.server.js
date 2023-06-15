@@ -19,7 +19,6 @@ export async function load() {
 			cutTwo: d["cut_two"],
 			artist_gender: d["artist_gender"],
 			genderArray: songwritersArray,
-
 		}
 	})
 

@@ -81,10 +81,12 @@
 </script>
 
 <svelte:head>
-  <link href="https://fonts.googleapis.com/css?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 </svelte:head>
 
-<IntroAnimation text={introAnimationText} />
+<!-- <IntroAnimation text={introAnimationText} /> -->
 
 <p class="center-col para">
     In 2022, 42 songs cracked the top 5 of the Billboard Hot 100, but only 1 was written exclusively by women. That one song - Kate Bush’s “Running Up that Hill (A Deal with God)” - was written in 1985 and only saw a resurgence because it was featured in the popular Netflix show <i>Stranger Things</i>.
@@ -96,12 +98,12 @@
 
 <!-- <IntroAll /> -->
 
-<p class="chart-hed">top 5 hits and their songwriting teams.</p>
+<p class="chart-hed">The Songwriters for Every Top 5 Hit, by Year</p>
 
 <IntroSong dataByYear={dataByYear.filter(d => +d[0] < 2022 && +d[0] > 2009)} text={textFirst} priorStats={priorOne}/>
 
 <p class="center-col para">
-	And both were written and performed by Taylor Swift. This is common: women songwriters generally perform the song too; it’s rare for women to hold the role of “songwriter” only (more on this later).  
+	And both were written and performed by Taylor Swift. This isn’t shocking for two reasons. First, hit songs written by women without any male co-writers are rare. Second, when women do write a hit without a man also sharing credit, they often end up performing the song themselves.
 </p>
 <div class="center-col">
 	<h1>Women are superstars on stage but still rarely get to write songs</h1>
@@ -109,14 +111,17 @@
 	<p>by chris dalla riva, design by ashley cai</p>
 </div>
 <p class="center-col para">
-	To recap the results from the past 22 years…
+	To recap the results from the past 13 years, there are so few songs written exclusively by women that I can list them all.
 </p>
 
 <!-- <IntroSong dataByYear={dataByYear.filter(d => +d[0] < 2010 && +d[0] > 1999)} text={textSecond} priorStats={priorTwo}/> -->
 
-<p class="chart-hed">Gender breakdown of Top 5 Hits, 2000-2022</p>
 
-<Female {dataByYear} {dataByGender} {dataByYearWomenOnly} cut="one" {slides} yearRange={[1999,2023]}/>
+<!-- <Female {dataByYear} {dataByGender} {dataByYearWomenOnly} cut="one" {slides} yearRange={[1999,2023]}/> -->
+
+<p class="center-col para">
+	Not only are these songs all written by women, they are also all performed by women. When women write songs, men rarely perform them.
+</p>
 
 <p class="center-col para">
 	Let’s explore how rare it is for women to write songs for men to perform. First, we’ll look at every hit song since the start of the Billboard Hot 100 in 1958.

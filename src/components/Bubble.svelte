@@ -130,7 +130,9 @@
 				<p>{cut[0]}, {cut[1].length} songs ({Math.round(cut[1].length/totalSongs * 100)}% of total)</p>
 				<div class="cut-songs">
 					{#each cut[1] as song}
-						<details class="song">
+
+						
+						<div class="song">
 							<summary class="para recommendation">{song.song_key.split(" by ")[0]} »</summary>
 							<div class="inner">
 								by {song.song_key.split(" by ")[1]},
@@ -138,7 +140,7 @@
 									written by {song["songwriters"].map(d => d.writer).join(", ")}
 								{/if}
 							</div>
-						</details>
+						</div>
 								
 					{/each}
 				</div>

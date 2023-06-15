@@ -24,7 +24,8 @@
 	--font-body: var(--serif);
 	--font-form: var(--sans);
 	--color-bg: var(--color-white);
-	--color-fg: var(--color-gray-900);
+	--color-bg: #191817;
+	--color-fg: #FFFAD7;
 	--color-primary: var(--color-black);
 	--color-link: var(--color-black);
 	--color-focus: var(--color-red);
@@ -84,8 +85,9 @@
 }
 
 .chart-hed {
-	font-family: "Arial";
-	font-size: 48px;
+	font-family: "DM Sans";
+	text-align: center;
+    font-size: 36px;
 }
 
 .double-col-step {
@@ -106,6 +108,7 @@
 	font-size: 24px;
 	font-family: 'DM Sans','sans-serif';
 	margin: 2em auto;
+	color: var(--color-fg);
 }
 
 h1 {
