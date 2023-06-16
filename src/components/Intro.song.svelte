@@ -4,6 +4,7 @@
     import Scroller from "@sveltejs/svelte-scroller";
 	import viewport from "$stores/viewport.js";
     import { fade, fly } from "svelte/transition";
+    import Group from "$components/Group.svelte";
 
     export let dataByYear;
     export let text;
@@ -99,8 +100,32 @@
             imgWidth:58,
             transform: 35,
             leftAdjust:0
+        },
+        "nb-2": {
+            width: 70,
+            imgWidth:70,
+            transform: 32,
+            leftAdjust:0
         }
     }
+
+
+
+    function getRandomInt(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+const getNumber = (gender) => {
+    if(gender == "m") {
+        return getRandomInt(1,10);
+    }
+    if(gender == "f") {
+        return getRandomInt(1,3);
+    }
+    return getRandomInt(1,2);
+}
+    
 
     let index, offset, progress;
     let threshold = 1;
@@ -123,22 +148,6 @@
         }
     };
 
-    function getRandomInt(min, max) {
-        min = Math.ceil(min);
-        max = Math.floor(max);
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
-
-
-    const getNumber = (gender) => {
-        if(gender == "m") {
-            return getRandomInt(1,10);
-        }
-        if(gender == "f") {
-            return getRandomInt(1,3);
-        }
-        return getRandomInt(1,1);
-    }
 
     const getProgressText = (progressAdjusted) => {
         if(progressAdjusted) {
@@ -201,6 +210,7 @@
                                 {#key textValue}
                                     <p in:fly="{{ y: 100, duration: 500, delay:500}}" out:fade="{{duartion:500}}" class="fixed-text">{@html textValue}</p>
                                 {/key}
+                                <p class="songwriters-legend">The Songwriting Team</p>
                             </div>
                             {#if textToShow}
                                 <div class="counter">
@@ -253,27 +263,7 @@
                                                 <p class="song-artist">{song.song_key.split(" by ")[1]}</p>
                                             </div>
                                             <div class="songwriters">
-                                                {#each song.genderArray.sort((a,b) => a.localeCompare(b)) as songwriter}
-                                                <!-- background:{songwriter == "m" ? "rgba(209, 36, 25,.4)" : songwriter == "f" ? "rgba(0,108,69,.6)" : 'rgba(0,108,69,.6)'};
-                                                color:{songwriter == "m" ? "white" : songwriter == "f" ? "white" : 'white'}; -->
-
-                                                {@const number = getNumber(songwriter)}
-                                                {@const gender = ["m","f","nb"].indexOf(songwriter) == -1 ? "m" : songwriter.replace(" ","")}
-                                                {@const identifier = `${gender}-${number}`}
-                                                {@const testTwo = test(identifier)}
-                                                <div class="black-fade">
-
-                                                </div>
-                                                <div class="songwriter"
-                                                        style="
-                                                        width:{sizes[identifier].width*.6}px;
-                                                        z-index:{identifier == "m-8" ? 100 : identifier == "m-10" ? '-1' : ''};
-                                                        "
-                                                    >
-                                                        <img class="gender-{sizes[identifier].width}" style="transform:translate({sizes[identifier].leftAdjust}%,{sizes[identifier].transform}%); width:{sizes[identifier].imgWidth*.7}px;" src="assets/{gender}-{number}.svg" alt="">
-                                                        <!-- {songwriter == "m" ? 'm' : "w"} -->
-                                                    </div>
-                                                {/each}
+                                                <Group {song} size={.6} labelPlacement={"second"} height={50}/>
                                             </div>    
                                         </div>
                                     </div>
@@ -295,8 +285,8 @@
         margin-bottom: 300px;
     }
     #scrolly {
-         max-width: 1200px;
          margin: 0 auto;
+         width: 100%;
     }
     .song-container {
         font-family: 'DM Sans';
@@ -304,7 +294,7 @@
     }
 
     .women-only {
-        border: 5px solid #006C45;
+        /* border: 5px solid #006C45; */
     }
 
     .count-row {
@@ -343,10 +333,27 @@
     }
     .song-wrapper {
         width: 100%;
+        overflow: hidden;
     }
 
     .fixed-text-wrapper {
         height: 100px;
+        position: relative;
+        font-family: 'DM Sans';
+    }
+
+    .songwriters-legend {
+        position: absolute;
+        bottom: 0;
+        right: 2em;
+        text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
+    }
+
+    .songwriters-label {
+        text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
+        color: #c498de;
+        margin-right: -3px;
+        font-size: 14px;
     }
 
     .black-overlay {
@@ -378,7 +385,6 @@
         flex-wrap: wrap;
         position: relative;
         z-index: 1;
-
     }
     .fixed-text {
         font-family: 'DM Sans';
@@ -388,10 +394,14 @@
 
     .song-title {
         margin: 0;
+        font-size: 18px;
+        opacity: .7;
     }
 
     .song-artist {
         margin: 0;
+        opacity: .7;
+        font-size: 14px;
     }
 
     .fixed {
@@ -399,8 +409,9 @@
 		top: 0em;
         z-index: 10000;
         width: calc(100% - 0px);
-        margin-left: auto;
-        margin-right: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
         padding-top: 10%;
 	}
     .fixed-wrapper {
@@ -416,9 +427,6 @@
 
     .songwriter {
         height: 50px;
-        /* padding: 5px 10px; */
-        /* margin-right: 10px; */
-        /* border-radius: 50%; */
         position: relative;
     }
 
@@ -427,19 +435,6 @@
         width: 100%;
         max-width: none;
         bottom: 0;
-
-
-        /* width: 5; */
-    }
-
-    .black-fade {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 100%;
-        right: 0;
-        display: none;
-        background: linear-gradient(180deg, rgba(25,24,23,0) 0px,rgba(25,24,23,.4) 100%);
     }
 
     .counter {

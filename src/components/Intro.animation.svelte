@@ -1,59 +1,212 @@
 <script>
     import Scrolly from "$components/helpers/Scrolly.svelte";
     import { range } from "d3";
+    import { onMount,getContext } from "svelte";
+    import Group from "$components/Group.svelte"	
+	import viewport from "$stores/viewport.js";
 
+    
+    export let data;
     export let text;
     let value;
 
+    let fixedHeight;
+
+    let stepValue = 0;
+
     let men = range(223);
     let women = range(32);
+
+    let average = {song_key:"Songwriters for Hit Songs by The Average",genderArray:["m","m","m","m","m","f"],cutTwo:"avearge"};
+    let dataForChart;
+
+    const getOpacity = (song,value) => {
+        if(stepValue == 0){
+            return 0;
+        }
+        if(stepValue == 2 && song.cutTwo !== "only men"){
+            return .1;
+        }
+        if(stepValue == 3 && song.cutTwo !== "only women"){
+            return .1;
+        }
+        return 1;
+    }
+
+	onMount(async () => {
+        // average = {genderArray:["m","m","m","m","m","f"],cutTwo:"avearge"};
+        // data.push(average)
+        // console.log(data);
+
+        dataForChart = JSON.parse(JSON.stringify(data))
+            .sort((a,b) => {
+
+                let aLength = a["genderArray"].length;
+                let bLength = b["genderArray"].length;
+                // console.log(aLength,bLength)
+                return bLength - aLength;
+            });
+        // dataForChart.push({song_key:"average by average",genderArray:["m","m","m","m","m","f"],cutTwo:"avearge"});
+	});
+
+    $: console.log(value)
+    $: stepValue = value ? value : 0;
 
 </script>
 
 
 <section class="wrapper">
-    <div class="fixed">
-        <div class="first-viz">
-            <div class="men">
-                {#each men as man,i}
-                    <div class="man"></div>
-                {/each}
-                {#each women as woman,i}
-                    <div class="woman"></div>
-                {/each}
+    <!-- <div class="sticky"> -->
+        <!-- <div class="fixed-wrapper" style="height:{$viewport.height}px"> -->
+
+    <div class="fixed" bind:clientHeight={fixedHeight}>
+        <div class="black-shade"
+        style="
+        opacity:{value > 0 ? '0' : ''};
+        "
+    >
+
+    </div>
+        <div class="average-wrapper">
+            <!-- <h1>{stepValue}</h1> -->
+            <!-- <div class="song-wrapper">
+                <div class="songwriters">
+                    <Group song={average} size={.4} labelPlacement={"first"} height={30}/>
+                </div>
+                <div class="song-key">
+                    <p class="song-title">{average.song_key.split(" by ")[0].slice(0,20)}</p>
+                    <p class="song-artist">{average.song_key.split(" by ")[1].slice(0,20)}</p>
+                </div>
+            </div> -->
+        </div>
+        {#if dataForChart}
+        {#each dataForChart as song, i}
+        {@const random = Math.random()}
+        <div class="song-wrapper"
+            style="
+                opacity:{getOpacity(song,value)};
+                --transitionDelay: {stepValue == 1 ? `${random*3000}ms` : ''};
+            "
+        >
+            <div class="songwriters">
+                <Group {song} size={.4} labelPlacement={"first"} height={30}/>
+            </div>
+            <div class="song-key">
+                <p class="song-title">{song.song_key.split(" by ")[0].slice(0,20)}</p>
+                <p class="song-artist">{song.song_key.split(" by ")[1].slice(0,20)}</p>
             </div>
         </div>
+        {/each}   
+        {/if}   
     </div>
+    <!-- </div> -->
+    <!-- </div> -->
     <Scrolly bind:value>
         {#each text as slide,i}
                 {@const active = value === i}
-                <div class="step double-col-step" class:active>
-                    <div class="double-col-para-wrapper">
-                        <p class="double-col para">
-                            {@html slide}
+                <div class="step single-col {text.length - 1}-{i}" class:active
+                    style="
+                        margin-top: {i == 0 ? (-fixedHeight/2) : ''}px;
+                        padding-top: {i == 0 ? '0' : ''}px;
+
+                        min-height: {i == (text.length - 1) ? '' : ''};
+                    "
+                >
+                    {#if i == 0}
+                        <div class="song-wrapper">
+                            <div class="songwriters">
+                                <Group song={average} size={.8} labelPlacement={"first"} height={30}/>
+                            </div>
+                            <!-- <div class="song-key">
+                                <p class="song-title">{average.song_key.split(" by ")[0]}</p>
+                                <p class="song-artist">{average.song_key.split(" by ")[1].slice(0,20)}</p>
+                            </div> -->
+                        </div>        
+                    {/if}
+                    <div class="tape-wrapper">
+                        <p class="para foreground">
+                            <span>{@html slide}</span>
                         </p>
-                    </div>
-                    
+                        <p class="para background">
+                            <span>{@html slide}</span>
+                        </p>
+                    </div>                    
                 </div>
         {/each}
     </Scrolly>
 </section>
 
 <style>
+.single-col .para {
+    text-align: center;
+}
+
+.wrapper .step {
+    min-height: 100px;
+    padding-top: 500px;
+    padding-bottom: 300px;
+}
+
+
+.step .songwriters {
+    max-width: none;
+}
+
+.black-shade {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-bg);
+    transition: opacity 1s;
+    z-index: 100000;
+    pointer-events: none;
+    display: none;
+}
+.step {
+    z-index: 10000;
+    position: relative;
+}
+.sticky {
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
 
 .wrapper {
     position: relative;
 }
 .fixed {
     position: sticky;
-    width: 100%;
     top: 50%;
+    display: flex;
+    /* position: absolute; */
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: translate(0,-50%);
+    /* flex-direction: column; */
+    /* height: 100vh; */
 }
 .men {
     display: flex;
     flex-wrap: wrap;
     transform: translate(0,-50%);
 }
+.fixed-wrapper {
+    position: relative;
+}
+
+.songwriters {
+        display: flex;
+        align-self: flex-end;
+        max-width: 150px;
+        flex-wrap: wrap;
+        position: relative;
+        z-index: 1;
+        margin: 0 auto;
+        justify-content: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
 .step {
     min-height: 75vh;
@@ -72,4 +225,45 @@
 .woman {
 	background-color: red;
 }
+.song-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    opacity: 1;
+    transition: opacity 2s;
+    transition-delay: var(--transitionDelay);
+}
+
+.song-key {
+    z-index: 100;
+    font-family: 'DM Sans';
+    position: relative;
+    margin-top: -10px;
+}
+
+.average-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1000;
+}
+
+.song-title {
+        margin: 0;
+        font-size: 18px;
+        opacity: .7;
+        text-align: center;
+        text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
+    }
+
+    .song-artist {
+        margin: 0;
+        opacity: .7;
+        font-size: 14px;
+        text-align: center;
+        text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
+    }
+
 </style>

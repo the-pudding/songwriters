@@ -84,6 +84,11 @@
 	padding: 0 25px;
 }
 
+.single-col {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
 .chart-hed {
 	font-family: "DM Sans";
 	text-align: center;
@@ -103,6 +108,56 @@
 .chart-header {
 	width: 100%;
 }
+
+
+.tape-wrapper {
+	position: relative;
+	margin-bottom: 30px;
+}
+.tape-wrapper .foreground {
+	position: relative;
+	z-index: 1000;
+}
+.tape-wrapper .background {
+	position: absolute;
+	top: 0;
+	/* left: 50%; */
+	/* transform: translate(-50%, 0); */
+	opacity: .88;
+}
+
+.woman-color {
+	color: #FFB102
+}
+
+.man-color {
+	color: #944EBE;
+}
+
+.tape-wrapper .para {
+	margin: 0;
+}
+
+.tape-wrapper .para a {
+	color: inherit;
+}
+
+.tape-wrapper .para span {
+	padding: 14px 0 11px 0;
+	box-shadow: 15px 0 transparent, -15px 0 transparent;
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+	background-color: rgba(0,0,0,0);
+}
+
+.tape-wrapper .background span {
+	color: #191817;
+	background-color: #191817;
+	box-shadow: 15px 0 #191817, -15px 0 #191817;
+}
+
+
+
 
 .para {
 	font-size: 24px;

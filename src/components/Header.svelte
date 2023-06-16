@@ -13,6 +13,7 @@
 		max-width: 10em;
 		margin: 0 auto;
 		padding: 1em 0;
+		width: 120px;
 	}
 
 	.wordmark a {

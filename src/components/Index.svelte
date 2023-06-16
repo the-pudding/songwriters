@@ -43,8 +43,10 @@
 	})
 
 	let introAnimationText = [
-		"Last year, a study by the Annenberg Institute found that only 14% of songwriters were women.",
-		"What might be even more alarming is how often women are outnumbered by men in songwriting teams.",
+		"In 2022, hit songs had, on average, 6 songwriters: <span class=woman-color>1 woman</span> and <span class=man-color>5 men</span>.",
+		"But the average conceals a remarkable fact about the 42 songs that charted in top 5 of Billboard Hot 100...",
+		"Half of the songs had a songwriting team of all men.",
+		"Only one song had a songwriting team consisting of just women.",
 	]
 
 	let textFirst = {
@@ -86,10 +88,10 @@
 	<link href="https://fonts.googleapis.com/css?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 </svelte:head>
 
-<!-- <IntroAnimation text={introAnimationText} /> -->
+<IntroAnimation text={introAnimationText} data={dataByYear.filter(d => +d[0] == 2022)[0][1]} />
 
 <p class="center-col para">
-    In 2022, 42 songs cracked the top 5 of the Billboard Hot 100, but only 1 was written exclusively by women. That one song - Kate Bush’s “Running Up that Hill (A Deal with God)” - was written in 1985 and only saw a resurgence because it was featured in the popular Netflix show <i>Stranger Things</i>.
+    That one song - Kate Bush’s “Running Up that Hill (A Deal with God)” - was written in 1985 and only saw a resurgence because it was featured in the popular Netflix show <i>Stranger Things</i>.
 </p>
 
 <p class="center-col para">
@@ -128,7 +130,7 @@
 </p>
 
 <p class="chart-hed">Gender breakdown of Top 5 Hits, 1958-2022</p>
-<Female {dataByYear} {dataByGender} {dataByYearWomenOnly} cut="two" slides={slidesTwo} yearRange={[1957,2023]}/>
+<!-- <Female {dataByYear} {dataByGender} {dataByYearWomenOnly} cut="two" slides={slidesTwo} yearRange={[1957,2023]}/> -->
 
 <p class="center-col para">
 	Women often singing the songs that they wrote might seem like a trifling detail, but it actually suggests something more vital: You cannot talk about the history of music without talking men actively limiting the musical activities that women were allowed to participate in.
