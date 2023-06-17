@@ -119,9 +119,8 @@ const getNumber = (gender) => {
 
 <p class="songwriters-label {labelPlacement}"
     style="
-    display: {song.cutTwo == "only men" || song.cutTwo == "only women" ? '' : 'none'};
     color: {song.cutTwo == "only women" ? "#FFB102" : ''};
-    display: {labelPlacement == "second" ? 'block' : 'none'};
+    display: {labelPlacement == "second" ? song.cutTwo == "only men" || song.cutTwo == "only women" ? 'block' : 'none' : 'none'};
     "
 >
     {song.cutTwo}
@@ -162,5 +161,12 @@ color:{songwriter == "m" ? "white" : songwriter == "f" ? "white" : 'white'}; -->
         color: #c498de;
         margin-right: -3px;
         font-size: 14px;
+        position: absolute;
+        left: 0;
+        transform: translate(-100%,-50%);
+        margin: 0;
+        text-align: right;
+        top: 50%;
+        line-height: 1;
     }
 </style>

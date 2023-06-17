@@ -5,6 +5,7 @@
 	import viewport from "$stores/viewport.js";
     import { fade, fly } from "svelte/transition";
     import Group from "$components/Group.svelte";
+    import { group } from "d3";
 
     export let dataByYear;
     export let text;
@@ -15,6 +16,7 @@
     let textValue;
     let songColHeight;
     let textToShow;
+    let cutTotals;
 
     let sizes = {
         "m-1":{
@@ -109,7 +111,11 @@
         }
     }
 
-
+    const getBarWidth = (num) => {
+        let dom = cutTotals.get("only men").length;
+        // textToShow[statCat]/cutTotals.get(statCat).length
+        return num/dom*100;
+    }
 
     function getRandomInt(min, max) {
         min = Math.ceil(min);
@@ -142,7 +148,6 @@ const getNumber = (gender) => {
         console.log(id)
     }
     const getText = () => {
-
         if(textKeys.indexOf(value) > -1){
             textValue = text[value];
         }
@@ -151,12 +156,16 @@ const getNumber = (gender) => {
 
     const getProgressText = (progressAdjusted) => {
         if(progressAdjusted) {
-
             let text = progressCounts[Math.floor(Math.min(progressAdjusted*progressCounts.length-1),1)];
             return text;
 
         }
         return textToShow;
+    }
+
+    const calcTotals = () => {
+        cutTotals = group(dataByYear.flat(2).filter(d => d.id), d => d.cutTwo);
+        console.log(cutTotals.get("only men"))
     }
 
     const calcProgress = () => {
@@ -191,9 +200,10 @@ const getNumber = (gender) => {
     $: textKeys = Object.keys(text).map(d => +d);
     $: progressAdjusted = clamp(progress,0,1);
     $: dataByYear, calcProgress();
+    $: dataByYear, calcTotals();
+    $: console.log(progress)
 
     $: textToShow = getProgressText(progressAdjusted);
-    $: console.log(priorStats)
 
 </script>
 
@@ -205,29 +215,48 @@ const getNumber = (gender) => {
             <div class="fixed" style="">
                 <div class="fixed-wrapper" style="height:{$viewport.height}px">
                     {#if progressCounts && progress}
-                        <!-- <h2> -->
-                            <div class="fixed-text-wrapper">
-                                {#key textValue}
-                                    <p in:fly="{{ y: 100, duration: 500, delay:500}}" out:fade="{{duartion:500}}" class="fixed-text">{@html textValue}</p>
-                                {/key}
-                                <p class="songwriters-legend">The Songwriting Team</p>
-                            </div>
-                            {#if textToShow}
-                                <div class="counter">
-                                    {#each Object.keys(priorStats) as statCat}
+                        <div class="fixed-text-wrapper">
+                            {#if progressAdjusted > .07}
+                            {#key textValue}
+                                <p in:fly="{{ y: 100, duration: 500, delay:500}}" out:fade="{{duartion:500}}" class="fixed-text">
+                                    {@html textValue}
+                                </p>
+                            {/key}
+                            <p class="songwriters-legend">The Songwriting Team</p>
+                            {/if}
+                        </div>
+                        {#if textToShow && cutTotals && progressAdjusted < 1}
+                            <div class="counter">
+                                <p class="counter-label"># of Songs Written by...</p>
+                                <!-- {#each Object.keys(priorStats) as statCat} -->
+                                <div class="bar-wrapper">
+                                    {#each ["only men","only women"] as statCat, j}
                                         {#if textToShow[statCat]}
-                                            <p class="count-row">{statCat}: {textToShow[statCat]}</p>
+                                        <div class="row">
+                                            <p class="count-row">{statCat}:</p>
+                                            <div class="bar-container">
+                                                <div style="
+                                                    width:{getBarWidth(textToShow[statCat])}%;
+                                                    " class="bar-rect {j == 0 ? 'men-bar' : 'women-bar'}"
+                                                >
+                                                    <p class="count-label">{textToShow[statCat]}</p>
+                                                </div>
+                                            </div>
+                                            <div class="faux">
+
+                                            </div>
+                                        </div>
                                         {/if}
                                     {/each}
                                 </div>
-                            {/if}
-                        
-                            
-                            
-                        <!-- </h2> -->
+                                
+                            </div>
+                        {/if}                            
                     {/if}
+                    {#if progressAdjusted > .07}
                     <div class="black-overlay">
                     </div>
+                    {/if}
                 </div>
 
             </div>
@@ -254,11 +283,16 @@ const getNumber = (gender) => {
                                             background-color:{song.menOnly == "only men" ? "rgba(0,0,255,0)" : song.womenOnly == "only women" ? 'rgba(255,0,0,0)' : ''};
                                             "
                                         >
+                                            {#if song.womenOnly == "only women"}
+                                            <div class="bar">
 
-                                        <div class="bar">
-
-                                        </div>
-                                            <div class="song-key">
+                                            </div>
+                                            {/if}
+                                            <div class="song-key"
+                                                style="
+                                                color: {song.cutTwo == "only women" ? "#FFB102" : ''};
+                                                "
+                                            >
                                                 <p class="song-title">{song.song_key.split(" by ")[0]}</p>
                                                 <p class="song-artist">{song.song_key.split(" by ")[1]}</p>
                                             </div>
@@ -293,21 +327,63 @@ const getNumber = (gender) => {
         width:100%;
     }
 
+    .bar-container {
+        flex-grow: 1;
+        width: 1px;
+        display: flex;
+    }
+
+    .faux {
+        width: 30px;
+    }
+
     .women-only {
         /* border: 5px solid #006C45; */
     }
 
+    .bar-wrapper {
+        width: 100%;
+    }
+    
+
     .count-row {
         font-family: 'DM Sans';
+        margin: 0;
+        width: 100px;
+        margin-right: 10px;
+        text-align: right;
+        font-size: 14px;
+        line-height: 1.1;
     }
     .bar {
         position: absolute;
         width: 100%;
-        height: 1px;
-        background: none;
+        height: 100%;
+        top:-10px;
+        left: 0;
+        height: calc(100% + 10px);
+        background: linear-gradient(90deg, rgba(255,177,9,.25) 100px, rgba(0,0,0,0) 521px);
     }
     .song-key {
         margin-right: 10px;
+        padding-left: 10px;
+    }
+
+    .count-label {
+        position: absolute;
+        right: 0;
+        margin: 0;
+        font-family: 'DM Sans';
+        font-size: 14px;
+        padding-left: 8px;
+        top: 50%;
+        transform: translate(100%, -50%);
+        left: auto;
+    }
+
+    .row {
+        display: flex;
+        width: 100%;
     }
     .year {
         text-align: center;
@@ -341,6 +417,12 @@ const getNumber = (gender) => {
         position: relative;
         font-family: 'DM Sans';
     }
+    .bar-rect {
+        height: 5px;
+        width: 10px;
+        position: relative;
+        align-self: center;
+    }
 
     .songwriters-legend {
         position: absolute;
@@ -352,6 +434,7 @@ const getNumber = (gender) => {
     .songwriters-label {
         text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
         color: #c498de;
+        margin: 0;
         margin-right: -3px;
         font-size: 14px;
     }
@@ -374,7 +457,9 @@ const getNumber = (gender) => {
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-        border-bottom: 1px dashed rgba(255,255,255,.25)
+        border-bottom: 1px dashed rgba(255,255,255,.25);
+        padding-right: 10px;
+        position: relative;
     }
 
 
@@ -385,6 +470,7 @@ const getNumber = (gender) => {
         flex-wrap: wrap;
         position: relative;
         z-index: 1;
+        justify-content: center;
     }
     .fixed-text {
         font-family: 'DM Sans';
@@ -395,12 +481,10 @@ const getNumber = (gender) => {
     .song-title {
         margin: 0;
         font-size: 18px;
-        opacity: .7;
     }
 
     .song-artist {
         margin: 0;
-        opacity: .7;
         font-size: 14px;
     }
 
@@ -412,7 +496,6 @@ const getNumber = (gender) => {
         left: 0;
         right: 0;
         margin: 0 auto;
-        padding-top: 10%;
 	}
     .fixed-wrapper {
         position: absolute;
@@ -439,7 +522,29 @@ const getNumber = (gender) => {
 
     .counter {
         display: flex;
-        width: 100%;
+        width: calc(100% - 20px);
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+
+    .men-bar {
+        background: var(--color-men);
+    }
+
+    .women-bar {
+        background: var(--color-women);
+    }
+
+    .counter-label {
+        font-family: 'DM Sans';
+        font-size: 16px;
+        margin: 0;
+        width: 263px;
+        text-align: right;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 1px;
+        align-self: center;
     }
 </style>
 

@@ -50,15 +50,15 @@
 	]
 
 	let textFirst = {
-        0: "In 2021, there was one: Taylor Swift’s “All Too Well,” a song written by Swift with Liz Rose.",
-		1: "A year prior, Toni Watson, known as Tones and I, wrote her own hit, “Dance Monkey.”",
+        0: "In 2021, there was one: <span class=woman-color>Taylor Swift’s “All Too Well,”</span> a song written by Swift with Liz Rose.",
+		1: "A year prior, Toni Watson, known as Tones and I, wrote her own hit, <span class=woman-color>“Dance Monkey.”</span>",
         2: "But there were none in 2019",
         3: "or 2018…",
 		4: "or 2017…",
 		5: "or 2016…",
         6: "It’s been 5 years. How long is this going to take???",
         10: "This is getting ridiculous",
-        11: "Wait! Here are 2 …"
+        11: "Wait! <span class=woman-color>Here are 2…</span>"
     }
 
 	let textSecond = {
