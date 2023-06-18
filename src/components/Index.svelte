@@ -11,6 +11,7 @@
 	import { groups } from "d3";
 	import Treemap from "$components/Treemap.svelte";
 	import Line from "$components/Line.svelte"
+	import Sparkle from "./Sparkle.svelte";
 
 	// import Footer from "$components/Footer.svelte";
 
@@ -87,6 +88,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 </svelte:head>
+
+<Sparkle></Sparkle>
 
 <IntroAnimation text={introAnimationText} data={dataByYear.filter(d => +d[0] == 2022)[0][1]} />
 

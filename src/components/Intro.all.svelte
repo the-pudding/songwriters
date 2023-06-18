@@ -15,7 +15,6 @@
     
 </script>
 
-
 <div class="song-wrapper">
     {#each dataByGender as gender}
         <div class="songwriter"
