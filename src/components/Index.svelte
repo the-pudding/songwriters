@@ -110,10 +110,11 @@
 <p class="center-col para">
 	And both were written and performed by Taylor Swift. This isn’t shocking for two reasons. First, hit songs written by women without any male co-writers are rare. Second, when women do write a hit without a man also sharing credit, they often end up performing the song themselves.
 </p>
-<div class="center-col">
-	<h1>Women are superstars on stage but still rarely get to write songs</h1>
+<div class="center-col" style="max-width:100vw">
+	<img id="headline" src="assets/headline-base.png">
+	<!-- <h1>Women are superstars on stage but still rarely get to write songs</h1>
 	<h3>The Gender Breakdown of Songwriting Teams</h3>
-	<p>by chris dalla riva, design by ashley cai</p>
+	<p>by chris dalla riva, design by ashley cai</p> -->
 </div>
 <p class="center-col para">
 	To recap the results from the past 13 years, there are so few songs written exclusively by women that I can list them all.
