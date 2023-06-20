@@ -98,8 +98,6 @@
 	Songs written by <i>just</i> women are rarer than you think. How often do you think a top 5 hit has been written just by women in the last 10 years?
 </p>
 
-<!-- <IntroAll /> -->
-
 <p class="chart-hed">The Songwriters for Every Top 5 Hit, by Year</p>
 
 <IntroSong dataByYear={dataByYear.filter(d => +d[0] < 2022 && +d[0] > 2009)} text={textFirst} priorStats={priorOne}/>
@@ -116,11 +114,6 @@
 	To recap the results from the past 13 years, there are so few songs written exclusively by women that I can list them all.
 </p>
 
-<!-- <IntroSong dataByYear={dataByYear.filter(d => +d[0] < 2010 && +d[0] > 1999)} text={textSecond} priorStats={priorTwo}/> -->
-
-
-<!-- <Female {dataByYear} {dataByGender} {dataByYearWomenOnly} cut="one" {slides} yearRange={[1999,2023]}/> -->
-
 <p class="center-col para">
 	Not only are these songs all written by women, they are also all performed by women. When women write songs, men rarely perform them.
 </p>
@@ -129,8 +122,8 @@
 	Let’s explore how rare it is for women to write songs for men to perform. First, we’ll look at every hit song since the start of the Billboard Hot 100 in 1958.
 </p>
 
-<p class="chart-hed">Gender breakdown of Top 5 Hits, 1958-2022</p>
-<!-- <Female {dataByYear} {dataByGender} {dataByYearWomenOnly} cut="two" slides={slidesTwo} yearRange={[1957,2023]}/> -->
+<p class="chart-hed">Every Top 5 Hit, 1958-2022, Broken Down by Songwriting Team Gender</p>
+<Female {dataByYear} {dataByGender} {dataByYearWomenOnly} cut="two" slides={slidesTwo} yearRange={[1957,2023]}/>
 
 <p class="center-col para">
 	Women often singing the songs that they wrote might seem like a trifling detail, but it actually suggests something more vital: You cannot talk about the history of music without talking men actively limiting the musical activities that women were allowed to participate in.
@@ -150,6 +143,7 @@
 <p class="chart-hed">
 	In 2022, women represented 14% of songwriters among Top 5 Billboard hits, a number that hasn't in changed 60 years.
 </p>
+<p>The {writersByYear.flat(1).length} songwriters of a top 5 hit, 1958 - 2022</p>
 <Line dataByYear={writersByYear} />
 
 <p class="center-col para">
@@ -162,7 +156,7 @@
 <!-- <Waffle data={data.songs}/> -->
 
 
-<Bubble data={waffleWriterData} />
+<!-- <Bubble data={waffleWriterData} /> -->
 <!-- <Demo /> -->
 <style>
 </style>
