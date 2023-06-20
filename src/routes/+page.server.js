@@ -26,6 +26,12 @@ export async function load() {
 		return b.year - a.year;
 	})
 
+	Writers.forEach(d => {
+		if(d.gender == "pf") {
+			d.gender = "f";
+		}
+	})
+
 	let writerKey = group(Writers, d => d["title_artist_name"].toLowerCase());
 	let writersByYear = groups(Writers, d => d["year"].toLowerCase()).sort((a,b) => {
 		return a[0] - b[0];

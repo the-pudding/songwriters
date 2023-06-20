@@ -17,7 +17,11 @@
     export let yearRange;
 
     let value;
+    let linearGradientHeight = 0;
+    let secondGradientTop = 0;
     let dataForChart;
+    let marginX = 25;
+    let marginY  = 25;
 
     let nearTermData;  
     let allTimeData; 
@@ -28,6 +32,12 @@
         "m;f": "mixed gender band"
     }
 
+    let labelTestKey = {
+        "only women":"Songs Written by Only Women",
+        "mixed, majority men":"Mixed Gender Songwriting Teams",
+        "only men":"Songs Written by Only Men"
+    }
+
 
     let viewControl = {
         0: "close",
@@ -36,26 +46,46 @@
         3: "close"
     }
 
-    let colorRange = scaleLinear().domain([0,1]).range(["purple","green"]);
+    let colorRange = scaleLinear().domain([0,1]).range(["#944EBE","#FFB102"]);
 
-    const getColor = (first,value) => {
+    const getOpacity = (first,value) => {
         if(cut=="two" && first.artist_gender == "m" && value==1) {
-            return "grey"
+            return 1
         }
 
         if(cut=="two" && first.artist_gender == "m;f" && value==2) {
-            return "red"
+            return 1
         }
         if(cut=="two" && first.artist_gender == "f" && value==3) {
             let singerSongwriter = false;
             let songwriterList = first.songwriters;
-            
-            songwriterList.forEach(d => {
-                console.log(d.writer_is_artist);
-            })
-            
-            return "blue"
+        
+            return 1
         }
+        if(value > 0){
+            return .2;
+        }
+        return 1;
+    }
+
+    const getColor = (first,value) => {
+        // if(cut=="two" && first.artist_gender == "m" && value==1) {
+        //     return "grey"
+        // }
+
+        // if(cut=="two" && first.artist_gender == "m;f" && value==2) {
+        //     return "red"
+        // }
+        // if(cut=="two" && first.artist_gender == "f" && value==3) {
+        //     let singerSongwriter = false;
+        //     let songwriterList = first.songwriters;
+            
+        //     songwriterList.forEach(d => {
+        //         console.log(d.writer_is_artist);
+        //     })
+            
+        //     return "blue"
+        // }
 
         return colorRange(first.percent);
     }
@@ -63,6 +93,11 @@
     const updateData = (value,years) => {
 
             let tempData;
+            let availableWidth = $viewport.width - (marginX*2);
+            let availableHeight = $viewport.height - (marginY*2);
+
+
+
             tempData = JSON.parse(JSON.stringify(dataByYear));
 
             tempData = tempData.filter((d) => {
@@ -79,7 +114,7 @@
             });
 
 
-            let viewportPixels = $viewport.height * $viewport.width;
+            let viewportPixels = availableHeight * availableWidth;
 
             let ratio = 1;//width/height;
 
@@ -87,7 +122,7 @@
             let maxSquare = 300;
             let bigCardsNeeded = tempData.filter(d => d.percent == 1).length;
             
-            let squareSize = Math.floor(Math.min($viewport.width, $viewport.height) / Math.sqrt(bigCardsNeeded));
+            let squareSize = Math.floor(Math.min(availableWidth, availableHeight) / Math.sqrt(bigCardsNeeded));
             squareSize = Math.min(maxSquare,squareSize);
 
             let getMaxSizeOfSquaresInRect = function(n,w,h) {
@@ -101,8 +136,8 @@
                 return Math.max(sw,sh);
             }
             
-            const squareDimension = getMaxSizeOfSquaresInRect(bigCardsNeeded,$viewport.width, $viewport.height);
-            const squareSizeSmall = getMaxSizeOfSquaresInRect(totalTiles,$viewport.width, $viewport.height);
+            const squareDimension = getMaxSizeOfSquaresInRect(bigCardsNeeded,availableWidth, availableHeight);
+            const squareSizeSmall = getMaxSizeOfSquaresInRect(totalTiles,availableWidth, availableHeight);
             
 
             squareSize = squareDimension
@@ -118,14 +153,15 @@
             let newCardHeight = squareSizeSmall//Math.sqrt(cardArea/ratio);
             let newCardWidth = squareSizeSmall//newCardHeight*ratio;
 
-            let formerCardCountWidth = $viewport.width/width;
+            let formerCardCountWidth = availableWidth/width;
 
             let cardWidthDecease = newCardWidth/width;
             let widthChange = formerCardCountWidth/cardWidthDecease/formerCardCountWidth;
 
-            let newCardCountWidth = Math.floor($viewport.width * widthChange / width);
-            let secondCountWidth = Math.floor($viewport.width * 1 / width);
+            let newCardCountWidth = Math.floor(availableWidth * widthChange / width);
+            let secondCountWidth = Math.floor(availableWidth * 1 / width);
             
+            let minMenOnlyValues = [];
 
             tempData.forEach((d,i) => {
                 d.width = squareSize;
@@ -133,6 +169,19 @@
                 d.widthChange = widthChange
                 d.x = Math.floor(i % newCardCountWidth * width);
                 d.y = Math.floor(i / newCardCountWidth) * height;
+
+                
+                if(d.cutTwo == "only women") {
+                    d.y = d.y - squareSize/2;
+                }
+                else if(d.cutTwo == "only men"){
+                    d.y = d.y + squareSize/2;
+                    d.x = d.x + squareSize;
+                    minMenOnlyValues.push(d.y);
+                }
+                else {
+                    d.x = d.x + squareSize/2;
+                }
 
                 if(d.cutTwo == "only women"){
                     d.targetX = Math.floor(i % secondCountWidth * width);
@@ -145,7 +194,12 @@
 
             })
 
+            linearGradientHeight = Math.min(...tempData.filter(d => d.cutTwo != "only women").map(d => d.y)) + squareSize*1.5;
+            secondGradientTop = Math.min(...minMenOnlyValues);
+            console.log(secondGradientTop);
+
             return groups(tempData, (d) => {
+                return d.cutTwo;
                 if(d.percent == 1){
                     return "women";
                 }
@@ -190,28 +244,85 @@
 
 <section class="wrapper">
     <div class="song-wrapper {value == 5 ? 'performer-slide' : ''}">
-        <p class="chart-header">songs written by women</p>    
-        
         {#if dataForChart}
             {@const cardWidthDecease = dataForChart[0][1][0].cardWidthDecease}
             {@const widthChange = dataForChart[0][1][0].widthChange}
 
             {#if value < 5 || value == undefined}
                 <div class="song-col-wrapper"
-                    style="width:{widthChange*100}%; transform:translate3d(0,0,0) scale({value == undefined || viewControl[value] == "far" ? cardWidthDecease : 1});"
+                    style="
+                        width:{widthChange*100}%;
+                        transform:translate3d(0,0,0) scale({value == undefined || viewControl[value] == "far" ? cardWidthDecease : 1});
+                        left:{marginX}px;
+                        top:{marginY}px;
+                    "
                 >
+                
+                    <!-- {#if viewControl[value] == "far" || value == undefined} -->
+                        <div out:fade={{duration:250,delay:2500}} in:fade={{duration:1000,delay:0}} class="gradient-waffle" style="
+                        top:{0};
+                        height: {linearGradientHeight}px;
+                        ">
+                        </div>
+
+                        <div out:fade={{duration:250,delay:2500}} in:fade={{duration:1000,delay:2500}} class="gradient-waffle" style="
+                            top:{secondGradientTop}px;
+                            z-index:2500;
+                            opacity: .5;
+                            height: {linearGradientHeight}px;
+                        ">
+                        </div>
+                    <!-- {/if} -->
+
+
                     <div class="song-col">
                         {#each dataForChart as cut}
                         <div 
-                            class="{cut[0]} {cut[0] == "no-women" && viewControl[value] == "close" ? "fade" : ""}"
+                            class="{cut[0] != "only women" ? "no-women" : 'only-women'} {cut[0] !== "only women" && viewControl[value] == "close" ? "fade" : ""}"
+                            style="
+                                position:relative;
+                                z-index:{cut[0] != 'only women' && cut[0] != 'only men' ? '5000' : ''};
+                                "
                         >
-                        {#each cut[1] as song}
+                        {#each cut[1] as song, j}
+                            {#if j == 0 && Object.keys(labelTestKey).indexOf(cut[0]) > -1}
+                                {#if viewControl[value] == "far" || value == undefined}
+                                    <div
+                                        class="label-test" 
+                                        style="
+                                        transform:translate3d({song.x}px,{song.y+(song.width)}px, 0) scale(calc(1 / {cardWidthDecease}));
+                                        "
+                                        in:fade={{delay: 2000}}>
+                                            <span 
+                                            class="only-women-label only-women-label-bg"
+                                            style="
+                                                background: {getColor(song,value)};
+                                                color: #ffb202;
+                                                opacity:{song.cutTwo == "only women" ? '' : song.cutTwo == "only men" ? '0' : '.5'};
+                                            "
+                                            >
+                                                {labelTestKey[song.cutTwo]}
+                                            </span>
+                                            <span 
+                                                class="only-women-label"
+                                                style="
+                                                    background: none;
+                                                    color:{song.cutTwo == "only women" ? '' : '#FFF'};
+                                                "
+                                            >
+                                                {labelTestKey[song.cutTwo]}
+                                            </span>
+                                    </div>
+                                {/if}                    
+                            {/if}
                             <div 
                                 style="
                                     transform:translate3d({value == undefined || viewControl[value] == "far" ? song.x : song.targetX}px,{ value == undefined || viewControl[value] == "far" ? song.y : song.targetY}px, 0);
                                     background-color:{getColor(song,value)};
-                                    width:{song.width-10}px;
-                                    height:{song.width-10}px;
+                                    width:{song.width-5}px;
+                                    height:{song.width-5}px;
+                                    opacity: {getOpacity(song,value)};
+                                    z-index:{song.cutTwo == "only women" ? '100000' : song.cutTwo == "only men" ? '1000' : '5000'};
                                 "
                                 class="song-row"
                             >
@@ -228,16 +339,23 @@
                                 {/if} -->
                             </div>
                         {/each}
-                        
-                        {#if cut[0] == "women"}
-                            <div class="text-overlay" style="opacity:{value == undefined || viewControl[value] == "far" ? 0 : 1};">
+                        <!-- opacity:{value == undefined || viewControl[value] == "far" ? 1 : 1}; -->
+                        {#if cut[0] == "only women"}
+                            <div class="text-overlay"
+                                style=""
+                            >
                                 {#each cut[1] as song}
                                     <div
                                         class="song-row song-row-text"
                                         style="
+                                        opacity:{value == undefined || viewControl[value] == "far" ? 0 : 1};
                                         transform:translate3d({song.targetX}px,{song.targetY}px, 0);
-                                        width:{song.width-10}px;
-                                        height:{song.width-10}px;
+                                        width:{song.width-5}px;
+                                        height:{song.width-5}px;
+
+                                        transition:{value == undefined || viewControl[value] == "far" ? '' : "transform .5s 2s, opacity 2s 2.5s"};
+                                        }
+                                        height:{song.width-5}px;
                                         "
                                     >
                                         <p class="song-name"
@@ -254,7 +372,7 @@
                                                 font-size: {song.width < 100 ? 10 : ''}px;
                                             "
                                             >
-                                                written by {song["songwriters"].map(d => d.writer).join(", ")}
+                                                {song["songwriters"].map(d => d.writer).join(", ")}
                                             </p>
                                         {/if}        
                                     </div>    
@@ -272,13 +390,18 @@
     <Scrolly bind:value>
         {#each slides as slide,i}
                 {@const active = value === i}
-                <div class="step double-col-step" class:active>
-                    <div class="double-col-para-wrapper">
-                        <p class="double-col para">
-                            {@html slide}
+                <div class="step"
+                    style="margin-top:{i == 0 ? '400px' : ''};"
+                    class:active
+                >
+                    <div class="tape-wrapper">
+                        <p class="para foreground">
+                            <span>{@html slide}</span>
                         </p>
-                    </div>
-                    
+                        <p class="para background">
+                            <span>{@html slide}</span>
+                        </p>
+                    </div>               
                 </div>
         {/each}
     </Scrolly>
@@ -287,17 +410,44 @@
 
 <style>
 
-
+    .step {
+        max-width: 400px;
+        margin-left: 100px;
+    }
     .text-overlay {
-        opacity: 0;
-        transition: opacity .5s 2.5s;
+        opacity: 1;
+        /* transform: translate3d(0,0,0); */
+        /* transition: opacity .5s 2.5s; */
     }
-    .writer-name {
-        font-size: 14px;
-        margin: 0;
-    }
+    
     .performer-slide .performer-flag {
         color: red;
+    }
+
+    .only-women-label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(0,-50%);
+        background-color: var(--color-women);
+        /* box-shadow: -3px -3px 1px rgba(255, 177, 2,1), -3px -2px 1px rgba(255, 177, 2,1), -3px -1px 1px rgba(255, 177, 2,1), -3px 0px 1px rgba(255, 177, 2,1), -3px 1px 1px rgba(255, 177, 2,1), -3px 2px 1px rgba(255, 177, 2,1), -3px 3px 1px rgba(255, 177, 2,1), -2px -3px 1px rgba(255, 177, 2,1), -2px -2px 1px rgba(255, 177, 2,1), -2px -1px 1px rgba(255, 177, 2,1), -2px 0px 1px rgba(255, 177, 2,1), -2px 1px 1px rgba(255, 177, 2,1), -2px 2px 1px rgba(255, 177, 2,1), -2px 3px 1px rgba(255, 177, 2,1), -1px -3px 1px rgba(255, 177, 2,1), -1px -2px 1px rgba(255, 177, 2,1), -1px -1px 1px rgba(255, 177, 2,1), -1px 0px 1px rgba(255, 177, 2,1), -1px 1px 1px rgba(255, 177, 2,1), -1px 2px 1px rgba(255, 177, 2,1), -1px 3px 1px rgba(255, 177, 2,1), 0px -3px 1px rgba(255, 177, 2,1), 0px -2px 1px rgba(255, 177, 2,1), 0px -1px 1px rgba(255, 177, 2,1), 0px 1px 1px rgba(255, 177, 2,1), 0px 2px 1px rgba(255, 177, 2,1), 0px 3px 1px rgba(255, 177, 2,1), 1px -3px 1px rgba(255, 177, 2,1), 1px -2px 1px rgba(255, 177, 2,1), 1px -1px 1px rgba(255, 177, 2,1), 1px 0px 1px rgba(255, 177, 2,1), 1px 1px 1px rgba(255, 177, 2,1), 1px 2px 1px rgba(255, 177, 2,1), 1px 3px 1px rgba(255, 177, 2,1), 2px -3px 1px rgba(255, 177, 2,1), 2px -2px 1px rgba(255, 177, 2,1), 2px -1px 1px rgba(255, 177, 2,1), 2px 0px 1px rgba(255, 177, 2,1), 2px 1px 1px rgba(255, 177, 2,1), 2px 2px 1px rgba(255, 177, 2,1), 2px 3px 1px rgba(255, 177, 2,1), 3px -3px 1px rgba(255, 177, 2,1), 3px -2px 1px rgba(255, 177, 2,1), 3px -1px 1px rgba(255, 177, 2,1), 3px 0px 1px rgba(255, 177, 2,1), 3px 1px 1px rgba(255, 177, 2,1), 3px 2px 1px rgba(255, 177, 2,1), 3px 3px 1px rgba(255, 177, 2,1); */
+        z-index: 1000000;
+        margin: 0;
+        font-size: 18px;
+        padding: 0 5px;
+        font-family: 'DM Sans';
+        color: var(--color-bg);
+        
+    }
+
+    .label-test {
+        color: black;
+        transform: scale(calc(1/.2));
+        transform-origin: left;
+        z-index: 100000000;
+        position: absolute;
+        font-family: 'DM Sans';
+        width: 350px;
     }
 
     .song-col {
@@ -324,11 +474,17 @@
         background-color: #f7f7f7;
         transform: translate3d(0,0,0) scale(0);
         position: absolute;
-        transition: transform .5s 2s;
+        transition: transform .5s 2s, opacity .5s;
     }
 
     .song-row-text {
         background: none;
+        z-index: 1000000;
+        font-family: 'DM Sans';
+        color: var(--color-bg);
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
     }
 
     .song-name {
@@ -336,6 +492,17 @@
         width: 100%;
         margin: 0;
         max-height: 60px;
+        line-height: 1;
+        padding: 5px;
+    }
+
+    .writer-name {
+        font-size: 14px;
+        margin: 0;
+        line-height: 1;
+        flex-grow: 1;
+        padding: 5px;
+        background: rgba(0,0,0,.2);
     }
 
     .year {
@@ -374,9 +541,7 @@
 
     }
 
-    .no-women {
-        transition: opacity 1s 1.5s;
-    }
+    
 
     .fade {
         opacity: 0;
@@ -409,11 +574,24 @@
 		height: 75vh;
 	}
 
+    .gradient-waffle {
+        width: 100%;
+        background: linear-gradient(180deg, #181716 0px, rgba(25,24,23,0) 100%);
+        height: 180px;
+        position: absolute;
+        z-index: 10000;
+        top: -25px;
+    }
+
     
     .male-performer, .mixed-performer {
         border-color: black;
         border: 1px solid black;
         background-color: rgba(0,0,0,.2);
+    }
+
+    .no-women {
+        transition: opacity 1s 1.5s;
     }
 </style>
 

@@ -266,7 +266,10 @@ const getNumber = (gender) => {
 
                     {#each dataByYear as dataYear,i}
                         {@const active = value === i}
-                        <section class="step year-section" class:active>
+                        <section class="step year-section"
+                            style="padding-bottom:{dataByYear.length - 1 == i ? "100px" : ''};"
+                            class:active
+                        >
                             
                             <p class="year">{dataYear[0]}</p>
                             {#each dataYear[1] as song}
