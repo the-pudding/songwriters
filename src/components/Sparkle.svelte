@@ -4,20 +4,43 @@
 </script>
 
 
-<div class="sparkle" style={position} id = "big-sparkle-{starNumber}"></div>
+<div class="sparkle" style="position:absolute; {position};" id ="big-sparkle-{starNumber}"></div>
 
 <style>
     
 #big-sparkle-1 { 
-    --width: 400px; /*temp variable placeholder*/
+    --width: 30vw; /*temp variable placeholder*/
     --height: calc(var(--width)*1.1);
     width: var(--width);
     height: var(--height);
 
-    position:absolute;
     background-image: url("assets/sparkles/big-sparkle-1.svg");
     background-size: calc(var(--width) * 15) auto;
     animation: spark 3s steps(15) infinite; 
+    background-position: 0 0;
+}
+
+#big-sparkle-2 { 
+    --width: 30vw; /*temp variable placeholder*/
+    --height: calc(var(--width));
+    width: var(--width);
+    height: var(--height);
+
+    background-image: url("assets/sparkles/big-sparkle-2.svg");
+    background-size: calc(var(--width) * 15) auto;
+    animation: spark 3s steps(15) 1.5s infinite; 
+    background-position: 0 0;
+}
+
+#big-sparkle-3 { 
+    --width: 30vw; /*temp variable placeholder*/
+    --height: calc(var(--width)*0.97);
+    width: var(--width);
+    height: var(--height);
+
+    background-image: url("assets/sparkles/big-sparkle-3.svg");
+    background-size: calc(var(--width) * 15) auto;
+    animation: spark 3s steps(15) 2.5s infinite; 
     background-position: 0 0;
 }
 

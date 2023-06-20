@@ -89,6 +89,7 @@
 	<link href="https://fonts.googleapis.com/css?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 </svelte:head>
 
+<Sparkle starNumber=3 position="left:0px; top: 70vh"></Sparkle>
 <Sparkle></Sparkle>
 
 <IntroAnimation text={introAnimationText} data={dataByYear.filter(d => +d[0] == 2022)[0][1]} />
@@ -111,7 +112,9 @@
 	And both were written and performed by Taylor Swift. This isn’t shocking for two reasons. First, hit songs written by women without any male co-writers are rare. Second, when women do write a hit without a man also sharing credit, they often end up performing the song themselves.
 </p>
 <div class="center-col" style="max-width:100vw">
-	<img id="headline" src="assets/headline-base.png">
+	<Sparkle></Sparkle>
+	<Sparkle starNumber=2 position="left:0px;top:50%"></Sparkle>
+	<img id="headline" alt="Women are superstars on stage but still rarely get to write songs" src="assets/headline-base.png">
 	<!-- <h1>Women are superstars on stage but still rarely get to write songs</h1>
 	<h3>The Gender Breakdown of Songwriting Teams</h3>
 	<p>by chris dalla riva, design by ashley cai</p> -->
