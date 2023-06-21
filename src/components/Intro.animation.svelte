@@ -108,7 +108,7 @@
                     style="
                         margin-top: {i == 0 ? (-fixedHeight/2) : ''}px;
                         padding-top: {i == 0 ? '0' : ''}px;
-
+                        opacity: {fixedHeight ? 1 : 0};
                         min-height: {i == (text.length - 1) ? '' : ''};
                     "
                 >
@@ -165,6 +165,7 @@
 .step {
     z-index: 10000;
     position: relative;
+    transition: opacity 1s;
 }
 .sticky {
     position: sticky;

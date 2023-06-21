@@ -46,12 +46,16 @@
 {#if dataForChart}
 <div 
     style="
-        width:{chartWidth}px; height:{chartHeight}px;
     " 
     class="line-chart-container"
 >
     {#each dataForChart as year, i}
-        <div class="year" transform="translate({columnWidth * i},0)">
+        <div class="year"
+            style="
+                width:{width}px;
+                height:{chartHeight}px;
+            "
+        >
             {#each year[1] as songwriter, s}
                 <div
                     style="
@@ -123,6 +127,8 @@
     .line-chart-container {
         display: flex;
         margin: 0 auto;
+        padding-right: 150px;
+        max-width: 1300px;
     }
     .year {
         display: flex;

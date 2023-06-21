@@ -137,6 +137,10 @@
 	color: #944EBE;
 }
 
+.title .sparkle {
+	z-index: 10000000;
+}
+
 .tape-wrapper .para {
 	margin: 0;
 }

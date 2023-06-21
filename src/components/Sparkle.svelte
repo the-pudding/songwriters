@@ -4,7 +4,12 @@
 </script>
 
 
-<div class="sparkle" style="position:absolute; {position};" id ="big-sparkle-{starNumber}"></div>
+<div class="sparkle" style="
+    position:absolute; {position};
+    background-image:url('assets/sparkles/big-sparkle-{starNumber}.svg');
+  " id="big-sparkle-{starNumber}"
+>
+</div>
 
 <style>
     
@@ -13,8 +18,6 @@
     --height: calc(var(--width)*1.1);
     width: var(--width);
     height: var(--height);
-
-    background-image: url("assets/sparkles/big-sparkle-1.svg");
     background-size: calc(var(--width) * 15) auto;
     animation: spark 3s steps(15) infinite; 
     background-position: 0 0;
@@ -25,8 +28,6 @@
     --height: calc(var(--width));
     width: var(--width);
     height: var(--height);
-
-    background-image: url("assets/sparkles/big-sparkle-2.svg");
     background-size: calc(var(--width) * 15) auto;
     animation: spark 3s steps(15) 1.5s infinite; 
     background-position: 0 0;
@@ -37,8 +38,6 @@
     --height: calc(var(--width)*0.97);
     width: var(--width);
     height: var(--height);
-
-    background-image: url("assets/sparkles/big-sparkle-3.svg");
     background-size: calc(var(--width) * 15) auto;
     animation: spark 3s steps(15) 2.5s infinite; 
     background-position: 0 0;

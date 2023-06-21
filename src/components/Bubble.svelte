@@ -17,6 +17,19 @@
 	let onlyMen = false;
 	let performerGender = "all"
 	let totalSongs = 1;
+	let sliceAmount = 20;
+	let sliceGain = 20;
+	let cutTwo = "all";
+
+	
+
+	let genderMap = {
+		"m":"men",
+		"f":"women",
+		"pm":"men",
+		"pf":"women",
+		"nb":"non-binary"
+	}
 
 	let performerArray = ["m","f","all","m;f"].map(d => {
 		return {"value":`${d}`};
@@ -29,7 +42,16 @@
 		"mixed, majority men": 1,
 		"parity":2,
 		"mixed, majority women":3,
-		"only women":4
+		"only women":4,
+		"all":5
+	}
+
+	let cutTwoArray = Object.keys(sort).map(d => {
+		return {"value":`${d}`};
+	});
+
+	const updateSlice = d => {
+		sliceAmount = sliceAmount + sliceGain;
 	}
 
 	const arrayRange = (start, stop, step) =>
@@ -55,12 +77,20 @@
 			return  d.artist_gender == performerGender;
 		});
 
+		tempData = tempData.filter(d => {
+			if(cutTwo == "all") {
+				return d;
+			}
+			// console.log(d.cutTwo)
+			return d.cutTwo == cutTwo;
+		})
+
 		totalSongs = tempData.length;
 
-		tempData = groups(tempData, d => d.cutTwo);
-		tempData.sort((a,b) => {
-			return sort[b[0]] - sort[a[0]];
-		})
+		// tempData = groups(tempData, d => d.cutTwo);
+		// tempData.sort((a,b) => {
+		// 	return sort[b[0]] - sort[a[0]];
+		// })
 
 
 
@@ -90,7 +120,7 @@
 	}
 
 	$: dateRange = [+yearStart,+yearEnd];
-	$: dataForChart = getData(data,dateRange,performerGender)
+	$: dataForChart = getData(data,dateRange,performerGender,cutTwo)
 
 
 	onMount(async () => {
@@ -114,6 +144,11 @@
 			<p>Performer Gender</p>
 
 			<YearDropDown options={performerArray} bind:value={performerGender}/>
+
+			<p>Songwriter Team:</p>
+			<YearDropDown options={cutTwoArray} bind:value={cutTwo}/>
+
+
 			<!-- <GenderToggle label={"Women Only Songs"} bind:value={onlyWomen} /> -->
 			<!-- <GenderToggle label={"Men Only Songs"} bind:value={onlyMen}/> -->
 		</div>
@@ -125,42 +160,77 @@
 <div class="bubble-chart">
 	<p>[tk matt to add in roll up percentages]</p>
 	<div class="cut-wrapper">
-		{#each dataForChart as cut}
-			<div class="cut">
+		<!-- {#each dataForChart as cut} -->
+			<!-- <div class="cut">
 				<p>{cut[0]}, {cut[1].length} songs ({Math.round(cut[1].length/totalSongs * 100)}% of total)</p>
-				<div class="cut-songs">
-					{#each cut[1] as song}
-
-						
+				<div class="cut-songs"> -->
+					{#each dataForChart.slice(0,sliceAmount) as song}
 						<div class="song">
-							<summary class="para recommendation">{song.song_key.split(" by ")[0]} »</summary>
-							<div class="inner">
-								by {song.song_key.split(" by ")[1]},
+							<p class="song-name">{song.song_key}</p>
+							<div class="songwriters">
 								{#if song["songwriters"]}
-									written by {song["songwriters"].map(d => d.writer).join(", ")}
+									{#each groups(song["songwriters"], d => genderMap[d.gender]) as genderCut}
+										<p 
+											class="songwriter-gender-cut"
+											style="
+												color:{genderCut[0] == "men" ? "var(--color-men)" : genderCut[0] == "women" ? "var(--color-women)" : "red"};
+											"
+										>
+											{genderCut[0]}: {genderCut[1].map(d => d.writer).join(", ")}
+										</p>
+									{/each}
 								{/if}
 							</div>
 						</div>
-								
 					{/each}
-				</div>
-			</div>
-		{/each}
+			<!-- 	</div>
+			</div> -->
+		<!-- {/each} -->
+		<button class="see-more" on:click={() => updateSlice()}>See {sliceGain} More Songs</button>
 	</div>
+
 	
 </div>
 
-<p>song: {songSelected}</p>
-
 <style>
 
+	.see-more {
+		margin-top: -100px;
+		position: absolute;
+		bottom: 50px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		width: 250px;
+		padding: 20px 50px;
+		background: white;
+		display: inline-block;
+		z-index: 10000;
+	}
+
 	.cut-wrapper {
-		display: flex;
-		flex-direction: column;
+		position: relative;
+	}
+
+	.cut-wrapper:after{
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		background: linear-gradient(360deg, #191817 30%, rgba(0,0,0,0) 100%);
+    	width: 100%;
+    	height: 300px;
 	}
 	
 	.cut p {
 		width: 100%;
+	}
+
+	.songwriter-gender-cut {
+		display: block;
+		margin-bottom: 10px;
 	}
 
 	.cut-songs {
@@ -186,6 +256,8 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: flex-start;
+		margin: 0 auto;
+		max-width: 1200px;
 	}
 
 	.toggles {
@@ -207,15 +279,25 @@
 		margin: 0 20px;
 	}
 
-	summary, .song {
-		/* width: 10px; */
-		/* height: 10px; */
-		margin: 1px;
-		font-size: 12px;
-		/* background-color: red; */
+	.song span {
 	}
 
-	.song span {
+	.songwriters {
+		flex-basis: min-content;
+    	flex-grow: 1;
+	}
+
+	.song {
+		display: flex;
+		font-size: 16px;
+		font-family: 'DM Sans';
+		border-bottom: 1px solid white;
+		width: 100%;
+	}
+
+	.song-name {
+		width: 300px;
+		margin-right: 10px;
 	}
 
 	.men {
