@@ -12,6 +12,7 @@
 	import Treemap from "$components/Treemap.svelte";
 	import Line from "$components/Line.svelte"
 	import Sparkle from "./Sparkle.svelte";
+	import SmallSparkle from "./SmallSparkle.svelte";
 
 	// import Footer from "$components/Footer.svelte";
 
@@ -111,6 +112,10 @@
 </p>
 <div class="title center-col" style="max-width:100vw">
 	<Sparkle></Sparkle>
+	<SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle>
+	<SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle>
+	<SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle>
+
 	<Sparkle starNumber=2 position="left:0px;top:50%"></Sparkle>
 	<img id="headline" alt="Women are superstars on stage but still rarely get to write songs" src="assets/headline-base.png">
 	<div aria->
