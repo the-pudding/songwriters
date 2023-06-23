@@ -1,8 +1,13 @@
 <script>
+
+import { scaleLinear } from "d3";
+
 export let song;
 export let size;
 export let labelPlacement;
 export let height;
+
+let colorRange = scaleLinear().domain([0,1]).range(["#d795ff","#FFB102"]);
 
 let sizes = {
         "m-1":{
@@ -114,13 +119,19 @@ const getNumber = (gender) => {
     return getRandomInt(1,2);
 }
 
+const genderKey = {
+    "f":"women",
+    "m":"men",
+    "nb":"non-binary"
+}
+
 </script>
 
 
 <p class="songwriters-label {labelPlacement}"
     style="
-    color: {song.cutTwo == "only women" ? "#FFB102" : ''};
-    display: {labelPlacement == "second" ? song.cutTwo == "only men" || song.cutTwo == "only women" ? 'block' : 'none' : 'none'};
+    color: {colorRange(song.percent)};
+    display: {labelPlacement == "second" ? song.cutTwo == "only men" || song.cutTwo == "only women" ? 'block' : 'block' : 'none'};
     "
 >
     {song.cutTwo}
@@ -133,20 +144,38 @@ color:{songwriter == "m" ? "white" : songwriter == "f" ? "white" : 'white'}; -->
 {@const gender = ["m","f","nb"].indexOf(songwriter) == -1 ? "m" : songwriter.replace(" ","")}
 {@const identifier = `${gender}-${number}`}
 
-<div class="songwriter"
+<div class="songwriter {labelPlacement}"
         style="
-        width:{sizes[identifier].width*size}px;
+        width:{labelPlacement == "legend" ? '' : `${sizes[identifier].width*size}px`};
         height:{height}px;
         "
     >
         <img class="gender-{sizes[identifier].width}" style="transform:translate({sizes[identifier].leftAdjust}%,{sizes[identifier].transform}%); width:{sizes[identifier].imgWidth*(size+.1)}px;" src="assets/{gender}-{number}.svg" alt="">
+        {#if labelPlacement == "legend"}
+            <p>{genderKey[songwriter]}</p>
+        {/if}
     </div>
 {/each}
 
 <style>
+
+    .songwriter p {
+        font-family: 'DM Sans';
+        position: relative;
+        opacity: .7;
+        font-size: 14px;
+        color: rgb(255, 250, 215);
+        text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
+    }
     .songwriter {
         height: 50px;
         position: relative;
+    }
+
+    .legend {
+        justify-content: center;
+        display: flex;
+        margin: 0 10px;
     }
 
     .songwriter img {

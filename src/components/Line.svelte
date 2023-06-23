@@ -129,6 +129,8 @@
         margin: 0 auto;
         padding-right: 150px;
         max-width: 1300px;
+        width: calc(100% - 50px);
+        margin-bottom: 100px;
     }
     .year {
         display: flex;

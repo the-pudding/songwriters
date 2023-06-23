@@ -217,12 +217,17 @@ const getNumber = (gender) => {
                     {#if progressCounts && progress}
                         <div class="fixed-text-wrapper">
                             {#if progressAdjusted > .07}
-                            {#key textValue}
-                                <p in:fly="{{ y: 100, duration: 500, delay:500}}" out:fade="{{duartion:500}}" class="fixed-text">
-                                    {@html textValue}
-                                </p>
-                            {/key}
                             <p class="songwriters-legend">The Songwriting Team</p>
+                            {/if}
+                        </div>
+
+                        <div class="fixed-text-wrapper fixed-text-wrapper-center">
+                            {#if progressAdjusted > .07 && progressAdjusted < 1}
+                                {#key textValue}
+                                    <p in:fly="{{ y: 100, duration: 500, delay:500}}" out:fade="{{duartion:500}}" class="fixed-text">
+                                        <span>{@html textValue}</span>
+                                    </p>
+                                {/key}
                             {/if}
                         </div>
                         {#if textToShow && cutTotals && progressAdjusted < 1}
@@ -390,8 +395,8 @@ const getNumber = (gender) => {
     }
     .year {
         text-align: center;
-        font-family: 'DM Sans';
-        font-size: 28px;
+        font-family: var(--sans);
+        font-size: 21px;
         position: relative;
         font-weight: 600;
         text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
@@ -416,7 +421,7 @@ const getNumber = (gender) => {
     }
 
     .fixed-text-wrapper {
-        height: 100px;
+        height: 50px;
         position: relative;
         font-family: 'DM Sans';
     }
@@ -445,7 +450,7 @@ const getNumber = (gender) => {
     .black-overlay {
         width: 100%;
         height: 100%;
-        background: linear-gradient(180deg, rgba(25,24,23,.9) 0px,rgba(25,24,23,.9) 50px, rgba(25,24,23,0)  150px, rgba(25,24,23,0)  calc(100% - 200px), rgba(25,24,23,.9) 100%);
+        background: linear-gradient(180deg, rgba(25,24,23,.9) 0px,rgba(25,24,23,.9) 10px, rgba(25,24,23,0)  100px, rgba(25,24,23,0)  calc(100% - 200px), rgba(25,24,23,.9) 100%);
         position: absolute;
         top: 0;
         left: 0;
@@ -483,12 +488,20 @@ const getNumber = (gender) => {
 
     .song-title {
         margin: 0;
+        text-transform: capitalize;
         font-size: 18px;
+        font-weight: 400;
+        opacity: .9;
+        font-family: var(--sans);
     }
 
     .song-artist {
         margin: 0;
+        font-family: var(--sans);
+        text-transform: capitalize;
         font-size: 14px;
+        opacity: .7;
+        font-weight:400;
     }
 
     .fixed {
@@ -505,9 +518,8 @@ const getNumber = (gender) => {
         top: 0;
         left: 0;
         width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
+        /* justify-content: space-between; */
+        /* flex-direction: column; */
         pointer-events: none;
     }
 
@@ -528,6 +540,8 @@ const getNumber = (gender) => {
         width: calc(100% - 20px);
         margin: 0 auto;
         padding-bottom: 10px;
+        bottom: 0;
+        position: absolute;
     }
 
     .men-bar {
@@ -548,6 +562,21 @@ const getNumber = (gender) => {
         font-size: 14px;
         letter-spacing: 1px;
         align-self: center;
+    }
+
+    .fixed-text-wrapper-center {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        transform: translate(0,-50%);
+    }
+
+    .fixed-text-wrapper-center span {
+        text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
+        background-color: var(--color-bg);
+        padding: 10px;
     }
 </style>
 

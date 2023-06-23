@@ -13,6 +13,5 @@
 
 <style>
     .year {
-		width: 100px;
 	}
 </style>

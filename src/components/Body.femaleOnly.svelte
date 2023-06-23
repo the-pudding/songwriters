@@ -34,7 +34,7 @@
 
     let labelTestKey = {
         "only women":"Songs Written by Only Women",
-        "mixed, majority men":"Mixed Gender Songwriting Teams",
+        "mixed, majority men":"Songs Written by Mixed Gender Teams",
         "only men":"Songs Written by Only Men"
     }
 
@@ -169,6 +169,7 @@
                 d.widthChange = widthChange
                 d.x = Math.floor(i % newCardCountWidth * width);
                 d.y = Math.floor(i / newCardCountWidth) * height;
+                d.id = i;
 
                 
                 if(d.cutTwo == "only women") {
@@ -241,7 +242,11 @@
 <!--  -->
 
 <!-- opacity:{value == 0 && song.percent < 1 ? 0 : 1}; -->
-
+<div class="legend">
+    <div class="box">
+    </div>
+    <p>= 1 Song</p>
+</div>
 <section class="wrapper">
     <div class="song-wrapper {value == 5 ? 'performer-slide' : ''}">
         {#if dataForChart}
@@ -277,7 +282,13 @@
 
                     <div class="song-col">
                         {#each dataForChart as cut}
+                        {@const minY = Math.min(...cut[1].map(d => d.y))}
+                        {@const minX = Math.min(...cut[1].map(d => d.x))}
+                        {@const minBox = Math.min(...cut[1].filter(d => d.x == minX).map(d => d.id))}
                         <div 
+                            data-minY={minY}
+                            data-minX={minX}
+                            data-minBox={minBox}
                             class="{cut[0] != "only women" ? "no-women" : 'only-women'} {cut[0] !== "only women" && viewControl[value] == "close" ? "fade" : ""}"
                             style="
                                 position:relative;
@@ -285,7 +296,7 @@
                                 "
                         >
                         {#each cut[1] as song, j}
-                            {#if j == 0 && Object.keys(labelTestKey).indexOf(cut[0]) > -1}
+                            {#if song.id == minBox && Object.keys(labelTestKey).indexOf(cut[0]) > -1}
                                 {#if viewControl[value] == "far" || value == undefined}
                                     <div
                                         class="label-test" 
@@ -298,6 +309,7 @@
                                             style="
                                                 background: {getColor(song,value)};
                                                 color: #ffb202;
+                                                font-weight: {song.cutTwo == "only women" ? '500' : ''};
                                                 opacity:{song.cutTwo == "only women" ? '' : song.cutTwo == "only men" ? '0' : '.5'};
                                             "
                                             >
@@ -307,6 +319,8 @@
                                                 class="only-women-label"
                                                 style="
                                                     background: none;
+                                                    font-weight: {song.cutTwo == "only women" ? '500' : ''};
+                                                    text-shadow: {song.cutTwo == "only women" ? '' : '-3px -3px 1px rgba(25, 24, 23, 0.1), -3px -2px 1px rgba(25, 24, 23, 0.1), -3px -1px 1px rgba(25, 24, 23, 0.1), -3px 0px 1px rgba(25, 24, 23, 0.1), -3px 1px 1px rgba(25, 24, 23, 0.1), -3px 2px 1px rgba(25, 24, 23, 0.1), -3px 3px 1px rgba(25, 24, 23, 0.1), -2px -3px 1px rgba(25, 24, 23, 0.1), -2px -2px 1px rgba(25, 24, 23, 0.1), -2px -1px 1px rgba(25, 24, 23, 0.1), -2px 0px 1px rgba(25, 24, 23, 0.1), -2px 1px 1px rgba(25, 24, 23, 0.1), -2px 2px 1px rgba(25, 24, 23, 0.1), -2px 3px 1px rgba(25, 24, 23, 0.1), -1px -3px 1px rgba(25, 24, 23, 0.1), -1px -2px 1px rgba(25, 24, 23, 0.1), -1px -1px 1px rgba(25, 24, 23, 0.1), -1px 0px 1px rgba(25, 24, 23, 0.1), -1px 1px 1px rgba(25, 24, 23, 0.1), -1px 2px 1px rgba(25, 24, 23, 0.1), -1px 3px 1px rgba(25, 24, 23, 0.1), 0px -3px 1px rgba(25, 24, 23, 0.1), 0px -2px 1px rgba(25, 24, 23, 0.1), 0px -1px 1px rgba(25, 24, 23, 0.1), 0px 1px 1px rgba(25, 24, 23, 0.1), 0px 2px 1px rgba(25, 24, 23, 0.1), 0px 3px 1px rgba(25, 24, 23, 0.1), 1px -3px 1px rgba(25, 24, 23, 0.1), 1px -2px 1px rgba(25, 24, 23, 0.1), 1px -1px 1px rgba(25, 24, 23, 0.1), 1px 0px 1px rgba(25, 24, 23, 0.1), 1px 1px 1px rgba(25, 24, 23, 0.1), 1px 2px 1px rgba(25, 24, 23, 0.1), 1px 3px 1px rgba(25, 24, 23, 0.1), 2px -3px 1px rgba(25, 24, 23, 0.1), 2px -2px 1px rgba(25, 24, 23, 0.1), 2px -1px 1px rgba(25, 24, 23, 0.1), 2px 0px 1px rgba(25, 24, 23, 0.1), 2px 1px 1px rgba(25, 24, 23, 0.1), 2px 2px 1px rgba(25, 24, 23, 0.1), 2px 3px 1px rgba(25, 24, 23, 0.1), 3px -3px 1px rgba(25, 24, 23, 0.1), 3px -2px 1px rgba(25, 24, 23, 0.1), 3px -1px 1px rgba(25, 24, 23, 0.1), 3px 0px 1px rgba(25, 24, 23, 0.1), 3px 1px 1px rgba(25, 24, 23, 0.1), 3px 2px 1px rgba(25, 24, 23, 0.1), 3px 3px 1px rgba(25, 24, 23, 0.1)'};
                                                     color:{song.cutTwo == "only women" ? '' : '#FFF'};
                                                 "
                                             >
@@ -315,7 +329,8 @@
                                     </div>
                                 {/if}                    
                             {/if}
-                            <div 
+                            <div
+                                data-id={song.id}
                                 style="
                                     transform:translate3d({value == undefined || viewControl[value] == "far" ? song.x : song.targetX}px,{ value == undefined || viewControl[value] == "far" ? song.y : song.targetY}px, 0);
                                     background-color:{getColor(song,value)};
@@ -358,23 +373,23 @@
                                         height:{song.width-5}px;
                                         "
                                     >
-                                        <p class="song-name"
+                                    {#if song["songwriters"].length > 0}
+                                        <p class="writer-name"
+                                        style="
+                                            font-size: {song.width < 100 ? 11 : ''}px;
+                                        "
+                                        >
+                                            <span>{song["songwriters"].map(d => d.writer).join(", ")}</span> {song.song_key}
+                                        </p>
+                                    {/if}
+                                        <!-- <p class="song-name"
                                         style="
                                             color:{value == 1 && cut=="one" ? "white" : ''};
-                                            font-size: {song.width < 100 ? 12 : ''}px;
+                                            font-size: {song.width < 100 ? 10 : ''}px;
                                         "
                                         >
                                             {song.song_key}
-                                        </p>
-                                        {#if song["songwriters"].length > 0}
-                                            <p class="writer-name"
-                                            style="
-                                                font-size: {song.width < 100 ? 10 : ''}px;
-                                            "
-                                            >
-                                                {song["songwriters"].map(d => d.writer).join(", ")}
-                                            </p>
-                                        {/if}        
+                                        </p> -->
                                     </div>    
                                 {/each}
                             </div>
@@ -491,18 +506,19 @@
         /* max-width: 150px; */
         width: 100%;
         margin: 0;
+        font-size: 12px;
         max-height: 60px;
         line-height: 1;
         padding: 5px;
     }
 
     .writer-name {
-        font-size: 14px;
+        font-size: 12px;
         margin: 0;
         line-height: 1;
         flex-grow: 1;
-        padding: 5px;
-        background: rgba(0,0,0,.2);
+        padding: 2px;
+        letter-spacing: -.5px;        
     }
 
     .year {
@@ -592,6 +608,36 @@
 
     .no-women {
         transition: opacity 1s 1.5s;
+    }
+
+    .writer-name span {
+        font-weight: 400;
+        font-family: var(--display);
+        letter-spacing: .3px;
+        font-size: 14px;
+        text-transform: capitalize;
+        /* background-color: rgba(0,0,0,.2); */
+    }
+
+    .legend {
+        display: flex;
+        justify-content: flex-start;
+        max-width: var(--col-width);
+        margin: 0 auto;
+    }
+
+    .box {
+        width: 10px;
+        align-self: center;
+        height: 10px;
+        background: white;
+        margin-right: 10px;
+    }
+
+    .legend p {
+        align-content: center;
+        font-family: var(--sans);
+        margin: 0;
     }
 </style>
 
