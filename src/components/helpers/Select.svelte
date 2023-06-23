@@ -22,6 +22,7 @@
 <style>
 	.select {
 		position: relative;
+		padding-right: 30px;
 	}
 
 	label {
@@ -34,17 +35,24 @@
 
 	select {
 		width: 100%;
-		height: 50px;
+		height: 30px;
 		font-family: inherit;
 		font-size: 1em;
 		cursor: pointer;
 		background: var(--color-white);
 		color: var(--color-gray-900);
-		border: 2px solid var(--color-gray-900);
-		border-radius: 4px;
+		border: none;
+		border-radius: 0;
 		padding: 0.5em;
 		appearance: none;
 		line-height: 1.4;
+		color: var(--color-fg);
+		background: none;
+		padding: 0;
+		align-self: center;
+		font-size: 16px;
+		border-bottom: 1px solid rgba(255,250,215,.5);
+
 	}
 
 	select::-ms-expand {
@@ -55,21 +63,17 @@
 		display: block;
 		content: "";
 		position: absolute;
-		bottom: 1.25em;
-		right: 0.75em;
+		bottom: .7em;
+		right: 0.5em;
 		width: 1em;
 		height: 1em;
 		z-index: 1;
-		background: var(--color-gray-900);
-		clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
-		border-radius: 4px;
+		background: var(--color-fg);
+		clip-path: polygon(0% 0%, 55% 55%, 0% 55%);
+		border-radius: 0px;
 		transform-origin: center center;
 		transform: rotate(-45deg);
 		pointer-events: none;
-	}
-
-	select:hover {
-		background: var(--color-gray-100);
 	}
 
 	select:focus {

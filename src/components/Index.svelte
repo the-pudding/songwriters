@@ -12,6 +12,7 @@
 	import Treemap from "$components/Treemap.svelte";
 	import Line from "$components/Line.svelte"
 	import Sparkle from "./Sparkle.svelte";
+	import { format } from "d3";
 
 	// import Footer from "$components/Footer.svelte";
 
@@ -22,8 +23,7 @@
 	const writerKey = data.writerKey;
 	let writersByYear = data.writersByYear;
 	let cutCategories = data.cutCategories;
-	
-	
+	const comma = format(",");
 
 	let priorOne = {};
 	cutCategories.forEach(d => {
@@ -44,7 +44,7 @@
 	})
 
 	let introAnimationText = [
-		"In 2022, hit songs had, on average, 6 songwriters: <span class=woman-color>1 woman</span> and <span class=man-color>5 men</span>.",
+		"In 2022, hit songs had, on average, 6 songwriters: <span class=woman-color>1 woman</span> and <span class=man-color-text>5 men</span>.",
 		"But the average conceals a remarkable fact about the 42 songs that charted in top 5 of Billboard Hot 100...",
 		"Half of the songs had a songwriting team of all men.",
 		"Only one song had a songwriting team consisting of just women.",
@@ -113,10 +113,6 @@
 	<Sparkle></Sparkle>
 	<Sparkle starNumber=2 position="left:0px;top:50%"></Sparkle>
 	<img id="headline" alt="Women are superstars on stage but still rarely get to write songs" src="assets/headline-base.png">
-	<div aria->
-		<h1>Women are superstars on stage but still rarely get to write songs</h1>
-		<h3>The Gender Breakdown of Songwriting Teams</h3>
-	</div>
 	
 	<p class="byline">by Chris Dalla Riva, Design by Ashley Cai</p>
 </div>
@@ -132,6 +128,7 @@
 	Let’s explore how rare it is for women to write songs for men to perform. First, we’ll look at every hit song since the start of the Billboard Hot 100 in 1958.
 </p>
 
+<p class="chart-summary">About 1,502 of 3,082 Songs are written entirely by an <span class="man-color-text">all-men songwriting team.</p>
 <p class="chart-hed">Every Top 5 Hit, 1958-2022, Broken Down by Songwriting Team Gender</p>
 <Female {dataByYear} {dataByGender} {dataByYearWomenOnly} cut="two" slides={slidesTwo} yearRange={[1957,2023]}/>
 
@@ -150,10 +147,10 @@
 <p class="center-col para">
 	A century-plus later, it’s clear that there is still so much progress to be made.
 </p>
-<p class="chart-hed">
-	In 2022, women represented 14% of songwriters among Top 5 Billboard hits, a number that hasn't in changed 60 years.
+<p class="chart-summary">
+	In 2022, <span class="woman-color">women</span> represented 14% of songwriters among Top 5 Billboard hits, a number that hasn't in changed 60 years.
 </p>
-<p>The {writersByYear.flat(1).length} songwriters of a top 5 hit, 1958 - 2022</p>
+<p class="chart-hed">The {writersByYear.flat(1).length} songwriters of a top 5 hit, 1958 - 2022</p>
 <Line dataByYear={writersByYear} />
 
 <p class="center-col para">
@@ -165,12 +162,19 @@
 
 <!-- <Waffle data={data.songs}/> -->
 
-
+<div class="space">
+	 
+</div>
+<p class="chart-hed">Explore {comma(waffleWriterData.length)} Top 5 Hits</p>
 <Bubble data={waffleWriterData} />
 <!-- <Demo /> -->
 <style>
 	.byline {
 		text-align: center;
 		font-family: 'DM Sans';
+	}
+	.space {
+		height: 100px;
+		width: 100%;
 	}
 </style>

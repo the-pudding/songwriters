@@ -6,9 +6,10 @@
 /* colors defined in variables.css */
 :root {
 	/* font */
-	--sans: "National 2 Web", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
-	--serif: "Tiempos Text Web", Iowan Old Style, Times New Roman, Times, serif;
+	--sans: "DM Sans", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+	--serif: Iowan Old Style, Times New Roman, Times, serif;
 	--mono: Menlo, Consolas, Monaco, monospace;
+	--display: "Gravity","DM Sans", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 
 	--col-width: 600px;
 
@@ -40,6 +41,8 @@
 	--color-placeholder: var(--color-gray-500);
 	--color-women: #FFB102;
 	--color-men: #944EBE;
+	--color-nb: #b22700;
+	--color-men-text: #d795ff;
 
 	/* "1" second duration */
 	--1s: 1ms;
@@ -93,9 +96,28 @@
 }
 
 .chart-hed {
-	font-family: "DM Sans";
-	text-align: center;
+	font-family: var(--sans);
+	text-align: left;
     font-size: 24px;
+	font-weight: 600;
+	color: var(--color-fg);
+	max-width: var(--col-width);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.chart-summary {
+	font-family: var(--display);
+	text-align: left;
+    font-size: 48px;
+	font-weight: 400;
+	color: var(--color-fg);
+	max-width: var(--col-width);
+    margin: 0 auto;
+	letter-spacing: 1px;
+	line-height: 1.1;
+    margin-bottom: 20px;
+	margin-top: 100px;
 }
 
 .double-col-step {
@@ -134,7 +156,11 @@
 }
 
 .man-color {
-	color: #944EBE;
+	color: var(--color-men);
+}
+
+.man-color-text {
+	color: var(--color-men-text);
 }
 
 .title .sparkle {

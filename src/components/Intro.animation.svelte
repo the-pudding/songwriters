@@ -4,6 +4,7 @@
     import { onMount,getContext } from "svelte";
     import Group from "$components/Group.svelte"	
 	import viewport from "$stores/viewport.js";
+    import { flip } from 'svelte/animate';
 
     
     export let data;
@@ -18,6 +19,9 @@
     let women = range(32);
 
     let average = {song_key:"Songwriters for Hit Songs by The Average",genderArray:["m","m","m","m","m","f"],cutTwo:"avearge"};
+
+    let legendGroup = {song_key:"Songwriters for Hit Songs by The Average",genderArray:["m","f","nb"],cutTwo:"avearge"};
+
     let dataForChart;
 
     const getOpacity = (song,value) => {
@@ -61,43 +65,48 @@
 
     <div class="fixed" bind:clientHeight={fixedHeight}>
         <div class="black-shade"
-        style="
-        opacity:{value > 0 ? '0' : ''};
-        "
-    >
-
-    </div>
-        <div class="average-wrapper">
-            <!-- <h1>{stepValue}</h1> -->
-            <!-- <div class="song-wrapper">
-                <div class="songwriters">
-                    <Group song={average} size={.4} labelPlacement={"first"} height={30}/>
-                </div>
-                <div class="song-key">
-                    <p class="song-title">{average.song_key.split(" by ")[0].slice(0,20)}</p>
-                    <p class="song-artist">{average.song_key.split(" by ")[1].slice(0,20)}</p>
-                </div>
-            </div> -->
-        </div>
-        {#if dataForChart}
-        {#each dataForChart as song, i}
-        {@const random = Math.random()}
-        <div class="song-wrapper"
             style="
-                opacity:{getOpacity(song,value)};
-                --transitionDelay: {stepValue == 1 ? `${random*3000}ms` : ''};
+            opacity:{value > 0 ? '0' : ''};
             "
         >
-            <div class="songwriters">
-                <Group {song} size={.4} labelPlacement={"first"} height={30}/>
-            </div>
-            <div class="song-key">
-                <p class="song-title">{song.song_key.split(" by ")[0].slice(0,20)}</p>
-                <p class="song-artist">{song.song_key.split(" by ")[1].slice(0,20)}</p>
-            </div>
         </div>
+
+        <div class="average-wrapper">
+        </div>
+        {#if dataForChart}
+        {#each dataForChart as song (song.song_key)}
+            {@const random = Math.random()}
+            <div animate:flip={{duration:1000, delay:1000}} class="song-wrapper"
+                style="
+                    opacity:{getOpacity(song,value)};
+                    --transitionDelay: {stepValue == 1 ? `${random*3000}ms` : ''};
+                    position:{value == 3 && song.cutTwo == "only women" ? 'absolute' : ''};
+                    max-width:{value == 3 && song.cutTwo == "only women" ? '150px' : ''};
+                "
+            >
+                <div class="songwriters"
+                    style="
+                        margin:{value == 3 && song.cutTwo == "only women" ? '0 auto' : ''};
+                    "
+                >
+                    <Group {song} size={.4} labelPlacement={"first"} height={30}/>
+                </div>
+                <div class="song-key">
+                    <p class="song-title">{song.song_key.split(" by ")[0].slice(0,20)}</p>
+                    <p class="song-artist">{song.song_key.split(" by ")[1].slice(0,20)}</p>
+                </div>
+            </div>
         {/each}   
         {/if}   
+        <div class="legend-row"
+            style="
+            opacity:{value > 0 && value < 4 ? '' : '0'};
+            "
+        >
+            <div class="legend">
+                <Group song={legendGroup} size={.3} labelPlacement={"legend"} height={20}/>
+            </div>
+        </div>
     </div>
     <!-- </div> -->
     <!-- </div> -->
@@ -150,6 +159,16 @@
 
 .step .songwriters {
     max-width: none;
+}
+
+.legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.legend-row {
+    width: 100%;
 }
 
 .black-shade {
@@ -233,6 +252,9 @@
     opacity: 1;
     transition: opacity 2s;
     transition-delay: var(--transitionDelay);
+    top: 50%;
+    left: 0;
+    right: 0;
 }
 
 .song-key {
@@ -253,17 +275,19 @@
 
 .song-title {
         margin: 0;
-        font-size: 18px;
-        opacity: .7;
+        font-size: 16px;
+        opacity: .8;
         text-align: center;
+        text-transform: capitalize;
         text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
     }
 
     .song-artist {
         margin: 0;
-        opacity: .7;
+        opacity: .65;
         font-size: 14px;
         text-align: center;
+        text-transform: capitalize;
         text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
     }
 
