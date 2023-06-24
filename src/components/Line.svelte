@@ -39,7 +39,7 @@
     
     
 
-
+    console.log(dataForChart.flat(2))  
     
 
 </script>
