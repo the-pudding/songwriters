@@ -1,5 +1,5 @@
 <script>
-	import { getContext } from "svelte";
+	import { getContext, onMount } from "svelte";
 	import Bubble from '$components/Bubble.svelte';
 	import IntroSong from '$components/Intro.song.svelte'
 	import IntroAll from '$components/Intro.all.svelte'
@@ -8,18 +8,28 @@
 	import Waffle from "$components/Waffle.svelte"
 	import WaffleWriter from "$components/WaffleWriter.svelte";
 	import IntroAnimation from "$components/Intro.animation.svelte"
-	import { groups } from "d3";
+	import { groups, group } from "d3";
 	import Treemap from "$components/Treemap.svelte";
 	import Line from "$components/Line.svelte"
 	import Sparkle from "./Sparkle.svelte";
-	import { format } from "d3";
+	import { format, rollup } from "d3";
+
+	import SongData from "$data/artists.csv"
+	import WriterData from "$data/writers.csv"
+	import Quote from "$data/quote.csv"
 
 	// import Footer from "$components/Footer.svelte";
 
 	const copy = getContext("copy");
 	const data = getContext("data");
 
-	console.log(copy)
+
+
+	let dataReady;
+
+
+
+
 
 	const songs = data.songs;
 	const writerKey = data.writerKey;
@@ -33,6 +43,10 @@
 	})
 
     let dataByYear = groups(songs, d => d.year);
+	let dataByYearTwo;
+	let writersByYearTwo;
+	let waffleWriterDataTwo;
+
     let dataByGender = groups(songs.filter(d => d.cut == "only women"), d => d.artist_gender, v => v.year);
 	let dataByYearWomenOnly = groups(songs.filter(d => d.cut == "only women").map(function(d){
 		d["songwriters"] = writerKey.get(d.song_key.toLowerCase());
@@ -86,6 +100,98 @@
 	// 	"Note how women who wrote more than half of these songs were vocalists in the performing groups."
 	// ]
 
+	let genderKey = {
+		"m":"m",
+		"f":"f",
+		"nb":"nb",
+		"pf":"f",
+		"pm":"m"
+	}
+	let availableGenders = Object.keys(genderKey);
+
+
+	const getGenderArray = (v) => {
+		return v.map(d => {
+			return genderKey[d.gender];
+		});
+	}
+
+	const getCutTwo = (genderArray) => {
+
+		let cutTwo = "mixed, majority men";
+
+
+		let countOfSongwriters = genderArray.length;
+		let countOfWomen = genderArray.filter(d => d == "f").length;
+		let countOfNB = genderArray.filter(d => d == "nb").length;
+
+		let percent = countOfWomen/countOfSongwriters;
+		
+		let countOfMen = genderArray.filter(d => d == "m").length;
+
+		if(countOfNB > 0 && percent == 0) {
+			percent = 1 - (countOfMen / countOfSongwriters);
+		}
+		
+		if(countOfMen == countOfSongwriters){
+			cutTwo = "only men";
+		}
+		else if(countOfWomen == countOfSongwriters) {
+			cutTwo = "only women";
+		}
+		else if(countOfWomen/countOfSongwriters == .5) {
+			cutTwo = "parity";
+		}
+		else if(countOfWomen/countOfSongwriters > .5) {
+			cutTwo = "mixed, majority women";
+		};
+		return [percent,cutTwo]
+		
+	}
+
+	onMount(() => {
+
+		let writersWithSongData = [];
+
+		let writersGrouped = rollup(WriterData.filter(d => {
+			return availableGenders.indexOf(d.gender) > -1;
+		}), v => {
+			let genderArray = getGenderArray(v);
+			let cutTwo = getCutTwo(genderArray);
+			return { "songwriters":v, "genderArray": genderArray, cutTwo:cutTwo[1],percent:cutTwo[0]}
+		}, d => d.id);
+
+		let songsTwo = SongData;
+		console.log(songsTwo)
+		songsTwo.forEach(d => {
+			let writerData = writersGrouped.get(d.id);
+			d["cutTwo"] = writerData["cutTwo"];
+			d["genderArray"] = writerData["genderArray"];
+			d["percent"] = writerData["percent"];
+			d["song_key"] = d["title"] + " by " + d["artist"];
+			d["songwriters"] = writerData["songwriters"];
+			d["year"] = +d["year"];
+			
+			d["songwriters"].forEach(j => {
+				j["year"] = d["year"];
+				j["song_key"] = d["song_key"];
+				j["gender_clean"] = genderKey[j["gender"]];
+				writersWithSongData.push(j);
+			})
+		});
+
+
+		writersByYearTwo = groups(writersWithSongData, d => d["year"]).sort((a,b) => {
+			return a[0] - b[0];
+		}).filter(d => {
+			return d[0] > 1958;
+		});
+
+		dataByYearTwo = groups(songsTwo, d => d.year).sort((a,b) => b[0] - a[0]);
+		
+		waffleWriterDataTwo = songsTwo;
+	})
+
 </script>
 
 <svelte:head>
@@ -97,7 +203,8 @@
 <Sparkle starNumber=3 position="left:0px; top: 70vh"></Sparkle>
 <Sparkle></Sparkle>
 
-<IntroAnimation text={introAnimationText} data={dataByYear.filter(d => +d[0] == 2022)[0][1]} />
+{#if dataByYearTwo}
+	<IntroAnimation text={introAnimationText} data={dataByYearTwo.filter(d => +d[0] == 2022)[0][1]} />
 
 {#each copy["preLongScroll"].map(d => d.value) as paragraph}
 	<p class="center-col para">
@@ -106,8 +213,7 @@
 {/each}
 
 <p class="chart-hed">{copy.longScrollHeadline}</p>
-
-<IntroSong dataByYear={dataByYear.filter(d => +d[0] < 2022 && +d[0] > 2009)} text={textFirst} priorStats={priorOne}/>
+	<IntroSong dataByYear={dataByYearTwo.filter(d => +d[0] < 2022 && +d[0] > 2009)} text={textFirst} priorStats={priorOne}/>
 
 
 {#each copy["postLongScroll"].map(d => d.value) as paragraph}
@@ -130,9 +236,9 @@
 	</p>
 {/each}
 
-<p class="chart-summary">{copy.waffleHed}</p>
-<p class="chart-hed">{copy.waffleDek}</p>
-<Female {dataByYear} {dataByGender} {dataByYearWomenOnly} cut="two" slides={slidesTwo} yearRange={[1957,2023]}/>
+<p class="chart-summary">{@html copy.waffleHed}</p>
+<p class="chart-hed">{@html copy.waffleDek}</p>
+<Female dataByYear={dataByYearTwo} cut="two" slides={slidesTwo} yearRange={[1957,2023]}/>
 
 {#each copy["postWaffle"].map(d => d.value) as paragraph}
 	<p class="center-col para">
@@ -144,7 +250,7 @@
 <p class="chart-hed">{@html copy.lineChartDek}</p>
 
 
-<Line dataByYear={writersByYear} />
+<Line dataByYear={writersByYearTwo} />
 
 {#each copy["conclusion"].map(d => d.value) as paragraph}
 	<p class="center-col para">
@@ -161,12 +267,14 @@
 	 
 </div>
 <p class="chart-hed chart-hed-bubble">Explore {comma(waffleWriterData.length)} Top 5 Hits</p>
-<Bubble data={waffleWriterData} />
+<Bubble data={waffleWriterDataTwo} />
 {#each copy["note"].map(d => d.value) as paragraph}
 	<p class="center-col para">
 		{@html paragraph}
 	</p>
 {/each}
+{/if}
+
 <!-- <Demo /> -->
 <style>
 	.chart-hed-bubble {
