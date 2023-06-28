@@ -228,13 +228,13 @@
 
 <Headline></Headline>
                
-<div class="title center-col" style="max-width:100vw">
+<!-- <div class="title center-col" style="max-width:100vw">
 	<Sparkle></Sparkle>
 	<Sparkle starNumber=2 position="left:0px;top:50%"></Sparkle>
 	<img id="headline" alt="Women are superstars on stage but still rarely get to write songs" src="assets/headline-base.png">
 	
 	<p class="byline">by Chris Dalla Riva, Design by Ashley Cai</p>
-</div>
+</div> -->
 
 {#each copy["preWaffle"].map(d => d.value) as paragraph}
 	<p class="center-col para">
