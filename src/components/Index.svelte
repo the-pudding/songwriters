@@ -17,7 +17,10 @@
 	import SongData from "$data/artists.csv"
 	import WriterData from "$data/writers.csv"
 	import Quote from "$data/quote.csv"
+	import SmallSparkle from "./SmallSparkle.svelte";
+	import Headline from "./Headline.svelte";
 
+ 
 	// import Footer from "$components/Footer.svelte";
 
 	const copy = getContext("copy");
@@ -222,6 +225,9 @@
 	</p>
 {/each}
 
+
+<Headline></Headline>
+               
 <div class="title center-col" style="max-width:100vw">
 	<Sparkle></Sparkle>
 	<Sparkle starNumber=2 position="left:0px;top:50%"></Sparkle>
