@@ -135,6 +135,10 @@ const genderKey = {
     "
 >
     {song.cutTwo}
+    {#if song.genderArray.indexOf("nb") > -1}
+        <span style="color:#e67a5b;">(incl. {song.genderArray.filter(d => d == "nb").length} non-binary songwriter{song.genderArray.filter(d => d == "nb").length > 1 ? "s" : ''})
+        </span>
+    {/if}
 </p>
 {#each song.genderArray.sort((a,b) => a.localeCompare(b)) as songwriter}
 <!-- background:{songwriter == "m" ? "rgba(209, 36, 25,.4)" : songwriter == "f" ? "rgba(0,108,69,.6)" : 'rgba(0,108,69,.6)'};
@@ -197,5 +201,11 @@ color:{songwriter == "m" ? "white" : songwriter == "f" ? "white" : 'white'}; -->
         text-align: right;
         top: 50%;
         line-height: 1;
+    }
+
+    .songwriters-label span {
+        display: block;
+        margin-top: 5px;
+        font-size: 12px;
     }
 </style>

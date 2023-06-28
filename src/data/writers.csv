@@ -1,0 +1,8110 @@
+﻿ignore,writer,id,gender
+,Max Martin,1,m
+,Max Martin,2,m
+,Max Martin,3,m
+,Max Martin,4,m
+,Max Martin,5,m
+,Max Martin,6,m
+,Max Martin,7,m
+,Max Martin,8,m
+,Max Martin,9,m
+,Max Martin,10,m
+,Max Martin,11,m
+,Max Martin,12,m
+,Max Martin,13,m
+,Max Martin,14,m
+,Max Martin,15,m
+,Max Martin,16,m
+,Max Martin,17,m
+,Max Martin,18,m
+,Max Martin,19,m
+,Max Martin,20,m
+,Max Martin,21,m
+,Max Martin,22,m
+,Max Martin,23,m
+,Max Martin,24,m
+,Max Martin,25,m
+,Max Martin,26,m
+,Max Martin,27,m
+,Max Martin,28,m
+,Max Martin,29,m
+,Max Martin,30,m
+,Max Martin,31,m
+,Max Martin,32,m
+,Max Martin,33,m
+,Max Martin,34,m
+,Max Martin,35,m
+,Max Martin,36,m
+,Max Martin,37,m
+,Max Martin,38,m
+,Max Martin,39,m
+,Max Martin,40,m
+,Max Martin,41,m
+,Max Martin,42,m
+,Shellback,2,m
+,Shellback,3,m
+,Shellback,45,m
+,Shellback,4,m
+,Shellback,7,m
+,Shellback,11,m
+,Shellback,13,m
+,Shellback,18,m
+,Shellback,22,m
+,Shellback,52,m
+,Shellback,27,m
+,Shellback,54,m
+,Shellback,31,m
+,Shellback,33,m
+,Shellback,36,m
+,Shellback,40,m
+,Shellback,42,m
+,Taylor Swift,2,f
+,Taylor Swift,4,f
+,Taylor Swift,7,f
+,Taylor Swift,63,f
+,Taylor Swift,22,f
+,Taylor Swift,65,f
+,Taylor Swift,66,f
+,Taylor Swift,67,f
+,Taylor Swift,33,f
+,Taylor Swift,69,f
+,Taylor Swift,40,f
+,Taylor Swift,42,f
+,Taylor Swift,72,f
+,Ali Payami,2,m
+,Ali Payami,10,m
+,Ali Payami,12,m
+,Ali Payami,25,m
+,Mutt Lange,77,m
+,Mutt Lange,78,m
+,Mutt Lange,79,m
+,Mutt Lange,80,m
+,Mutt Lange,81,m
+,Mutt Lange,82,m
+,Mutt Lange,83,m
+,Mutt Lange,84,m
+,Mutt Lange,85,m
+,Mutt Lange,86,m
+,Mutt Lange,87,m
+,Mutt Lange,88,m
+,Michael Kamen,77,m
+,Michael Kamen,78,m
+,Michael Kamen,83,m
+,Bryan Adams,77,m
+,Bryan Adams,78,m
+,Bryan Adams,80,m
+,Bryan Adams,83,m
+,Bryan Adams,96,m
+,Bryan Adams,97,m
+,Nick Van Eede,98,m
+,Sean Paul,99,m
+,Sean Paul,100,m
+,Sean Paul,101,m
+,Sean Paul,102,m
+,Sean Paul,103,m
+,Ron Fair,99,m
+,Ron Fair,105,m
+,Donovan Bennett,99,m
+,Jigzagula,99,m
+,Keyshia Cole,99,f
+,Nigel Staff,99,m
+,Jay-Z,110,m
+,Jay-Z,100,m
+,Jay-Z,112,m
+,Jay-Z,113,m
+,Jay-Z,114,m
+,Jay-Z,115,m
+,Jay-Z,116,m
+,Jay-Z,117,m
+,Jay-Z,118,m
+,Jay-Z,119,m
+,Jay-Z,120,m
+,Jay-Z,121,m
+,Jay-Z,122,m
+,Jay-Z,123,m
+,Jay-Z,124,m
+,Jay-Z,125,m
+,Prince,110,m
+,Prince,127,m
+,Prince,128,m
+,Prince,129,m
+,Prince,130,m
+,Prince,131,m
+,Prince,132,m
+,Prince,133,m
+,Prince,134,m
+,Prince,135,m
+,Prince,136,m
+,Prince,137,m
+,Prince,138,m
+,Prince,139,m
+,Prince,140,m
+,Kanye West,110,m
+,Kanye West,142,m
+,Kanye West,143,m
+,Kanye West,144,m
+,Kanye West,145,m
+,Kanye West,146,m
+,Kanye West,147,m
+,Kanye West,121,m
+,Kanye West,122,m
+,Kanye West,150,m
+,Kanye West,151,m
+,Kanye West,152,m
+,Kanye West,124,m
+,Kanye West,154,m
+,Tupac Shakur,110,m
+,Tupac Shakur,156,m
+,Darryl Harper,110,m
+,Ricky Rouse,110,m
+,Hurt-M-Badd,110,m
+,Gloria Estefan,160,f
+,Gloria Estefan,161,f
+,Gloria Estefan,162,f
+,Enrique Garcia,160,m
+,Drew Taggart,164,m
+,Drew Taggart,165,m
+,Drew Taggart,166,m
+,Drew Taggart,167,m
+,Alessia Cara,164,f
+,Alessia Cara,169,f
+,6ix,164,m
+,Khalid,164,m
+,Logic,164,m
+,Missy Elliot,173,f
+,Missy Elliot,174,f
+,Missy Elliot,175,f
+,Missy Elliot,176,f
+,Missy Elliot,177,f
+,Missy Elliot,178,f
+,T.I.,173,m
+,T.I.,180,m
+,T.I.,181,m
+,T.I.,182,m
+,T.I.,183,m
+,T.I.,175,m
+,T.I.,185,m
+,T.I.,186,m
+,T.I.,187,m
+,T.I.,124,m
+,T.I.,189,m
+,T.I.,190,m
+,Jazze Pha,173,m
+,Allyson Khent,192,pf
+,Luther Dixon,192,m
+,The Snake,194,m
+,Rachel Bolan,194,m
+,"Richard ""Biff"" Stannard",196,m
+,"Richard ""Biff"" Stannard",197,m
+,Matt Rowe,196,m
+,MC Hammer,199,m
+,MC Hammer,200,m
+,MC Hammer,134,m
+,Felton Pilate,199,m
+,James Earley,199,m
+,Louis K. Burrell,199,m
+,Michael Kelly,199,m
+,50 Cent,206,m
+,50 Cent,207,m
+,50 Cent,208,m
+,50 Cent,209,m
+,50 Cent,210,m
+,50 Cent,211,m
+,50 Cent,212,m
+,50 Cent,213,m
+,50 Cent,214,m
+,50 Cent,215,m
+,50 Cent,216,m
+,50 Cent,217,m
+,Jasper Cameron,206,m
+,Jasper Cameron,219,m
+,Dirty Swift,206,m
+,Vella Cameron,206,f
+,Bruno Mars,222,m
+,Bruno Mars,223,m
+,Bruno Mars,224,m
+,Bruno Mars,225,m
+,Bruno Mars,226,m
+,Bruno Mars,227,m
+,Bruno Mars,228,m
+,Bruno Mars,229,m
+,Bruno Mars,230,m
+,Bruno Mars,231,m
+,Bruno Mars,232,m
+,Bruno Mars,233,m
+,Bruno Mars,234,m
+,Bruno Mars,235,m
+,Bruno Mars,236,m
+,Bruno Mars,237,m
+,Philip Lawrence,222,m
+,Philip Lawrence,223,m
+,Philip Lawrence,224,m
+,Philip Lawrence,225,m
+,Philip Lawrence,226,m
+,Philip Lawrence,227,m
+,Philip Lawrence,228,m
+,Philip Lawrence,229,m
+,Philip Lawrence,230,m
+,Philip Lawrence,231,m
+,Philip Lawrence,232,m
+,Philip Lawrence,233,m
+,Philip Lawrence,234,m
+,Philip Lawrence,235,m
+,Philip Lawrence,236,m
+,Philip Lawrence,237,m
+,Brody Brown,222,m
+,Brody Brown,224,m
+,Brody Brown,225,m
+,Brody Brown,226,m
+,Brody Brown,233,m
+,James Pankow,259,m
+,Robert Lamm,259,m
+,Jimmy Cauty,261,m
+,Ricardo Lyte,261,m
+,Bill Drummond,261,m
+,Sophia Somajo,3,f
+,Madonna,265,f
+,Madonna,266,f
+,Madonna,267,f
+,Madonna,268,f
+,Madonna,269,f
+,Madonna,270,f
+,Madonna,271,f
+,Madonna,272,f
+,Madonna,273,f
+,Madonna,274,f
+,Madonna,275,f
+,Madonna,276,f
+,Madonna,277,f
+,Madonna,278,f
+,Madonna,279,f
+,Madonna,280,f
+,Madonna,281,f
+,Madonna,282,f
+,Madonna,283,f
+,Madonna,284,f
+,Timbaland,265,m
+,Timbaland,286,m
+,Timbaland,207,m
+,Timbaland,219,m
+,Timbaland,289,m
+,Timbaland,114,m
+,Timbaland,115,m
+,Timbaland,292,m
+,Timbaland,119,m
+,Timbaland,294,m
+,Timbaland,185,m
+,Timbaland,296,m
+,Timbaland,297,m
+,Timbaland,298,m
+,Timbaland,123,m
+,Timbaland,300,m
+,Timbaland,301,m
+,Timbaland,302,m
+,Timbaland,178,m
+,Danja,265,m
+,Danja,207,m
+,Danja,306,m
+,Danja,292,m
+,Danja,146,m
+,Danja,185,m
+,Danja,296,m
+,Danja,297,m
+,Danja,298,m
+,Danja,300,m
+,Danja,302,m
+,Justin Timberlake,265,m
+,Justin Timberlake,207,m
+,Justin Timberlake,11,m
+,Justin Timberlake,289,m
+,Justin Timberlake,180,m
+,Justin Timberlake,320,m
+,Justin Timberlake,292,m
+,Justin Timberlake,119,m
+,Justin Timberlake,294,m
+,Justin Timberlake,185,m
+,Justin Timberlake,325,m
+,Justin Timberlake,298,m
+,Justin Timberlake,123,m
+,Justin Timberlake,302,m
+,Jimmy Jam,329,m
+,Jimmy Jam,330,m
+,Jimmy Jam,331,m
+,Jimmy Jam,332,m
+,Jimmy Jam,333,m
+,Jimmy Jam,334,m
+,Jimmy Jam,335,m
+,Jimmy Jam,336,m
+,Jimmy Jam,337,m
+,Jimmy Jam,338,m
+,Jimmy Jam,339,m
+,Jimmy Jam,340,m
+,Jimmy Jam,341,m
+,Jimmy Jam,342,m
+,Jimmy Jam,343,m
+,Jimmy Jam,344,m
+,Jimmy Jam,345,m
+,Jimmy Jam,346,m
+,Jimmy Jam,347,m
+,Jimmy Jam,348,m
+,Jimmy Jam,349,m
+,Jimmy Jam,350,m
+,Jimmy Jam,351,m
+,Jimmy Jam,352,m
+,Jimmy Jam,353,m
+,Jimmy Jam,354,m
+,Jimmy Jam,355,m
+,Jimmy Jam,356,m
+,Jimmy Jam,357,m
+,Jimmy Jam,358,m
+,Jimmy Jam,359,m
+,Jimmy Jam,360,m
+,Terry Lewis,329,m
+,Terry Lewis,330,m
+,Terry Lewis,331,m
+,Terry Lewis,332,m
+,Terry Lewis,333,m
+,Terry Lewis,334,m
+,Terry Lewis,335,m
+,Terry Lewis,336,m
+,Terry Lewis,337,m
+,Terry Lewis,338,m
+,Terry Lewis,339,m
+,Terry Lewis,340,m
+,Terry Lewis,341,m
+,Terry Lewis,342,m
+,Terry Lewis,343,m
+,Terry Lewis,344,m
+,Terry Lewis,345,m
+,Terry Lewis,346,m
+,Terry Lewis,347,m
+,Terry Lewis,348,m
+,Terry Lewis,349,m
+,Terry Lewis,350,m
+,Terry Lewis,351,m
+,Terry Lewis,352,m
+,Terry Lewis,353,m
+,Terry Lewis,354,m
+,Terry Lewis,355,m
+,Terry Lewis,356,m
+,Terry Lewis,357,m
+,Terry Lewis,358,m
+,Terry Lewis,359,m
+,Terry Lewis,360,m
+,Fetty Wap,393,m
+,Fetty Wap,394,m
+,Monty,393,m
+,"Brian ""Peoples"" Garcis",393,m
+,Justin Pope,393,m
+,Lukas Forchhammer,398,m
+,Pilo,398,m
+,Rissi,398,m
+,Stefan Forrest,398,m
+,Carlo Karges,402,m
+,Uwe Fahrenkrog-Petersen,402,m
+,Phil Medley,404,m
+,Jörgen Elofsson,405,m
+,Jörgen Elofsson,406,m
+,John Reid,405,m
+,Doc Pomus,408,m
+,Doc Pomus,409,m
+,Doc Pomus,410,m
+,Mort Schuman,408,m
+,Mort Schuman,409,m
+,Mort Schuman,410,m
+,Vanessa Carlton,414,f
+,Eugene Pearson,415,m
+,John Barry,416,m
+,John Barry,417,m
+,"Ray Parker, Jr.",418,m
+,"Ray Parker, Jr.",419,m
+,Don Von Tress,420,m
+,Robert Palmer,421,m
+,Robert Palmer,422,m
+,Robert Palmer,423,m
+,Pierre Marchand,424,m
+,Pierre Marchand,425,m
+,Pierre Marchand,424,f
+,Pierre Marchand,425,f
+,Janet Jackson,330,f
+,Janet Jackson,331,f
+,Janet Jackson,332,f
+,Janet Jackson,334,f
+,Janet Jackson,432,f
+,Janet Jackson,335,f
+,Janet Jackson,336,f
+,Janet Jackson,338,f
+,Janet Jackson,339,f
+,Janet Jackson,342,f
+,Janet Jackson,343,f
+,Janet Jackson,344,f
+,Janet Jackson,347,f
+,Janet Jackson,349,f
+,Janet Jackson,352,f
+,Janet Jackson,353,f
+,Janet Jackson,355,f
+,Janet Jackson,357,f
+,Janet Jackson,358,f
+,Janet Jackson,359,f
+,Janet Jackson,360,f
+,Lenny Kravitz,449,m
+,Lenny Kravitz,450,m
+,Lenny Kravitz,273,m
+,Nelly,452,m
+,Nelly,453,m
+,Nelly,182,m
+,Nelly,455,m
+,Nelly,456,m
+,Nelly,457,m
+,Nelly,458,m
+,Nelly,459,m
+,Nelly,460,m
+,Nelly,461,m
+,Ali,452,m
+,Ali,182,m
+,Murphy Lee,452,m
+,Murphy Lee,460,m
+,Kyjuan,452,m
+,Alex Da Kid,467,m
+,Alex Da Kid,468,m
+,Alex Da Kid,469,m
+,Alex Da Kid,470,m
+,Alex Da Kid,471,m
+,DJ Frank E,467,m
+,DJ Frank E,232,m
+,DJ Frank E,474,m
+,DJ Frank E,475,m
+,DJ Frank E,476,m
+,B.o.B.,467,m
+,B.o.B.,231,m
+,"Jeremy ""Kinetics"" Dussolliet",467,m
+,"Tim ""One Love"" Sommers",467,m
+,Lady Gaga,481,f
+,Lady Gaga,482,f
+,Lady Gaga,483,f
+,Lady Gaga,484,f
+,Lady Gaga,485,f
+,Lady Gaga,486,f
+,Lady Gaga,487,f
+,Lady Gaga,488,f
+,Lady Gaga,489,f
+,Lady Gaga,490,f
+,RedOne,481,m
+,RedOne,483,m
+,RedOne,493,m
+,RedOne,494,m
+,RedOne,485,m
+,RedOne,486,m
+,RedOne,497,m
+,RedOne,488,m
+,RedOne,499,m
+,Meghan Trainor,500,f
+,Meghan Trainor,501,f
+,Meghan Trainor,502,f
+,Kevin Kadish,500,m
+,Kevin Kadish,501,m
+,Andy Morris,505,m
+,Andy Morris,506,m
+,Ian Devaney,505,m
+,Ian Devaney,506,m
+,Lisa Stansfield,505,f
+,Lisa Stansfield,506,f
+,Eric Carmen,511,m
+,Sergei Rachmaninoff,511,m
+,Full Force,513,m
+,Full Force,514,m
+,Full Force,515,m
+,Full Force,516,m
+,Full Force,517,m
+,Full Force,518,m
+,David Romani,331,m
+,Mauro Malavasi,331,m
+,Wayne Garfield,331,m
+,Makeba Riddick,522,f
+,Makeba Riddick,113,f
+,Makeba Riddick,183,f
+,Makeba Riddick,525,f
+,Curtis Richardson,522,m
+,Lisa Peters,522,f
+,Ron G,522,m
+,William Jeffrey,522,m
+,Glen Ballard,530,m
+,Glen Ballard,531,m
+,Glen Ballard,532,m
+,Glen Ballard,533,m
+,Glen Ballard,534,m
+,Clif Magness,530,m
+,Clif Magness,536,m
+,David Pack,530,m
+,Bill Bottrell,538,m
+,Bill Bottrell,539,m
+,Bill Bottrell,540,m
+,David Baerwald,538,m
+,David Baerwald,540,m
+,Kevin Gilbert,538,m
+,Kevin Gilbert,540,m
+,Sheryl Crow,538,f
+,Sheryl Crow,540,f
+,Wyn Cooper,538,m
+,JoJo,548,m
+,JoJo,549,m
+,Rory Bennett,548,m
+,Rory Bennett,549,m
+,K-Ci,548,m
+,Lionel Richie,553,m
+,Lionel Richie,554,m
+,Lionel Richie,555,m
+,Lionel Richie,494,m
+,Lionel Richie,557,m
+,Lionel Richie,558,m
+,Lionel Richie,559,m
+,Lionel Richie,560,m
+,Lionel Richie,561,m
+,Toby Gad,562,m
+,Toby Gad,563,m
+,Toby Gad,564,m
+,John Legend,562,m
+,Frank Farian,566,m
+,Frank Farian,567,m
+,Frank Farian,568,m
+,Brad Howell,566,m
+,David Clayton-Thomas,566,m
+,P. G. Wilder,566,-
+,Wayne Hector,572,m
+,Wayne Hector,573,m
+,Wayne Hector,574,m
+,Wayne Hector,575,m
+,Wayne Hector,499,m
+,Steve Mac,572,m
+,Steve Mac,574,m
+,Steve Mac,575,m
+,Steve Mac,580,m
+,Greg Camp,581,m
+,Joker,582,m
+,Joker,583,m
+,Buddha,582,m
+,Jenny Berggren,582,f
+,Linn Berggren,582,f
+,Dean Pitchford,587,m
+,Dean Pitchford,588,m
+,Dean Pitchford,589,m
+,Michael Gore,587,m
+,Jules Shear,591,m
+,Dallas Frazier,592,m
+,Billy Steinberg,593,m
+,Billy Steinberg,594,m
+,Billy Steinberg,595,m
+,Billy Steinberg,596,m
+,Billy Steinberg,597,m
+,Billy Steinberg,598,m
+,Billy Steinberg,599,m
+,Tom Kelly,593,m
+,Tom Kelly,594,m
+,Tom Kelly,595,m
+,Tom Kelly,596,m
+,Tom Kelly,599,m
+,Jermaine Dupri,333,m
+,Jermaine Dupri,606,m
+,Jermaine Dupri,607,m
+,Jermaine Dupri,608,m
+,Jermaine Dupri,609,m
+,Jermaine Dupri,182,m
+,Jermaine Dupri,611,m
+,Jermaine Dupri,612,m
+,Jermaine Dupri,613,m
+,Jermaine Dupri,614,m
+,Jermaine Dupri,615,m
+,Jermaine Dupri,616,m
+,Jermaine Dupri,617,m
+,Jermaine Dupri,618,m
+,Jermaine Dupri,619,m
+,Jermaine Dupri,620,m
+,Jermaine Dupri,621,m
+,Jermaine Dupri,461,m
+,Jermaine Dupri,623,m
+,Mariah Carey,333,f
+,Mariah Carey,625,f
+,Mariah Carey,609,f
+,Mariah Carey,627,f
+,Mariah Carey,628,f
+,Mariah Carey,629,f
+,Mariah Carey,118,f
+,Mariah Carey,631,f
+,Mariah Carey,632,f
+,Mariah Carey,633,f
+,Mariah Carey,634,f
+,Mariah Carey,635,f
+,Mariah Carey,636,f
+,Mariah Carey,637,f
+,Mariah Carey,638,f
+,Mariah Carey,618,f
+,Mariah Carey,640,f
+,Mariah Carey,356,f
+,Mariah Carey,642,f
+,Mariah Carey,643,f
+,Mariah Carey,621,f
+,Mariah Carey,645,f
+,Manuel Seal,333,m
+,Manuel Seal,612,m
+,Manuel Seal,615,m
+,Manuel Seal,616,m
+,Manuel Seal,617,m
+,Manuel Seal,621,m
+,Manuel Seal,623,m
+,Wayne Lewis,653,m
+,Wayne Lewis,654,m
+,Jonathan Lewis,653,m
+,Jon Bon Jovi,656,m
+,Jon Bon Jovi,657,m
+,Jon Bon Jovi,658,m
+,Jon Bon Jovi,659,m
+,Jon Bon Jovi,660,m
+,Jon Bon Jovi,661,m
+,Jon Bon Jovi,662,m
+,Johnny Christopher,663,m
+,Johnny Christopher,664,m
+,Questlove,663,m
+,Mark James,663,m
+,Nico Sereba,667,m
+,Vinz Dery,667,m
+,Tom Scholz,669,m
+,Aimee Mayo,670,f
+,Chris Lindsey,670,m
+,Marv Green,670,m
+,Sir Mix-A-Lot,673,m
+,Sir Mix-A-Lot,674,m
+,Nicki Minaj,673,f
+,Nicki Minaj,5,f
+,Nicki Minaj,6,f
+,Nicki Minaj,219,f
+,Nicki Minaj,34,f
+,Nicki Minaj,499,f
+,Nicki Minaj,681,f
+,Nicki Minaj,682,f
+,Polow da Don,673,m
+,Polow da Don,684,m
+,Polow da Don,685,m
+,Polow da Don,686,m
+,Polow da Don,687,m
+,Ernest Tuo Clark,673,m
+,Jonathan Solone-Myvett,673,m
+,"Marcos ""Kosine"" Palacios",673,m
+,Desmond Child,691,m
+,Desmond Child,657,m
+,Desmond Child,659,m
+,Desmond Child,694,m
+,Desmond Child,695,m
+,Desmond Child,661,m
+,Desmond Child,697,m
+,Desmond Child,662,m
+,Steven Tyler,691,m
+,Stephen Bray,266,m
+,Stephen Bray,267,m
+,Ahmet Ertegün,702,m
+,Chip Taylor,702,m
+,Eddie Curtis,702,m
+,Steve Miller,702,m
+,Rhett Lawrence,706,m
+,Rhett Lawrence,506,m
+,Travon Potts,706,m
+,Richard Marx,709,m
+,Richard Marx,710,m
+,Richard Marx,711,m
+,Richard Marx,712,m
+,Richard Marx,713,m
+,Richard Marx,714,m
+,Richard Marx,715,m
+,Richard Marx,716,m
+,Benny Blanco,45,m
+,Benny Blanco,718,m
+,Benny Blanco,9,m
+,Benny Blanco,720,m
+,Benny Blanco,721,m
+,Benny Blanco,722,m
+,Benny Blanco,723,m
+,Benny Blanco,15,m
+,Benny Blanco,725,m
+,Benny Blanco,52,m
+,Benny Blanco,54,m
+,Benny Blanco,728,m
+,Benny Blanco,729,m
+,Benny Blanco,37,m
+,Benny Blanco,731,m
+,Benny Blanco,732,m
+,Adam Levine,45,m
+,Adam Levine,734,m
+,Adam Levine,52,m
+,Adam Levine,27,m
+,Adam Levine,54,m
+,Adam Levine,738,m
+,Adam Levine,729,m
+,Adam Levine,740,m
+,Adam Levine,741,m
+,Phil Collins,742,m
+,Phil Collins,743,m
+,Phil Collins,744,m
+,Phil Collins,745,m
+,Phil Collins,746,m
+,Phil Collins,747,m
+,Phil Collins,748,m
+,Phil Collins,749,m
+,Phil Collins,750,m
+,Phil Collins,751,m
+,Phil Collins,752,m
+,Phil Collins,753,m
+,Ryan Tedder,286,m
+,Ryan Tedder,755,m
+,Ryan Tedder,756,m
+,Ryan Tedder,757,m
+,DJ White Shadow,482,m
+,DJ White Shadow,484,m
+,DJ White Shadow,490,m
+,Nick Monson,482,m
+,Nick Monson,762,m
+,Tchami,482,m
+,Tchami,764,m
+,Dino Zisis,482,m
+,Lou Handman,766,m
+,Roy Turk,766,m
+,Billy Vera,768,m
+,JKash,769,m
+,JKash,502,m
+,JKash,740,m
+,JKash,732,m
+,JKash,773,m
+,Charlie Puth,769,m
+,Charlie Puth,474,m
+,Brock Walsh,776,m
+,Mark Goldenberg,776,m
+,Harold Faltermeyer,778,m
+,Harold Faltermeyer,779,m
+,Harold Faltermeyer,780,m
+,Amy Grant,781,f
+,Amy Grant,782,f
+,Keith Thomas,781,m
+,Beyonce,100,f
+,Beyonce,785,f
+,Beyonce,786,f
+,Beyonce,787,f
+,Beyonce,788,f
+,Beyonce,112,f
+,Beyonce,113,f
+,Beyonce,115,f
+,Beyonce,182,f
+,Beyonce,757,f
+,Beyonce,794,f
+,Beyonce,795,f
+,Beyonce,796,f
+,Beyonce,120,f
+,Beyonce,798,f
+,Beyonce,799,f
+,Beyonce,800,f
+,Beyonce,801,f
+,Beyonce,187,f
+,Beyonce,803,f
+,Beyonce,489,f
+,Scott Storch,100,m
+,Scott Storch,208,m
+,Scott Storch,289,m
+,Scott Storch,215,m
+,Scott Storch,809,m
+,Scott Storch,810,m
+,Scott Storch,811,m
+,Scott Storch,798,m
+,Scott Storch,800,m
+,Scott Storch,814,m
+,Robert Waller,100,m
+,Robert Waller,798,m
+,Robert Waller,800,m
+,Keith Crouch,818,m
+,Kipper Jones,818,m
+,Rahsaan Patterson,818,m
+,Justin Bieber,821,m
+,Justin Bieber,6,m
+,Justin Bieber,823,m
+,Justin Bieber,721,m
+,Justin Bieber,825,m
+,Justin Bieber,826,m
+,Justin Bieber,827,m
+,Justin Bieber,725,m
+,Justin Bieber,829,m
+,Justin Bieber,830,m
+,The-Dream,821,m
+,The-Dream,832,m
+,The-Dream,833,m
+,The-Dream,119,m
+,The-Dream,799,m
+,The-Dream,801,m
+,The-Dream,642,m
+,The-Dream,125,m
+,Ludacris,821,m
+,Ludacris,840,m
+,Ludacris,685,m
+,Ludacris,842,m
+,Ludacris,843,m
+,Ludacris,844,m
+,Ludacris,186,m
+,Ludacris,687,m
+,Ludacris,151,m
+,Ludacris,475,m
+,Ludacris,849,m
+,Tricky Steward,821,m
+,Tricky Steward,851,m
+,Tricky Steward,801,m
+,Tricky Steward,642,m
+,Tricky Steward,125,m
+,Tricky Steward,855,m
+,Christina Milian,821,f
+,Christina Milian,857,f
+,Allen Collins,858,m
+,Peter Frampton,858,m
+,Ronnie Van Zandt,858,m
+,R. Kelly,861,m
+,R. Kelly,862,m
+,R. Kelly,863,m
+,R. Kelly,864,m
+,R. Kelly,865,m
+,R. Kelly,866,m
+,R. Kelly,867,m
+,R. Kelly,868,m
+,R. Kelly,869,m
+,R. Kelly,870,m
+,R. Kelly,871,m
+,R. Kelly,872,m
+,R. Kelly,873,m
+,R. Kelly,874,m
+,R. Kelly,875,m
+,R. Kelly,876,m
+,Brian McKnight,877,m
+,Metro Boomin,878,m
+,Metro Boomin,879,m
+,Quavo,878,m
+,Quavo,826,m
+,Offset,878,m
+,G Koop,878,m
+,Justin Tranter,884,nb
+,Justin Tranter,885,nb
+,Justin Tranter,762,nb
+,Justin Tranter,829,nb
+,Halsey,884,nb
+,Halsey,165,nb
+,Ricky Reed,884,m
+,Ricky Reed,502,m
+,Ricky Reed,892,m
+,Ricky Reed,773,m
+,Roget Chahayed,884,m
+,Kendrick Lamar,4,m
+,Kendrick Lamar,896,m
+,Kendrick Lamar,897,m
+,Michael Jackson,898,m
+,Michael Jackson,899,m
+,Michael Jackson,539,m
+,Michael Jackson,901,m
+,Michael Jackson,902,m
+,Michael Jackson,903,m
+,Michael Jackson,904,m
+,Michael Jackson,353,m
+,Michael Jackson,906,m
+,Michael Jackson,907,m
+,Michael Jackson,560,m
+,Michael Jackson,561,m
+,Daniel Powter,910,m
+,Richie Sambora,657,m
+,Richie Sambora,659,m
+,Richie Sambora,660,m
+,Richie Sambora,661,m
+,Richie Sambora,662,m
+,John Fogerty,916,m
+,Camila Cabello,917,f
+,Camila Cabello,918,f
+,Alex Schwartz,917,m
+,Tony Scalzo,917,m
+,Joe Khajadourian,917,m
+,Madison Love,917,f
+,Machine Gun Kelly,917,m
+,Paul Barry,924,m
+,Paul Barry,925,m
+,Paul Barry,926,m
+,Paul Barry,927,m
+,Mark Taylor,924,m
+,Mark Taylor,925,m
+,Mark Taylor,927,m
+,Savan Kotecha,5,m
+,Savan Kotecha,6,m
+,Savan Kotecha,8,m
+,Savan Kotecha,10,m
+,Savan Kotecha,13,m
+,Savan Kotecha,936,m
+,Savan Kotecha,937,m
+,Savan Kotecha,938,m
+,Savan Kotecha,25,m
+,Savan Kotecha,27,m
+,Savan Kotecha,29,m
+,Savan Kotecha,34,m
+,Savan Kotecha,943,m
+,Rickard Göransson,5,m
+,T-Pain,945,m
+,T-Pain,833,m
+,T-Pain,947,m
+,T-Pain,948,m
+,T-Pain,949,m
+,T-Pain,950,m
+,Akon,945,m
+,Akon,952,m
+,Akon,953,m
+,Akon,954,m
+,Akon,485,m
+,Akon,956,m
+,Akon,957,m
+,Akon,958,m
+,Akon,959,m
+,Akon,960,m
+,Enrique Iglesias,925,m
+,Enrique Iglesias,927,m
+,Enrique Iglesias,494,m
+,Enrique Iglesias,475,m
+,Bryan-Michael Cox,965,m
+,Bryan-Michael Cox,606,m
+,Bryan-Michael Cox,607,m
+,Bryan-Michael Cox,609,m
+,Bryan-Michael Cox,618,m
+,Bryan-Michael Cox,620,m
+,Bryan-Michael Cox,461,m
+,Jason Perry,965,m
+,Jason Perry,684,m
+,Mary J. Blige,965,f
+,Mary J. Blige,975,f
+,Johntá Austin,965,m
+,Johntá Austin,609,m
+,Johntá Austin,614,m
+,Johntá Austin,979,m
+,Johntá Austin,618,m
+,Johntá Austin,621,m
+,Johntá Austin,982,m
+,Linda Perry,983,f
+,Linda Perry,984,f
+,Jerry Leiber,985,m
+,Jerry Leiber,986,m
+,Jerry Leiber,987,m
+,Jerry Leiber,988,m
+,Mike Stoller,985,m
+,Mike Stoller,986,m
+,Mike Stoller,987,m
+,Mike Stoller,988,m
+,Sean Kingston,985,m
+,Sean Kingston,493,m
+,Sean Kingston,995,m
+,Sean Kingston,996,m
+,J.R. Rotem,985,m
+,J.R. Rotem,998,m
+,J.R. Rotem,995,m
+,J.R. Rotem,1000,m
+,J.R. Rotem,996,m
+,Ben E. King,985,m
+,Sly Jordan,985,m
+,Mikkel Eriksen,785,m
+,Mikkel Eriksen,1005,m
+,Mikkel Eriksen,1006,m
+,Mikkel Eriksen,718,m
+,Mikkel Eriksen,722,m
+,Mikkel Eriksen,902,m
+,Mikkel Eriksen,1010,m
+,Mikkel Eriksen,795,m
+,Mikkel Eriksen,1012,m
+,Mikkel Eriksen,525,m
+,Mikkel Eriksen,728,m
+,Mikkel Eriksen,1015,m
+,Mikkel Eriksen,1016,m
+,Mikkel Eriksen,1017,m
+,Mikkel Eriksen,1018,m
+,Mikkel Eriksen,982,m
+,Tor Hermansen,785,m
+,Tor Hermansen,1005,m
+,Tor Hermansen,1006,m
+,Tor Hermansen,718,m
+,Tor Hermansen,722,m
+,Tor Hermansen,902,m
+,Tor Hermansen,1010,m
+,Tor Hermansen,795,m
+,Tor Hermansen,1012,m
+,Tor Hermansen,525,m
+,Tor Hermansen,728,m
+,Tor Hermansen,1015,m
+,Tor Hermansen,1016,m
+,Tor Hermansen,1017,m
+,Tor Hermansen,1018,m
+,Tor Hermansen,982,m
+,Amanda Ghost,785,f
+,Amanda Ghost,1037,f
+,Ian Dench,785,m
+,Zedd,6,m
+,Zedd,8,m
+,Warren Allen Brooks,1041,m
+,Anders Bagge,1042,m
+,Anders Bagge,1043,m
+,Anders Bagge,1044,m
+,Arnthor Birgisson,1042,m
+,Arnthor Birgisson,1044,m
+,Bloodshy,1042,m
+,Patrick Tucker,1042,pm
+,Ne-Yo,1005,m
+,Ne-Yo,1050,m
+,Ne-Yo,795,m
+,Ne-Yo,146,m
+,Ne-Yo,811,m
+,Ne-Yo,1015,m
+,Ne-Yo,1016,m
+,Diane Warren,1056,f
+,Diane Warren,1057,f
+,Diane Warren,1058,f
+,Diane Warren,1059,f
+,Diane Warren,1060,f
+,Diane Warren,694,f
+,Diane Warren,1062,f
+,Diane Warren,1063,f
+,Diane Warren,1064,f
+,Diane Warren,1065,f
+,Diane Warren,1066,f
+,Diane Warren,1067,f
+,Diane Warren,1068,f
+,Diane Warren,1069,f
+,Diane Warren,1070,f
+,Diane Warren,1071,f
+,Diane Warren,1072,f
+,Diane Warren,1073,f
+,Diane Warren,1074,f
+,Diane Warren,1075,f
+,Diane Warren,1076,f
+,Los Da Mystro,832,m
+,Lil Wayne,219,m
+,Lil Wayne,1079,m
+,Lil Wayne,1080,m
+,Lil Wayne,182,m
+,Lil Wayne,1082,m
+,Lil Wayne,826,m
+,Lil Wayne,1084,m
+,Lil Wayne,1085,m
+,Lil Wayne,1086,m
+,Lil Wayne,187,m
+,Lil Wayne,124,m
+,Drake,219,m
+,Drake,1079,m
+,Drake,142,m
+,Drake,1092,m
+,Drake,1093,m
+,Drake,1094,m
+,Drake,1095,m
+,Drake,1086,m
+,Drake,1018,m
+,Drake,1098,m
+,Static Major,219,m
+,Static Major,684,m
+,Static Major,788,m
+,Static Major,181,m
+,Static Major,182,m
+,Static Major,1085,m
+,Static Major,686,m
+,Static Major,120,m
+,Static Major,814,m
+,Static Major,187,m
+,Static Major,849,m
+,Kane Beatz,219,m
+,Kane Beatz,681,m
+,Gudda Gudda,219,m
+,Jae Millz,219,m
+,Lloyd,219,m
+,Tyga,219,m
+,David Bowie,506,m
+,David Bowie,1117,m
+,David Bowie,1118,m
+,David Bowie,1119,m
+,The Notorious B.I.G.,506,m
+,The Notorious B.I.G.,1121,m
+,The Notorious B.I.G.,1122,m
+,The Notorious B.I.G.,1123,m
+,P. Diddy,506,m
+,P. Diddy,1125,m
+,P. Diddy,1126,m
+,P. Diddy,632,m
+,P. Diddy,1121,m
+,P. Diddy,1129,m
+,P. Diddy,1130,m
+,P. Diddy,1123,m
+,P. Diddy,1132,m
+,P. Diddy,872,m
+,Mase,506,m
+,Mase,1125,m
+,Mase,1122,m
+,Brian Higgins,926,m
+,Steve Torch,926,m
+,Stuart McLennen,926,m
+,Ben McKee,885,m
+,Ben McKee,470,m
+,Ben McKee,471,m
+,Dan Reynolds,885,m
+,Dan Reynolds,470,m
+,Dan Reynolds,471,m
+,Daniel Platzman,885,m
+,Daniel Platzman,470,m
+,Daniel Platzman,471,m
+,Wayne Sermon,885,m
+,Wayne Sermon,470,m
+,Wayne Sermon,471,m
+,Mattias Per Larsson,885,m
+,Robin Fredriksson,885,m
+,Rob Thomas,1154,m
+,Rob Thomas,1155,m
+,Rob Thomas,1156,m
+,Rob Thomas,1157,m
+,DJ Gist,1158,m
+,DJ Gist,1159,m
+,Eminem,1158,m
+,Eminem,1161,m
+,Eminem,209,m
+,Eminem,468,m
+,Eminem,229,m
+,Eminem,1165,m
+,Eminem,469,m
+,Eminem,1167,m
+,Eminem,958,m
+,Eminem,1169,m
+,Eminem,1170,m
+,Eminem,1171,m
+,MCA,1158,m
+,Ad-Rock,1158,m
+,Treach,1158,m
+,Art Neville,1158,m
+,Charles Neville,1158,m
+,Ziggy Modeliste,1158,m
+,Rick Rubin,1158,m
+,Vin Rock,1158,m
+,Billy Squier,1158,m
+,Boi-1da,1079,m
+,Boi-1da,1092,m
+,Boi-1da,1183,m
+,Boi-1da,1167,m
+,Boi-1da,1098,m
+,Dan Hamilton,1079,m
+,Kia Shine,1079,m
+,John The Blind,573,m
+,John The Blind,1189,m
+,John The Blind,773,m
+,Julian Bunetta,573,m
+,Julian Bunetta,1189,m
+,Ed Drewett,573,m
+,Ed Drewett,575,m
+,Holly Knight,1195,f
+,Holly Knight,1196,f
+,Mike Chapman,1195,m
+,Nicky Chinn,1195,m
+,Lindsey Buckingham,1199,m
+,Ari Levine,223,m
+,Ari Levine,224,m
+,Ari Levine,226,m
+,Ari Levine,227,m
+,Ari Levine,228,m
+,Ari Levine,229,m
+,Ari Levine,230,m
+,Ari Levine,231,m
+,Ari Levine,234,m
+,Ari Levine,235,m
+,Ari Levine,237,m
+,Travie McCoy,223,m
+,Travie McCoy,729,m
+,Boudleaux Bryant,1213,m
+,Jeremih,1214,m
+,Jeremih,211,m
+,Keith James,1214,m
+,Keith James,211,m
+,Mick Schultz,1214,m
+,Mick Schultz,211,m
+,Meredith Brooks,1220,f
+,Shelly Peiken,1220,f
+,Wiz Khalifa,1006,m
+,Wiz Khalifa,54,m
+,Wiz Khalifa,474,m
+,Mike WiLL Made-It,1225,m
+,Mike WiLL Made-It,896,m
+,Mike WiLL Made-It,897,m
+,Mike WiLL Made-It,1228,m
+,Mike WiLL Made-It,1229,m
+,Swae Lee,1225,m
+,Swae Lee,1228,m
+,Slim Jxmmi,1225,m
+,Gucci Mane,1225,m
+,Katy Perry,718,f
+,Katy Perry,9,f
+,Katy Perry,12,f
+,Katy Perry,14,f
+,Katy Perry,16,f
+,Katy Perry,1010,f
+,Katy Perry,20,f
+,Katy Perry,21,f
+,Katy Perry,24,f
+,Katy Perry,28,f
+,Katy Perry,32,f
+,Katy Perry,37,f
+,Katy Perry,38,f
+,Katy Perry,41,f
+,Sarah Hudson,718,f
+,Sarah Hudson,14,f
+,Iggy Azalea,718,f
+,Iggy Azalea,1251,f
+,Iggy Azalea,29,f
+,"Christopher ""Deep"" Henderson",833,m
+,"Christopher ""Deep"" Henderson",1254,m
+,Brandon Melanchon,833,m
+,Breyon Prescott,833,m
+,James Brown,833,m
+,Jamie Foxx,833,m
+,"John Conte, Jr.",833,m
+,Nate Walka,833,m
+,Jesse McCartney,755,m
+,Greg Kurstin,1262,m
+,Greg Kurstin,101,m
+,Greg Kurstin,1264,m
+,Greg Kurstin,406,m
+,P!nk,1262,f
+,P!nk,18,f
+,P!nk,1268,f
+,P!nk,31,f
+,P!nk,36,f
+,Pharrell,1271,m
+,Pharrell,1272,m
+,Pharrell,117,m
+,Pharrell,1274,m
+,Pharrell,320,m
+,Pharrell,1276,m
+,Pharrell,918,m
+,Pharrell,1278,m
+,Pharrell,455,m
+,Pharrell,1280,m
+,Pharrell,1281,m
+,Pharrell,844,m
+,Pharrell,325,m
+,Pharrell,1284,m
+,Robin Thicke,1271,m
+,Doug Ardito,1286,m
+,Wesley Scantlin,1286,m
+,Cardi B,1288,f
+,Cardi B,1183,f
+,J. White Did It,1288,m
+,Kodak Black,1288,m
+,Pardison Fontaine,1288,m
+,Shaftizm,1288,m
+,will.i.am,1294,m
+,will.i.am,1295,m
+,will.i.am,515,m
+,will.i.am,1297,m
+,will.i.am,685,m
+,will.i.am,1299,m
+,will.i.am,1300,m
+,will.i.am,1301,m
+,will.i.am,1302,m
+,will.i.am,1303,m
+,will.i.am,1304,m
+,will.i.am,1305,m
+,apl.de.ap,1294,m
+,apl.de.ap,1299,m
+,apl.de.ap,1300,m
+,apl.de.ap,1301,m
+,apl.de.ap,1305,m
+,Taboo,1294,m
+,Taboo,1299,m
+,Taboo,1300,m
+,Taboo,1301,m
+,Jeppe Laursen,484,m
+,Mike Posner,823,m
+,Mike Posner,1317,m
+,Mike Posner,740,m
+,MdL,823,m
+,MdL,830,m
+,blackbear,823,m
+,Greg Prestopino,1322,m
+,Greg Prestopino,1125,m
+,Matthew Wilder,1322,m
+,Matthew Wilder,1125,m
+,Taio Cruz,840,m
+,Taio Cruz,15,m
+,Taio Cruz,1328,m
+,Fraser T. Smith,840,m
+,Fraser T. Smith,1330,m
+,Jamie Houston,1331,m
+,Babyface,1332,m
+,Babyface,1333,m
+,Babyface,1334,m
+,Babyface,1335,m
+,Babyface,1336,m
+,Babyface,1337,m
+,Babyface,1338,m
+,Babyface,1339,m
+,Babyface,868,m
+,Babyface,1341,m
+,Babyface,1342,m
+,Babyface,1343,m
+,Babyface,1344,m
+,Babyface,1345,m
+,Babyface,1346,m
+,Babyface,1347,m
+,Babyface,1348,m
+,Babyface,281,m
+,Babyface,1350,m
+,Babyface,1351,m
+,Babyface,621,m
+,Babyface,1353,m
+,Babyface,645,m
+,Babyface,1355,m
+,Holly Lamar,1356,f
+,Stephanie Bentley,1356,f
+,Bruce Springsteen,1358,m
+,Bruce Springsteen,1359,m
+,Bruce Springsteen,1360,m
+,Bruce Springsteen,1361,m
+,Bruce Springsteen,1362,m
+,Billy Lawrence,1363,f
+,Kevin Spencer,1363,m
+,Linda Van Horssen,1363,f
+,Linda Lewis,1363,f
+,Nidra Sylvers,1363,f
+,Violet Ruby,1363,pf
+,William Shelby,1363,m
+,David Hodges,1370,m
+,David Hodges,1371,m
+,Amy Lee,1370,f
+,Ben Moody,1370,m
+,Lil Yachty,1374,m
+,Lil Yachty,1375,m
+,D.R.A.M.,1374,m
+,Richard Page,1377,m
+,Richard Page,272,m
+,Richard Page,1379,m
+,John Lang,1377,m
+,John Lang,1379,m
+,Steve George,1377,m
+,Steve George,1379,m
+,Colbie Caillat,1384,f
+,Jason Reeves,1384,m
+,Jamie Morgan,1386,m
+,Jamie Morgan,1387,m
+,Neneh Cherry,1386,f
+,Cameron McVey,1386,m
+,Phillip Ramacon,1386,m
+,Smitty,863,m
+,Smitty,460,m
+,Usher,606,m
+,Usher,607,m
+,Usher,1395,m
+,Usher,843,m
+,Usher,615,m
+,Usher,616,m
+,Usher,617,m
+,Usher,620,m
+,Usher,1328,m
+,Usher,623,m
+,Melvin Miller,1403,m
+,Frankie Sullivan,1404,m
+,Frankie Sullivan,1405,m
+,Jim Peterik,1404,m
+,Jim Peterik,1405,m
+,Flea,1408,m
+,Flea,1409,m
+,Anthony Kiedis,1408,m
+,Epic Mazur,1408,m
+,Chad Smith,1408,m
+,John Frusciante,1408,m
+,Shifty Shellshock,1408,m
+,Snoop Dogg,684,m
+,Snoop Dogg,9,m
+,Snoop Dogg,1272,m
+,Snoop Dogg,954,m
+,Snoop Dogg,1419,m
+,Snoop Dogg,773,m
+,Nicole Scherzinger,684,f
+,Andreas Carlsson,1422,m
+,Andreas Carlsson,936,m
+,Andreas Carlsson,937,m
+,Andreas Carlsson,23,m
+,Jake Schulze,1422,m
+,Kristian Lundin,1422,m
+,Dr. Luke,9,m
+,Dr. Luke,720,m
+,Dr. Luke,14,m
+,Dr. Luke,723,m
+,Dr. Luke,15,m
+,Dr. Luke,16,m
+,Dr. Luke,1434,m
+,Dr. Luke,1435,m
+,Dr. Luke,19,m
+,Dr. Luke,20,m
+,Dr. Luke,21,m
+,Dr. Luke,24,m
+,Dr. Luke,26,m
+,Dr. Luke,28,m
+,Dr. Luke,1442,m
+,Dr. Luke,232,m
+,Dr. Luke,32,m
+,Dr. Luke,35,m
+,Dr. Luke,740,m
+,Dr. Luke,37,m
+,Dr. Luke,38,m
+,Dr. Luke,731,m
+,Dr. Luke,39,m
+,Dr. Luke,1451,m
+,Dr. Luke,732,m
+,Dr. Luke,1453,m
+,Dr. Luke,41,m
+,Dr. Luke,1455,m
+,Bonnie Mckee,9,f
+,Bonnie Mckee,15,f
+,Bonnie Mckee,19,f
+,Bonnie Mckee,24,f
+,Bonnie Mckee,28,f
+,Bonnie Mckee,32,f
+,Bonnie Mckee,37,f
+,Bonnie Mckee,41,f
+,Carly Rae Jepsen,1464,f
+,Josh Ramsay,1464,m
+,Tavish Crowe,1464,m
+,Elton John,1467,m
+,Elton John,1468,m
+,Elton John,1469,m
+,Elton John,1470,m
+,Elton John,1471,m
+,Elton John,1472,m
+,Elton John,1473,m
+,George David Weiss,1474,m
+,Hugo Peretti,1474,m
+,Luigi Creatore,1474,m
+,Bernie Taupin,1468,m
+,Bernie Taupin,1469,m
+,Bernie Taupin,1470,m
+,Bernie Taupin,1471,m
+,Bernie Taupin,1472,m
+,Bernie Taupin,1473,m
+,Bernie Taupin,1483,m
+,Bernie Taupin,1484,m
+,Samuel Barnes,1485,m
+,Samuel Barnes,1486,m
+,Samuel Barnes,794,m
+,Samuel Barnes,1488,m
+,Jean-Claude Olivier,1485,m
+,Jean-Claude Olivier,794,m
+,Jean-Claude Olivier,1488,m
+,Heavy D,1485,m
+,Terri Robinson,1485,f
+,George Michael,1494,m
+,George Michael,1495,m
+,George Michael,1496,m
+,George Michael,1497,m
+,George Michael,1498,m
+,George Michael,1499,m
+,George Michael,1500,m
+,George Michael,1501,m
+,George Michael,1502,m
+,George Michael,1503,m
+,George Michael,1504,m
+,George Michael,1505,m
+,George Michael,1506,m
+,Andrew Ridgeley,1494,m
+,Joey Tempest,1508,m
+,Mic Michaeli,1508,m
+,Reggie Calloway,1510,m
+,Reggie Calloway,1511,m
+,Tab,851,m
+,Tab,855,m
+,Traci Hale,851,f
+,Traci Hale,1018,f
+,Seth Justman,1516,m
+,Sam Cooke,1517,m
+,Sia,12,f
+,Sia,101,f
+,Sia,722,f
+,Sia,1521,f
+,Skip Marley,12,m
+,Cyndi Lauper,1523,f
+,Cyndi Lauper,1524,f
+,Essra Mohawk,1523,f
+,Wayne Kirkpatrick,1526,m
+,Wayne Kirkpatrick,782,m
+,Wayne Kirkpatrick,1528,m
+,Gordon Kennedy,1526,m
+,Gordon Kennedy,1528,m
+,Tommy Sims,1526,m
+,Tommy Sims,1528,m
+,Paul Wilson,1533,m
+,Paul Wilson,1534,m
+,Gary Lightbody,1533,m
+,Jonathan Quinn,1533,m
+,Nathan Connolly,1533,m
+,Tom Simpson,1533,m
+,Swizz Beatz,788,m
+,Swizz Beatz,866,m
+,Angela Beyince,788,f
+,Angela Beyince,800,f
+,Slim Thug,788,m
+,Clifton Dillon,1544,m
+,Sly Dunbar,1544,m
+,Mark Bradford,1544,m
+,OMI,1544,m
+,Ryan Dillon,1544,m
+,Robert Bell,1549,m
+,Robert Bell,1550,m
+,Robert Bell,1551,m
+,Robert Bell,1552,m
+,John Taylor,1549,m
+,John Taylor,1554,m
+,Patrick Leonard,268,m
+,Patrick Leonard,271,m
+,Patrick Leonard,272,m
+,Patrick Leonard,274,m
+,Patrick Leonard,275,m
+,Patrick Leonard,1560,m
+,Patrick Leonard,284,m
+,Sammy Johns,1562,m
+,Claude Kelly,720,m
+,Claude Kelly,226,m
+,Claude Kelly,998,m
+,Claude Kelly,26,m
+,Claude Kelly,1442,m
+,Gary Benson,174,m
+,Winston Sela,174,m
+,Isaac Slade,165,m
+,Isaac Slade,1571,m
+,Joe King,165,m
+,Joe King,1571,m
+,Freddy Kennett,165,m
+,Shaun Frank,165,m
+,Bobby Troup,1295,m
+,Elliot Wolff,1577,m
+,Elliot Wolff,1578,m
+,Jamie Scott,721,m
+,Jamie Scott,1189,m
+,Diplo,721,m
+,Diplo,1582,m
+,Diplo,1583,m
+,Diplo,124,m
+,MO,721,f
+,MO,1582,f
+,Jr Blender,721,m
+,Jr Blender,1582,m
+,Ed Sheeran,721,m
+,Ed Sheeran,725,m
+,Ed Sheeran,1591,m
+,Ed Sheeran,580,m
+,Ed Sheeran,1593,m
+,King Henry,721,m
+,Stephen Schwartz,1595,m
+,Bobby Hart,1596,m
+,Wes Farrell,1596,m
+,Tommy Boyce,1596,m
+,Lewis Martineé,1599,m
+,Lewis Martineé,1600,m
+,Guy Roche,105,m
+,Guy Roche,1602,m
+,Shelly Peiken,105,f
+,Shelly Peiken,1602,f
+,Chaka Blackmon,105,m
+,Christina Aguilera,105,f
+,Eric Dawkins,105,m
+,Johan Åberg,105,m
+,Paul Rein,105,m
+,Ray Cham,105,m
+,Barbara Ellis,1611,f
+,Gary Troxel,1611,m
+,Gretchen Christopher,1611,f
+,Jimmy Page,1126,m
+,John Bonham,1126,m
+,Mark Curry,1126,m
+,Robert Plant,1126,m
+,Jon Secada,1618,m
+,Jon Secada,1619,m
+,Jon Secada,1620,m
+,Gloria Estefan,1618,f
+,Gloria Estefan,1622,f
+,Emilio Estefan,1618,m
+,Avril Lavigne,1624,f
+,Avril Lavigne,1434,f
+,Avril Lavigne,1626,f
+,Lauren Christy,1624,f
+,Lauren Christy,1626,f
+,Lauren Christy,475,f
+,Graham Edwards,1624,m
+,Graham Edwards,1626,m
+,Scott Spock,1624,m
+,Scott Spock,1626,m
+,LRoc,608,m
+,LRoc,182,m
+,LRoc,1636,m
+,LL Cool J,608,m
+,LL Cool J,1638,m
+,LL Cool J,1639,m
+,LL Cool J,1640,m
+,LL Cool J,1280,m
+,Afrika Bambaataa,608,m
+,Arthur Baker,608,m
+,John Miller,608,m
+,John Robie,608,m
+,Ryan Toby,608,m
+,Rick Timas,1647,m
+,Vincent Brantley,1647,m
+,Maurice Starr,1649,m
+,Maurice Starr,1650,m
+,Maurice Starr,1651,m
+,Maurice Starr,1652,m
+,Maurice Starr,1653,m
+,Maurice Starr,1654,m
+,Dr. Dre,209,m
+,Dr. Dre,975,m
+,Dr. Dre,156,m
+,Dr. Dre,213,m
+,Dr. Dre,468,m
+,Dr. Dre,214,m
+,Dr. Dre,810,m
+,Dr. Dre,1662,m
+,Dr. Dre,1170,m
+,Dawaun Parker,209,m
+,Erick Coomes,209,m
+,Jean Renard,209,m
+,Mark Batson,209,m
+,"Trevor Lawrence, Jr.",209,m
+,Billy Idol,1669,m
+,David Werner,1669,m
+,Cee-Lo Green,1671,m
+,Cee-Lo Green,1672,m
+,Cee-Lo Green,224,m
+,Danger Mouse,1671,m
+,Gian Franco Reverberi,1671,m
+,Gian Piero Reverberi,1671,m
+,John Bettis,1677,m
+,John Bettis,1678,m
+,John Bettis,1679,m
+,Jon Lind,1677,m
+,Jon Lind,1681,m
+,Rich Harrison,112,m
+,Rich Harrison,182,m
+,Rich Harrison,187,m
+,Eugene Record,112,m
+,Dallas Austin,1686,m
+,Dallas Austin,1638,m
+,Dallas Austin,143,m
+,Dallas Austin,1689,m
+,Dallas Austin,1690,m
+,Dallas Austin,280,m
+,Dallas Austin,1692,m
+,Brian Kelley,1693,m
+,Chase Rice,1693,m
+,Jesse Rice,1693,m
+,Joey Moi,1693,m
+,Tyler Hubbard,1693,m
+,Eman Kiriakou,1371,m
+,Jess Cates,1371,m
+,Andy Goldmark,1700,m
+,Berny Cosgrove,1700,f
+,Kevin Clark,1700,pm
+,Mark Mueller,1700,m
+,Jerry Knight,1704,m
+,Jerry Knight,1129,m
+,Jerry Knight,1706,m
+,Aaron Zigman,1704,m
+,Jim Lea,1708,m
+,Noddy Holder,1708,m
+,Pasha Associates,1708,m
+,Sophie B. Hawkins,1711,f
+,Lil Jon,1712,m
+,Lil Jon,1713,m
+,Lil Jon,181,m
+,Lil Jon,843,m
+,Lil Jon,1716,m
+,Lil Jon,764,m
+,Lil Jon,849,m
+,Cedric Leonard,1712,m
+,J-Bo,1712,pm
+,Robert McDowell,1712,pm
+,Sean P,1712,m
+,Giorgio Moroder,1723,m
+,Giorgio Moroder,800,m
+,Giorgio Moroder,1725,m
+,Tom Whitlock,1723,m
+,Tom Whitlock,1725,m
+,Kemo,952,m
+,Donald Sales,952,m
+,Kardinal Offishall,952,m
+,Per Gessle,1731,m
+,Per Gessle,1732,m
+,Per Gessle,1733,m
+,Per Gessle,1734,m
+,Per Gessle,1735,m
+,Cirkut,14,m
+,Cirkut,723,m
+,Cirkut,1435,m
+,Cirkut,1739,m
+,Cirkut,32,m
+,Cirkut,1741,m
+,Cirkut,740,m
+,Cirkut,1451,m
+,Cirkut,1453,m
+,Cirkut,41,m
+,Cirkut,1455,m
+,Juicy J,14,m
+,John Stewart,1748,m
+,Rob Knox,180,m
+,Lowman Pauling,1750,m
+,Ralph Bass,1750,m
+,Darkchild,113,m
+,Darkchild,1753,m
+,Darkchild,1754,m
+,Darkchild,1755,m
+,Darkchild,1301,m
+,Darkchild,120,m
+,Darkchild,1758,m
+,Darkchild,489,m
+,Darkchild,1760,m
+,Delisha Thomas,113,f
+,Jon Jon Traxx,113,m
+,Keli Nicole Price,113,f
+,Adam Clayton,1764,m
+,Adam Clayton,1765,m
+,Adam Clayton,1766,m
+,The Edge,1764,m
+,The Edge,1765,m
+,The Edge,1766,m
+,Larry Mullen,1764,m
+,Larry Mullen,1765,m
+,Larry Mullen,1766,m
+,Bono,1764,m
+,Bono,1765,m
+,Bono,1766,m
+,Daddy Yankee,825,m
+,Daddy Yankee,918,m
+,Poo Bear,825,m
+,Poo Bear,826,m
+,Poo Bear,1132,m
+,Poo Bear,830,m
+,Erika Ender,825,f
+,Luis Fonsi,825,m
+,Marty James,825,m
+,Andrew Farriss,1785,m
+,Andrew Farriss,1786,m
+,Andrew Farriss,1787,m
+,Andrew Farriss,1788,m
+,Michael Hutchence,1785,m
+,Michael Hutchence,1786,m
+,Michael Hutchence,1787,m
+,Michael Hutchence,1788,m
+,Nate Ruess,723,m
+,Nate Ruess,1268,m
+,Nate Ruess,1795,m
+,Nate Ruess,1796,m
+,Kesha,723,f
+,Kesha,731,f
+,Kesha,39,f
+,Kesha,1451,f
+,Kesha,732,f
+,Kesha,1802,f
+,Troy Oliver,1803,m
+,Troy Oliver,1804,m
+,Troy Oliver,1488,m
+,Ginuwine,1803,m
+,Kenny Gamble,453,m
+,Kenny Gamble,1808,m
+,Kenny Gamble,457,m
+,B.A.M.,453,m
+,Bunny Sigler,453,m
+,Ghost Bowser,453,m
+,Fabolous,857,m
+,Fabolous,156,m
+,Fabolous,557,m
+,Poli Paul,857,m
+,Shawnna,857,f
+,Teedra Moses,857,f
+,Phillip Pitts,210,m
+,Teraike Crawford,210,m
+,Chris Brown,1821,m
+,Chris Brown,1822,m
+,Chris Brown,949,m
+,Andre Merritt,1821,m
+,Andre Merritt,1822,m
+,Rob. A!,1821,m
+,Rob. A!,1822,m
+,Brian Seals,1821,m
+,Elliot Erickson,1829,m
+,Frederick Thomas,1829,m
+,Ingrid Chavez,1829,f
+,Andy Watkins,1534,m
+,Tracy Ackerman,1534,f
+,Michael Bivins,1550,m
+,Michael Bivins,1690,m
+,Carl Bourelly,1550,m
+,Ronnie DeVoe,1550,m
+,Bobby McFerrin,1838,m
+,Ritchie Valens,1839,m
+,Lauryn Hill,1840,f
+,Jared Cotter,1080,m
+,J Remy,1080,m
+,Jonathan Perkins,1080,m
+,Jay Sean,1080,m
+,Bobby Bass,1080,m
+,Tom Waits,1846,m
+,Bobby Darin,1847,m
+,Daryl Hall,627,m
+,Daryl Hall,1849,m
+,Daryl Hall,1850,m
+,Daryl Hall,1851,m
+,Daryl Hall,1852,m
+,Daryl Hall,1853,m
+,John Beeby,1849,pm
+,Andrea LaRusso,1855,f
+,Peggy Stanziale,1855,f
+,Ric Ocasek,1857,m
+,JRoc,115,m
+,JRoc,119,m
+,JRoc,294,m
+,JRoc,123,m
+,Detail,115,m
+,Detail,1082,m
+,Dre Moon,115,m
+,Brian Soko,115,m
+,SoolGotHits,115,m
+,Ammo,16,m
+,Ammo,740,m
+,Ammo,732,m
+,Ammo,1870,m
+,Ammo,1802,m
+,DaHeala,1872,m
+,DaHeala,1741,m
+,Belly,1872,m
+,Belly,1875,m
+,Stephan Moccio,1872,m
+,Stephan Moccio,1455,m
+,William Linton,1878,m
+,Marty Robbins,1879,m
+,Robert Clivillés,628,m
+,Robert Clivillés,1881,m
+,Robert Clivillés,1882,m
+,Robert Clivillés,636,m
+,Robert Clivillés,1884,m
+,David Cole,628,m
+,David Cole,636,m
+,David Cole,1887,m
+,Bert Keyes,116,m
+,Bert Keyes,1889,m
+,Sylvia Robinson,116,f
+,Sylvia Robinson,1889,f
+,Alicia Keys,116,f
+,Alicia Keys,1893,f
+,Alicia Keys,1894,f
+,Alicia Keys,615,f
+,Alicia Keys,1896,f
+,Alicia Keys,154,f
+,Al Shux,116,m
+,Angela Hunte,116,f
+,Janet Sewell-Ulepic,116,f
+,LA Reid,1334,m
+,LA Reid,1335,m
+,LA Reid,1337,m
+,LA Reid,1338,m
+,LA Reid,1339,m
+,LA Reid,1342,m
+,LA Reid,1345,m
+,LA Reid,1350,m
+,Daryl Simmons,1334,m
+,Daryl Simmons,1339,m
+,Daryl Simmons,1911,m
+,Daryl Simmons,1345,m
+,Daryl Simmons,1350,m
+,Shep Pettibone,270,m
+,Shep Pettibone,282,m
+,Shep Pettibone,283,m
+,Susanna Hoffs,594,f
+,Susanna Hoffs,595,f
+,Sting,1919,m
+,Sting,1920,m
+,Sting,1921,m
+,Sting,1922,m
+,Charlie Peacock,782,m
+,David Kahne,1924,m
+,Richard Bean,1924,pm
+,Peter Wolf,1926,m
+,Peter Wolf,1927,m
+,Peter Wolf,1484,m
+,Peter Wolf,1929,m
+,Roland Orzabal,1930,m
+,Roland Orzabal,1931,m
+,Ian Stanley,1930,m
+,Ian Stanley,1931,m
+,Chris Hughes ,1930,m
+,Gardner Cole,1935,m
+,James Newton Howard,1935,m
+,Matt Scannell,1937,m
+,Billy Idol,1938,m
+,Steve Stevens,1938,m
+,John Lennon,1117,m
+,John Lennon,1941,m
+,John Lennon,1942,m
+,John Lennon,1943,m
+,Carlos Alomar,1117,m
+,Mike Elizondo,975,m
+,Mike Elizondo,213,m
+,Mike Elizondo,214,m
+,Mike Elizondo,810,m
+,Mike Elizondo,1170,m
+,Bruce Miller,975,m
+,Camara Kambon,975,m
+,Luchana N. Lodge,975,f
+,Melvin Bradford,975,m
+,Paula A. Pierre-Louis,975,f
+,Charli XCX,1251,f
+,Charli XCX,728,f
+,George Astasio,1251,m
+,Jason Pebworth,1251,m
+,Jonathan Shave,1251,m
+,The Arcade,1251,m
+,Fred Alexander,1961,m
+,Norman Beavers,1961,m
+,Marvin Craig,1961,m
+,Bryan Dobbs,1961,m
+,Coolio,1961,m
+,Tiemeyer McCain,1961,m
+,Thomas Shelby,1961,m
+,Adrian Belew,629,m
+,Chris Frantz,629,m
+,"Dave ""Jam"" Hall",629,m
+,Steven Stanley,629,m
+,Tina Weymouth,629,f
+,Brian Holland,1973,m
+,Brian Holland,1974,m
+,Asa Taccone,1973,m
+,Freddie Gorman,1973,m
+,John Hill,1973,m
+,Robert Bateman,1973,m
+,Chad Smith,1551,m
+,Chad Smith,1980,m
+,Chad Smith,1409,m
+,"Dennis ""Dee Tee"" Thomas",1551,m
+,"Dennis ""Dee Tee"" Thomas",1552,m
+,George Brown,1551,m
+,George Brown,1552,m
+,Robert Mickens,1551,m
+,Robert Mickens,1552,m
+,Larry Dermer,1551,m
+,R.E.Bell,1551,m
+,Richard Westfield,1551,m
+,Baby D,1297,f
+,Rahming,1297,m
+,O.G. Rocker,1297,f
+,MC J.B.,1297,f
+,Juanita Lee,1297,f
+,Arabian Prince,1297,m
+,CeCe Peniston,1997,f
+,Elbert Linnear,1997,pm
+,Felipe Delgado,1997,m
+,Rodney Jackson,1997,m
+,NO I.D.,142,m
+,NO I.D.,145,m
+,NO I.D.,119,m
+,NO I.D.,613,m
+,NO I.D.,122,m
+,Jeff Bhasker,142,m
+,Jeff Bhasker,1268,m
+,Jeff Bhasker,2008,m
+,Jeff Bhasker,1795,m
+,Jeff Bhasker,236,m
+,Jeff Bhasker,1796,m
+,Plain Pat,142,m
+,James Fauntleroy,225,m
+,James Fauntleroy,294,m
+,James Fauntleroy,2015,m
+,James Fauntleroy,123,m
+,James Fauntleroy,233,m
+,Jeremy Reeves,225,m
+,Jeremy Reeves,233,m
+,Johnathan Yip,225,m
+,Johnathan Yip,233,m
+,Ray McCullough II,225,m
+,Ray McCullough II,233,m
+,Ray Romulus,225,m
+,Ray Romulus,233,m
+,"Bilal ""The Chef"" Hajji",493,m
+,"Bilal ""The Chef"" Hajji",497,m
+,Adam Young,2028,m
+,Sandy Vee,1010,m
+,Sandy Vee,1012,m
+,Sandy Vee,957,m
+,Esther Dean,1010,f
+,Esther Dean,525,f
+,Esther Dean,681,f
+,Esther Dean,682,f
+,Esther Dean,1018,f
+,Esther Dean,1453,f
+,Uncle Kracker,2038,m
+,Michael Bradford,2038,m
+,Debbie Gibson,2040,f
+,Debbie Gibson,2041,f
+,Debbie Gibson,2042,f
+,Debbie Gibson,2043,f
+,Ashanti,2044,f
+,Ashanti,2045,f
+,Ashanti,2046,f
+,Bunny DeBarge,2044,f
+,Bunny DeBarge,457,f
+,Bunny DeBarge,1123,f
+,Bunny DeBarge,459,f
+,Mark DeBarge,2044,m
+,Mark DeBarge,1123,m
+,Jewel,2053,f
+,Steve Poltz,2053,m
+,Kenny Loggins,588,m
+,Polow da Don,1822,pm
+,Polow da Don,1395,pm
+,Brian Kennedy,1822,m
+,Oliver Leiber,2059,m
+,Oliver Leiber,2060,m
+,Paul McCartney,143,m
+,Paul McCartney,1941,m
+,Paul McCartney,2063,m
+,Paul McCartney,1943,m
+,Mike Dean,143,m
+,Mike Dean,121,m
+,Ty Dolla $ign,143,m
+,Ty Dolla $ign,1870,m
+,David Longstreth,143,m
+,Elon Rutberg,143,m
+,KIRBY,143,f
+,Noah Goldstein,143,m
+,Gary Cooper,2073,m
+,Gary Cooper,800,m
+,Bootsy Collins,2073,m
+,Bootsy Collins,800,m
+,Eugene Hanes,2073,m
+,George Clinton,2073,m
+,Loren Hill,2073,m
+,Marc Valentine,2073,m
+,Keith Sweat,2081,m
+,Keith Sweat,2082,m
+,Keith Sweat,2083,m
+,Keith Sweat,2084,m
+,Roy Murray,2081,m
+,Narada Michael Walden,2086,m
+,Narada Michael Walden,118,m
+,Narada Michael Walden,2088,m
+,Narada Michael Walden,633,m
+,Narada Michael Walden,2090,m
+,Narada Michael Walden,2091,m
+,Jeffrey E. Cohen,2086,m
+,Jay Gruska,2093,m
+,Paul Gordon,2093,m
+,Julie Gold,2095,f
+,Shania Twain,81,f
+,Shania Twain,88,f
+,Matt Dike,2098,m
+,Matt Dike,2099,m
+,Michael Ross,2098,m
+,Michael Ross,2099,m
+,Young M.C.,2098,m
+,Young M.C.,2099,m
+,PSY,2104,m
+,PSY,2105,m
+,Yoo Gun-hyung,2104,m
+,Yoo Gun-hyung,2105,m
+,Pic,2108,m
+,Blunt,2108,m
+,Tracy Carter,2108,pm
+,Stevie Wonder,2111,m
+,Stevie Wonder,2112,m
+,Stevie Wonder,2113,m
+,Stevie Wonder,2114,m
+,Coolio,2111,m
+,Doug Rasheed,2111,m
+,L.V.,2111,m
+,Steve Kipner,2118,m
+,Steve Kipner,2119,m
+,Steve Kipner,2120,m
+,Steve Kipner,536,m
+,Steve Kipner,2122,m
+,Steve Kipner,2123,m
+,David Frank,2118,m
+,David Frank,2120,m
+,David Frank,2122,m
+,Pam Sheyne,2118,f
+,Pam Sheyne,2120,f
+,Hoagy Carmichael,2129,m
+,Stuart Gorrell,2129,m
+,Lenky,102,m
+,Lenky,2132,m
+,Brenda Russell,2133,f
+,Brenda Russell,613,f
+,Brenda Russell,2135,f
+,Montell Jordan,2136,m
+,Montell Jordan,2137,m
+,Montell Jordan,2138,m
+,Montell Jordan,2139,m
+,Montell Jordan,2140,m
+,LeVar A. Wilson,2136,m
+,"Brian ""Lilz"" Palmer",2136,pm
+,Darren Benbow,2136,m
+,Jörg Evers,2136,m
+,Jurgen Korduletsch,2136,m
+,Sergio Moore,2136,pm
+,D-Roc,1713,m
+,Kaine,1713,m
+,Big Sam,1713,pm
+,Guy-Manuel de Homem-Christo,1274,m
+,Guy-Manuel de Homem-Christo,1739,m
+,Guy-Manuel de Homem-Christo,1741,m
+,Guy-Manuel de Homem-Christo,152,m
+,Thomas Bangalter,1274,m
+,Thomas Bangalter,1739,m
+,Thomas Bangalter,1741,m
+,Thomas Bangalter,152,m
+,Nile Rodgers,1274,m
+,Nile Rodgers,1486,m
+,Nile Rodgers,866,m
+,Nile Rodgers,1122,m
+,Billy Ocean,82,m
+,Billy Ocean,85,m
+,Billy Ocean,2164,m
+,Billy Ocean,87,m
+,Dino Valenti,2166,m
+,Keri Hilson,306,f
+,Keri Hilson,146,f
+,Keri Hilson,687,f
+,Keri Hilson,300,f
+,Marcella Araica,306,m
+,Marcella Araica,146,m
+,Jim BEANZ,306,m
+,Robert Hazard,2174,m
+,Nelly Furtado,292,f
+,Nelly Furtado,296,f
+,Nelly Furtado,297,f
+,Nelly Furtado,2178,f
+,"Tim ""Attitude"" Clayton",292,m
+,"Tim ""Attitude"" Clayton",296,m
+,Afrojack,1050,m
+,Arnthor Birgisson,1043,m
+,Deetah,1043,f
+,Tracy Chapman,2184,f
+,Chris Gaylor,2185,m
+,Mike Kennerty,2185,m
+,Nick Wheeler,2185,m
+,Tyson Ritter,2185,m
+,Anita Baker,2189,f
+,Randy Holland,2189,m
+,Skip Scarborough,2189,m
+,Blac Elvis,685,m
+,David Foster,2193,m
+,David Foster,2194,m
+,David Foster,2195,m
+,David Foster,2196,m
+,David Foster,2197,m
+,Peter Cetera,2193,m
+,Peter Cetera,1560,m
+,Peter Cetera,2197,m
+,Diane Nini,2193,f
+,Lee Greenwood,2202,m
+,Ray Charles,144,m
+,Don Vito,144,m
+,Freedom Williams,1881,m
+,Freedom Williams,1882,m
+,Freedom Williams,1884,m
+,Flo Rida,1435,m
+,Flo Rida,950,m
+,Flo Rida,2210,m
+,Flo Rida,232,m
+,Flo Rida,2212,m
+,Flo Rida,476,m
+,Flo Rida,1521,m
+,Breyan Isaac,1435,m
+,Breyan Isaac,1451,m
+,Breyan Isaac,476,m
+,Avicii,1435,m
+,Avicii,2219,m
+,Ash Pournouri,1435,m
+,Etta James,1435,f
+,Leroy Kirkland,1435,m
+,Pearl Woods,1435,f
+,Hector Delgado,762,m
+,Hector Delgado,2225,m
+,A$AP Rocky,762,m
+,A$AP Rocky,1183,m
+,Julia Michaels,762,f
+,Julia Michaels,829,f
+,Sir Nolan,762,m
+,Selena Gomez,762,f
+,David Steele,2232,m
+,David Steele,2233,m
+,Roland Gift,2232,m
+,Roland Gift,2233,m
+,Donnie Wahlberg,2236,m
+,Marky Mark Wahlberg,2236,m
+,Spice,2236,m
+,Craig Love,181,m
+,LaMarquis Jefferson,181,m
+,Rudy Clark,2241,m
+,Samantha Mumba,1044,f
+,Dave Lazer,2243,m
+,Fred Hellerman,2243,m
+,Larry Ehrlich,2243,pm
+,Lee Hays,2243,m
+,Paul Clayton,2243,m
+,Pete Seeger,2243,m
+,Ronnie Gilbert,2243,f
+,Linda Creed,2250,f
+,Linda Creed,2045,f
+,Michael Masser,2250,m
+,Michael Masser,2253,m
+,Frank Miller,2254,m
+,Richard Dehr,2254,m
+,Terry Gilkyson,2254,m
+,Andrew Wyatt,226,m
+,Andrew Wyatt,237,m
+,Michelle Williams,182,f
+,Michelle Williams,120,f
+,Michelle Williams,187,f
+,Gipp,182,m
+,Paul Wall,182,m
+,Dmitry Brill,2264,m
+,Towa Tei,2264,m
+,Q-Tip,2264,m
+,Herbie Hancock,2264,m
+,Lady Miss Kier,2264,f
+,Carol Bayer Sager,2269,f
+,Carol Bayer Sager,2270,f
+,Carol Bayer Sager,2271,f
+,Toni Wine,2269,f
+,Bighead,2273,m
+,Lil Pump,2273,m
+,BigheadGnealz,2273,m
+,Arthur Smith,2276,m
+,Tove Lo,2277,f
+,Tove Lo,25,f
+,Daniel Ledinsky,2277,m
+,Jakob Jerlström,2277,m
+,Ludvig Söderberg,2277,m
+,E. Kidd Bogart,757,m
+,E. Kidd Bogart,1000,m
+,Jimmy Jones,2284,m
+,Otis Blackwell,2284,m
+,Jason Wade,2286,m
+,Jason Wade,2287,m
+,Judy Parker,2119,f
+,Claude Demetrius,2289,m
+,Baauer,2225,m
+,Earl Nelson,2291,m
+,Bob Relf,2291,m
+,John Taylor,212,m
+,John Taylor,213,m
+,Allan Felder,212,m
+,Dre,212,m
+,Cool,212,m
+,Norman Harris,212,m
+,Ronnie Baker,212,m
+,Louis Bell,918,m
+,Louis Bell,827,m
+,Louis Bell,2302,m
+,Brian Lee,918,m
+,Brian Lee,827,m
+,Brian Lee,1870,m
+,Ali Tamposi,918,f
+,Ali Tamposi,827,f
+,Ali Tamposi,406,f
+,Andrew Watt,918,m
+,Andrew Watt,827,m
+,Frank Dukes,918,m
+,Starrah,918,f
+,Young Thug,918,m
+,Kaan Güneşberk,918,m
+,Van Morrison,2315,m
+,Van Morrison,2316,m
+,Barbara Acklin,200,f
+,Eugene Record,200,m
+,Harlan Howard,2319,m
+,Wendy Waldman,2320,f
+,Wendy Waldman,1681,f
+,Eric Kaz,2320,m
+,Tamara Savage,2323,f
+,Tamara Savage,619,f
+,Soulshock,2323,m
+,Kenneth Karlin,2323,m
+,Jeffrey E. Cohen,118,m
+,Lincoln Chase,118,m
+,Shirley Elliston,118,f
+,Malik Yusef,145,m
+,Malik Yusef,147,m
+,Mr. Hudson,145,m
+,Tyler Joseph,2333,m
+,Tyler Joseph,2334,m
+,Tyler Joseph,2335,m
+,Jani Lane,2336,m
+,Deon Estus,1499,m
+,Rick Nowels,2338,m
+,Rick Nowels,2339,m
+,Ellen Shipley,2338,f
+,Adele,1264,f
+,Adele,2342,f
+,Adele,1330,f
+,Adele,2344,f
+,Isaac Hayes,169,m
+,Isaac Hayes,1662,m
+,Pop Wansel,169,m
+,Sebastian Kole,169,m
+,Robert Gerongco,169,m
+,Samuel Gerongco,169,m
+,Terence Lam,169,m
+,Oak Felder,169,m
+,Ini Kamoze,2353,m
+,Chris Kenner,2353,m
+,Kenton Nix,2353,m
+,Salaam Remi,2353,m
+,Annie Lennox,2357,f
+,Annie Lennox,2358,f
+,Annie Lennox,2359,f
+,Dave Stewart,2357,m
+,Dave Stewart,2358,m
+,Dave Stewart,2359,m
+,David Coverdale,2363,m
+,David Coverdale,2364,m
+,Bernie Marsden,2363,m
+,Brad Arnold,2366,m
+,Brad Arnold,2367,m
+,Brad Arnold,2368,m
+,Matt Roberts,2366,m
+,Matt Roberts,2367,m
+,Matt Roberts,2368,m
+,Todd Harrell,2366,m
+,Todd Harrell,2367,m
+,Todd Harrell,2368,m
+,Chris Henderson,2366,m
+,Chris Henderson,2368,m
+,Chad Kroeger,2377,m
+,Chad Kroeger,2378,m
+,Chad Kroeger,2379,m
+,Gwen Stefani,2380,f
+,Gwen Stefani,1278,f
+,Gwen Stefani,960,f
+,Gwen Stefani,2383,f
+,Bounty Killer,2380,m
+,Tom Dumont,2380,m
+,Tony Kanal,2380,m
+,Rod Temperton,1639,m
+,Rod Temperton,2388,m
+,Andre 3000,2389,m
+,Andre 3000,2390,m
+,Amund Bjørklund,2391,m
+,Amund Bjørklund,795,m
+,Amund Bjørklund,982,m
+,Espen Lind,2391,m
+,Espen Lind,795,m
+,Espen Lind,982,m
+,Pat Monahan,2391,m
+,Jack Blades,2398,m
+,Ted Nugent,2398,m
+,Tommy Shaw,2398,m
+,Huey Lewis,2401,m
+,Huey Lewis,2402,m
+,Bill Gibson,2401,m
+,Sean Hopper,2401,m
+,Dinky Bingham,2405,m
+,Jeff Dyson,2405,m
+,Michael Bivins,2405,m
+,Ronnie DeVoe,2405,m
+,"Phillip ""Silky"" White",2405,m
+,Jeremiah Fraites,2410,m
+,Wesley Schultz,2410,m
+,Billboard,19,m
+,Alannah Currie,2413,f
+,Joe Leeway,2413,m
+,Tom Bailey,2413,m
+,Denzil Foster,2416,m
+,Denzil Foster,2417,m
+,Denzil Foster,872,m
+,Thomas McElroy,2416,m
+,Thomas McElroy,2417,m
+,Thomas McElroy,872,m
+,Chynna Phillips,531,f
+,Carnie Wilson,531,f
+,William Hammond,2424,m
+,Tuhin Roy,2424,m
+,Jake Smith,2424,m
+,Neil Moss,2427,m
+,Neil Moss,2428,m
+,Mick Hucknall,2427,m
+,Gary Cherone,2430,m
+,Nuno Bettencourt,2430,m
+,Zo,842,m
+,Zo,2433,m
+,Zo,2434,m
+,Chingy,842,m
+,Chingy,2433,m
+,Chingy,2434,m
+,Sham,842,m
+,Sham,2433,m
+,Sham,2434,m
+,Dabe Grohl,119,m
+,Krist Novoselic,119,m
+,Kurt Cobain,119,m
+,Chris Daughtry,2444,m
+,Chris Daughtry,2445,m
+,Bobby Robinson,632,m
+,Bobby Robinson,557,m
+,Bobby Robinson,2448,m
+,Bobby Robinson,697,m
+,Q-Tip,632,m
+,Ronald Larkins,632,m
+,Stephen Hague,632,m
+,Chuck Brown,455,m
+,Cassidy,866,m
+,Don Henley,2455,m
+,Don Henley,2456,m
+,Glenn Frey,2455,m
+,Glenn Frey,2458,m
+,Don Felder,2455,m
+,Timmy Thomas,1094,m
+,Timmy Thomas,995,m
+,Timmy Thomas,1229,m
+,Alan Price,2463,m
+,Michael Bolton,2464,m
+,Michael Bolton,694,m
+,Michael Bolton,2466,m
+,Doug James,2464,m
+,David Glasper,2468,m
+,Marcus Lillington,2468,m
+,"Warryn ""Baby Dubb"" Campbell",2470,m
+,"Warryn ""Baby Dubb"" Campbell",2471,m
+,Sisqó,2470,f
+,Sisqó,344,f
+,Rick Cousin,2470,m
+,Redman,2470,m
+,Nokio,2470,m
+,Larry Troutman,156,m
+,Larry Troutman,2478,m
+,Roger Troutman,156,m
+,Roger Troutman,2480,m
+,Mikel Hooks,156,m
+,Norman Durham,156,m
+,Woody Cunningham,156,m
+,Barry Coffing,2484,m
+,Steve Tyrell,2484,m
+,Mack Maine,1082,m
+,LaMar Seymour,1082,m
+,LaNelle Seymour,1082,m
+,Marcus Boyd,1082,m
+,George Merrill,2088,m
+,George Merrill,2491,m
+,George Merrill,2492,m
+,Shannon Rubicam,2088,f
+,Shannon Rubicam,2491,f
+,Shannon Rubicam,2492,f
+,Slick Rick,1121,m
+,Slick Rick,687,m
+,Slick Rick,2140,m
+,Slick Rick,1229,m
+,Doug E. Fresh,1121,m
+,Doug E. Fresh,687,m
+,Doug E. Fresh,1229,m
+,Andy Armer,1121,m
+,D-Dot,1121,m
+,Randy Badazz,1121,m
+,Ron Lawrence,1121,m
+,Hamza Lee,2507,m
+,Louis Biancaniello,2508,m
+,Louis Biancaniello,2509,m
+,Sam Watters,2508,m
+,Sam Watters,2509,m
+,Tamyra Gray,2508,f
+,David Wolfert,2513,m
+,Sandy Linzer,2513,m
+,Jennifer Kimball,2515,f
+,Maribeth Derry,2515,f
+,Steve Diamond,2515,m
+,Doc McKinney,1739,m
+,Doc McKinney,1741,m
+,Eric Chedeville,1739,m
+,René Elizondo Jr.,342,m
+,René Elizondo Jr.,358,m
+,David Guetta,1299,m
+,David Guetta,957,m
+,David Guetta,682,m
+,David Guetta,1328,m
+,Frédéric Riesterer,1299,m
+,Frédéric Riesterer,1328,m
+,Linda Thompson,2194,f
+,Matt Aitken,2530,m
+,Matt Aitken,2531,m
+,Matt Aitken,2532,m
+,Mike Stock,2530,m
+,Mike Stock,2531,m
+,Mike Stock,2532,m
+,Pete Waterman,2530,m
+,Pete Waterman,2531,m
+,Pete Waterman,2532,m
+,Sara Dallin,2530,f
+,Siobhan Fahey,2530,f
+,Keren Woodward,2530,f
+,Jeff Barry,2542,m
+,Peter Allen,2542,m
+,Cathy Dennis,21,f
+,Cathy Dennis,2545,f
+,Daniel Jones,2546,m
+,Daniel Jones,2547,m
+,Daniel Jones,2548,m
+,Darren Hayes,2546,m
+,Darren Hayes,2547,m
+,Darren Hayes,2548,m
+,Simon Climie,1387,m
+,Milton Davis,2553,m
+,William DuVall,2553,m
+,L. Jones,2555,m
+,Rah Digga,2555,f
+,Rick Rock,2555,m
+,Rampage,2555,m
+,Spliff Star,2555,m
+,Danny Seraphine,2560,m
+,Hawk Wolinski,2560,m
+,Nicola Fasano,2560,m
+,Patrick Gonella,2560,m
+,Stefano Bosco,2560,m
+,Teddy Riley,2565,m
+,Teddy Riley,2082,m
+,Teddy Riley,1662,m
+,Teddy Riley,904,m
+,Bernard Belle,2565,m
+,Dave Way,2565,m
+,J. La-Rue,2090,m
+,Sylvester Jackson,2090,m
+,Shanice,2090,f
+,Lynn Malsby,2574,f
+,Skylar Grey,468,f
+,Skylar Grey,469,f
+,Joe Thomas,1129,m
+,Joe Thomas,2448,m
+,Eric Matlock,1129,m
+,Frank Romano,1130,m
+,Frank Romano,456,m
+,Adonis Shropshire,1130,m
+,Adonis Shropshire,615,m
+,Marc Anthony,2584,m
+,Marc Anthony,2585,m
+,Bix Reichner,2586,m
+,Sid Wayne,2586,m
+,Antonina Armato,2588,f
+,Antonina Armato,2589,f
+,Anthony Newley,2588,m
+,Beppe Cantarelli,2588,m
+,Leslie Bricusse,2588,m
+,Frank J. Myers,2593,m
+,Gary Baker,2593,m
+,Tom Kelly,2595,m
+,Tom Kelly,597,m
+,Chrissy Amphlett,2595,f
+,Mark McEntee,2595,m
+,Billy Steinberg,2595,m
+,David Wilder,2600,m
+,Jeremy Ruzumna,2600,m
+,Jinsoo Lim,2600,m
+,Macy Gray,2600,f
+,Belinda Lipscomb,1511,f
+,Melvin Gentry,1511,m
+,Vincent Calloway,1511,m
+,Joylon Skinner,2607,m
+,Joe,2607,m
+,Michele Williams,2607,f
+,Kim Gannon,2610,m
+,Pino Spotti,2610,m
+,Dolly Parton,2612,f
+,Prince Be,2613,m
+,Prince Be,2614,m
+,Nickolas Ashford,2615,m
+,Valerie Simpson,2615,f
+,Vanilla Ice,1118,m
+,Vanilla Ice,2618,m
+,Brian May,1118,m
+,Brian May,2620,m
+,Freddie Mercury,1118,m
+,Freddie Mercury,2620,m
+,DJ Earthquake,1118,m
+,John Deacon,1118,m
+,Roger Taylor,1118,m
+,Carl Martin,2626,m
+,BC Jean,564,f
+,Russ DeSalvo,2628,m
+,Robert Steele,2628,pm
+,Deena Charles,2628,pf
+,Daniel Foder,1300,m
+,Jared Tankel,1300,m
+,Keith Harris,1300,m
+,Michael Deller,1300,m
+,Thomas Brenneck,1300,m
+,Ralph Stacy,1911,m
+,Raphael Brown,1911,m
+,Jason Derulo,998,m
+,Jason Derulo,995,m
+,Jason Derulo,892,m
+,Jason Derulo,2641,m
+,Jason Derulo,996,m
+,Jason Derulo,773,m
+,Mike Shinoda,2644,m
+,Mike Shinoda,2645,m
+,Brad Delson,2644,m
+,Chester Bennington,2644,m
+,Joe Hahn,2644,m
+,Rob Bourdon,2644,m
+,Andy Razaf,2650,m
+,Joe Garland,2650,m
+,Fred Parris,2652,m
+,Mike Rutherford,746,m
+,Mike Rutherford,747,m
+,Mike Rutherford,748,m
+,Mike Rutherford,2656,m
+,Mike Rutherford,752,m
+,Tony Banks,746,m
+,Tony Banks,747,m
+,Tony Banks,748,m
+,Tony Banks,752,m
+,Shep Crawford,2137,m
+,Shep Crawford,2139,m
+,Kristin Hudson,2137,f
+,Snow,2665,m
+,Edmond Leary,2665,m
+,MC Shan,2665,m
+,Pelle Nylén,936,m
+,Pelle Nylén,937,m
+,Tim Kelley,557,m
+,Tim Kelley,2448,m
+,Tim Kelley,697,m
+,DJ Clue,557,m
+,Ronald LaPread,557,m
+,Tamia,557,f
+,Alanis Morissette,532,f
+,John Sykes,2364,m
+,Barry Gibb,2678,m
+,Maurice Gibb,2678,m
+,Robin Gibb,2678,m
+,Joshua Portillo,1375,pm
+,Justin Howze,1375,m
+,Lege Kale,1375,m
+,Kyle,1375,m
+,Brian Thompson,2685,m
+,Shaggy,2685,m
+,RikRok,2685,m
+,Sting International,2685,m
+,Lee Pockriss,2689,m
+,Lee Pockriss,2690,m
+,Paul Vance,2689,m
+,Fernando Arbex,1488,m
+,KRS-One,1488,m
+,Michael Oliver,1488,m
+,mrDEYO,1488,m
+,Scott La Rock,1488,m
+,Cyco Black,1254,m
+,Diamond,1254,f
+,Zayion McCal,1254,m
+,M.I.G.,1254,m
+,Lil Jay,1254,m
+,Zay Hilfigerr,1254,m
+,Princess,1254,f
+,Alex Van Halen,2704,m
+,Alex Van Halen,2705,m
+,Eddie Van Halen,2704,m
+,Eddie Van Halen,2705,m
+,Michael Anthony,2704,m
+,Michael Anthony,2705,m
+,David Lee Roth,2704,m
+,Stephan Jenkins,2711,m
+,Stephan Jenkins,2712,m
+,Rico Love,456,m
+,Rico Love,1328,m
+,Jim Jonsin,456,m
+,Jim Jonsin,2716,m
+,Jim Jonsin,1085,m
+,Jim Jonsin,2718,m
+,Jim Jonsin,190,m
+,Harold Lilly,2471,m
+,Harold Lilly,154,m
+,Biz Markie,2471,m
+,Miguel A. Morejon,1619,m
+,Needlz,228,m
+,Saint Cassius,228,m
+,Roy Hay,2428,m
+,Boy George,2428,m
+,Phil Pickett,2428,m
+,Dan Baird,2729,m
+,Seal,2730,m
+,Matt Slocum,2731,m
+,Kevin Cossom,146,m
+,Mike Love,1636,m
+,Scott McKenzie,1636,m
+,Terry Melcher,1636,m
+,Irving Taylor,2736,m
+,Richie Valens,2737,m
+,Adrian Parks,1652,m
+,Mook B,1652,m
+,Fabo,1652,m
+,Larry Johnson,1652,m
+,Michael Johnson,1652,m
+,Michael Jonzun,1652,m
+,K-Rab,1652,m
+,Floyd Cramer,2745,m
+,Wayne Cochran,2746,m
+,Christopher Baker,2747,m
+,William Baker,2747,m
+,Eliot Daniel,2749,m
+,Larry Morey,2749,m
+,Fat Joe,809,m
+,Fat Joe,2752,m
+,DJ Snake,1582,m
+,DJ Snake,827,m
+,DJ Snake,764,m
+,Bill Withers,2756,m
+,Passenger,2757,m
+,Kristen Anderson-Lopez,2758,f
+,Robert Lopez,2758,m
+,Kevin Rudolf,1084,m
+,Eve,810,f
+,Kameron Houff,811,m
+,Roy Battle,229,m
+,"Royce da 5'9""",229,m
+,Ash Howes,197,m
+,Ellie Goulding,197,f
+,"David ""Campa"" Benjamin",2767,m
+,J-Splif,2767,m
+,Prohgress,2767,m
+,Kev Nish,2767,m
+,Kshmr,2767,m
+,DJ Virman,2767,m
+,Jaron Alson,614,m
+,Ralph Tresvant,614,m
+,Ricky Bell,614,m
+,Austin Winkler,2776,m
+,Brian Howes,2776,m
+,Lloyd Garvey,2776,m
+,Mark King,2776,m
+,Michael Rodden,2776,m
+,Ross Hanson,2776,m
+,Edna Lewis,2782,f
+,George Goehring,2782,m
+,Mats Persson,1734,m
+,Christine McVie,2785,f
+,Eddy Quintela,2785,m
+,Arthur Venosa,2787,m
+,Vito Picone,2787,m
+,Brown,2789,m
+,Byrd,2789,m
+,C.J.Scott,2789,pm
+,J.Carter,2789,m
+,J.Sayles,2789,m
+,Lenhoff,2789,m
+,Wyatt,2789,m
+,Dan Balan,183,m
+,Charlie Midnight,2797,m
+,Dan Hartman,2797,m
+,Darius Harrison,1085,m
+,Rex Zamor,1085,m
+,Mike Hartnett,686,m
+,Bobby Vinton,956,m
+,Gene Allen,956,m
+,Carl Belew,2804,m
+,Kenny Sowder,2804,pm
+,W.S.Stevenson,2804,m
+,Bone,2807,m
+,Bone,2808,m
+,D.J.U-Neek,2807,m
+,D.J.U-Neek,2808,m
+,André Cymone,2811,m
+,André Cymone,2812,m
+,Jody Watley,2811,f
+,Jody Watley,2812,f
+,C.Hudson,175,m
+,Gerald Isaac III,175,m
+,Juan Atkins,175,m
+,Richard Davis,175,m
+,Luis Resto,1165,m
+,Luis Resto,1167,m
+,Luis Resto,958,m
+,Michael Stipe,2822,m
+,Mike Mills,2822,m
+,Peter Buck,2822,m
+,William Thomas Berry,2822,m
+,Bernard Wright,1640,m
+,Leonard White,1640,m
+,Joe Elliott,84,m
+,Joe Elliott,86,m
+,Phil Collen,84,m
+,Phil Collen,86,m
+,Richard Savage,84,m
+,Richard Savage,86,m
+,Steve Clark,84,m
+,Steve Clark,86,m
+,Joe Perry,2836,m
+,Joe Perry,2837,m
+,Young Jeezy,1395,m
+,Young Jeezy,959,m
+,Lamar Taylor,1395,m
+,J.Keller,2841,m
+,Tonio K.,2841,m
+,A.Knight,2843,f
+,Nathan Chapman,2843,m
+,A.Goldmark,2466,m
+,Esthero,147,f
+,ILYA,25,m
+,ILYA,29,m
+,ILYA,34,m
+,B.Leverty,2850,m
+,C.Snare,2850,m
+,Rihanna,2852,f
+,Rihanna,525,f
+,Rihanna,122,f
+,Rihanna,1169,f
+,Rihanna,2856,f
+,Rihanna,1098,f
+,Fred Ball,2852,m
+,Joseph Angel,2852,m
+,Sara Bareilles,2860,f
+,B. Williams,2861,m
+,B. Williams,2862,m
+,L. Tolhurst,2861,m
+,R. O'Donnell,2861,m
+,Robert Smith,2861,m
+,S. Gallup,2861,m
+,Thompson,2861,m
+,Ben Margulies,634,m
+,Ben Margulies,640,m
+,Ben Margulies,643,m
+,K.Diamond,85,m
+,Teena Marie,2872,f
+,Larry Blackmon,635,m
+,Thomas Michael Jenkins,635,m
+,Michael Sterling,843,m
+,Montay Humphrey,950,m
+,Montay Humphrey,2212,m
+,Suzanne Vega,2878,f
+,Suzanne Vega,2879,f
+,Antonio Romero Monge,2880,m
+,Rafael Ruiz,2880,m
+,Kurt Weill,2882,m
+,Marc Blitzstein,2882,m
+,P.Brown,2884,m
+,P.Brown,2885,m
+,J.Whelan,2884,m
+,M.Y.Evans,2884,m
+,D.Powell,871,m
+,L.Mallah,871,f
+,Eric Carmen,589,m
+,Jesse Carmichael,734,m
+,Jesse Carmichael,741,m
+,Mickey Madden,734,m
+,Perez Prado,2894,m
+,Perez Prado,2895,m
+,Lou Bega,2894,m
+,Zippy,2894,m
+,Siedah Garrett,533,f
+,Carlos Santana,2899,m
+,Carlos Santana,2856,m
+,David McRae,2899,m
+,David McRae,2856,m
+,High Moore,2899,m
+,High Moore,2856,m
+,Karl Perazzo,2899,m
+,Raul Rekow,2899,m
+,Future,879,m
+,R.Rans,2885,m
+,Ryan Leslie,2909,m
+,Pebbles,2910,f
+,Chink Santana,2045,m
+,Chink Santana,2046,m
+,Chink Santana,2752,m
+,Thom Bell,2045,m
+,J.Allen,1852,f
+,Sky Rompiendo,799,m
+,El Rolo,799,m
+,DJ Assad,799,m
+,J Balvin,799,m
+,Mohombi Nzasi Moupondo,799,m
+,Willy William,799,m
+,Jan Hammer,2922,m
+,Bruce Turgon,2923,m
+,Lou Gramm,2923,m
+,Mark Ronson,487,m
+,Mark Ronson,236,m
+,Hillary Lindsey,487,f
+,Teddy Bishop,979,m
+,Ben Watt,2929,m
+,Tracey Thorn,2929,f
+,Joshua Paul Thompson,2448,m
+,John Waite,2932,m
+,John Waite,2933,m
+,Chas Sandford,2932,m
+,Chas Sandford,2935,m
+,Chas Sandford,2936,m
+,M.Leonard,2932,m
+,Mick Jagger,2938,m
+,Mick Jagger,906,m
+,Keith Richards,2938,m
+,Brad Roberts,2941,m
+,Isaac Hanson,2942,m
+,Taylor Hanson,2942,m
+,Zac Hanson,2942,m
+,Mark Knopfler,1922,m
+,B.Bloom,2946,m
+,B.Gentry,2946,m
+,Tommy James,2946,m
+,F.Curci,2949,m
+,S.Demarchi,2949,m
+,Damon E. Thomas,1343,m
+,Damon E. Thomas,2015,m
+,Shawn Stockman,1690,m
+,Shawn Stockman,638,m
+,Nathan Morris,1690,m
+,Merril Bainbridge,2956,f
+,Cordell Burrell,518,m
+,Elijah Wells,518,m
+,Lionel Bermingham,518,m
+,Luis Alejandro Diaz,518,m
+,Natalie Albino,518,f
+,Nicole Albino,518,f
+,Ammar Malik,52,m
+,Ammar Malik,54,m
+,Ammar Malik,729,m
+,DeWayne Blackwell,2966,m
+,Al DeLory,2967,m
+,Fred Darian,2967,m
+,Joseph Van Winkle,2967,m
+,Big Boi,2390,m
+,Big Boi,2971,m
+,David Sheats,2390,m
+,George Vaughn,2973,m
+,Jimmie Rodgers,2973,m
+,Chris Scruggs,637,m
+,Antoinette Roberson,2976,f
+,Antoinette Roberson,2977,f
+,Darrell Allamby,2976,m
+,Darrell Allamby,2977,m
+,Lincoln Browder,2976,m
+,Betty Peterson,2981,f
+,Borney Bergantine,2981,m
+,Hal David,2690,m
+,Hal David,150,m
+,Will Jennings,2985,m
+,Will Jennings,2986,m
+,Will Jennings,2987,m
+,James Horner,2985,m
+,Ross Golan,2210,m
+,Ross Golan,728,m
+,Johan Carlsson,2210,m
+,MAG,2210,m
+,Roy Hammond,2210,m
+,David Payton,1302,m
+,El Debarge,457,m
+,El Debarge,459,m
+,William DeBarge,457,m
+,William DeBarge,459,m
+,Dorian Moore,457,m
+,R. Edelman,457,m
+,G.Griffin,3001,m
+,Mark Tremonti,3002,m
+,Mark Tremonti,3003,m
+,Scott Stapp,3002,m
+,Scott Stapp,3003,m
+,John T. Rzeznik,3006,m
+,Donna Summer,800,f
+,"George Clinton,Jr.",800,m
+,Pete Belotte,800,m
+,Shuggie Otis,800,m
+,Charles Kelley,3011,m
+,Dave Haywood,3011,m
+,Hillary Scott,3011,f
+,Josh Kear,3011,m
+,Domenico Modugno,3015,m
+,Domenico Modugno,3016,m
+,Franco Migliacci,3015,m
+,Gene Bloch,1196,m
+,Connie,1196,f
+,R.Jazayeri,3020,m
+,S.Lewis,3020,f
+,S.Mather,3020,m
+,Lumidee Cedeno,2132,f
+,T. Mendez,2132,m
+,Chris Stokes,3025,m
+,Claudio Cueni,3025,m
+,Corey Hart,3027,m
+,Hit-Boy,121,m
+,Reverend W.A. Donaldson,121,m
+,Brian D. Casey,617,m
+,Brian D. Casey,461,m
+,Herb Miller,3032,m
+,Johnny Lehman,3032,m
+,Franne Golde,3034,f
+,Franne Golde,423,f
+,D.Lambert,3034,m
+,D.Lambert,1484,m
+,Walter Orange,3034,m
+,Erik Roger Griggs,2015,m
+,Steven L. Russell,2015,m
+,Chauncey Hannibal,1662,m
+,Lynsie Walters,1662,f
+,R.Vick,1662,m
+,William Stewart,1662,pm
+,Allen Ritter,1183,m
+,Allen Ritter,1098,m
+,Earl Patrick Taylor,1183,m
+,G-Eazy,1183,m
+,Balewa M. Muhammad,3049,m
+,Balewa M. Muhammad,186,m
+,Balewa M. Muhammad,300,m
+,Darren Lighty,3049,m
+,Darren Lighty,1159,m
+,Clifton Lighty,3049,m
+,DJ Eddie F,3049,m
+,DJ Dirty Harry,1896,m
+,"Kerry Brothers, Jr.",1896,m
+,Howard Jones,3058,m
+,Howard Jones,3059,m
+,"Tameka ""Tiny"" Cottle",3060,f
+,"Tameka ""Tiny"" Cottle",580,f
+,Fitzgerald Scott,2083,m
+,D.DuBose,3063,m
+,Joe Rich,3063,m
+,Mike Phillips,3065,m
+,Jordan Evans,1167,m
+,Matthew Burnett,1167,m
+,Dan Wilson,3068,m
+,Dan Wilson,2344,m
+,Emily Robison,3068,f
+,Martie Maguire,3068,f
+,Natalie Maines,3068,f
+,Nick Rhodes,3073,m
+,Simon Le Bon,3073,m
+,John Taylor,3073,m
+,Romeo Santos,3076,m
+,Dre Harris,186,m
+,Vidal Davis,186,m
+,Gerald Andre Valentine,3079,m
+,Gordon Strozier,3079,m
+,"Melvin Riley, Jr.",3079,m
+,Burt Bacharach,2270,m
+,Burt Bacharach,150,m
+,Burt Bacharach,2271,m
+,AJ Junior,497,m
+,Teddy Sky,497,m
+,Gonzales Hermosa,497,m
+,Kinnda,497,f
+,Ulises Hermosa,497,m
+,Ian Hunter,3090,m
+,Sedrick Martin,2433,m
+,Ayodeji Ibrahim Balogun,1095,m
+,Kyla-Rose Smith,1095,f
+,Benny Andersson,3094,m
+,Bjoern Ulvaeus,3094,m
+,Eric Bazilian,3096,m
+,Michael McCary,638,m
+,Nathan Morris,638,m
+,Wanya Morris,638,m
+,Alfie Agius,3100,m
+,Curnin,3100,m
+,Green All,3100,m
+,West-Oram,3100,m
+,Woods,3100,m
+,Ed Robertson,3105,m
+,Crystal Nicole Johnson,1012,f
+,Crystal Nicole Johnson,642,f
+,Roy Orbison,3108,m
+,John Oates,1853,m
+,"Jayson ""KoKo"" Bridges",458,m
+,"Jayson ""KoKo"" Bridges",460,m
+,James D. Hargrove,458,pm
+,Jon Anderson,3113,m
+,Robin,3113,m
+,Squire Horn,3113,m
+,Carl Sturken,3116,m
+,Carl Sturken,3117,m
+,Carl Sturken,3118,m
+,Evan Rogers,3116,m
+,Evan Rogers,3117,m
+,Evan Rogers,3118,m
+,Brandon Parrott,217,m
+,Denaun Porter,217,m
+,Menace,3124,m
+,Desiigner,3124,m
+,M.I.A.,1583,f
+,M.I.A.,124,f
+,Paul Simonon,1583,m
+,Paul Simonon,124,m
+,Joe Strummer,1583,m
+,Topper Headon,1583,m
+,Fred Spielman,3132,m
+,Janice Torre,3132,f
+,R.James,3134,m
+,Jessie J,1442,f
+,Brian Ward,3136,m
+,Demetrius Hardin,3136,m
+,Jason Pittman,3136,pm
+,Rasheed Hightower,3136,m
+,Richard Stephens,3136,m
+,William Whedbee,3136,m
+,RedFoo,3142,m
+,RedFoo,3143,m
+,GoonRock,3142,m
+,Peter Schroeder,3142,m
+,Sky Blu,3142,m
+,Bob Marcus,2895,m
+,ROBOPOP,54,m
+,ROBOPOP,729,m
+,Courtney Douglas Sills,1132,m
+,Courtney Douglas Sills,3151,m
+,Michael Keith,1132,m
+,Michael Keith,3151,m
+,Quinness Parker,1132,m
+,Quinness Parker,3151,m
+,A.Jones,1132,m
+,Alex Call,3157,m
+,Kid Rock,3158,m
+,John M. Shanks,3159,m
+,John M. Shanks,3160,m
+,Ashlee Simpson,3159,f
+,Kara DioGuardi,3159,f
+,Anthony Hannides,3163,m
+,Joe Garrett,3163,m
+,Levi Lennox,3163,m
+,Michael Hannides,3163,m
+,Zayn Malik,3163,m
+,Mickie Grant,3168,f
+,R.Parissi,2618,m
+,Danielle Brisebois,3160,f
+,Danielle Brisebois,3171,f
+,Natasha Bedingfield,3160,f
+,Natasha Bedingfield,3171,f
+,Mike Anthony,3174,m
+,Paul Kaufmann,3174,m
+,L.Martinee,3176,m
+,Elliott Straite,3177,m
+,Dan Smith,3178,m
+,Alisha Brooks,3117,f
+,Vada Nobles,3117,m
+,Sharon Sheeley,3181,f
+,Luther Vandross,3182,m
+,Marc Miller,3182,m
+,T.Vann,3182,m
+,Jonathan Cain,2933,m
+,Ariana Grande-Butera,29,f
+,Ariana Grande-Butera,34,f
+,Manuela Kamosi,3188,f
+,Thomas De Quincey,3188,m
+,Mark Derek Foster,3190,m
+,Les Baxter,3191,m
+,Herbert Crichlow,30,m
+,Joshua Mosser,470,m
+,Christine Leach,279,f
+,Clive Maldoon,279,m
+,Dave Curtiss,279,m
+,William Orbit,279,m
+,Jesus Jones,3198,m
+,Neil Leslie Diamond,3199,m
+,Neil Leslie Diamond,3200,m
+,Fred Mendelsohn,3201,m
+,Ira Mack,3201,m
+,Tom King,3201,m
+,Nathaniel Jones,3204,m
+,Warren G,3204,m
+,Wilson Phillips,3206,f
+,Wilson Phillips,534,f
+,Bernard Belle,904,m
+,Theron Thomas,995,m
+,Theron Thomas,1229,m
+,Keidran Jones,995,m
+,L.Ingram,3212,m
+,M.Rice,3212,m
+,Mark Morrison,3214,m
+,Curly M.C.,3215,m
+,Curly M.C.,3216,m
+,E.E.Garcia,162,m
+,Jay E,459,m
+,Brian Alexander Morgan,1679,m
+,Brian Alexander Morgan,3220,m
+,Gina “Go-Go” Gomez,1679,f
+,Genard Parker,1679,pm
+,Kenny Ortiz,1679,m
+,Steve Porcaro,1679,m
+,Aaron Bay-Schuck,232,m
+,Kool Kojak,232,m
+,Mike Percy,232,m
+,Peter Burns,232,m
+,S.Coy,232,m
+,Tim Lever,232,m
+,F.Bolland,3231,m
+,Falco,3231,m
+,R.Bolland,3231,m
+,D.Essex,3234,m
+,Post Malone,2302,m
+,Olufunmibi Awoshiley,2302,m
+,21 Savage,2302,m
+,Steve Winwood,2986,m
+,Paul Epworth,2342,m
+,Karyn White,350,f
+,Lorde,3241,f
+,Joel Little,3241,m
+,Rob Swire,525,m
+,Adam Messinger,3244,m
+,Alex Tanas,3244,m
+,Ben Spivak,3244,m
+,Mark Richard Pellizzer,3244,m
+,Nasri Atweh,3244,m
+,J.Wind,3249,m
+,O-Jay,3249,m
+,"Frank ""Quickmix"" Hassas",3249,m
+,Athanasios Alatas,122,m
+,David Pirner,3253,m
+,J.P. Richardson,3254,m
+,Peter Lord,3255,m
+,Peter Lord,3256,m
+,David Fairstein,3216,m
+,Fini Busch,3258,f
+,Werner Scharfenberger,3258,m
+,Ina Wolf,1927,m
+,Ina Wolf,1929,m
+,J. King,872,m
+,Jeffrey Walker,872,m
+,Kelly Price,872,f
+,Mista Raja,872,m
+,Phil Galdston,1681,m
+,Eagle-Eye Cherry,3267,m
+,G.Goffin,2253,m
+,G.Goffin,3269,m
+,Diane Warren,3270,f
+,Jackson,2063,m
+,Jackson,2862,m
+,Chad Vaccarino,3273,m
+,Ian Axel,3273,m
+,Mike Campbell,3273,m
+,Jean Baptiste,1304,m
+,Jef Martens,1304,m
+,George Khoury,3278,m
+,Phil Battiste,3278,m
+,Phil Phillips,3280,m
+,Khoury,3280,m
+,Andrew Cedar,474,m
+,G. Bigazzi,3283,m
+,R.Riefoli,3283,m
+,S.Piccolo,3283,m
+,C.Pennachio,3286,m
+,T.Katas,3286,m
+,G.Kemp,2614,m
+,G.Kemp,3289,m
+,David J. Listenbee,3143,m
+,Erin E. Beck,3143,f
+,George M. Robertson,3143,m
+,Kenny Oliver,3143,m
+,Yung Berg,3294,m
+,Victor S. Carraway,3294,pm
+,Willie Ray J Norwood Jr,3294,m
+,Giorgio Tuinfort,957,m
+,Giorgio Tuinfort,960,m
+,Giorgio Tuinfort,682,m
+,Giorgio Tuinfort,1328,m
+,Jean Claude Sindres,957,m
+,G.Abbott,3302,m
+,Bob Seger,779,m
+,John McDaid,580,m
+,C.Datchler,3305,m
+,G.Corbett,1524,m
+,Rick Chertoff,1524,m
+,S.Lunt,1524,m
+,James Valentine,738,m
+,T-Minus,1086,m
+,Denton,3311,f
+,James,3311,f
+,Roberts,3311,m
+,Sparks,3311,m
+,Turner,3311,m
+,Allen George,3316,m
+,Fred McFarlane,3316,m
+,B.Jackson,3318,m
+,B.Jackson,3319,m
+,Ben Berger,3320,m
+,Eli Maiman,3320,m
+,Kevin Ray,3320,m
+,Nicholas Petricca,3320,m
+,Ryan McMahon,3320,m
+,Sean Waugaman,3320,m
+,Alexander Kronlund,34,m
+,Alexander Kronlund,39,m
+,Alex Salibian,2008,m
+,Harry Styles,2008,m
+,Mitch Rowland,2008,m
+,Ryan Nasci,2008,m
+,Tyler Johnson,2008,m
+,Thaddis Harrell,801,m
+,Thaddis Harrell,125,m
+,Johnny Horton,3335,m
+,Tillman Franks,3335,m
+,Bill Post,3337,m
+,Doree Post,3337,f
+,Jones,3339,m
+,Parker,3339,m
+,Scruggs,3339,m
+,John Taylor,3339,m
+,Ann Farina,3343,f
+,Johnny Farina,3343,m
+,Santo Farina,3343,m
+,Twista,150,m
+,Daniel P. Castillo,3347,pm
+,J. Tapp,3347,m
+,Juvenile,3347,m
+,Mike Strange,958,m
+,Jerome Kern,3351,m
+,Otto Harbach,3351,m
+,Itaal Shur,1156,m
+,Dash,3354,m
+,Love And Rockets,3354,m
+,Straigis,2862,m
+,Neil Sedaka,3357,m
+,Phil Cody,3357,m
+,Andrew Dost,1795,m
+,Andrew Dost,1796,m
+,Luiz Bonfa,3361,m
+,Gotye,3361,m
+,Dewey Bunnell,355,m
+,Daryl Stuermer,750,m
+,Chris Martin,167,m
+,Chris Martin,3366,m
+,Guy Rupert Berryman,167,m
+,Guy Rupert Berryman,3366,m
+,Jonny Buckland,167,m
+,Jonny Buckland,3366,m
+,William Champion,167,m
+,William Champion,3366,m
+,B.Dall,3373,m
+,B.Dall,3374,m
+,Bret Michaels,3373,m
+,Bret Michaels,3374,m
+,CC DeVille,3373,m
+,CC DeVille,3374,m
+,R.Rockett,3373,m
+,R.Rockett,3374,m
+,S.Eikhard,3381,f
+,J.Horner,3382,m
+,Artie Zwim,3383,m
+,Harry Giosasi,3383,m
+,BloodPop,829,m
+,Skrillex,829,m
+,Ed Cobb,1000,m
+,Roland Orzabal,1980,m
+,B.E.King,988,m
+,R.Hansen,906,m
+,Lisa Loeb,3391,f
+,Maurice Williams,3392,m
+,Justin Parker,3393,m
+,Mikky Ekko,3393,m
+,Jeff Lynne,3395,m
+,Tom Petty,3395,m
+,William Phillips,3395,m
+,Brandon Lowry,729,m
+,Kasia Livingston,423,f
+,Danny Parker,3400,m
+,Daniel Kyriakides,3400,m
+,Teddy Geiger,3400,nb
+,Brian MaCleod,540,m
+,David Ricketts,540,m
+,Edwin Birdsong,152,m
+,J. Leslie McFarland,3406,m
+,Derrick Stewart,3407,m
+,E.Wilcox,3407,m
+,Ernest Dixson,3407,m
+,Joan Sebastian,3407,m
+,Mark Sebastian,3407,m
+,Romye Robinson,3407,m
+,Roy Hamilton,3407,m
+,Steve Boone,3407,m
+,Trevant Hardson,3407,m
+,C. Battey,2212,m
+,G. Randone,2212,m
+,Howard Simmons,2212,pm
+,Korey Roberson,2212,m
+,M. Gabutti,2212,m
+,M. Lobina,2212,m
+,Michael Caren,2212,m
+,Steven Andre Battey,2212,m
+,Charles Still,123,m
+,Johnny Wilson,123,m
+,Terrance Stuart,123,m
+,Brad Young,3427,m
+,Dow Brain,3427,m
+,Rich Cronin,3427,m
+,Alton Taylor,1552,m
+,R.Westerfield,1552,m
+,JMIKE,681,m
+,Roahn Hylton,681,m
+,John Mellor,124,m
+,Michael Geoffrey Jones,124,m
+,N. Headon,124,m
+,Philip Spector,417,m
+,Philip Spector,3438,m
+,E.Greenwich,417,f
+,M.Leeson,417,m
+,P.Vale,417,m
+,Andrew Hozier-Byrne,3442,m
+,Magne Furuholmen,3443,m
+,Morten Harket,3443,m
+,Paul Waaktaar-Savoy,3443,m
+,Sean Maxwell Douglas,892,m
+,Sean Maxwell Douglas,773,m
+,Jason Evigan,892,m
+,Ori Kaplan,892,m
+,Tamir Muskat,892,m
+,2 Chainz,892,m
+,Tomer Yosef,892,m
+,Coz Canler,3453,m
+,Jimmy Marinos,3453,m
+,Wally Palmar,3453,m
+,Peter Solley,3453,m
+,Eric Clapton,2987,m
+,Jean Surrey,3458,f
+,Red Surrey,3458,m
+,Arthur Egnoian,3460,m
+,Sandy Nelson,3460,m
+,Lazonate Franklin,489,f
+,Billy Joel,3463,m
+,Billy Joel,3464,m
+,Billy Joel,3465,m
+,Billy Joel,3466,m
+,Bryce Wilson,3467,m
+,Bryce Wilson,1355,m
+,Amel Larrieux,3467,f
+,D.Brown,3467,m
+,Andre Marshall,103,m
+,Rohan Fuller,103,m
+,Christopher H. Jasper,2808,m
+,The Isley Bros.,2808,m
+,Dido,3475,f
+,Paul Herman,3475,m
+,Bill Parsons,3477,m
+,Orville Lunsford,3477,m
+,Jimmie Driftwood,3479,m
+,Wayne Shanklin,3480,m
+,Brandy Rayana Norwood,1760,f
+,Japhe Tejeda,1760,m
+,Michael W. Campbell,2456,m
+,Jessi Leigh Alexander,3484,f
+,Jon Mabe,3484,m
+,Charlie Daniels,3486,m
+,Charlie Hayward,3486,m
+,Fred Edwards,3486,m
+,Jim Marshall,3486,m
+,Taz DiGregorio,3486,m
+,Tom Crain,3486,m
+,Fernando Garibay,490,m
+,M.McLeod,619,f
+,Pamela Joan Sawyer,619,f
+,B.Simpson,3319,m
+,B.Mitchell,3496,m
+,N.Graham,3496,m
+,Brian Vander Ark,3498,m
+,Alex Ander,2339,m
+,"Dave ""Baby"" Cortez",3500,m
+,Ken Wood,3500,m
+,Illangelo,1875,m
+,Emmanuel Nickerson,1875,m
+,K'Naan,234,m
+,B.A.Robertson,2656,m
+,C.King,3269,f
+,Jimmy Eat World,3507,m
+,Aalias,1169,m
+,Bebe Rexha,1169,f
+,Bryan Fryzel,1169,m
+,Jon Bellion,1169,m
+,Maki Athanasiou,1169,m
+,Bobby Caldwell,3513,m
+,Gordon,3513,m
+,Charles Tobias,3515,m
+,Nat Simon,3515,m
+,Benito Benites,3517,m
+,Turbo B,3517,m
+,John Garrett III,3517,m
+,Toni C.,3517,f
+,C.DeRouge,3521,m
+,G.Mende,3521,m
+,Jennifer Rush,3521,f
+,M.S.Applegate,3521,f
+,Chris Hayes,2402,m
+,J.Colla,2402,m
+,Paula Abdul,3256,f
+,Sandra St. Victor,3256,f
+,Vernon Jeffrey Smith,3256,m
+,Tom Coster,1170,m
+,Daniel Estrin,3531,m
+,Douglas Robb,3531,m
+,Ivan,3533,m
+,Paul Simon,3534,m
+,Ditcham,3535,m
+,Sade,3535,f
+,Max Steiner,3537,m
+,Bert Reisfield,3538,m
+,Jean Villard,3538,m
+,Damien LeRoy,1305,m
+,Reginald Glenn Hamm,3541,m
+,Hank Ballard,3542,m
+,Bruce R. Hornsby,3543,m
+,Goldie Hampton,300,f
+,John Maultsby,300,m
+,Carl Mo,2971,m
+,Patrick Brown,2971,m
+,Benjamin Nelson,3548,m
+,George Treadwell,3548,m
+,Lover Patterson,3548,m
+,Martin Page,1483,m
+,Martin Page,1484,m
+,Amy Wadge,1593,f
+,M.Sherrod,3554,m
+,P.Sherrod,3554,m
+,Sir Spence,3554,pm
+,Oji Pierce,2140,m
+,Aldo Nova,3558,m
+,Chris Braide,3558,m
+,Gary Burr,3558,m
+,Calvin Harris,3561,m
+,Calvin Harris,3562,m
+,Calvin Harris,1453,m
+,Taylor Swift,3561,f
+,Mark Andrews,697,m
+,Jayson DeZuzio,471,m
+,Ollie Jones,3567,m
+,Greg Errico,1451,m
+,Sermstyle,1451,m
+,Keri Oskar,1451,f
+,Lee Oskar,1451,m
+,Priscilla Renea Hamilton,1451,f
+,Jim Croce,3573,m
+,Jerrell Jones,3574,m
+,Joe Kent,3574,m
+,Mark Williams,3574,m
+,D.Grahame,3577,m
+,Eric Martin,3577,m
+,Dave Guard,3579,m
+,D.Miller,1159,m
+,J.B.Moore,1159,m
+,K. Walker,1159,m
+,R.A.Ford,1159,m
+,R.Brown,1159,m
+,Robert Lavelle Huggar,1159,m
+,Julian Lennon,3586,m
+,Joshua Alexander Berman,598,m
+,Ruth-Anne Cunningham,598,f
+,C.Carmichael,2545,m
+,P.Adams,2545,m
+,J.Astrop,3591,m
+,M.Shreeve,3591,m
+,P.Q.Harris,3591,pm
+,Martika,3594,f
+,Michael Jay,3594,m
+,Fred Burch,3596,m
+,Gerald Nelson,3596,m
+,Tony Fadd,394,m
+,Phredley Brown,235,m
+,Static Major,301,m
+,Arnold Hennings,3151,m
+,Spragga Benz,3151,m
+,Daron Tavaris Jones,3151,m
+,Kevin Lyttle,3151,m
+,Marvin Scandrick,3151,m
+,Raeon Primus,3151,m
+,P.Medley,2135,m
+,Paul Beckett,2123,m
+,Eric McCaine,2084,m
+,Kut Klose,2084,m
+,Lamont Dozier,753,m
+,Lamont Dozier,1974,m
+,John Mitchell,3613,pm
+,Sue Gatlin,3613,pf
+,Tim Greene,3613,pm
+,Graham Lyle,3616,m
+,Graham Lyle,3617,m
+,Graham Lyle,3618,m
+,Terry Britten,3616,m
+,Terry Britten,3617,m
+,Terry Britten,3618,m
+,Anita McCloud,3622,f
+,Edmund Clement,3622,m
+,A.Kiedis,1409,m
+,J.Frusciante,1409,m
+,David Stewart,2383,m
+,Jaegen,1228,m
+,C.P Dubb,1228,m
+,French Montana,1228,m
+,Mac Sutphin,1228,pm
+,Tionne Watkins,1692,f
+,Wayne Rodrigues,3171,m
+,Charlie Wilson,236,m
+,Devon Christopher Gallaspy,236,m
+,Trinidad James,236,m
+,Robert Wilson,236,m
+,Ronnie Wilson,236,m
+,Rudolph Taylor,236,m
+,Caleb Followill,3639,m
+,Jared Followill,3639,m
+,Matthew Followill,3639,m
+,Nathan Followill,3639,m
+,R.Leeuwen,3643,m
+,Ed Marshall,3644,m
+,Mitchell Parish,3016,m
+,Aloe Blacc,2219,m
+,Mike Einziger,2219,m
+,L.Sternberg,3648,m
+,Rowe,3649,m
+,Stannard,3649,m
+,Ian Kirkpatrick,2641,m
+,Lindy Robbins,2641,f
+,Mitch Allan,2641,m
+,Sam Martin,2641,m
+,Ricky L. Hawk,3655,m
+,Timothy B. Mingo,3655,m
+,John D. Loudermilk,3657,m
+,Marijohn Wilkin,3657,f
+,Henry Creamer,3659,m
+,Turner Layton,3659,m
+,D.E.Lowen,3661,m
+,D.Navarro,3661,m
+,Bobby Womack,621,m
+,Darnell Bristol,621,m
+,Patrick Moten,621,m
+,Sandra Sully,621,f
+,Sid 'Uncle Jamz' Johnson,621,m
+,Zukhan Bey,2718,m
+,Lowe,3669,m
+,Tennant,3669,m
+,Willis,3669,f
+,Bobby Caldwell,2936,m
+,J.Scheff,2936,m
+,Aldrin Davis,189,m
+,Curtis Mayfield,189,m
+,Donny Hathaway,189,m
+,Leroy Hutson,189,m
+,Imogen Heap,996,f
+,K. V. Washington,190,m
+,Cheryl James,3680,f
+,D.Crawford,3680,m
+,Herby E. Azor,3680,m
+,Andrew Wright,3683,m
+,Calvin Houston Lewis,3683,m
+,M.Fry,3685,m
+,Michael White,3685,m
+,M.Tramp,3687,m
+,V.Bratta,3687,m
+,F.Reuther,3689,m
+,P.Bischof-Fallenstein,3689,m
+,R.W.Johnson,3691,m
+,Taylor Rhodes,3691,m
+,Geoff Mack,1453,m
+,Eric Seats,177,m
+,Rapture Stewart,177,m
+,Lorenz Hart,3696,m
+,Richard Rodgers,3696,m
+,Brandon D. Casey,461,m
+,Aaron Kamin,3699,m
+,Alex Band,3699,m
+,Antonio Clarence Mobley,476,m
+,David Edward Glass,476,m
+,Marcus Killian,476,m
+,DiAndre Davis,855,pm
+,JT Money,855,m
+,Tonya Johnston,855,f
+,Tag Team,3707,m
+,Bob Marcucci,3708,m
+,Peter DeAngelis,3708,m
+,Axident,773,m
+,Joe London,773,m
+,Axwell,1521,m
+,Ben Maddahi,1521,m
+,Michael Cooper,1521,m
+,Pierre-Antione Melki,1521,m
+,Raphael Judrin,1521,m
+,PARTYNEXTDOOR,2856,m
+,PARTYNEXTDOOR,1098,m
+,Bryson Tiller,2856,m
+,Mohandus DeWese,2114,m
+,Rob Fusari,2114,m
+,The Escape Club,3722,m
+,R.Baskin,2196,m
+,Tom Keane,2196,m
+,Jeffrey Silbar,3725,m
+,Larry Henley,3725,m
+,Arthur Baker,3727,m
+,Faragher,3727,m
+,Golden,3727,f
+,A.Dudley,1171,f
+,Kevin Bell,1171,m
+,Malcolm McLaren,1171,m
+,Trevor Horn,1171,m
+,T.Evans,645,m
+,W.P.Ham,645,m
+,Nikesha Briscoe,3736,f
+,Rafael Akinyemi,3736,m
+,Karryl Smith,874,f
+,Monte S. Moir,1098,m
+,"Rupert Thomas, Jr.",1098,m
+,Eskeerdo,1870,m
+,Jude Demorest,1870,f
+,DallasK,1870,m
+,Sacha Skarbek,1455,m
+,Sacha Skarbek,1037,m
+,Mozella,1455,f
+,J. Que,849,m
+,Jude Cole,2287,m
+,J.Tempchin,2458,m
+,Liz Rose,72,f
+,LaLa,3751,f
+,R.Holmes,3752,m
+,Joe Jones,3753,m
+,Reggie Hall,3753,m
+,Pebe Sebert,1802,f
+,Don Everly,3756,m
+,Don Everly,3757,m
+,G.Nelson,3758,m
+,M.Nelson,3758,m
+,M.Tanner,3758,m
+,Franke Previte,3761,m
+,Franke Previte,3762,m
+,Franke Previte,1305,m
+,John DeNicola,3761,m
+,John DeNicola,3762,m
+,John DeNicola,1305,m
+,Donald Markowitz,3761,m
+,Donald Markowitz,1305,m
+,Bill Trader,3769,m
+,B.Selzer,3770,m
+,"A.Ivey,Jr.",3771,m
+,A.Sear,3771,m
+,Aaron Schroeder,3773,m
+,Aaron Schroeder,3774,m
+,Aaron Schroeder,3775,m
+,Aaron Schroeder,3406,m
+,Sid Wyche,3773,m
+,Tim Rice,3778,m
+,Tim Rice,1467,m
+,Tim Rice,3094,m
+,Alan Menken,3778,m
+,Alan Menken,1595,m
+,Jennifer Lopez,3783,f
+,Jennifer Lopez,522,f
+,Jennifer Lopez,608,f
+,Jennifer Lopez,1804,f
+,Jennifer Lopez,1488,f
+,Irv Gotti,3783,m
+,Irv Gotti,3789,m
+,Irv Gotti,2044,m
+,Irv Gotti,1804,m
+,Irv Gotti,2045,m
+,Irv Gotti,2046,m
+,Irv Gotti,2752,m
+,Irv Gotti,874,m
+,7 Aurelius,3783,m
+,7 Aurelius,3789,m
+,7 Aurelius,2044,m
+,Ja Rule,3783,m
+,Ja Rule,3789,m
+,Ja Rule,1804,m
+,Ja Rule,2045,m
+,Ja Rule,2752,m
+,Ja Rule,874,m
+,Cory Rooney,3783,m
+,Cory Rooney,1363,m
+,Cory Rooney,2584,m
+,Cory Rooney,1804,m
+,Cory Rooney,1754,m
+,Cory Rooney,794,m
+,Cory Rooney,2585,m
+,Caddillac Tah,3783,m
+,Craig Mack,3783,m
+,Easy Mo Bee,3783,m
+,David Seville,3815,m
+,Clyde Otis,3816,m
+,Clyde Otis,3817,m
+,Murray Stein,3816,pm
+,Dalton,567,m
+,Nail,567,m
+,Reuter,567,m
+,Wally Gold,3774,m
+,Wally Gold,3775,m
+,Don Costa,3774,m
+,Fergie,563,f
+,Fergie,1294,f
+,Fergie,1295,f
+,Fergie,1297,f
+,Fergie,685,f
+,Fergie,1299,f
+,Fergie,1300,f
+,Fergie,1301,f
+,Fergie,686,f
+,Kelly Rowland,786,f
+,Kelly Rowland,182,f
+,Kelly Rowland,120,f
+,Kelly Rowland,1758,f
+,Kelly Rowland,187,f
+,Kandi Burruss,786,f
+,Kandi Burruss,3060,f
+,Kandi Burruss,580,f
+,She'kspere,786,m
+,She'kspere,3060,m
+,She'kspere,580,m
+,LeToya Luckett,786,f
+,Euclid Gray,3846,m
+,Feloney Davis,3846,pm
+,Monica Gray,3846,pf
+,Robert Fusari,787,m
+,Robert Fusari,3850,m
+,Falonte Moore,787,m
+,Stevie Nicks,787,f
+,Todd Pipes,3853,m
+,Joe Jonas,3854,m
+,Kevin Jonas II,3854,m
+,Nick Jonas,3854,m
+,Yung Joc,947,m
+,Yung Joc,3858,m
+,Mark Holding,3859,pm
+,Nevil,3859,m
+,Pain,3859,m
+,Barry White,3862,m
+,C.C.Lemonhead,3862,m
+,Jay Ski McGowan,3862,m
+,The Weeknd,10,m
+,The Weeknd,1872,m
+,The Weeknd,1739,m
+,The Weeknd,1741,m
+,The Weeknd,1875,m
+,Peter Svensson,10,m
+,K.Cronin,3871,m
+,Macklemore,3872,m
+,Macklemore,3873,m
+,Ryan Lewis,3872,m
+,Ryan Lewis,3873,m
+,Walter Afanasieff,625,m
+,Walter Afanasieff,631,m
+,Walter Afanasieff,637,m
+,Walter Afanasieff,638,m
+,Just Blaze,3880,m
+,Just Blaze,183,m
+,Just Blaze,3882,m
+,Cynthia Loving Stone,3880,f
+,Landrono Johnny Jackson,3880,m
+,Steve Jordan,1125,m
+,Steve Jordan,632,m
+,Steve Jordan,810,m
+,Steve Jordan,1122,m
+,Steve Jordan,637,m
+,Carlos Broady,1125,m
+,Nashiem Myrick,1125,m
+,William Smokey Robinson,1125,m
+,Phil Everly,3757,m
+,Jeff Bass,1161,m
+,Jeff Bass,1165,m
+,Jeff Bass,1171,m
+,L.Blaisch,3897,f
+,Soulja Boy Tell 'Em,3898,m
+,Soulja Boy Tell 'Em,2716,m
+,Richard Davies,3900,m
+,Roger Hodgson,3900,m
+,Kid Cudi,3902,m
+,Kid Cudi,145,m
+,Oladipo Omishore,3902,m
+,Pitbull,13,m
+,Pitbull,1050,m
+,Pitbull,2560,m
+,Pitbull,494,m
+,Pitbull,497,m
+,Pitbull,1451,m
+,Elvis Presley,3911,m
+,Otis Blackwell,3911,m
+,Busta Rhymes,1672,m
+,Busta Rhymes,2555,m
+,D.Frank,3915,m
+,M.Murphy,3915,m
+,N.Finn,3917,m
+,Jim Vallance,3918,m
+,Jim Vallance,96,m
+,Jim Vallance,97,m
+,Glass Tiger,3918,m
+,B.Mann,3922,m
+,B.Mann,3382,m
+,Cynthia Weil,3922,f
+,Cynthia Weil,3382,f
+,Tom Snow,3922,m
+,Andrea Martin,3927,f
+,Andrea Martin,3928,f
+,Ivan Matias,3927,m
+,Ivan Matias,3928,m
+,Marqueze Etheridge,3927,m
+,Organized Noize,3927,m
+,Emily Warren,166,f
+,Scott Harris,166,m
+,Anthony Lawson,953,m
+,Bruce Gaitsch,710,m
+,"George Pajon, Jr.",515,m
+,Printz Board,515,m
+,Alexandra Forbes,3939,pf
+,Jonathan Cain,3940,m
+,Neal Schon,3940,m
+,Steve Perry,3940,m
+,Tawanna Dabney,902,f
+,Derrick Simmons,1638,m
+,Q.D. III,1638,m
+,Willie Baker,1638,m
+,Mirwais Ahmadzai,269,m
+,Mirwais Ahmadzai,277,m
+,Joe Henry,269,m
+,Albert Hammond,1058,m
+,Albert Hammond,1063,m
+,Albert Hammond,1073,m
+,Albert Hammond,1678,m
+,Ron Spearman,3954,m
+,Vassal Gradington Benford,3954,m
+,J.Child,3956,f
+,Keith Forsey,3957,m
+,Keith Forsey,779,m
+,Keith Forsey,780,m
+,Steve Schiff,3957,m
+,Bobby Worth,3961,m
+,Jo Callis,3962,m
+,Philip Adrian Wright,3962,m
+,Philip Oakey,3962,m
+,Chad Hugo,1272,m
+,Chad Hugo,320,m
+,Chad Hugo,455,m
+,Chad Hugo,1280,m
+,Chad Hugo,1281,m
+,Chad Hugo,325,m
+,Denniz Pop,17,m
+,Howard Greenfield,3972,m
+,Howard Greenfield,3973,m
+,Jack Keller,3972,m
+,Jack Keller,3973,m
+,Lonnie Simmons,3976,m
+,Lonnie Simmons,236,m
+,Alisa Yarbrough,3976,f
+,Jonah Ellis,3976,m
+,Bernard Edwards,1486,m
+,Bernard Edwards,866,m
+,Bernard Edwards,1122,m
+,Will Smith,1486,m
+,Will Smith,2114,m
+,J.Robinson,1486,m
+,Peter Bischof-Fallenstein,568,m
+,Kawohl,568,m
+,Ky Adeyemo,3988,m
+,Rodney Hollaman,3988,m
+,Lyles,3988,m
+,Bill Pettaway,3988,m
+,Spencer,3988,m
+,40,1092,m
+,40,1093,m
+,40,1095,m
+,Daveon Jackson,1092,m
+,Cardo,1092,m
+,Clint Ballard,3998,m
+,Fred Tobias,3998,m
+,Uncle Freddie,1753,m
+,Uncle Freddie,1754,m
+,Uncle Freddie,1755,m
+,Uncle Freddie,120,m
+,Uncle Freddie,1758,m
+,Uncle Freddie,1760,m
+,LaShawn Daniels,1753,m
+,LaShawn Daniels,1754,m
+,LaShawn Daniels,120,m
+,LaShawn Daniels,1758,m
+,LaShawn Daniels,489,m
+,LaShawn Daniels,1760,m
+,"Harvey Jay Mason, Jr.",1753,m
+,"Harvey Jay Mason, Jr.",2015,m
+,Audrey Allison,4014,f
+,Audrey Allison,4015,f
+,Joe Allison,4014,m
+,Joe Allison,4015,m
+,Charles Green,4015,m
+,C.Decker,4019,f
+,Ronnie Rogers,4019,f
+,Cam'Ron,555,m
+,Cam'Ron,3882,m
+,LaRon James,555,m
+,LaRon James,3882,m
+,Darryl Pittman,555,m
+,Tom Higgenson,4026,m
+,"Jerry ""Wonda"" Duplessis",4027,m
+,"Jerry ""Wonda"" Duplessis",2899,m
+,"Jerry ""Wonda"" Duplessis",4029,m
+,"Jerry ""Wonda"" Duplessis",2856,m
+,Wyclef Jean,4027,m
+,Wyclef Jean,2899,m
+,Wyclef Jean,4029,m
+,Wyclef Jean,2856,m
+,Omar Alfanno,4027,m
+,Shakira Isabel Mebarak Ripoll,4027,f
+,Nineteen85,1093,m
+,Nineteen85,1094,m
+,Nineteen85,1095,m
+,Jordan Kenneth Cooke Uillman,1093,m
+,Majid Al-Maskati,1093,m
+,Bobby Brown,1339,m
+,Bobby Brown,3001,m
+,Bobby Brown,2589,m
+,Stylz,1339,m
+,John Smith,4046,m
+,John Smith,2471,m
+,A.Rich,4048,m
+,Jud Friedman,4048,m
+,Chauncey Hawkins,4050,m
+,Chauncey Hawkins,1129,m
+,Chauncey Hawkins,1130,m
+,Kashif,4050,m
+,Kashif,1129,m
+,Kashif,1130,m
+,Mario Winans,4050,m
+,Mario Winans,1130,m
+,Mario Winans,1132,m
+,Enya,4050,f
+,Erick Sermon,4050,m
+,Michael Jones,4050,m
+,Nicky Ryan,4050,m
+,Parrish Smith,4050,m
+,Roma Ryan,4050,f
+,Jack Antonoff,63,m
+,Jack Antonoff,65,m
+,Jack Antonoff,1795,m
+,Jack Antonoff,1796,m
+,Sam Dew,63,m
+,Mick Jones,4070,m
+,Mick Jones,4071,m
+,Mick Jones,1583,m
+,N.Rhodes,1554,m
+,S.LeBon,1554,m
+,D.Johnstone,1471,m
+,Ritchie Cordell,4076,m
+,Ritchie Cordell,2946,m
+,Jim Steinman,4078,m
+,Jim Steinman,4079,m
+,Jim Steinman,4080,m
+,Jim Steinman,4081,m
+,Jim Steinman,4082,m
+,J.George,4083,m
+,Edwin McCain,4084,m
+,Faith Evans,1920,f
+,Todd Gaither,1920,m
+,Berry Gordy,4087,m
+,B.West,4087,m
+,H.Davis,4087,m
+,Willie Hutch,4087,m
+,D.Wood,1706,m
+,T.Page,1706,m
+,C.Reid,4093,m
+,Harold Logan,4094,m
+,Harold Logan,4095,m
+,Harold Logan,4096,m
+,Lloyd Price,4094,m
+,Lloyd Price,4095,m
+,Lloyd Price,4096,m
+,Michael Jones,948,m
+,Jimmy Napes,4101,m
+,Jimmy Napes,3395,m
+,Jimmy Napes,1017,m
+,Sam Smith,4101,nb
+,Sam Smith,3395,nb
+,Sam Smith,1017,nb
+,L.E.S.,1804,m
+,Rick James,1804,m
+,Dub Allbritten,4109,m
+,Dub Allbritten,4110,m
+,Ronnie Self,4109,m
+,Ronnie Self,4110,m
+,DJ Khaled,826,m
+,DJ Khaled,2856,m
+,Chance the Rapper,826,m
+,DaviDior,826,m
+,Nic Nac,826,m
+,Ray Jacobs,826,m
+,Bobby Brackins,826,m
+,Fred Fairbrass,4120,m
+,Fred Fairbrass,65,m
+,Richard Fairbrass,4120,m
+,Richard Fairbrass,65,m
+,Rob Manzoli,4120,m
+,Rob Manzoli,65,m
+,Chambers,4126,m
+,Chandler,4126,m
+,Helms,4126,m
+,Henshall,4126,m
+,Leon Huff,1808,m
+,Leon Huff,457,m
+,Carl Sigman,4132,m
+,Charles G. Dawes,4132,m
+,Nitti Beatz,3858,m
+,Rami,23,m
+,Rami,938,m
+,Rami,499,m
+,Rami,943,m
+,B.Hendricks,3817,m
+,Brook Benton,3817,m
+,Brett Young,2445,m
+,Gregg Wattenberg,2445,m
+,Mark Wilkerson,2445,m
+,I.Phillips,1755,m
+,L.Daniels,1755,m
+,Toni Estes,1755,f
+,Conway Twitty,4147,m
+,Jack Nance,4147,m
+,Frederick J. Perren,4149,m
+,Frederick J. Perren,4150,m
+,C.Yarian,4149,f
+,Paul Anka,4152,m
+,Paul Anka,4153,m
+,Paul Anka,4154,m
+,Paul Anka,4155,m
+,John Hornsby,4156,m
+,John Hornsby,4157,m
+,John Hornsby,3543,m
+,Bruce Hornsby,4156,m
+,Bruce Hornsby,4157,m
+,Bruce Hornsby,4161,m
+,Steven Tyler,4162,m
+,Steven Tyler,2836,m
+,Steven Tyler,2837,m
+,T.Hamilton,4162,m
+,Chad Elliott,796,m
+,Jovonn Alexander,796,pm
+,Reggie More,796,m
+,Jabbar Stevens,1301,pm
+,Joshua Alvarez,1301,pm
+,Julie Frost,1301,f
+,Stehen Shadowen,1301,pm
+,TBHits,1301,m
+,David Siegel,2716,m
+,David Siegel,190,m
+,Dino,2480,m
+,"Darryl ""G.I."" Jackson",2480,m
+,"Solomon “Shazam"" Conner",2480,m
+,Stick,2480,m
+,Kenny Nolan,4180,m
+,Kenny Nolan,4181,m
+,Bob Crewe,4180,m
+,Master P,2138,m
+,Silkk The Shocker,2138,m
+,Carl Falk,938,m
+,Carl Falk,499,m
+,Carl Falk,943,m
+,Draco Rosa,695,m
+,Draco Rosa,1620,m
+,Draco Rosa,697,m
+,Amil Harris,4191,f
+,Damon Sharpe,4191,m
+,Georgetta Franklin,4191,f
+,Greg Lawson,4191,m
+,Jeremy Monroe,4191,m
+,Corey Evans,216,m
+,Kimberly Jones,216,f
+,Michael Clervoix,216,m
+,Roy Hawkins,216,m
+,Alphonso J. Mizell,4150,m
+,Berry Gordy,4150,m
+,Dennis Lussier,4150,m
+,D.Morgan,4203,m
+,S.Climie,4203,m
+,James Baker,4205,m
+,Jeff Young,4205,m
+,Melvin Lee Wilson,4205,m
+,Rochad Holiday,4205,m
+,Sauce,4205,m
+,Tamara Powell,4205,f
+,Calvin Gaines,3850,m
+,Mary Brown,3850,f
+,Vincent J. Herbert,3850,m
+,Axl Rose,4214,m
+,Norman Whitfield,3882,m
+,Brian Elliot,278,m
+,Guns N' Roses,4217,m
+,Guns N' Roses,4218,m
+,Guns N' Roses,4219,m
+,Sidney Bechet,4220,m
+,Irving Berlin,4221,m
+,John Mellencamp,4222,m
+,Anthony Henderson,4223,m
+,Hakeem Seriki,4223,m
+,"Juan ""Play"" Salinas",4223,m
+,"Oscar ""Skillz"" Salinas",4223,m
+,B.Knowles,1758,f
+,L.Luckett,1758,f
+,LaTavia Roberson,1758,f
+,Eliot Kennedy,4230,m
+,I.Prince,2589,m
+,George Noriega,1620,m
+,Luis Gomez Escolar,1620,m
+,Timothy Allen,4234,m
+,W.Walton,4234,m
+,Terence Trent D'Arby,4236,m
+,Terence Trent D'Arby,4237,m
+,Rockwell,4238,m
+,J.P.,2195,m
+,J.Guiot,4240,m
+,M.Detroit,4240,f
+,S.Fahey,4240,f
+,David Gamson,406,m
+,Carlos Hassan,4244,pm
+,Sandy Lal,4244,m
+,Wesley E. Weston,4244,m
+,Anthony Dent,803,m
+,Mathew Knowles,803,m
+,Bernie Lowe,4249,m
+,Bernie Lowe,4250,m
+,Dave Appel,4249,m
+,Dave Appel,4250,m
+,Kal Mann,4249,m
+,Kal Mann,4250,m
+,Barry J. Eastmond,2164,m
+,Barry J. Eastmond,87,m
+,W.Brathwaite,2164,m
+,W.Brathwaite,87,m
+,Fall Out Boy,4259,m
+,Patrick Vaughn Stump,4259,m
+,Pete Wentz,4259,m
+,Albert Johnson,1716,m
+,C.Williams,1716,m
+,Chris Lundy,1716,m
+,D. McDaniels,1716,m
+,DANNYBOYSTYLES,1716,m
+,E-40,1716,m
+,Joseph W. Simmons,1716,m
+,Kejuan Muchita,1716,m
+,Leon Haywood,1716,m
+,Shawn Mims,1716,m
+,T. Simons,1716,m
+,Winston Thomas,1716,m
+,Jacob Elisha Luttrell,475,m
+,Jacob Elisha Luttrell,1521,m
+,John Smith,4276,m
+,Miley Cyrus,1229,f
+,P-Nasty,1229,m
+,P.Glass,2091,m
+,Jack Scott,4280,m
+,T.Smith,2977,m
+,T.Smith,2099,m
+,Christopher Rios,2752,m
+,Alex Van Halen,4284,m
+,Eddie,4284,m
+,Mike,4284,m
+,Sammy,4284,m
+,Sammy Hagar,2705,m
+,S.Oliver,4237,m
+,J.R.Bailey,154,m
+,Ken Williams,154,m
+,Mel Kent,154,m
+,Ashley Ingram,4293,m
+,Des'ree,4293,f
+,E.Holland,1974,m
+,James Blunt,1037,m
+,"Allen ""Allstar"" Gordon Jr.",3928,m
+,Cheryl Gamble,3928,f
+,Tamara Johnson,3928,f
+,Len Ron Hanks,4300,pm
+,Zane Grey,4300,m
+,Chips Moman,4302,m
+,Larry Butler,4302,m
+,Keith Richards,4304,m
+,Mick Jagger,4304,m
+,Carl Hampton,4306,pm
+,Homer Banks,4306,m
+,Raymond Jackson,4306,m
+,Oliver Leiber,4309,m
+,John Lennon,4310,m
+,Andy Gibb,4311,m
+,Barry Gibb,4311,m
+,Jerry Leiber,4313,m
+,Mike Stoller,4313,m
+,KC,4315,m
+,Richard Finch,4315,m
+,Otis Redding,4317,m
+,Steve Cropper,4317,m
+,Aretha Franklin,4319,f
+,Ted White,4319,m
+,Burt Bacharach,4321,m
+,Hal David,4321,m
+,Andre Previn,4323,m
+,Dory Previn,4323,f
+,Tom Brasfield,4325,pm
+,Walt Aldridge,4325,m
+,Burt Bacharach,4327,m
+,Hal David,4327,m
+,Emil Thielhelm,4329,m
+,Michael Esposito,4329,m
+,Ralph Scala,4329,m
+,Ron Gilbert,4329,m
+,Barry Mann,4333,m
+,Cynthia Weil,4333,f
+,Bernie Baum,4335,m
+,Bill Giant,4335,m
+,Florence Kaye,4335,f
+,Paul Anka,4338,m
+,Carl Smith,4339,pm
+,Gary Jackson,4339,m
+,Raynard Miner,4339,m
+,David Lewis,653,m
+,David Lewis,654,m
+,Donna Lewis,4344,f
+,Leonard Borisoff,4345,m
+,Bob Trimachi,4346,pm
+,Sal Trimachi,4346,m
+,Keith Richards,4348,m
+,Mick Jagger,4348,m
+,Emma Bunton,196,f
+,Geri Halliwell,196,f
+,Melanie Brown,196,f
+,Melanie Chisholm,196,f
+,Victoria Beckham,196,f
+,Brian Holland,4345,m
+,David White,4345,m
+,Eddie Holland,4345,m
+,John Madara,4345,m
+,Lamont Dozier,4345,m
+,Paul Simon,4360,m
+,ALEXANDER HUGHES CALL,4361,m
+,JAMES IRWIN KELLER,4361,m
+,Dolly Parton,4363,f
+,Rudy Martinez,4364,m
+,Eddie Brigati Jr.,4365,m
+,Felix Cavaliere,4365,m
+,Shel Silverstein,4367,m
+,Ludwig van Beethoven,4368,m
+,Walter Murphy,4368,m
+,Carole Bayer Sager,4370,f
+,Toni Wine,4370,f
+,John Lennon,4372,m
+,Paul McCartney,4372,m
+,Dewey Bunnell,4374,m
+,Bob Elgin,4375,pm
+,Kay Rogers,4375,m
+,Luther Dixon,4375,m
+,Neil Diamond,4378,m
+,John Farrar,4379,m
+,Denny Randell (adapted from Bach),4380,m
+,Sandy Linzer,4380,m
+,Nick Rhodes,416,m
+,Simon Le Bon,416,m
+,Andy Taylor,416,m
+,John Taylor,416,m
+,Roger Taylor,416,m
+,Gary Brooker (and J.S. Bach),4387,m
+,Keith Reid,4387,m
+,John Lennon,4389,m
+,Paul McCartney,4389,m
+,Berry Gordy,4391,m
+,Deke Richards,4391,m
+,Fonce Mizell,4391,m
+,Freddie Perren,4391,m
+,Steve Miller,4395,m
+,Dick Holler,4396,m
+,David Paich,4397,m
+,Jeff Porcaro,4397,m
+,Bill Champlin,4399,m
+,David Foster,4399,m
+,Jay Graydon,4399,m
+,Bill Danoff,4402,m
+,Phil Collins,4403,m
+,Bob Seger,4404,m
+,Ray Stevens (aka Harold Ragsdale),4405,m
+,Nickolas Ashford,4406,m
+,Valerie Simpson,4406,f
+,Bill Withers,4408,m
+,Brian Potter,4409,m
+,Dennis Lambert,4409,m
+,Charlie Burchill,4411,m
+,Jim Kerr,4411,m
+,Mick MacNeil,4411,m
+,Bryan Abrams,4414,m
+,Howard Thompson,4414,m
+,Isaac Hayes,4414,m
+,"Kevin ""K.T."" Thornton",4414,m
+,Mark Calderon,4414,m
+,Sam Watters,4414,m
+,Steve Cropper,4414,m
+,Arthur Altman,4421,m
+,Manos Hadjidakis,4421,m
+,Eric Carmen,4423,m
+,C.Neil,4424,m
+,Mike Rutherford,4424,m
+,CLIVE J DAVIS,4426,m
+,Graham Russell,4426,m
+,Andy Fraser,4428,m
+,Paul Rodgers,4428,m
+,Sting,4430,m
+,George Harrison,4431,m
+,John Lennon,4432,m
+,Paul McCartney,4432,m
+,Gilbert O'Sullivan,4434,m
+,Richard Strauss,4435,m
+,JR JOHN L CHRISTOPHER,4436,m
+,Mark James,4436,m
+,WAYNE CARSON THOMPSON,4436,m
+,Don McLean,4439,m
+,Burton Cummings,4440,m
+,Garry Peterson,4440,m
+,Jim Kale,4440,m
+,Justin Bieber,4443,m
+,JORDAN KYLE REYNOLDS,4443,m
+,SHAY MOONEY,4443,m
+,DANIEL SMYERS,4443,m
+,Poo Bear,4443,m
+,JESSIE JO DILLON,4443,f
+,Randy Bachman,4440,m
+,Gordon Sinclair,4450,m
+,Ariana Grande,4451,f
+,COURAGEOUS XAVIER HERRERA,4451,pm
+,SCOTT HENRY NICHOLSON,4451,m
+,TBHits,4451,m
+,Peter Johnson,4451,m
+,ALBERT STANAJ,4451,m
+,MEGAN J PETE,4451,f
+,Doja Cat,4451,f
+,Mr. Franks,4451,m
+,VICTORIA MONET MCCANTS,4451,f
+,TAYLOR MONET PARKS,4451,f
+,Barry Gibb,4462,m
+,Paul Williams,4463,m
+,Laura Nyro,4464,f
+,Rose Hamlin,4465,f
+,F.Koller,4466,m
+,J.Hiatt,4466,m
+,TBHits,4468,m
+,"Charles ""Scootie"" Anderson",4468,m
+,Mikey Foster,4468,m
+,Ariana Grande,4468,f
+,Oscar Hammerstein II,4468,m
+,"Kimberly ""Kaydence"" Krysiuk",4468,f
+,Victoria Monet,4468,f
+,Tayla Parx,4468,nb
+,Richard Rodgers,4468,m
+,Njomza,4468,f
+,Chip Taylor,4478,m
+,Alan O'Day,4479,m
+,Keith Richards,4480,m
+,Mick Jagger,4480,m
+,John Denver,4482,m
+,Roger Waters,4483,m
+,Paul McCartney,4484,m
+,J.Wind,4485,m
+,O-Jay,4485,m
+,"Frank ""Quickmix"" Hassas",4485,m
+,John Deacon,4488,m
+,Jerry Lorden,4489,m
+,Galt McDermont,4490,m
+,Johnny Marks,4491,m
+,Gerome Ragni,4490,m
+,James Rado,4490,m
+,Clark,4494,m
+,Collen,4494,m
+,Joe Elliott,4494,m
+,R.Lange,4494,m
+,Savage,4494,m
+,Burt Bacharach,4499,m
+,Carole Bayer Sager,4499,f
+,Christopher Cross,4499,m
+,Peter Allen,4499,m
+,Janis Ian,4503,f
+,Dennis DeYoung,4504,m
+,J.C. Crowley,4505,m
+,Peter Beckett,4505,m
+,Mac Davis,4507,m
+,DAVID BRUCE PITTENGER,4508,m
+,SARA DAVIS,4508,f
+,TAYLOR GAYLE RUTHERFURD,4508,f
+,Ricky Reed,4511,m
+,STEPHEN ERIC HAGUE,4511,m
+,RONALD J LARKINS,4511,m
+,R. City,4511,m
+,LARRY PRICE,4511,m
+,Blake Slatkin,4511,m
+,Lizzo,4511,f
+,Ronnie Shannon,4518,m
+,Brian Holland,4519,m
+,Eddie Holland,4519,m
+,Lamont Dozier,4519,m
+,David Gates,4522,m
+,Luther Dixon,4523,m
+,Burt Bacharach,4523,m
+,Mack David,4523,m
+,Brian Holland,4526,m
+,Eddie Holland,4526,m
+,Lamont Dozier,4526,m
+,Alonzo Tucker,4529,m
+,Jackie Wilson,4529,m
+,Babyface,4531,m
+,D.Simmons,4531,m
+,L.A. Reid,4531,m
+,Rod Temperton,4534,m
+,Peter Cetera,4535,m
+,John Denver,4536,m
+,Brian Holland,4537,m
+,Eddie Holland,4537,m
+,Lamont Dozier,4537,m
+,CHRISSIE HYNDE,4540,f
+,Gene McFadden,4541,m
+,John Whitehead,4541,m
+,Leon Huff,4541,m
+,B.Romeo,4544,m
+,C.Wheeler,4544,f
+,P.Hooper,4544,m
+,S.Law,4544,m
+,Neil Sedaka,4548,m
+,Walter Afanasieff,4549,m
+,Mariah Carey,4549,f
+,Phil Cody,4548,m
+,Bruce Sudano,4552,m
+,Donna Summer,4552,f
+,Edward Hokenson,4552,m
+,Joe Esposito,4552,m
+,Mark Farner,4556,m
+,Taylor Swift,4557,f
+,Liz Rose,4557,f
+,Jim Croce,4559,m
+,Gerry Rafferty,4560,m
+,Barrett Strong,4561,m
+,Norman Whitfield,4561,m
+,Mike Chapman,4563,m
+,Nicky Chinn,4563,m
+,Brian Holland,4565,m
+,J. Cole,4566,m
+,T-Minus,4566,m
+,TIMOTHY Z MOSLEY,4566,m
+,Sucuki,4566,m
+,Eddie Holland,4565,m
+,Lamont Dozier,4565,m
+,Ronald Dunbar,4565,m
+,Linda McCartney,4573,f
+,Paul McCartney,4573,m
+,Sonny Bono,4575,m
+,Fred Fassert,4576,m
+,Ellie Greenwich,4577,f
+,Jeff Barry,4577,m
+,Phil Spector,4577,m
+,William DeVaughn,4580,m
+,Gillian Irene Shakespeare,4581,f
+,John Carter,4581,m
+,Michael Jackson,4583,m
+,Eddie Holland,4584,m
+,Norman Whitfield,4584,m
+,Dave Clark,4586,m
+,Carl Cicchetti,4587,m
+,Donald Claps,4587,m
+,Ben Peters,4589,m
+,Vivian Keith,4589,f
+,Smokey Robinson,4591,m
+,Don Black,4592,m
+,Jack Antonoff,4593,m
+,Taylor Swift,4593,f
+,Walter Scharf,4592,m
+,Larry Weiss,4596,m
+,Scott English,4596,m
+,Bernie Taupin,4598,m
+,Elton John,4598,m
+,Brian Holland,4600,m
+,Eddie Holland,4600,m
+,Lamont Dozier,4600,m
+,Don Henley,4603,m
+,Glenn Frey,4603,m
+,J.D. Souther,4603,m
+,Al McKay,4606,m
+,Maurice White,4606,m
+,THOMAS EDWARD PERCY HULL,4608,m
+,HARRY EDWARD STYLES,4608,m
+,TYLER SAM JOHNSON,4608,m
+,Jim Weatherly,4611,m
+,Linda Creed,4612,f
+,Thom Bell,4612,m
+,Donna Weiss,4614,f
+,Jackie DeShannon,4614,f
+,Jimmy Dean,4616,m
+,Bob Crewe,4617,m
+,Bob Gaudio,4617,m
+,DAVID ROBERT PACK,4619,m
+,Mitch Murray,4620,m
+,Peter Callander,4620,m
+,Dave Clark,4622,m
+,Mike Smith,4622,m
+,David I. Arkin,4624,m
+,Earl Robinson,4624,m
+,Michelle Grainger,4626,pf
+,Steve Wadey,4626,pm
+,Tony Hayes,4626,pm
+,Peter Green,4629,m
+,Christopher Ward,4630,m
+,David Tyson,4630,m
+,Patrick Simmons,4632,m
+,Bruce Springsteen,4633,m
+,Bob Dylan,4634,m
+,Joe Melson,4635,m
+,Roy Orbison,4635,m
+,Lorenz Hart,4637,m
+,Richard Rodgers,4637,m
+,Burt Bacharach,4639,m
+,Hal David,4639,m
+,Bernie Wayne,4641,m
+,Lee Morris,4641,m
+,Gary Klein,4643,m
+,Henry Hoffman,4643,m
+,Freddy Mercury,4645,m
+,Anita Poree,4646,f
+,Frank Wilson,4646,m
+,Leonard Caston,4646,m
+,Freddie Perren,4649,m
+,Kenneth St. Lewis,4649,m
+,Rod Temperton,4651,m
+,Finneas,4652,m
+,Billie Eilish,4652,f
+,MATTHEW CASTELLANOS,4654,m
+,JOHN KIRBY,4654,m
+,MOYA STEVE THOMAS LACY,4654,m
+,DIANA E P GORDON,4654,f
+,BRITANNY FATIMA FOUSHEE,4654,f
+,Ed Sheeran,4659,m
+,Fred Again..,4659,m
+,JOHN MCDAID,4659,m
+,Stevie Wonder,4662,m
+,Janice Johnson,4663,f
+,Perry Kibble,4663,m
+,K.Floyd,4665,m
+,O.Burrell,4665,m
+,R.Livingston,4665,pm
+,Mars Bonfire (Dennis Edmonton),4668,m
+,Billie Joe Armstrong,4669,m
+,Mike Dirnt,4669,m
+,Tré Cool,4669,m
+,Melanie Safka,4672,f
+,Elliot Lurie,4673,m
+,Jay Turnbow,4674,pm
+,Larry Parks,4674,m
+,Diane Lampert,4676,f
+,Joe Seneca,4676,m
+,Kenny Gamble,4678,m
+,Linda Creed,4678,f
+,Thom Bell,4678,m
+,Howard Greenfield,4681,m
+,Neil Sedaka,4681,m
+,Lionel Richie,4683,m
+,Milan B. Williams,4683,m
+,Ronald LaPread,4683,m
+,Thomas McClary,4683,m
+,Walter Lee Orange,4683,m
+,William King Jr.,4683,m
+,Paul Simon,4689,m
+,Dave Appel,4690,m
+,Kal Mann,4690,m
+,Tony Wilson,4692,m
+,Errol Brown,4692,m
+,Keith Richards,4694,m
+,Mick Jagger,4694,m
+,Mike D'Abo,4696,m
+,Tony MacAulay,4696,m
+,Dennis Linde,4698,m
+,Graham Gouldman,4699,m
+,Harlan Howard,4700,m
+,Paul Gayton,4701,m
+,Robert Guidry,4701,m
+,Sly Stone (Sylvester Stewart ),4703,m
+,Thomas Coman,4703,m
+,Hans Bradtke,4705,m
+,Hermann Gaze,4705,m
+,Lee Pockriss,4705,m
+,Paul Vance,4705,m
+,Howard Greenfield,4709,m
+,Neil Sedaka,4709,m
+,Austin Rosen,4711,m
+,Kaan Güneşberk,4711,m
+,Frank Dukes,4711,m
+,Post Malone,4711,m
+,Louis Bell,4711,m
+,Billy Walsh,4711,m
+,John Phillips,4717,m
+,RANDALL AVERY HAMMERS,4718,m
+,Adrian Belew,4718,m
+,CHRISTOPHER FRANTZ,4718,m
+,Dr. Luke,4718,m
+,STEVEN J C STANLEY,4718,m
+,R. City,4718,m
+,JAUCQUEZ MARQUIS LOWE,4718,m
+,ALYSSA MICHELLE STEPHENS,4718,f
+,Vaughn Oliver,4718,m
+,ASIA SMITH,4718,f
+,Tina Weymouth,4718,f
+,Michelle Phillips,4717,f
+,Brian Wilson,4730,m
+,Brian Wilson,4731,m
+,Mike Love,4731,m
+,Henry Glover,4733,m
+,Morris Levy,4733,m
+,Clement Bozewski,4735,m
+,Debbie Harry,4735,f
+,Giorgio Moroder,4735,m
+,Barry Despenza,4738,pm
+,Carl Wolfolk,4738,pm
+,John Lennon,4740,m
+,Paul McCartney,4740,m
+,Mick Ralphs,4742,m
+,Barry White,4743,m
+,Doc Pomus,4744,m
+,Mort Schuman,4744,m
+,Belly,4746,m
+,DaHeala,4746,m
+,Oscar Holter,4746,m
+,Max Martin,4746,m
+,The Weeknd,4746,m
+,George David Weiss,4751,m
+,Hugo Peretti,4751,m
+,Luigi Creatore,4751,m
+,Chris Arnold,4754,m
+,David Martin,4754,m
+,Geoff Morrow,4754,m
+,Bob Crewe,4757,m
+,Bob Gaudio,4757,m
+,John Carter,4759,m
+,Ken Lewis (Ken Hawker),4759,m
+,Dave Clark,4761,m
+,Mike Smith,4761,m
+,DIJON ISAIAH MCFARLANE,4763,m
+,LARRANCE LEVAR DOPSON,4763,m
+,ELLA MAI HOWELL,4763,f
+,JOELLE MARIE JAMES,4763,f
+,Irwin Levine,4767,m
+,Toni Wine,4767,f
+,Larry Santos,4769,m
+,Norman Whitfield,4770,m
+,Lee Lange,4771,m
+,Tulo Trapani,4771,m
+,Billy Ocean,4773,m
+,Keith Diamond,4773,m
+,Harry Chapin,4775,m
+,Sandra Chapin,4775,f
+,Dave Clark,4777,m
+,Lenny Davidson,4777,m
+,Paul Simon,4779,m
+,Claydes Smith,4780,m
+,"Dennis ""Dee Tee"" Thomas",4780,m
+,Earl Eugene Toon Jr.,4780,m
+,Eumir Deodato,4780,m
+,George Melvin Brown,4780,m
+,James Warren Taylor,4780,m
+,Jay-Z,4786,m
+,FREDDIE ROSS,4786,nb
+,Allen George,4786,m
+,FARLANE FRED CRAIG MC,4786,m
+,ADAM J PIGOTT,4786,m
+,CHRISTOPHER STEWART,4786,m
+,TERIUS YOUNGDELL NASH,4786,m
+,BEYONCE GISSELLE KNOWLES,4786,f
+,Robert Earl Bell,4780,m
+,Robert Spike Mickens,4780,m
+,Ronald Bell,4780,m
+,Kevin Briggs,4797,m
+,Kandi Burruss,4797,f
+,Ariana Grande,4797,f
+,Savan Kotecha,4797,m
+,Max Martin,4797,m
+,ILYA,4797,m
+,Don Covay,4803,m
+,Ellie Greenwich,4804,f
+,Jeff Barry,4804,m
+,Phil Spector,4804,m
+,Vangelis,4807,m
+,"Robert ""Kool"" Bell",1549,m
+,Ronald Bell,1549,m
+,Jim Bonnefond,1549,m
+,George Brown,1549,m
+,Claydes Smith,1549,m
+,J.T. Taylor,1549,m
+,"Curtis ""Fitz"" Williams",1549,m
+,Terry Kirkman,4815,m
+,Rickie Lee Jones,4816,f
+,Gilbert O'Sullivan,4817,m
+,Mason Williams,4818,m
+,Lolly Vegas,4819,m
+,Martha Sharp,4820,f
+,Jimmy Patterson,4821,m
+,Kevin Adams,4821,m
+,Kevin Rowland,4821,m
+,Brian Holland,4824,m
+,RM,4825,m
+,Jenna Andrews,4825,f
+,Alex Bilowitz,4825,m 
+,Sebastian Garcia,4825,m
+,Rob Grimaldi,4825,m
+,Stephen Kirk,4825,m
+,Ron Perry,4825,m
+,Eddie Holland,4824,m
+,Lamont Dozier,4824,m
+,John Lennon,4834,m
+,Paul McCartney,4834,m
+,Paul McCartney,4836,m
+,C.W. McCall,4837,m
+,Chip Davis,4837,m
+,Melvin Steals,4839,m
+,Lil Baby,4840,m
+,MARCEL KORKUTATA,4840,pm
+,Murda Beatz,4840,m
+,Mervin Steals,4839,m
+,Colin Cooper,4844,m
+,Derek Holt,4844,m
+,Frederick Jones,4844,m
+,John Cuffley,4844,m
+,Peter Haycock,4844,m
+,Glen D. Hardin,4849,m
+,BILLY EDD WHEELER,4850,m
+,ROGER DALE BOWLING,4850,m
+,NICOLAS ALFREDO JAAR,4852,m
+,Frank Dukes,4852,m
+,The Weeknd,4852,m
+,Ryan Martinez,4855,pm
+,HENOCK ALTAYE SIYOUM,4855,pm
+,BRENDAN MARTIN WALSH,4855,m
+,TIONE MERRITT,4855,m
+,JR RICARDO VALDEZ VALENTINE,4855,m
+,Luis Campozano,4855,pm
+,Neil Diamond,4861,m
+,Freddie Mercury,4862,m
+,John Phillips,4864,m
+,Michelle Phillips,4864,f
+,Peter Lucia,4866,m
+,Tommy James,4866,m
+,Bernie Taupin,4868,m
+,Elton John,4868,m
+,Marvin Tarplin,4870,m
+,Smokey Robinson,4870,m
+,Bert Russell,4872,m
+,Norman Meade,4872,m
+,Dann Penn,4874,m
+,"Lindon ""Spooner"" Oldham",4874,m
+,Joe Melson,4876,m
+,Roy Orbison,4876,m
+,Joe Melson,4878,m
+,Roy Orbison,4878,m
+,Artie Glenn,4880,m
+,Ed Gray,4881,m
+,Mike Vale,4881,m
+,Tommy James,4881,m
+,Michael Zager,4884,m
+,Ellie Greenwich,4885,f
+,Jeff Barry,4885,m
+,Aaron Dessner,4887,m
+,Taylor Swift,4887,f
+,Phil Spector,4885,m
+,Ellie Greenwich,4890,f
+,Jeff Barry,4890,m
+,Phil Spector,4890,m
+,Carmine Appice,4893,m
+,Duane Hitchings,4893,m
+,Rod Stewart,4893,m
+,Geoff Stephens,4896,m
+,Peter Callander,4896,m
+,James Sheppard,4898,m
+,William H. Miller,4898,m
+,CEDRICK DEONNE LEONARD,1712,pm
+,CRAIG D LOVE,1712,pm
+,DOWELL ROBERT W III MC,1712,pm
+,JEFFREY RAY GRIGSBY,1712,pm
+,JONATHAN H SMITH,1712,m
+,JEAN ANDRE LOWELL LAWRENCE,4906,m
+,MANEESH BIDAYE,4906,m
+,MICAH DAVIS,4906,m
+,Drake,4906,m
+,40,4906,m
+,KHATIB OLIVER EL,4906,m
+,CARTNEY PAUL JAMES MAC,4906,m
+,GABRIEL S JR HARDEMAN,4906,m
+,John Lennon,4906,m
+,Ivory Joe Hunter,4915,m
+,Marvin Gaye,4915,m
+,"William ""Mickey"" Stevenson",4915,m
+,Donald Fletcher,4918,pm
+,Hal David,4918,m
+,Weldon Dean Parks,4918,m
+,Louis Bell,4921,m
+,Frank Dukes,4921,m
+,Kaan Güneşberk,4921,m
+,Post Malone,4921,m
+,Billy Walsh,4921,m
+,C.Rios,4926,m
+,L.Richie,4926,m
+,Marshmello,4928,m
+,Juice WRLD,4928,m
+,M.Frenchik,4926,m
+,Benny Andersson,4931,m
+,Björn Ulvaeus,4931,m
+,Stig Anderson,4931,m
+,Ray Davies,4934,m
+,Bernie Taupin,4935,m
+,Elton John,4935,m
+,Johnny Durrill,4937,m
+,Bob Gaudio,4938,m
+,Sandy Linzer,4938,m
+,William Peter Ham,4940,m
+,Aretha Franklin,4941,f
+,John Lennon,4942,m
+,Paul McCartney,4942,m
+,John Sebastian,4944,m
+,Edward Irons,4945,m
+,Ray Ransom Jr.,4945,m
+,Reginald Hargis,4945,m
+,Bob Gaudio,4948,m
+,Judy Parker,4948,f
+,Lowman Pauling,4950,m
+,Ralph Bass,4950,m
+,Mitchell Parish,4952,m
+,Peter DeRose,4952,m
+,Alex Harvey,4954,m
+,Kashif,4955,m
+,NICHOLAS DOMINICK RYAN,4955,m
+,PARRISH JOSEFF SMITH,4955,m
+,CHAUNCEY LAMONT HAWKINS,4955,m
+,ERICK S SERMON,4955,m
+,EITHNE PATRICIA BRENNAN,4955,f
+,ROMA SHANE RYAN,4955,f
+,Mario Winans,4955,m
+,Larry Collins,4954,m
+,Johan Hoelzer,4964,m
+,Robert Ponger,4964,m
+,Barry Gibb,4966,m
+,Maurice Gibb,4966,m
+,Robin Gibb,4966,m
+,"Frederick ""Shorty"" Long",4969,m
+,John Marascalo,4969,m
+,Robert Blackwell,4969,m
+,William Stevenson,4969,m
+,John Sebastian,4973,m
+,Michael Masser,4974,m
+,Will Jennings,4974,m
+,Donna Summer,4976,f
+,Danny Kortchmar,4977,m
+,Don Henley,4977,m
+,Rick Dees,4979,m
+,Albert Vance,4980,m
+,Don Davis,4980,m
+,Harvey Scales,4980,m
+,Freddy Weller,4983,m
+,Tommy Roe,4983,m
+,Billy Nichols,4985,m
+,Toni Tennille,4986,f
+,Ellie Greenwich,4987,f
+,Jeff Barry,4987,m
+,Berry Gordy,4989,m
+,Boy George,4990,m
+,Jon Moss,4990,m
+,Mikey Craig,4990,m
+,Roy Hay,4990,m
+,Peter McCann,4994,m
+,John Lennon,4995,m
+,Paul McCartney,4995,m
+,Bad Bunny,4997,m
+,CINTRON EGBERT ENRIQUE ROSA,4997,pm
+,MARCOS EFRAIN MASIS,4997,m
+,"Robert Jose, Jr.",4997,pm
+,WATT JUNO,4997,m
+,JESUS MANUEL NIEVES,4997,m
+,GABRIEL MORA,4997,m
+,Rosado Torres,4997,m
+,Billy Rose,5005,m
+,Ernest Brewer,5005,m
+,Marty Bloom,5005,m
+,Jeanine Deckers,5008,f
+,Benny Davis,5009,m
+,Murray Mencher,5009,m
+,Toni Watson,5011,f
+,Jeff Lynne,5012,m
+,David M. Ellingson,5013,m
+,James Ingram,5013,m
+,Kenny Rogers,5013,m
+,Tony MacAulay,5016,m
+,Bernie Taupin,5017,m
+,Elton John,5017,m
+,Dave Appel,5019,m
+,Kal Mann,5019,m
+,Richard Leigh,5021,m
+,Cary Gilbert,5022,m
+,Kenny Gamble,5022,m
+,Leon Huff,5022,m
+,Gerry Marsden,5025,m
+,Les Chadwick,5025,m
+,Leslie Maguire,5025,m
+,Bernie Taupin,5028,m
+,Elton John,5028,m
+,Tom Scholz,5030,m
+,Brian Potter,5031,m
+,Dennis Lambert,5031,m
+,Jackie Trent,5033,f
+,Tony Hatch,5033,m
+,Michael Jackson,5035,m
+,Christine McVie,5036,f
+,Rick Springfield,5037,m
+,Marty Robbins,5038,m
+,Lou Gramm,5039,m
+,Mick Jones,5039,m
+,Alan Osmond,5041,m
+,Merrill Osmond,5041,m
+,Wayne Osmond,5041,m
+,Taylor Swift,5044,f
+,Jack Antonoff,5044,m
+,ANNE ERIN CLARK,5044,nb
+,DANIEL LEONARD NIGRO,5044,m
+,Olivia Rodrigo,5044,f
+,John Fogerty,5049,m
+,Colin Hay,5050,m
+,Ron Strykert,5050,m
+,Tony Hatch,5052,m
+,Robert L. King,5053,m
+,Tommy James,5053,m
+,Cindy Walker,5055,f
+,Gary Wright,5056,m
+,Stevie Nicks,5057,f
+,Mentor Williams,5058,m
+,Bruce Stevens,5059,m
+,David Malloy,5059,m
+,EDWARD T RABBITT,5059,m
+,Charlie Colin,5062,m
+,ROBERT T SMITH,5063,pm
+,Sounwave,5063,m
+,DACOURY DAHI NATCHE,5063,m
+,MATTHEW DEAN BURDETTE,5063,m
+,Sam Dew,5063,m
+,Kendrick Lamar,5063,m
+,VICTOR EKPO,5063,m
+,MARVIN EUGENE SMITH,5063,m
+,"Isaac ""Zac"" De Boni",5063,m
+,HYKEEM JAMAAL JR CARTER,5063,m
+,"Michael ""Finatik"" Mule",5063,m
+,JASON KEVIN POUNDS,5063,m
+,STEPHEN LEE BRUNER,5063,m
+,KAREN AMANDA REIFER,5063,f
+,Jimmy Stafford,5062,m
+,Pat Monahan,5062,m
+,Rob Hotchkiss,5062,m
+,Scott Underwood,5062,m
+,Marshall Brickman,5081,m
+,Eric Weissberg,5081,m
+,Bernice Williams,5083,f
+,Earl Edwards,5083,m
+,Gene Chandler,5083,m
+,Jackie DeShannon,5086,f
+,Sharon Sheeley,5086,f
+,Lionel Richie,5088,m
+,N.East,5089,m
+,JOSHUA DAIQUAN GOODS,5090,m
+,Lil Baby,5090,m
+,WOART JR ANTHONY TOO,5090,m
+,Nicki Minaj,5090,f
+,Philip Bailey,5089,m
+,Phil Collins,5089,m
+,Galt MacDermot,5096,m
+,Gerome Ragni,5096,m
+,James Rado,5096,m
+,Carl Sigman,5099,m
+,Robert Maxwell,5099,m
+,Paul McCartney,5101,m
+,John Lennon,5102,m
+,Paul McCartney,5102,m
+,Eddy Grant,5104,m
+,Bob Lind,5105,m
+,Dallas Frazier,5106,m
+,Barry Gibb,5107,m
+,Robin Gibb,5107,m
+,Lil Wayne,5109,m
+,BENJMAIN DYER DIEHL,5109,m
+,MARIL JUAN GUERRIERI,5109,m
+,LunchMoney Lewis,5109,m
+,JAHSEH ONFROY,5109,m
+,Keith Richards,5114,m
+,Mick Jagger,5114,m
+,Lionel Richie,5116,m
+,Rupert Holmes,5117,m
+,P.F. Sloan,5118,m
+,Steve Barri,5118,m
+,J. L. Wallace,5120,m
+,Kenneth Bell,5120,pm
+,Terry Skinner,5120,m
+,Barbra Streisand,5123,f
+,Paul Williams,5123,m
+,Sting,5125,m
+,DJ Homicide,1924,m
+,Stan Frazier,1924,m
+,Murphy Karges,1924,m
+,Mark McGrath,1924,m
+,McG,1924,m
+,Rodney Sheppard,1924,m
+,Pablo Tellez,1924,m
+,IAN ERIC KIRKPATRICK,5133,m
+,CAROLINE AILIN,5133,f
+,Dua Lipa,5133,f
+,Emily Warren,5133,f
+,Abel Zarate,1924,m
+,Bobby Dall,5138,m
+,Bret Michaels,5138,m
+,CC DeVille,5138,m
+,Rikki Rockett,5138,m
+,DOMINIC ROY KING,5142,m
+,FRANK MUSKER,5142,m
+,Tommy Roe,5144,m
+,Nick Feldman,1926,m
+,Jack Hues,1926,m
+,Gary Lewis,5147,m
+,Leon Russell,5147,m
+,Leslie Thomas,5147,m
+,Irving Taylor,5150,m
+,Ken Lane,5150,m
+,Sam Coslow,5150,m
+,Jim Bailey,5153,m
+,Kenneth Williams,5153,m
+,Rudy Clark,5153,m
+,CHANDLER DURHAM,5156,m
+,Lil Baby,5156,m
+,SERGIO KITCHENS,5156,m
+,Dan Nigro,5159,m
+,Olivia Rodrigo,5159,f
+,Sly Stone,5161,m
+,David Gates,5162,m
+,Ray Stevens,5163,m
+,Ernest Gold,5164,m
+,Barbara Lomas,5165,f
+,Carlos Ward,5165,m
+,Ennis Rowe,5165,m
+,Louis Risbrook,5165,m
+,Orland Woods,5165,m
+,Richard Thompson,5165,m
+,Jessica Agombar,5171,f
+,David Stewart,5171,m
+,William Risbrook,5165,m
+,Madonna,5174,f
+,Stephen Bray,5174,m
+,Kenny Gamble,5176,m
+,Greg Kurstin,5177,m
+,Adele,5177,f
+,Leon Huff,5176,m
+,Alan Parsons,5180,m
+,ERIC NORMAN WOOLFSON,5180,m
+,Frankie Sullivan,5182,m
+,Jim Peterik,5182,m
+,Ann Hamilton,5184,f
+,Dan Hamilton,5184,m
+,Dean Pitchford,5186,m
+,MICHAEL GORE,5186,m
+,Sly Stone,5188,m
+,Zachary Carothers,1973,m
+,Zoe Manville,1973,f
+,John Gourley,1973,m
+,Eric Howk,1973,m
+,Kyle O'Quin,1973,m
+,Jason Sechrist,1973,m
+,Eugene McDaniels,5195,m
+,Mick Jones,5196,m
+,Chuck Mangione,5197,m
+,BENJAMIN ARTHUR MCKEE,5198,m
+,Dan Reynolds,5198,m
+,ROBIN LENNART FREDRIKSSON,5198,m
+,MATTIAS PER LARSSON,5198,m
+,Daniel Platzman,5198,m
+,DESTIN ROUTE,5198,m
+,Justin Tranter,5198,nb
+,DANIEL WAYNE SERMON,5198,m
+,Ernest Isley,5206,m
+,Marvin Isley,5206,m
+,O'Kelly Isley,5206,m
+,Ronald Isley,5206,m
+,Rudolph Isley,5206,m
+,Clarence Paul,5211,m
+,Henry Cosby,5211,m
+,John Taylor,5213,m
+,Clarence Satchell,5214,m
+,James Williams,5214,m
+,Leroy Bonner,5214,m
+,Marshall Jones,5214,m
+,Marvin Pierce,5214,m
+,Ralph Middlebrooks,5214,m
+,William Beck,5214,m
+,Arthur Brown,5221,m
+,Michael Finesilver,5221,pm
+,Robert Kerr,5221,pm
+,Vincent Crane,5221,m
+,Bruce Springsteen,5225,m
+,Allen Reynolds,5226,m
+,Giorgio Moroder,5227,m
+,Irene Cara,5227,f
+,Keith Forsey,5227,m
+,Arnold Ingram,5230,m
+,James Mitchell Jr.,5230,m
+,Marvin Willis,5230,m
+,Lewis C. DeWitt,5233,m
+,Steve Miller,5234,m
+,Silvester Levay,5235,m
+,Stephan Prager,5235,m
+,Kathryn R. Fulton,5237,f
+,Elvin Bishop,5238,m
+,Helen Miller,5239,f
+,Howard Greenfield,5239,m
+,Arthur James Griffin,5241,m
+,Fred Karlin,5241,m
+,Robb Royer,5241,m
+,Orlando Murden,5244,m
+,Ron Miller,5244,m
+,Bill Conti,5246,m
+,MICHAEL DAVID LEESON,5246,m
+,Tony Hatch,5248,m
+,Andy Scott,5249,m
+,MARCUS ANTWON REDDICK,5250,pm
+,VARREN JEROME LLOYD WADE,5250,pm
+,R S ANTOINE,5250,pm
+,Drake,5250,m
+,KENNETH B EDMONDS,5250,m
+,BRANDON BANKS,5250,m
+,TEO HALM,5250,m
+,DERNST II EMILE,5250,m
+,MICHAEL OLIVER GORDON,5250,m
+,KYLA FRANCESCA MOSCOVICH,5250,f
+,EBONY NAOMI OSHUNRINDE,5250,f
+,Travis Scott,5250,m
+,DAY WILSON CHARLOTTE,5250,f
+,Oz,5250,m
+,Brian Connolly,5249,m
+,Mick Tucker,5249,m
+,Steve Priest,5249,m
+,Edgar Winter,5267,m
+,Curtis Mayfield,5268,m
+,JOSHUA COLE JENKINS,5269,m
+,WALKER HAYES,5269,m
+,CAMERON MICHAEL BARTOLINI,5269,m
+,SHANE STEVENS,5269,m
+,Peter Wolf,5273,m
+,Seth Justman,5273,m
+,Brian Wilson,5275,m
+,Kevin Gomringer,5276,m
+,Tim Gomringer,5276,m
+,Andrew Green,5276,m
+,6ix9ine,5276,m
+,Murda Beatz,5276,m
+,Nicki Minaj,5276,f
+,Mike Love,5275,m
+,Steven Greenberg,5283,m
+,Donna Fargo,5284,f
+,John Wilkin,5285,m
+,Jimmy Webb,5286,m
+,Clint Ballard,5287,m
+,Jim Dale,5288,m
+,Tom Springfield,5288,m
+,John Lennon,5290,m
+,Paul McCartney,5290,m
+,KC,5292,m
+,Richard Finch,5292,m
+,Keith Richards,5294,m
+,Mick Jagger,5294,m
+,Smokey Robinson,5296,m
+,Silvester Levay,5297,m
+,Stephen Prager,5297,m
+,Ronald B. Killette,5299,pm
+,Wayne Pittman,5299,pm
+,Brian Holland,5301,m
+,MICAIAH ABDUL RAHEEM,5302,m
+,will.i.am,5302,m
+,CHRISTOPHER BRIAN BRIDGES,5302,m
+,JAMAL F JONES,5302,m
+,CHARLIE HANDSOME,5302,m
+,Douglas Ford,5302,pm
+,NICKIE JON PABON,5302,m
+,ELVIS LEE JR WILLIAMS,5302,m
+,Jasper Harris,5302,m
+,ANGEL LOPEZ,5302,m
+,STACY FERGUSON,5302,f
+,Roget Chahayed,5302,m
+,Jack Harlow,5302,m
+,Eddie Holland,5301,m
+,Lamont Dozier,5301,m
+,Ronald Dunbar,5301,m
+,George Harrison,5318,m
+,Rodney Lynn Temperton,5319,m
+,Giancarlo Bigazzi,5320,m
+,Trevor Veitch,5320,m
+,Umberto Tozz,5320,m
+,Eric Carmen,5323,m
+,Carole King,5324,f
+,Gerry Goffin,5324,m
+,Carole King,5326,f
+,Gerry Goffin,5326,m
+,John Stewart,5328,m
+,Ayn Robbins,5329,f
+,Bill Conti,5329,m
+,Carol Connors,5329,f
+,Arthur Resnick,5332,m
+,Rudy Clark,5332,m
+,Aaron Schroeder,5334,m
+,Wally Gold,5334,m
+,Galt MacDermot,5336,m
+,Luke Combs,5337,m
+,DREW PARKER,5337,m
+,ROBERT STEVEN WILLIFORD,5337,m
+,Gerome Ragni,5336,m
+,James Rado,5336,m
+,Mark Lindsay,5342,m
+,Paul Revere,5342,m
+,Terry Melcher,5342,m
+,Chase Benjamin,5345,m
+,Maurice Gealton,5345,m
+,Bernard Leverette,5345,m
+,Gerald Tiller,5345,m
+,Travis Scott,5345,m
+,Young Thug,5345,m
+,Travis Walton,5345,m
+,Jamal Willingham,5345,m
+,M.I.A.,5345,f
+,Bernard Edwards,5354,m
+,Nile Rodgers,5354,m
+,Brian Wilson,5356,m
+,Mike Love,5356,m
+,Gloria Shayne,5358,f
+,Bernie Taupin,5359,m
+,Elton John,5359,m
+,Paul McCartney,5361,m
+,SYMERE WOODS,5362,nb
+,ANTON MARTIN MENDO,5362,m
+,CAS VAN DER HEIJDEN,5362,m
+,BRANDON VEAL,5362,m
+,Mees van der Bruggen,5362,pm
+,Elliot Willensky,5367,m
+,Marvin Gaye,5368,m
+,Elston Harry,5369,m
+,Philemon Hou,5369,m
+,Harry Elston,5371,m
+,Philemon Hou,5371,m
+,Barry Gibb,5373,m
+,"Al Jackson, Jr.",5374,m
+,Booker T. Jones,5374,m
+,Lewis Steinberg,5374,m
+,Steve Cropper,5374,m
+,John Fogerty,5378,m
+,Paul Leka,5379,m
+,Shelley Pinz,5379,m
+,Stefan Johnson,5381,m
+,Justin Bieber,5381,m
+,Jon Bellion,5381,m
+,Jordan Johnson,5381,m
+,Michael Pollack,5381,m
+,David Riordan,5386,m
+,J.C. Phillips,5386,m
+,Cirkut,5388,m
+,Starrah,5388,f
+,Cardi B,5388,f
+,Jason Evigan,5388,m
+,Adam Levine,5388,m
+,Gian Stone,5388,m
+,Ambezza,5394,m
+,Drake,5394,m
+,Lil Baby,5394,m
+,Oz,5394,m
+,Jerry Corbetta,5386,m
+,Eddie Brigati,5399,m
+,Felix Cavaliere,5399,m
+,Barry Gibb,5401,m
+,Maurice Gibb,5401,m
+,Robin Gibb,5401,m
+,Curtis Mayfield,5404,m
+,Bob Stone,5405,m
+,Galt MacDermot,5406,m
+,Gerome Ragni,5406,m
+,James Rado,5406,m
+,Al Capps,5409,m
+,Mary Dean,5409,f
+,David Glasper,5411,m
+,CAMERON DEVAUN MURPHY,5412,pm
+,KANIEL CASTANEDA,5412,m
+,ORVILLE ERWIN HALL,5412,m
+,PHILLIP GLEN PRICE,5412,m
+,TRE JORDAN SAMUELS,5412,m
+,OMOLOLU OMARI AKINLOLU,5412,m
+,Young Thug,5412,m
+,Chris Brown,5412,m
+,TURRELL THOMAS SIMS,5412,m
+,Said Aznou,5412,pm
+,Luis Resto,5422,m
+,Juice WRLD,5422,m
+,D.A. Got That Dope,5422,m
+,MARSHALL MATHERS,5422,m
+,ALEJANDRO VILLASANA,5422,m
+,Marcus Lillington,5411,m
+,Charles Merenstein,5428,m
+,Jimmy Jones,5428,m
+,Otis Blackwell,5428,m
+,Andrew Green,5431,m
+,6ix9ine,5431,m
+,HARALD HJERMANN SOREBO,5431,m
+,JAHNEI JULIAN CLARKE,5431,m
+,Josh Farro,5435,m
+,Dan Nigro,5435,m
+,Olivia Rodrigo,5435,f
+,Hayley Williams,5435,f
+,Ricky Reed,5439,m
+,Lizzo,5439,f
+,Burt Russell,5441,m
+,Wes Farrell,5441,m
+,Ellie Greenwich,5443,f
+,Jeff Barry,5443,m
+,Charles Fox,5445,m
+,Norman Gimbel,5445,m
+,Alan Gordon,5447,m
+,Garry Bonner,5447,m
+,David Foster,5449,m
+,Peter Cetera,5449,m
+,Marvin Ross,5451,m
+,Tom T. Hall,5452,m
+,Del Shannon (Charles Westover),5453,m
+,Alan Blaikley,5454,m
+,Howard Blaikley,5454,m
+,John Farrar,5456,m
+,Barbara Acklin,5457,f
+,VALENTIN BLAVATNIK,5458,pm
+,BRIAN D LEE,5458,m
+,Young Thug,5458,m
+,JESSIE LAUREN FOUTZ,5458,f
+,Post Malone,5458,m
+,Louis Bell,5458,m
+,Billy Walsh,5458,m
+,Eugene Record,5457,m
+,Mort Stevens,5466,m
+,P.Simon,5467,m
+,Calvin Carter,5468,m
+,Curtis Mayfield,5468,m
+,Jerry Butler,5468,m
+,Gene Pitney,5471,m
+,Ronald Mack,5472,m
+,Cynthia Weil,5473,f
+,Tom Snow,5473,m
+,Roland Orzabal,5475,m
+,Jake Smith,5475,m
+,Paul Bliss,5477,m
+,Steve Kipner,5477,m
+,Chris Stein,5479,m
+,Debbie Harry,5479,f
+,Neil Young,5481,m
+,Bob Seger,5482,m
+,Don Henley,5482,m
+,Glenn Frey,5482,m
+,J.D. Souther,5482,m
+,Michael Kennedy,5486,m
+,William G. Hudpseth,5486,m
+,Burt Bacharach,5488,m
+,Carole Bayer Sager,5488,f
+,Neil Diamond,5488,m
+,Geoff Downes,5491,m
+,John Wetton,5491,m
+,Brian Holland,5493,m
+,Eddie Holland,5493,m
+,Lamont Dozier,5493,m
+,Brian Holland,5496,m
+,Eddie Holland,5496,m
+,Lamont Dozier,5496,m
+,Donna Summer,5499,f
+,Giorgio Moroder,5499,m
+,Pete Bellotte,5499,m
+,Lionel Richie,5502,m
+,John Lennon,5503,m
+,Marshmello,5504,m
+,DANIEL CAMPBELL SMITH,5504,m
+,Steve Mac,5504,m
+,Paul McCartney,5503,m
+,Todd Rundgren,5508,m
+,Alan Sherman,5509,m
+,Lou Busch,5509,m
+,Barbara Lewis,5511,f
+,Jerry Herman,5512,m
+,Jim Morrison,5513,m
+,John Densmore,5513,m
+,Ray Mazarek,5513,m
+,Robby Krieger,5513,m
+,Brian Wilson,5517,m
+,Mike Love,5517,m
+,John Lennon,5519,m
+,Paul McCartney,5519,m
+,NORMAN MICHAEL SALLITT,5521,m
+,Barry Mann,5522,m
+,Cynthia Weil,5522,f
+,Carol Connors,5524,f
+,Marshall Connors,5524,pm
+,Ray Hildebrand,5526,m
+,Earl Shuman,5527,m
+,Leon Carr,5527,m
+,Bruce Channel,5529,m
+,Margaret Cobb,5529,m
+,Stevie Wonder,5531,m
+,Steve Winwood,5532,m
+,Will Jennings,5532,m
+,Mark Lindsay,5534,m
+,Terry Melcher,5534,m
+,LaTavia Parker,4027,f
+,Percy Mayfield,5537,m
+,Mitch Murray,5538,m
+,Peter Callender,5538,m
+,Jeremy Fraites,2410,m
+,ROBBIE PATTON,5541,m
+,Illangelo,5542,m
+,Metro Boomin,5542,m
+,Dre Moon,5542,m
+,The Weeknd,5542,m
+,VIE CHRISTINE MC,5541,f
+,Johnny Nash,5547,m
+,Dawn Robinson,2416,f
+,David Paich,5549,m
+,Joe Tex,5550,m
+,Chris White,5551,m
+,Rod Argent,5551,m
+,Paul Simon,5553,m
+,Bobby Russell,5554,m
+,Larry Price,632,pm
+,Keith Richards,5556,m
+,Dave Bayley,5557,m
+,Mick Jagger,5556,m
+,Mark James,5559,m
+,Mark James,5560,m
+,John Farrar,5561,m
+,Lou Gramm,5562,m
+,Mick Jones,5562,m
+,Big Boi,5564,m
+,Missy Elliott,5564,f
+,Timbaland,5564,m
+,James McCulloch,5567,m
+,Nick Gilder,5567,m
+,Sylvester Stewart,5569,m
+,Freddie Perren,5570,m
+,Kenny St. Lewis,5570,m
+,Harold Faltermeyer,5572,m
+,Keith Forsey,5572,m
+,Pete Bellotte,5572,m
+,Earl Shuman,5575,m
+,Leon Carr,5575,m
+,Edward Brigati Jr.,5577,m
+,Felix Cavaliere,5577,m
+,Barry Gibb,5579,m
+,Robin Gibb,5579,m
+,Barry Gibb,5581,m
+,Maurice Gibb,5581,m
+,Robin Gibb,5581,m
+,Paul Carrack,5584,m
+,David Pack,5585,m
+,Brian Holland,5586,m
+,Brendon Urie,5587,m
+,JONAS JEBERG,5587,m
+,SAMUEL S HOLLANDER,5587,m
+,JACOB S SINCLAIR,5587,m
+,Tayla Parx,5587,f
+,BEAN WILLIAM ERNEST LOBBAN,5587,m
+,ILSEY JUBER,5587,f
+,JENNY OWEN YOUNGS,5587,f
+,LAUREN PRITCHARD,5587,f
+,Eddie Holland,5586,m
+,Lamont Dozier,5586,m
+,Oz,5598,m
+,Nik D,5598,m
+,Mike Dean,5598,m
+,Travis Scott,5598,m
+,Michael Kroeger,2378,m
+,Ryan Peake,2378,m
+,Ryan Vikedal,2378,m
+,Andy Taylor,5605,m
+,BON SIMON JOHN LE,5605,m
+,John Taylor,5605,m
+,NICHOLAS JAMES BATES,5605,m
+,ROGER ANDREW TAYLOR,5605,m
+,Donovan,5610,m
+,Al Jacobs,5611,m
+,Jimmie Crane,5611,m
+,Gary Geld,5613,m
+,Peter Udell,5613,m
+,GEORGE MICHAEL GREEN,5615,m
+,John Mellencamp,5615,m
+,Justin Bieber,5617,m
+,Jon Bellion,5617,m
+,Chance the Rapper,5617,m
+,TBHits,5617,m
+,ANTHONY M JONES,5617,m
+,JORGEN MICHAEL ODEGARD,5617,m
+,Mr. Franks,5617,m
+,Michael Pollack,5617,m
+,Joe South,5625,m
+,DONNELL PAUL III STEPHENS,5626,pm
+,Eminem,5626,m
+,ROBERT BRYSON II HALL,5626,m
+,Jeremy Uribe,5626,pm
+,Luis Resto,5626,m
+,Dillan Bailard,5626,pm
+,TIM S SCHOEGJE,5626,pm
+,Bryan Abrams,2507,m
+,Mark Calderon,2507,m
+,Hamza Lee,2507,pm
+,Kevin Thornton,2507,m
+,Sam Watters,2507,m
+,Paul Simon,5638,m
+,Helen Reddy,5639,f
+,Ray Burton,5639,m
+,Neil Diamond,5641,m
+,Billy Swam,5642,m
+,Johnny Nash,5643,m
+,Barrett Strong,5644,m
+,Norman Whitfield,5644,m
+,Daryl Hall,5646,m
+,John Oates,5646,m
+,Sara Allen,5646,f
+,Brian Holland,5649,m
+,Eddie Holland,5649,m
+,Lamont Dozier,5649,m
+,Don Gibson,5652,m
+,Rick Christian,5653,m
+,John Lennon,5654,m
+,Paul McCartney,5654,m
+,Chuck Willis,5656,m
+,Brian Wilson,5657,m
+,Mike Love,5657,m
+,George Gershwin,5659,m
+,Ira Girshwin,5659,m
+,James Brown,5661,m
+,Sonny Bono,5662,m
+,Joe Tex,5663,m
+,Brian Holland,5664,m
+,Eddie Holland,5664,m
+,Lamont Dozier,5664,m
+,"Antoine ""Fats"" Domino",5667,m
+,Dave Bartholomew,5667,m
+,Pearl King,5667,f
+,Barrett Strong,5670,m
+,Norman Whitfield,5670,m
+,Barrett Strong,5672,m
+,Norman Whitfield,5672,m
+,Ross Vannelli,5674,m
+,Barry Gibb,5675,m
+,Ed Sanford,5676,m
+,Jerry Leiber,5676,m
+,Michael McDonald,5676,m
+,STOLLER MIKE,5676,m
+,Barbara George,5680,f
+,Tony Hatch,5681,m
+,Kenny Nolan,5682,m
+,Allen Toussaint,5683,m
+,Chris Kenner,5683,m
+,David Malloy,5685,m
+,Eddie Rabbitt,5685,m
+,Even Stevens,5685,m
+,Barry Mann,5688,m
+,Larry Kolber,5688,m
+,Kenny Gamble,5690,m
+,Justin Bieber,5691,m
+,Ed Sheeran,5691,m
+,Fred Again..,5691,m
+,JOHAN KARL SCHUSTER,5691,m
+,MARTIN MAX,5691,m
+,Poo Bear,5691,m
+,Leon Huff,5690,m
+,Alan Merrill,5698,m
+,Jake Hooker,5698,m
+,Alicia Bridges,5700,f
+,Susan Hutcheson,5700,f
+,Leon Payne,5702,m
+,Johnny Mercer,5703,m
+,Victor Schertzinger,5703,m
+,Dennis Doherty,5705,m
+,John Phillips,5705,m
+,Burt Bacharach,5707,m
+,Hal David,5707,m
+,Al Cleveland,5709,m
+,Smokey Robinson,5709,m
+,Bob Marley,5711,m
+,Tony Romeo,5712,m
+,Ritchie Cordell,5713,m
+,Robert Ackoff,5713,m
+,Bryan Abrams,5715,m
+,Mark Calderon,5715,m
+,CLARKE WILLIE,5715,m
+,NORRIS BESSIE REGINA,5715,f
+,Gabby Barrett,5719,f
+,Charlie Puth,5719,m
+,ZACHARY KALE,5719,m
+,JON MARK NITE,5719,m
+,STRAITE ELLIOTT T,5715,m
+,Kevin Thornton,5715,m
+,Sam Watters,5715,m
+,John Lennon,5726,m
+,Paul McCartney,5726,m
+,Berry Gordy,5728,m
+,Deke Richards,5728,m
+,Fonce Mizell,5728,m
+,Freddie Perren,5728,m
+,Tainy,5732,m
+,Cardi B,5732,f
+,J Balvin,5732,m
+,Hiraldo Benitez,5732,m
+,Benny Bonilla,5732,m
+,Pardison Fontaine,5732,m
+,DJ Luian,5732,m
+,Edgar Machuca,5732,m
+,Tony Poban,5732,m
+,Klenord Raphael,5732,m
+,Manny Rodriguez,5732,m
+,Edgar Semper Vargas,5732,m
+,Xaviar Semper Vargas,5732,m
+,Vincent Watson,5732,m
+,J. White Did It,5732,m
+,Henry Cosby,5747,m
+,Lula Hardaway,5747,f
+,Jasper Harris,5749,m
+,Doja Cat,5749,f
+,Post Malone,5749,m
+,Louis Bell,5749,m
+,Billy Walsh,5749,m
+,Stevie Wonder,5747,m
+,Sylvia Moy,5747,f
+,Arthur Altman,5756,m
+,J.W. Stole,5756,m
+,Jacques Plant,5756,m
+,Norman Gimbel,5756,m
+,Paul Mauriat,5756,m
+,Dino Fekaris,5761,m
+,Freddie Perren,5761,m
+,Stevie Wonder,5763,m
+,Barrett Strong,5764,m
+,Norman Whitfield,5764,m
+,Roger Penzabene,5764,m
+,Bruce Johnston,5767,m
+,Lobo,5768,m
+,Parker McGee,5769,m
+,Phil Hurtt,5770,m
+,Thom Bell,5770,m
+,George Johnson,5772,m
+,Louis Johnson,5772,m
+,Senora Sam,5772,f
+,Berry Gordy,5775,m
+,Bob West,5775,m
+,Hal David,5775,m
+,Willie Hutch,5775,m
+,Clifford Smith,5779,m
+,Nickolas Ashford,5779,m
+,Robert Diggs,5779,m
+,Valerie Simpson,5779,f
+,Tom Springfield,5783,m
+,Richard Kerr,5784,m
+,Will Jennings,5784,m
+,Al Bell,5786,m
+,Neil Diamond,5787,m
+,Bernard Edwards,5788,m
+,NILE GREGORY RODGERS,5788,m
+,Barry White,5790,m
+,Jerry Ross,5791,m
+,Kenny Gamble,5791,m
+,Leon Huff,5791,m
+,Fred Murray,5794,m
+,R.P. Weston,5794,m
+,Peter Frampton,5796,m
+,Dewey Terry,5797,m
+,Don F. Harris,5797,m
+,Dewey Terry,5799,m
+,Don F. Harris,5799,m
+,Eric Stewart,5801,m
+,Graham Gouldman,5801,m
+,Jessi Colter,5803,f
+,John Denver,5804,m
+,Al Green,5805,m
+,Al Jackson,5805,m
+,Willie Mitchell,5805,m
+,Freddie Garrity,5808,m
+,Mitch Murray,5808,m
+,KC,5810,m
+,Richard Finch,5810,m
+,Frank K. Robinson,5812,pm
+,Chuck Jackson,5813,m
+,Marvin Yancy,5813,m
+,Barry Goldberg,5815,m
+,Gerry Goffin,5815,m
+,Ken Hirsch,5817,m
+,Ron Miller,5817,m
+,Jerome Kern,5819,m
+,Oscar Hammerstein II,5819,m
+,David Gates,5821,m
+,Barry Gibb,5822,m
+,Maurice Gibb,5822,m
+,Robin Gibb,5822,m
+,Lee Hays,5825,m
+,Pete Seeger,5825,m
+,Gordon Lightfoot,5827,m
+,Kenny Gamble,5828,m
+,Leon Huff,5828,m
+,Andy McCluskey,5830,m
+,Martin Cooper,5830,m
+,Paul Humphreys,5830,m
+,Peter Cetera,5833,m
+,John Rostill,5834,m
+,Sting,5835,m
+,Carmella Guida,5836,f
+,Frank Guida,5836,m
+,Joseph Royster,5836,m
+,John Lennon,5839,m
+,Mac Davis,5840,m
+,H. Belolo,5841,m
+,Jacques Moralis,5841,m
+,Victor Willis,5841,m
+,Tony Hester,5844,m
+,Ray Dorset,5845,m
+,Rick Evans,5846,m
+,John S. Carter,5847,m
+,Tim Gilbert,5847,m
+,Bo Gentry,5849,m
+,Ritchie Cordell,5849,m
+,Robert Bloom,5849,m
+,John D. Loudermilk,5852,m
+,R. Dean Taylor,5853,m
+,John Lennon,5854,m
+,Yoko Ono,5854,f
+,"Ken ""Duro"" Ifill",557,m
+,Andy Taylor,5857,m
+,John Taylor,5857,m
+,Nick Rhodes,5857,m
+,Roger Taylor,5857,m
+,TEDDY GEIGER,5861,nb
+,Shawn Mendes,5861,m
+,NATE MERCEREAU,5861,m
+,HARRIS SCOTT,5861,m
+,Simon Le Bon,5857,m
+,Bernie Taupin,5866,m
+,Elton John,5866,m
+,Richard Starkey,5868,m
+,Johnny Tillotson,5869,m
+,Gilbert Becaud,5870,m
+,Mack David,5870,m
+,Albert Hammond,5872,m
+,Mike Hazlewood,5872,m
+,Ronnie Scott,5874,m
+,Steve Wolfe,5874,m
+,CURTIS L MAYFIELD,5876,m
+,Aaron Lewis,5877,m
+,Johnny April,5877,m
+,Jon Wysocki,5877,m
+,Deezle,5880,m
+,Drake,5880,m
+,Jim Jonsin,5880,m
+,Orville Hall,5880,m
+,Static Major,5880,m
+,Adam Pigott,5880,m
+,Yung Miami,5880,f
+,Lil Wayne,5880,m
+,Phillip Price,5880,m
+,40,5880,m
+,Benjamin Workman,5880,m
+,JT,5880,f
+,Magnolia Shorty,5880,f
+,Rex Zamor,5880,m
+,Mike Mushok,5877,m
+,Ekundayo Paris,5895,m
+,Nelson Pigford,5895,m
+,Herb Weiner,5897,m
+,John Gluck Jr.,5897,m
+,Seymour Gottlieb,5897,m
+,Walter Gold,5897,m
+,Buddy Holly,5901,m
+,Norman Petty,5901,m
+,Billy Joel,5903,m
+,Brian Holland,5904,m
+,Eddie Holland,5904,m
+,Lamont Dozier,5904,m
+,Carole King,5907,f
+,Denzel Baptiste,5908,m
+,David Biral,5908,m
+,Raul Cubina,5908,m
+,Jackman Harlow,5908,m
+,Montero Hill,5908,m
+,Nick Lee,5908,m
+,Roy Lenzo,5908,m
+,Kanye West,5908,m
+,Mark Williams,5908,m
+,Toni Stern,5907,f
+,O'Kelly Isley,5918,m
+,Justin Bieber,5919,m
+,DOMINIC J JORDAN,5919,pm
+,Quavo,5919,m
+,JAMES M GIANNOS,5919,pm
+,Poo Bear,5919,m
+,Ronald Isley,5918,m
+,Rudolph Isley,5918,m
+,John Mellencamp,5926,m
+,Larry Lee,5927,m
+,Steve Cash,5927,m
+,Allen Toussaint,5929,m
+,Alvin Tyler,5929,m
+,Freddie Friday,5929,m
+,Marilyn Schack,5929,m
+,Carole King,5933,f
+,David Palmer,5933,m
+,Rod McKuen,5935,m
+,Greg Kihn,5936,m
+,Steve Wright,5936,m
+,Rick Springfield,5938,m
+,Barry Gibb,5939,m
+,Maurice Gibb,5939,m
+,Robin Gibb,5939,m
+,Claydes Smith,5942,m
+,Clifford Adams,5942,m
+,Curtis Fitzgerald Williams,5942,m
+,George Brown,5942,m
+,"James ""J.T."" Taylor",5942,m
+,James L. Bonnefond,5942,m
+,Robert Bell,5942,m
+,EDWARD POLA,5949,m
+,GEORGE WYLE,5949,m
+,Ronald Nathan Bell,5942,m
+,Lee Pockriss,5952,m
+,Lyn Duddy,5952,m
+,Hoyt Axton,5954,m
+,Per Gessle,5955,m
+,Andrew Bernard,5956,m
+,John Fred Gourrier,5956,m
+,Beverly Ross,5958,f
+,Edna Lewis,5958,f
+,Tom Bahler,5960,m
+,G.Skardina,5961,m
+,M.Sharron,5961,f
+,S.Mitchell,5961,m
+,E.Schrody,5964,m
+,L.Muggerud,5964,m
+,Keith Richards,5966,m
+,Mick Jagger,5966,m
+,Calydes Smith,5968,m
+,Dennis Thomas,5968,m
+,Donald Boyce,5968,m
+,George M. Brown,5968,m
+,Drake,5972,m
+,Douglas Ford,5972,pm
+,Kevin Gomringer,5972,m
+,Tim Gomringer,5972,m
+,Al Goodman,5972,m
+,Vinylz,5972,m
+,21 Savage,5972,m
+,Tay Keith,5972,m
+,WALTER LEE MORRIS,5972,m
+,Harry Ray,5972,m
+,JOSEPH CARLETON BEAL,5982,m
+,JAMES ROSS BOOTHE,5982,m
+,Richard Westfield,5968,m
+,Robert Bell,5968,m
+,Robert Mickens,5968,m
+,Ronald Bell,5968,m
+,Paul McCartney,5988,m
+,JIMMY CLANTON,5989,m
+,Mickey Newbury,5990,m
+,Barrett Strong,5991,m
+,Norman Whitfield,5991,m
+,DONALD RALPH MAC,5993,m
+,WILLIAM HARRISON WITHERS,5993,m
+,William Salter,5993,m
+,Billy Joel,5996,m
+,Randy Vanwarmer,5997,m
+,James C. Pankow,5998,m
+,Mikey Craig,2428,m
+,KC,6000,m
+,Richard Finch,6000,m
+,Willie David Young,6002,m
+,Kevin Cronin,6003,m
+,Anita Poree,6004,f
+,Frank Wilson,6004,m
+,"Leonard Caston, Jr.",6004,m
+,Barry Mann,6007,m
+,Cynthia Weil,6007,f
+,Charles Fox,6009,m
+,Norman Gimbel,6009,m
+,Jim Holvay,6011,m
+,Roger Miller,6012,m
+,"Winfred ""Blue"" Lovett",6013,m
+,Daryl Hall,6014,m
+,Janna Allen,6014,f
+,Mike Chapman,6016,m
+,Nicky Chinn,6016,m
+,Eddie Floyd,6018,m
+,Steve Cropper,6018,m
+,Irwin Levine,6020,m
+,L. Russell Brown,6020,m
+,R.Troutman,2480,m
+,Paul Simon,6023,m
+,Carl Douglas,6024,m
+,Thom Bell,6025,m
+,WILLIAM HART,6025,m
+,B.Gaitsch,6027,m
+,Madonna,6027,f
+,P.Leonard,6027,m
+,Lionel Richie,6030,m
+,John Lennon,6031,m
+,Paul McCartney,6031,m
+,Bob Crewe,6033,m
+,Kenny Nolan,6033,m
+,ROBERT CLARK BISEL,6035,m
+,SZA,6035,f
+,Carter Lang,6035,m
+,Minnie Riperton,6033,f
+,Richard Rudolph,6033,m
+,RAY ILLYA FRASER,6040,m
+,III MARSHALL B MATHERS,6040,m
+,Jerry Fuller,6042,m
+,Paul Jabara,6043,m
+,Wayne Cochran,6044,m
+,Yeti Beats,6045,m
+,Steve Kipner,6045,m
+,GERARD ARMOND II POWELL,6045,pm
+,Dr. Luke,6045,m
+,SZA,6045,f
+,TERENCE JOHN SHADDICK,6045,m
+,Carter Lang,6045,m
+,Roget Chahayed,6045,m
+,Doja Cat,6045,f
+,Charles Axton,6054,m
+,Chips Moman,6054,m
+,Floyd Newman,6054,m
+,Gil Caple,6054,m
+,JERAMI C DAVIS,6058,m
+,Drake,6058,m
+,Project Pat,6058,m
+,Juicy J,6058,m
+,21 Savage,6058,m
+,Peter Johnson,6058,m
+,G Koop,6058,m
+,RAKIM MAYERS,6058,m
+,LELAND TYLER WAYNE,6058,m
+,Jerry Lee Smith,6054,m
+,Larry Evoy,6068,m
+,Bobby Hart,6069,m
+,Tommy Boyce,6069,m
+,Neil Sedaka,6071,m
+,Phil Cody,6071,m
+,Eric Clapton,6073,m
+,George Terry,6073,m
+,Marcy Levy,6073,f
+,Bernard Edwards,6076,m
+,Nile Rodgers,6076,m
+,Allee Willis,6078,f
+,David Lasley,6078,m
+,Willis,6078,f
+,Ellie Greenwich,6081,f
+,"George ""Shadow"" Morton",6081,m
+,Jeff Barry,6081,m
+,Bill Withers,6084,m
+,Linda Laurie,6085,f
+,John Denver,6086,m
+,Paul McCartney,6087,m
+,John Lennon,6088,m
+,Paul McCartney,6088,m
+,Gilbert Becaud,6090,m
+,GEORGE MICHAEL,6091,m
+,Mann Curtis,6090,m
+,"Leon ""Ndugu"" Chancler",6093,m
+,Reginald J. Andrews,6093,m
+,Yvonne Baker,6095,f
+,Larry E. Williams,6096,m
+,Jim Lee,6097,m
+,Curtis Mayfield,6098,m
+,Ed Townsend,6099,m
+,Marvin Gaye,6099,m
+,Maurice White,6101,m
+,Kid Harpoon,6102,m
+,Harry Styles,6102,m
+,Ryan Martinez,6104,pm
+,DURK D BANKS,6104,m
+,Drake,6104,m
+,DAVEON LAMONT JACKSON,6104,m
+,Roget Chahayed,6104,m
+,RONALD NATHAN LATOUR,6104,m
+,WAYNE LEE VAUGHN,6101,m
+,Bob Crewe,6111,m
+,J. Sweet,6112,m
+,Sounwave,6112,m
+,Sam Dew,6112,m
+,Zoe Kravitz,6112,f
+,Jack Antonoff,6112,m
+,Taylor Swift,6112,f
+,Denny Randell,6111,m
+,Sandy Linzer,6111,m
+,Dean Pitchford,6120,m
+,Tom Snow,6120,m
+,Al Green,6122,m
+,"Al Jackson, Jr.",6122,m
+,Willie Mitchell,6122,m
+,Jim Morrison,6125,m
+,John Densmore,6125,m
+,Ray Manzarek,6125,m
+,Robby Krieger,6125,m
+,Jim Morrison,6129,m
+,John Densmore,6129,m
+,D'Mile,6131,m
+,Brandon Anderson,6131,m
+,Brody Brown,6131,m
+,Dernst Emile II,6131,m
+,Bruno Mars,6131,m
+,Ray Manzarek,6129,m
+,AUSTIN WILLIAM SCHINDLER,6137,pm
+,Drake,6137,m
+,Simon Gebrelul,6137,m
+,KEANU DEAN TORRES,6137,m
+,"Isaac ""Zac"" De Boni",6137,m
+,Boi-1da,6137,m
+,"Michael ""Finatik"" Mule",6137,m
+,ROBIN HANNIBAL MOELSTED BRAUN,6137,m
+,WILLIAM LEONARD ROBERTS,6137,m
+,COCO MAJA HASTRUP KARSHOEJ,6137,f
+,Robby Krieger,6129,m
+,Lou Christie,6148,m
+,Twyla Herbert,6148,f
+,Bob Dylan,6150,m
+,Ronald Blackwell,6151,m
+,Jon Sheldon,6152,m
+,William E. Strange,6152,m
+,Graham Gouldman,6154,m
+,Linda McCartney,6155,f
+,Paul McCartney,6155,m
+,John Shakespeare,6157,m
+,Kenneth J. Hawker,6157,m
+,Bobby Russell,6159,m
+,Elton John,6160,m
+,GARY ANTHONY OSBORNE,6160,m
+,Henry Cosby,6162,m
+,Stevie Wonder,6162,m
+,Sylvia Moy,6162,f
+,Doc Pomus,6165,m
+,Mort Schuman,6165,m
+,Mike Chapman,6167,m
+,Nicky Chinn,6167,m
+,Danny Janssen,6169,m
+,Clarence Coffee,6170,m
+,Dua Lipa,6170,f
+,DaBaby,6170,m
+,Koz,6170,m
+,Sarah Hudson,6170,f
+,Clarence Coffee,6175,m
+,Dua Lipa,6175,f
+,Koz,6175,m
+,Sarah Hudson,6175,f
+,J-Hope,6179,m
+,Pdogg,6179,m
+,RM,6179,m
+,Christopher Brenner,6179,m
+,Suga,6179,m
+,Antonina Armato,6179,f
+,Ruuth,6179,f
+,Ambezza,6186,m
+,Future,6186,m
+,Drake,6186,m
+,DARIUS HILL,6186,m
+,Oz,6186,m
+,Tems,6191,f
+,Ryan Coogler,6191,m
+,LUDWIG EMIL TOMAS GORANSSON,6191,m
+,ROBYN FENTY,6191,f
+,Paul McCartney,6195,m
+,Barry Gibb,6196,m
+,Maurice Gibb,6196,m
+,Robin Gibb,6196,m
+,Neil Sedaka,6199,m
+,Dan Peek,6200,m
+,Alan Clarke,6201,m
+,Roger Cook,6201,m
+,Roger Greenway,6201,m
+,DANIEL FOGELBERG,6204,m
+,Neil Diamond,6205,m
+,Al Green,6206,m
+,Al Jackson,6206,m
+,Willie Mitchell,6206,m
+,Bob Morrison,6209,m
+,Patti Ryan,6209,f
+,Wanda Mallette,6209,f
+,John Fogerty,6212,m
+,Richard Kerr,6213,m
+,Will Jennings,6213,m
+,Teddy Vann,6215,m
+,Graham Russell,6216,m
+,Carlos Ortega,6217,pm
+,Nick DeCaro,6217,m
+,Richard Berry,6217,m
+,Jack Sigler,6220,m
+,Deke Richards,6221,m
+,Frank Wilson,6221,m
+,Pam Sawyer,6221,f
+,R. Dean Taylor,6221,m
+,Barry Mason,6225,m
+,Tony MacAulay,6225,m
+,Marilyn McLeod,6227,f
+,Pam Sawyer,6227,f
+,Darnell Dalton,1395,m
+,Keith Thomas,1395,m
+,Polow da Don,1395,m
+,Gary Wright,6233,m
+,JB BLOCBOY,6234,m
+,PAUL D BEAUREGARD,6234,m
+,Drake,6234,m
+,Project Pat,6234,m
+,Juicy J,6234,m
+,Tay Keith,6234,m
+,André Popp,6240,m
+,Pierre Cour,6240,m
+,Brian Holland,6242,m
+,Eddie Holland,6242,m
+,Lamont Dozier,6242,m
+,Edward Heyman,6245,m
+,Victor Young,6245,m
+,Warren Moore,6247,m
+,William Griffin,6247,m
+,John Lennon,6249,m
+,Robin Fredriksson,6250,m
+,Selena Gomez,6250,f
+,Mattias Per Larsson,6250,m
+,Julia Michaels,6250,f
+,Justin Tranter,6250,nb
+,Paul McCartney,6249,m
+,Carlos Rigual,6256,m
+,Michael Vaughn,6256,m
+,Gilbert Bécaud,6258,m
+,Neil Diamond,6258,m
+,Jerry Leiber,6260,m
+,Mike Stoller,6260,m
+,Clarence Satchell,6262,m
+,James Williams,6262,m
+,Leroy Bonner,6262,m
+,Marshall Jones,6262,m
+,Marvin Pierce,6262,m
+,Ralph Middlebrooks,6262,m
+,William Beck,6262,m
+,Cindy Wilson,6269,f
+,Fred Schneider,6269,m
+,Kate Pierson,6269,f
+,Keith Strickland,6269,m
+,Barry Gibb,6273,m
+,Maurice Gibb,6273,m
+,Robin Gibb,6273,m
+,Rick Springfield,6276,m
+,Nino Rota,6277,m
+,Giorgio Moroder,6278,m
+,Peter Bellotte,6278,m
+,Kenny Gamble,6280,m
+,Leon Huff,6280,m
+,Howard Greenfield,6282,m
+,Neil Sedaka,6282,m
+,Vinnie Barrett,6284,f
+,Eli,6284,m
+,Barry Gibb,6286,m
+,Maurice Gibb,6286,m
+,Robin Gibb,6286,m
+,Barry White,6289,m
+,Dion DiMucci,6290,m
+,Ernie Maresca,6290,m
+,Paul Simon,6292,m
+,Minnie Riperton,6293,f
+,Richard Rudolph,6293,m
+,Boz Scaggs,6295,m
+,David Paich,6295,m
+,Hal Bynum,6297,m
+,Roger Bowling,6297,m
+,John Lennon,6299,m
+,Paul McCartney,6299,m
+,Don Henley,6301,m
+,Glenn Frey,6301,m
+,Hans Van Eijck,6303,m
+,Peter Tetteroo,6303,m
+,Jimmy Webb,6305,m
+,Jimmy Webb,6306,m
+,Martin Quittenton,6307,m
+,Rod Stewart,6307,m
+,John Farrar,6309,m
+,David Paton,6310,m
+,William Lyall,6310,m
+,John Kay,6312,m
+,Rushton Moreve,6312,m
+,The Notorious B.I.G.,216,m
+,John Farrar,6315,m
+,Tom Snow,6315,m
+,David Gates,6317,m
+,Dino Fekaris,6318,m
+,Freddie Perren,6318,m
+,Luther Dixon,6320,m
+,Willie Denson,6320,m
+,Randy Newman,6322,m
+,Alphonso Mizell,6323,m
+,Berry Gordy,6323,m
+,Juice WRLD,6325,m
+,Deke Richards,6323,m
+,Sting,6325,m
+,Nick Mira,6325,m
+,Freddie Perren,6323,m
+,JR DANNY LEE SNODGRASS,6325,m
+,Richard Kerr,6331,m
+,Scott English,6331,m
+,Daryl Hall,6333,m
+,John Oates,6333,m
+,DOMINIC JAMES MILLER,6325,m
+,Sara Allen,6333,f
+,Dennis Matkosky,6337,m
+,Michael Sembello,6337,m
+,Harry Land,6339,m
+,Jon Sheldon,6339,m
+,Stevie Wonder,6341,m
+,Fred Foster,6342,m
+,Kris Kirstofferson,6342,m
+,Cary Gilbert,6344,m
+,Kenny Gamble,6344,m
+,21 Savage,6346,m
+,Leon Huff,6344,m
+,Lobo,6348,m
+,Drake,6346,m
+,Claude Demetrius,6350,m
+,Andy Kim,6351,m
+,Jeff Barry,6351,m
+,John Lennon,6351,m
+,Paul McCartney,6351,m
+,Robbie van Leeuwen,6351,m
+,E. Ferrara,6346,m
+,Donovan,6357,m
+,Chuck Berry,6358,m
+,Chuck Berry,6359,m
+,E. Fox-Peck,6346,m
+,Marvin Gaye,6361,m
+,Johnny Watson,6362,m
+,Josef Zawinul,6362,m
+,Larry Williams,6362,m
+,Dave Fisher,6365,m
+,Mike Chapman,6366,m
+,Nicky Chinn,6366,m
+,M. McCollum,6346,m
+,Lou T. Josie,6369,m
+,Jack Antonoff,6370,m
+,Taylor Swift,6370,f
+,Kenneth Ball (based on a song by Vassili Soloviev-Sedoi & M. Matusovosky),6372,m
+,Jim Weatherly,6373,m
+,Marty Balin,6374,m
+,Culture Club,6375,m
+,George O'Dowd,6375,m
+,Jon Moss,6375,m
+,Mikey Craig,6375,m
+,Roy Hay,6375,m
+,Keith Richards,6380,m
+,Taylor Swift,6381,f
+,Brendon Urie,6381,m
+,Joel Little,6381,m
+,Mick Jagger,6380,m
+,Bob Montgomery,6385,m
+,Charlie Foxx,6386,m
+,Inezz Foxx,6386,f
+,DAVID GARCIA,6388,m
+,John Taylor,6386,m
+,John Phillips,6390,m
+,Bobby Pickett,6391,m
+,Leonard L. Capizzi,6391,m
+,Bo Gentry,6393,m
+,Bobby Bloom,6393,m
+,Stefan Johnson,6395,m
+,Jon Bellion,6395,m
+,JOSHUA O MILLER,6388,m
+,TYLER REED HUBBARD,6388,m
+,Jordan Johnson,6395,m
+,Adam Levine,6395,m
+,Michael Pollack,6395,m
+,Ritchie Cordell,6393,m
+,Tommy James,6393,m
+,Gary D. Bruce,6404,m
+,BLETA REXHA,6388,f
+,VINCENT FORD,6395,m
+,JACOB KASHER HINDLIN,6395,m
+,Michael Bruce Blackman,6408,m
+,Bad Bunny,6409,m
+,Drake,6409,m
+,Tom Scholz,6411,m
+,Jerry Allison,6412,m
+,XAVIER ALEXIS SEMPER-VARGAS,6409,m
+,NOAH K ASSAD,6409,m
+,LUIAN MALAVE,6409,m
+,Sonny Curtis,6412,m
+,Gary Cherone,6417,m
+,J. Cole,6418,m
+,T-Minus,6418,m
+,JOSEPH NEGRON-VELEZ,6409,m
+,EDGAR WILMER SEMPER-VARGAS,6409,m
+,Nuno Bettencourt,6417,m
+,NORMAN RAY HARRIS,6418,m
+,Jack Antonoff,6424,m
+,Taylor Swift,6424,f
+,Gregg Diamond,6426,m
+,ALLAN WAYNE FELDER,6418,m
+,Florrie Palmer,6428,f
+,Paul Simon,6429,m
+,Allen Toussaint,6430,m
+,Carol Washington,6431,m
+,Joe Broussard,6431,pm
+,Ralph Williams,6431,pm
+,Bill Ramal,6434,m
+,Dickie Goodman,6434,m
+,Bobby Vinton,6436,m
+,Gene Allan,6436,m
+,Dennis DeYoung,6438,m
+,Bob Dylan,6439,m
+,Lil Wayne,6440,m
+,Kendrick Lamar,6440,m
+,Trevor Peacock,6442,m
+,Paul Simon,6443,m
+,Frank Mills,6444,m
+,ANGEL APONTE,6440,m
+,Denzel Baptiste,6446,m
+,David Biral,6446,m
+,Omer Fedi,6446,m
+,DIAZ JR MARCO ANTONIO RODRIGUEZ,6440,m
+,Lil Nas X,6446,m
+,Willis Alan Ramsey,6451,m
+,Johnny Roberts,6452,m
+,Morris Levy,6452,m
+,Robert Spencer,6452,pm
+,24kGoldn,6455,m
+,Bob Feldman,6456,m
+,Iann Dior,6455,m
+,Omer Fedi,6455,m
+,Blake Slatkin,6455,m
+,Rosario Lenzo,6446,m
+,Jerry Goldstein,6456,m
+,Richard Gottehrer,6456,m
+,KBeaZy,6455,m
+,Stevie Wonder,6464,m
+,Dave Bartholomew,6465,m
+,Bob Crewe,6466,m
+,Kenny Nolan,6466,m
+,Ronald White,6468,m
+,Bad Bunny,6469,m
+,MAG,6469,m
+,Smokey Robinson,6468,m
+,Smokey Robinson,6472,m
+,"Robert Jose, Jr.",6469,pm
+,Rosado Torres,6469,m
+,Alan Gordon,6475,m
+,Billy Joel,6476,m
+,Lionel Richie,6477,m
+,SCOTT H DITTRICH,6469,m
+,MARTIN HARDIE COOGAN,6469,m
+,Linda McCartney,6480,f
+,Paul McCartney,6480,m
+,Tony Hatch,6482,m
+,Bobby Vinton,6483,m
+,Henry Mayer,6483,m
+,Berton Averre,6485,m
+,Doug Fieger,6485,m
+,George Harrison,6487,m
+,Jack Scott,6488,m
+,Eugene Pitt,6489,m
+,Oscar Waltzer,6489,m
+,Phil Belmonte,6489,pm
+,Brian Holland,6492,m
+,Eddie Holland,6492,m
+,Lamont Dozier,6492,m
+,Dale Frashuer,6495,m
+,Gary DeCarlo,6495,m
+,Paul Leka,6495,m
+,CurT-T-T,6498,m
+,Baby Gee,6498,m
+,Shy Shy,6498,m
+,B-Fine,6498,m
+,Bow-Legged Lou,6498,m
+,Paul George,6498,m
+,Jim Weatherly,6504,m
+,Hoyt Axton,6505,m
+,Clifton Davis,6506,m
+,Barry Mann,6507,m
+,Cynthia Weil,6507,f
+,Dick Addrisi,6509,m
+,Don Addrisi,6509,m
+,Don Henley,6511,m
+,Glenn Frey,6511,m
+,J.D. Souther,6511,m
+,Howard Greenfield,6514,m
+,Neil Sedaka,6514,m
+,Jim Gold,6516,m
+,Barry Gibb,6517,m
+,J-Hope,6518,m
+,RM,6518,m
+,Suga,6518,m
+,Maurice Gibb,6517,m
+,Robin Gibb,6517,m
+,Will Champion,6518,m
+,Oscar Holter,6518,m
+,Bob Seger,6525,m
+,Max Martin,6518,m
+,Guy Berryman,6518,m
+,Justin Hayward,6528,m
+,Granville Burland,6529,m
+,Sascha Burland,6529,m
+,Jonny Buckland,6518,m
+,Chris Martin,6518,m
+,Bill Rahko,6518,m
+,21 Savage,6534,m
+,MICHAEL KEITH SMITH,6534,pm
+,J. Cole,6534,m
+,WALTER MCDANIEL,6534,pm
+,JACOB BRIAN DUTTON,6534,m
+,J. Sweet,6539,m
+,Sounwave,6539,m
+,Sam Dew,6539,m
+,Kendrick Lamar,6539,m
+,TROY DONALD JAMERSON,6534,m
+,Boi-1da,6539,m
+,LAMONT DORRELL,6534,m
+,DAVID STYLES,6534,m
+,Bruce Roberts,6547,m
+,JR HYKEEM JAMAAL CARTER,6539,m
+,Paul Jabara,6547,m
+,Bernie Taupin,6550,m
+,Elton John,6550,m
+,Burton Cummings,6552,m
+,Randy Bachman,6552,m
+,Carole Bayer Sager,6554,f
+,Marvin Hamlisch,6554,m
+,John D. Loudermilk,6556,m
+,Billy Preston,6557,m
+,Bruce Fisher,6557,m
+,John Lennon,6559,m
+,Paul McCartney,6559,m
+,Bobbie Gentry,6561,f
+,Eugene Record,6562,m
+,Edwin R. Hawkins,6563,m
+,Ringo Starr,6564,m
+,Vince Poncia,6564,m
+,BlaqNmilD,6566,m
+,Drake,6566,m
+,GZA,6566,m
+,Raekwon,6566,m
+,RZA,6566,m
+,Lionel Richie,6571,m
+,Murda Beatz,6566,m
+,Alan Bergman,6566,m
+,Marilyn Bergman,6566,f
+,"Norman ""Hurricane"" Smith",6575,m
+,Billy Dees,6576,m
+,Orville Hall,6566,m
+,Marvin Hamlisch,6566,m
+,U-God,6566,m
+,Inspectah Deck,6566,m
+,Ol' Dirty Bastard,6566,m
+,Phillip Price,6566,m
+,Ghostface Killah,6566,m
+,40,6566,m
+,Method Man,6566,m
+,5th Ward Weebie,6566,m
+,Byron Thomas,6566,m
+,Bryan Williams,6566,m
+,Roy Orbison,6576,m
+,BILL CUOMO,6590,m
+,CHARLES R (RANDOLPH) GOODRUM,6590,m
+,CRAIG KRAMPF,6590,m
+,Lauryn Hill,6566,f
+,Justin Bieber,6594,m
+,Glenishe Rowe,6566,f
+,Chance the Rapper,6594,m
+,STEPHEN RAY PERRY,6590,m
+,Quavo,6594,m
+,James C. Pankow,6599,m
+,MELVIN C RILEY,6594,m
+,Poo Bear,6594,m
+,DaviDior,6594,m
+,Nija Charles,6603,f
+,NOLAN JOSEPH LAMBROZA,6594,m
+,Drake,6603,m
+,Vinylz,6603,m
+,NICHOLAS MATTHEW BALDING,6594,m
+,40,6603,m
+,Boi-1da,6603,m
+,KHALED MOHAMMAED KHALED,6594,m
+,Chris Brown,6603,m
+,TRAVIS DARELLE WALTON,6603,m
+,TYLER JAMES BRYANT,6603,m
+,JOSHUA LOUIS HUIZAR,6603,m
+,Cliff Crofford,6615,m
+,Curtis Mayfield,6616,m
+,Donna Summer,6617,f
+,Giorgio Moroder,6617,m
+,Ariana Grande,6619,f
+,MICHEE PATRICK LEBRUN,6603,m
+,Floyd Cramer,6621,m
+,George Jackson,6622,m
+,Harry Nilsson,6623,m
+,Carole King,6624,f
+,Drake,6625,m
+,Gerry Goffin,6624,m
+,Burt Bacharach,6627,m
+,Tay Keith,6625,m
+,Pharrell Williams,6619,m
+,Hal David,6627,m
+,Russell Hildreth,6631,m
+,Timothy Torres,6631,m
+,Anita Steinman,6633,pf
+,Dave Bartholomew,6633,m
+,HAYWARD IVY,6625,m
+,Pearl King,6633,f
+,SAKATA KAREEM OATIS,6625,m
+,Adele,6638,f
+,Greg Kurstin,6638,m
+,KENZA SAMIR,6625,f
+,Don Henley,6641,m
+,Glenn Frey,6641,m
+,D.Gibson,6643,f
+,Burt Bacharach,6644,m
+,Hal David,6644,m
+,Jerry Butler,6646,m
+,Kenny Gamble,6646,m
+,Leon Huff,6646,m
+,John Bettis,6649,m
+,Richard Carpenter,6649,m
+,Jonathan Cain,6651,m
+,YoungKio,6652,m
+,Steve Perry,6651,m
+,Lil Nas X,6652,m
+,Gardner Cole,6655,m
+,Madonna,6655,f
+,Jocelyn Donald,6652,m
+,Peter Rafelson,6655,m
+,Drake,6659,m
+,Simon Gebrelul,6659,m
+,21 Savage,6659,m
+,Bill Ray Cyrus,6652,m
+,Oz,6659,m
+,Trent Reznor,6652,m
+,Antonina Armato,6665,f
+,Atticus Ross,6652,m
+,ELIAS STICKEN,6659,pm
+,JULIA ALLYN ROSS,6665,pf
+,DAN AUGUST RIGO,6665,m
+,YOON GI MIN,6665,m
+,SEOK JEONG HO,6665,m
+,NAM JUN KIM,6665,m
+,MICHEL SEBASTIAN MAXIMILIAN SCHULZ,6665,m
+,Warren Cuccurullo,6674,m
+,Simon Le Bon,6674,m
+,Nick Rhodes,6674,m
+,HYO WON KANG,6665,m
+,MELANIE JOY FONTANA,6665,f
+,John Taylor,6674,m
+,Bob Hilliard,6680,m
+,Mort Garson,6680,m
+,MICHAEL ZANE GORDON,6682,m
+,KRYSTA YOUNGS,6665,f
+,Billy Preston,6684,m
+,Robert James Byrd,6685,m
+,Colin Hay,6686,m
+,Keith Richards,6687,m
+,Mick Jagger,6687,m
+,Chuck Barris,6689,m
+,Barrett Strong,6690,m
+,Norman Whitfield,6690,m
+,Fred Spielman,6692,m
+,Janice Torre,6692,f
+,John Lennon,6694,m
+,Paul McCartney,6694,m
+,Stevie Wonder,6696,m
+,Claudine Clark,6697,f
+,GARY WILLIAM GRAINGER,6698,m
+,JAMES CREGAN,6698,m
+,KEVIN STUART JAMES SAVIGAR,6698,m
+,PHILLIP DAVID CHEN,6698,m
+,RODERICK DAVID STEWART,6698,m
+,Norman Johnson,6703,m
+,Ronald Dunbar,6703,m
+,John Lennon,6705,m
+,Paul McCartney,6705,m
+,Bob Merrill,6707,m
+,Julie Styne,6707,m
+,Eddie Brigati,6709,m
+,Felix Cavaliere,6709,m
+,Ray Allen,6711,m
+,David Biral,6712,m
+,Wanda Merrell,6711,f
+,Henry Glover,6714,m
+,Joey Dee,6714,m
+,KURT D COBAIN,6712,m
+,Bernie Taupin,6717,m
+,Elton John,6717,m
+,Daniel Adair,2379,m
+,Michael Kroeger,2379,m
+,Ryan Peake,2379,m
+,George Harrison,6722,m
+,MONTERO LAMAR HILL,6712,m
+,DENZEL MICHAEL AKIL BAPTISTE,6712,m
+,OLADIPO O OMISHORE,6712,m
+,Ringo Starr,6722,m
+,Steve Kipner,6727,m
+,Terry Shaddick,6727,m
+,Alan Gorrie,6729,m
+,Hamish Stuart,6729,m
+,Giveon,6731,m
+,Malcolm Duncan,6729,m
+,Louis Bell,6731,m
+,Justin Bieber,6731,m
+,Daniel Caeser,6731,m
+,Onnie McIntyre,6729,m
+,Robbie McIntosh,6729,m
+,Harv,6731,m
+,Matthew Leon,6731,m
+,Andrew Watt,6731,m
+,Roger Ball,6729,m
+,Sylvia Robinson,6742,f
+,Bob Spickard,6743,m
+,"Luis Martinez, Jr.",6731,m
+,Brian Carman,6743,m
+,Rob Parissi,6746,m
+,Aaron Simmonds,6731,m
+,Felisha King-Harvey,6731,f
+,Lee Pockriss,6749,m
+,Paul Vance,6749,m
+,Jenna Andrews,6751,f
+,Steve Mac,6751,m
+,Carole King,6753,f
+,Gerry Goffin,6753,m
+,Dave Loggins,6755,m
+,KC,6756,m
+,Richard Finch,6756,m
+,Bruce Welch,6758,m
+,John Rostill,6758,m
+,Brian Holland,6760,m
+,Johnny McDaid,6751,m
+,Ed Sheeran,6751,m
+,Freddie Gorman,6760,m
+,Robert Bateman,6760,m
+,Brian Holland,6765,m
+,Freddie Gorman,6765,m
+,Robert Bateman,6765,m
+,John Lennon,6768,m
+,Paul McCartney,6768,m
+,Phoebe Snow Laub,6770,f
+,Don Covay,6771,m
+,John Berry,6771,m
+,Johnny Rivers,6773,m
+,Lou Adler,6773,m
+,Robin Scott,6775,m
+,David Gates,6776,m
+,Walter Nims,6777,m
+,Cardi B,6778,f
+,Daryl Hall,6779,m
+,Janna Allen,6779,f
+,Sara Allen,6779,f
+,RAY CHARLES MCCULLOUGH,6778,m
+,JAMES EDWARD FAUNTLEROY,6778,m
+,Ray Romulus,6778,m
+,Warren Pash,6779,m
+,PETER GENE HERNANDEZ,6778,m
+,Boudleaux Bryant,6787,m
+,FELICE BRYANT,6787,f
+,John Fogerty,6789,m
+,John Fogerty,6790,m
+,Craig Atkinson,6791,m
+,John Byrne,6791,m
+,John Michalski,6791,m
+,Ken Ellner,6791,m
+,JONATHAN JAMES YIP,6778,m
+,JEREMY L REEVES,6778,m
+,Roy Chaney,6791,m
+,Leonard Lipton,6798,m
+,Peter Yarrow,6798,m
+,Paul Anka,6800,m
+,Jackie DeShannon,6801,f
+,Drake,6802,m
+,DJ Khaled,6802,m
+,Jimmy Holiday,6801,m
+,Randy Myers,6801,m
+,Oz,6802,m
+,TBHits,6807,m
+,Gene MacLellan,6808,m
+,ELIAS KLUGHAMMER,6802,m
+,Nija Charles,6807,f
+,DAVID RUOFF,6802,m
+,Ariana Grande,6807,f
+,Brian Bates,6807,m
+,Mr. Franks,6807,m
+,Frank J. Guida,6815,m
+,Gary U.S. Bonds,6815,m
+,Gene Barge,6815,m
+,London on da Track,6807,m
+,Joseph F. Royster,6815,m
+,Angelina Barrett,6807,f
+,Hank De Vito,6821,m
+,Bob Crewe,6822,m
+,Louis Bell,6823,m
+,Bob Gaudio,6822,m
+,Post Malone,6823,m
+,Austin Rosen,6823,m
+,Dee Clark,6827,m
+,Burt Bacharach,6828,m
+,Ty Dolla $ign,6823,m
+,Hal David,6828,m
+,Bob Dylan,6831,m
+,Paul Williams,6832,m
+,Roger Nichols,6832,m
+,Tony Joe White,6834,m
+,Dickey Betts,6835,m
+,Joe Sherman,6836,m
+,Future,6837,m
+,Noel Sherman,6836,m
+,Chris Stein,6839,m
+,LESIDNEY CHEYENNE RAGLAND,6837,pm
+,BRYAN LAMAR SIMMONS,6837,m
+,NILS NOEHDEN,6837,m
+,Clement Bozewski,6839,m
+,Debbie Harry,6839,f
+,Brian Holland,6845,m
+,Eddie Holland,6845,m
+,Lamont Dozier,6845,m
+,Michael McDonald,6848,m
+,Patrick Henderson,6848,m
+,BloodPop,6850,m
+,Rami,6850,m
+,Bruce Woodley,6852,m
+,Paul Simon,6852,m
+,Brian Holland,6854,m
+,Nija Charles,6850,f
+,Lady Gaga,6850,f
+,Ariana Grande,6850,f
+,Jeremiah Burden,6850,pm
+,Tchami,6850,m
+,Matthew Burns,6850,m
+,Eddie Holland,6854,m
+,Lamont Dozier,6854,m
+,Eddie Miller,6863,m
+,Robert Yount,6863,m
+,W.S. Stevenson,6863,m
+,"George ""Shadow"" Morton",6866,m
+,Boys Noize,6850,m
+,Vernetta Williams,6850,f
+,Betty Wright,6850,f
+,Graham Goble,6870,m
+,Carl William Smith,6871,pm
+,Raynard Miner,6871,m
+,Nick Mira,6873,m
+,Otis Redding,6874,m
+,Murda Beatz,6875,m
+,TYLER JUSTIN SHARPE,6873,m
+,Charlie Handsome,6875,m
+,DANNY LEE JR SNODGRASS,6873,m
+,Otis Blackwell,6879,m
+,Winfield Scott,6879,m
+,Dino Fekaris,6881,m
+,Freddie Perren,6881,m
+,Larry Weiss,6883,m
+,B.Benites,6884,m
+,Einer Bankz,6875,m
+,D.Butler,6884,m
+,J.Garrett III,6884,m
+,Polo G,6875,m
+,T.Austin,6884,f
+,J.Capek,6890,m
+,M.Jordan,6890,m
+,Alexander Wu,6875,m
+,John Gummoe,6893,m
+,Daryl Hall,6894,m
+,Carlos Pinera,6895,m
+,Frank Konte,6895,m
+,CHRISTOPHER C CROSS,6897,m
+,David Leon,6898,m
+,Jon Sheldon,6898,m
+,J. Vincent Edwards,6900,m
+,Pierre Tubbs,6900,m
+,Mike Edwards,6902,m
+,Donald Fagan,6903,m
+,Walter Becker,6903,m
+,Frederick Knight,6905,m
+,Don Robertson,6906,m
+,Hal Blair,6906,m
+,Andy Armer,6908,m
+,Randy Badazz,6908,m
+,Cindy Wilson,6910,f
+,Fred Schneider,6910,m
+,Kate Pierson,6910,f
+,Keith Strickland,6910,m
+,21 Savage,6914,m
+,DJ Toomp,6914,m
+,R.Waldrop,6910,m
+,J. White Did It,6914,m
+,Drake,6914,m
+,G. Hayes,6914,pf
+,T. B. Chambers,6914,m
+,C. Bernstein,6914,m
+,Vinylz,6914,m
+,I. De Boni,6914,m
+,J. Gwin,6914,m
+,Calvin Harris,6914,m
+,Robert Waldrop,6910,m
+,M. Mule,6914,m
+,B.D. Session Jr.,6914,m
+,Megan Pete,6914,f
+,Alan O'Day,6930,m
+,John Stevenson,6930,m
+,Chuck Berry,6932,m
+,Andy Kim,6933,m
+,David Essex,6934,m
+,Wally Holmes,6935,m
+,Rod Temperton,6936,m
+,KC,6937,m
+,Richard Finch,6937,m
+,Leon René,6939,m
+,Steve Miller,6940,m
+,Jimmie Thomas,6941,m
+,David Paich,6942,m
+,Joe South,6943,m
+,Al Byron,6944,m
+,Paul Evans,6944,m
+,Jerry Leiber,6946,m
+,Mike Stoller,6946,m
+,Keith Richards,6948,m
+,Mick Jagger,6948,m
+,Davidson,6950,m
+,Anton Hollins,6950,pm
+,Riley,6950,m
+,Wynn,6950,pm
+,Jack Perricone,6954,m
+,Johnny Marks,6955,m
+,Paul Vance,6954,m
+,DaBaby,6957,m
+,SethInTheKitchen,6957,m
+,Olufunmibi Awoshiley,6957,m
+,Joey Bada$$,6957,m
+,Louis Bell,6957,m
+,Post Malone,6957,m
+,Roddy Ricch,6957,m
+,Austin Rosen,6957,m
+,21 Savage,6957,m
+,Gerry Goffin,6966,m
+,Jack Keller,6966,m
+,Dion DiMucci,6968,m
+,Ernie Maresca,6968,m
+,Del Shannon,6970,m
+,Max Crook,6970,m
+,Joe Melson,6972,m
+,Roy Orbison,6972,m
+,Esther Dean,6974,f
+,Mikkel Eriksen,6974,m
+,Sandy Vee,6974,m
+,STEVEN GREGORY DROZD,6977,m
+,MICHAEL LEE IVINS,6977,m
+,Tor Hermansen,6974,m
+,Robert John,6980,m
+,John D. Loudermilk,6981,m
+,Lionel Richie,6982,m
+,Cardi B,6983,f
+,Ricky Reed,6983,m
+,WAYNE MICHEAL COYNE,6977,m
+,CARLOS ST JOHN PHILLIPS,6977,m
+,LEE STASHENKO,6977,m
+,Lizzo,6983,f
+,JACE LOGAN JENNINGS,6989,pm
+,JACOB ALAN GREENSPAN,6989,m
+,ARIZONA ZERVAS,6989,m
+,LAUREN KELLY GRIEVE,6989,f
+,STEVEN CHEUNG,6983,m
+,Christopher Cross,6994,m
+,Lona Stevens,6995,f
+,Zelma Sanders,6995,f
+,John Phillips,6997,m
+,Daryl Hall,6998,m
+,TORAE LISTON CARR,6983,m
+,THOMAS THERON,6983,m
+,John Oates,6998,m
+,Robert Lamm,7002,m
+,Bill Martin,7003,m
+,Phil Coulter,7003,m
+,Gary Geld,7005,m
+,Peter Udell,7005,m
+,Daryl Hall,7007,m
+,Emma Bunton,4230,f
+,Geri Halliwell,4230,f
+,XXXTENTACION,7010,m
+,Jon B.,4230,m
+,Melanie Brown,4230,f
+,Melanie Chisholm,4230,f
+,CATHERINE BUSH,7014,f
+,Victoria Beckham,4230,f
+,Irwin Levine,7016,m
+,L. Russell Brown,7016,m
+,Gary Anderson,7018,m
+,Gene Barge,7018,m
+,Gary Geld,7020,m
+,Peter Udell,7020,m
+,Jay-Z,7022,m
+,Starrah,7022,f
+,Jacques Brel,7024,m
+,John Cunningham,7010,m
+,Rod McKuen,7024,m
+,P.F. Sloan (James Marcus Smith),7027,m
+,Steve Barri,7027,m
+,Megan Thee Stallion,7022,f
+,J. White Did It,7022,m
+,Jawsh 685,7031,m
+,Sherman Edwards,7032,m
+,Sid Wayne,7032,m
+,The-Dream,7022,m
+,Stevie Wonder,7035,m
+,Stephen Bishop,7036,m
+,Belly,7037,m
+,DaHeala,7037,m
+,Oscar Holter,7037,m
+,Derrick Gray,7022,m
+,Max Martin,7037,m
+,The Weeknd,7037,m
+,DAVID RITZ,7043,m
+,Fontaine Pardison,7022,m
+,Doja Cat,7045,f
+,Bobby Session,7022,m
+,Nicki Minaj,7045,f
+,Beyonce Knowles,7022,f
+,MARVIN P GAYE,7043,m
+,ODELL ELLIOTT JR BROWN,7043,m
+,Jason Derulo,7031,m
+,CHRISTOPHER WATERS DUNN,7052,m
+,KEITH STEGALL,7052,m
+,ROBERT J MATHER,7052,m
+,Philippe Greiss,7031,m
+,Andy Gibb,7056,m
+,Barry Gibb,7056,m
+,Jacob Hindlin,7031,m
+,Daniel Lopatin,7037,m
+,Maurice Gibb,7056,m
+,Robin Gibb,7056,m
+,Benny Blanco,7062,m
+,Camila Cabello,7062,f
+,Dr. Luke,7045,m
+,Shawn Mendes,7062,m
+,David Sprecher,7045,m
+,Lydia Asrat,7045,f
+,Andrew Watt,7062,m
+,Charli XCX,7062,f
+,Ric Ocasek,7070,m
+,Dino Fekaris,7071,m
+,Freddie Perren,7071,m
+,Daniel Moore,7073,m
+,Cashmere Cat,7062,m
+,Jack Patterson,7062,m
+,Ali Tamposi,7062,f
+,RODNEY J CROWELL,7077,m
+,Steve Gibb,7078,m
+,JONATHAN MICHAEL KERR,7079,pm
+,THOMAS MORGAN ROBERTSON,7079,m
+,Greg Richards,7081,m
+,Ted Daryll,7081,m
+,John Lennon,7083,m
+,Lady Gaga,7084,f
+,Paul McCartney,7083,m
+,Donna Summer,7086,f
+,Andrew Wyatt,7084,m
+,MICHAEL OMARTIAN,7086,m
+,Alan Gordon,7089,m
+,Garry Bonner,7089,m
+,Ben Raleigh,7091,m
+,Mark Barkan,7091,m
+,Mark Ronson,7084,m
+,Anthony Rossomando,7084,m
+,Paul Anka,7095,m
+,John Lennon,7096,m
+,Paul McCartney,7096,m
+,Al Capps,7098,m
+,Gary Lewis,7098,m
+,Leon Russell,7098,m
+,Thomas Lesslie,7098,m
+,Patrick Swayze,7102,m
+,Stacy Widelitz,7102,m
+,Rod Argent,7104,m
+,Doc Pomus,7105,m
+,Jerry Leiber,7105,m
+,Mike Stoller,7105,m
+,Tommy Roe,7108,m
+,Bob Gaudio,7109,m
+,Larry Dunn,7110,m
+,Maurice White,7110,m
+,Philip Bailey,7110,m
+,LEO JR GRAHAM,7113,m
+,PAUL EDWARD RICHMOND,7113,m
+,Berry Gordy,7115,m
+,Smokey Robinson,7115,m
+,Berry Gordy,7117,m
+,Smokey Robinson,7117,m
+,Randy Newman,7119,m
+,Junior Walker (Autry DeWalt),7120,m
+,Jerry Fuller,7121,m
+,Dennis DeYoung,7122,m
+,Ed Sheeran,7123,m
+,Lee Garrett,7124,m
+,Steve Mac,7123,m
+,Lula Hardaway,7124,f
+,Stevie Wonder,7124,m
+,Syreeta Wright,7124,f
+,Les Emmerson,7129,m
+,Bob Crewe,7130,m
+,Frank C. Slay Jr.,7130,m
+,Linda McCartney,7132,f
+,Paul McCartney,7132,m
+,Elliot Chiprut,7134,m
+,Buddy Johnson,7135,m
+,Drake,7136,m
+,Albert McKay,7137,m
+,Hit-Boy,7136,m
+,Oz,7136,m
+,Q-Tip,7136,m
+,Maurice White,7137,m
+,Roget Chahayed,7136,m
+,Joe Raposo,7143,m
+,JOHN MACDAID,7123,m
+,REILLY KAREN ANNE O,7123,f
+,Mike Dean,7136,m
+,Stevie Wonder,7147,m
+,Richard Finch,7136,m
+,Chyskillz,7136,m
+,Kevin Gomringer,7136,m
+,Tim Gomringer,7136,m
+,Guru,7136,m
+,Charlie Brown,7136,m
+,Swae Lee,7136,m
+,Dinco D,7136,m
+,CyHi da Prince,7136,m
+,Phife Dawg,7136,m
+,Mirsad Dervic,7136,m
+,Sticky Fingaz,7136,m
+,Travis Scott,7136,m
+,Big Hawk,7136,m
+,Tay Keith,7136,m
+,Uncle Luke,7136,m
+,KC,7136,m
+,Easy Mo Bee,7136,m
+,Kelly Keagy,7166,m
+,Gerry Beckley,7167,m
+,The Notorious B.I.G.,7136,m
+,DJ Premier,7136,m
+,Busta Rhymes,7136,m
+,Clive Scott,7171,m
+,Desmond Roy Dyer,7171,m
+,Peter Gabriel,7173,m
+,Sonny Seeza,7136,m
+,Ali Shaheed Muhammad,7136,m
+,Fredro Starr,7136,m
+,Paul Simon,7177,m
+,Brian Wilson,7178,m
+,John Bettis,7179,m
+,MICHAEL B CLARK,7179,m
+,John Sheldon,7181,m
+,Geoffrey Stephens,7182,m
+,Tony MacAulay,7182,m
+,Barrett Strong,7184,m
+,Norman Whitfield,7184,m
+,Ian Gillan,7186,m
+,Ian Paice,7186,m
+,Jon Lord,7186,m
+,Ritchie Blackmore,7186,m
+,Roger Glover,7186,m
+,"Michael ""Cub"" Koda",7191,m
+,Michael Lutz,7191,m
+,Sade,7193,f
+,ST JOHN RAYMOND WILLIAM,7193,m
+,Dick Holler,7195,m
+,Phil Gerhard,7195,m
+,Bill Jackson,7197,m
+,George Williams,7197,m
+,Roy Straigis,7197,m
+,Florence Greenberg,7200,f
+,Luther Dixon,7200,m
+,John Ellison,7202,m
+,Darby Slick,7203,m
+,Harvey Fuqua,7204,m
+,Jackey Beavers,7204,m
+,Johnny Bristol,7204,m
+,C. Carson Parks,7207,m
+,Jack Antonoff,7208,m
+,Taylor Swift,7208,f
+,DERNST EMILE,7210,m
+,MARS GENE BRUNO,7210,m
+,BRANDON PAAK ANDERSON,7210,m
+,George Harrison,7213,m
+,G.Burtnik,7214,m
+,P.Smyth,7214,f
+,Barry Mann,7216,m
+,Dan Hill,7216,m
+,ELIZABETH WOOLRIDGE GRANT,7208,f
+,Neil Diamond,7219,m
+,Kenny G,7220,m
+,David Prater,7221,m
+,Isaac Hayes,7221,m
+,Lewis Capaldi,7223,m
+,Eugene Record,7224,m
+,Sonny Sanders,7224,m
+,Dave Appel,7226,m
+,Kal Mann,7226,m
+,Allen Toussaint,7228,m
+,Billy Preston,7229,m
+,Jerry Leiber,7230,m
+,Phil Spector,7230,m
+,Al Goodman,7232,m
+,Romans,7223,m
+,Harry Ray,7232,m
+,Thomas Barnes,7223,m
+,LEE WALTER,7232,m
+,Peter Kelleher,7223,m
+,David Bellamy,7238,m
+,Jim Stafford,7238,m
+,Charles W. Miller,7240,m
+,Harold R. Brown,7240,m
+,Howard Scott,7240,m
+,Lee Oscar Levitan,7240,m
+,Leroy Jordan,7240,m
+,Morris Dickerson,7240,m
+,Benjamin Kohn,7223,m
+,Sylvester Allen,7240,m
+,David Clayton-Thomas,7248,m
+,Erik Jacobsen,7249,m
+,Norman Greenbaum,7249,m
+,Bobby Darin,7251,m
+,Murray Kaufman,7251,m
+,Harry Middlebrooks,7253,m
+,J. R. Cobb,7253,m
+,Mike Shapiro,7253,m
+,Buddy Buie,7253,m
+,Drake,7257,m
+,40,7257,m
+,21 Savage,7257,m
+,PRINCE R NELSON,7260,m
+,STEPHANIE NICKS,7260,f
+,John Williams,7262,m
+,Keith Richards,7263,m
+,Mick Jagger,7263,m
+,Elof Loelv,3393,pm
+,DWAYNE D ARMSTRONG,7257,pm
+,Barry Gibb,7267,m
+,MARQUELL USHON JONES,7257,pm
+,TENAIA SANDERS,7257,f
+,Maurice Gibb,7267,m
+,Robin Gibb,7267,m
+,Bruce Stevens,7272,m
+,David Malloy,7272,m
+,EDWARD THOMAS RABBITT,7272,m
+,Lionel Richie,7275,m
+,Johanna Hall,7276,f
+,Justin Bieber,7277,m
+,John Hall,7276,m
+,Omer Fedi,7277,m
+,Bob Seger,7280,m
+,Laura Nyro,7281,f
+,John Keen,7282,m
+,Michael Campbell,7282,m
+,Tom Petty,7282,m
+,Blake Slatkin,7277,m
+,Brian Holland,7286,m
+,Eddie Holland,7286,m
+,Lamont Dozier,7286,m
+,Barry Gibb,7289,m
+,Drake,7289,m
+,Maurice Gibb,7289,m
+,Robin Gibb,7289,m
+,DJ Khaled,7289,m
+,J. R. Cobb,7294,m
+,Isaac De Boni,7277,m
+,Magnus Høiberg,7277,m
+,Buddy Buie,7294,m
+,Mr. Acker Bilk,7298,m
+,Charlton Howard,7277,m
+,Robert Mellin,7298,m
+,Michael Mule,7277,m
+,Charlie Puth,7277,m
+,Bert Kaempfert,7303,m
+,Charles Singleton,7303,m
+,Subhaan Rahmaan,7277,m
+,NYAN LIEBERTHAL,7289,m
+,BABY LIL,7289,m
+,Eddie Snyder,7303,m
+,Shuggie Otis,7309,m
+,Brian Setzer,7310,m
+,Chris Hayes,7311,m
+,Huey Lewis,7311,m
+,Mike Chapman,7313,m
+,TIMOTHY MURDOCK SUBY,7289,m
+,Nicky Chinn,7313,m
+,CHARLES LESLIE SEBESTIAN,7316,m
+,DIAMOND KEITH,7316,m
+,Fay Voss,7318,f
+,Keith McCormack,7318,m
+,Justin Bieber,7320,m
+,Lee Hazlewood,7321,m
+,Ariana Grande,7320,f
+,Andy Kim,7323,m
+,Gian Stone,7320,m
+,Jeff Barry,7323,m
+,Hachidai Nakamura,7326,m
+,Rokusuke Ei,7326,m
+,Hachidai Nakamura,7328,m
+,Rokusuke Ei,7328,m
+,Mark Knopfler,7330,m
+,John Sebastian,7331,m
+,Mark Sebastian,7331,m
+,Steve Boone,7331,m
+,Max Martin,7334,m
+,Scooter Braun,7320,m
+,Louis Bell,7336,m
+,Freddy Wexler,7320,m
+,Whitney Phillips,7320,f
+,Skyler Stonestreet,7320,f
+,MARTIN JOSEPH LEONARD BRESSO,7334,m
+,Austin Rosen,7336,m
+,BloodPop,7334,m
+,ELY WEISFELD,7334,m
+,STEFANI GERMANOTTA,7334,f
+,Adam Feeney,7336,m
+,Joe Jonas,7336,m
+,Kevin Jonas,7336,m
+,Nick Jonas,7336,m
+,Homer Steinweiss,7336,m
+,Jim Jacobs,7350,m
+,Warren Casey,7350,m
+,Gordon Lightfoot,7352,m
+,Bobby Hebb,7353,m
+,Jonathan Edwards,7354,m
+,Eric Clapton,7355,m
+,Ryan Tedder,7336,m
+,Jack Bruce,7355,m
+,Pete Brown,7355,m
+,Dick Kniss,7359,m
+,Mustafa the Poet,7336,m
+,John Denver,7359,m
+,Mike Taylor,7359,m
+,Louis Bell,7363,m
+,Carter Lang,7363,m
+,Swae Lee,7363,m
+,Post Malone,7363,m
+,Austin Rosen,7363,m
+,Billy Walsh,7363,m
+,Donovan,7369,m
+,Gwen Guthrie,7370,f
+,Patrick Grant,7370,m
+,Bonnie Bramlett,7372,f
+,Leon Russell,7372,m
+,Stevie Wonder,7374,m
+,Brian Wilson,7375,m
+,Jan Berry,7375,m
+,Al Frazier,7377,m
+,Carl White,7377,m
+,AIDAN GARRETT RODRIGUEZ,7379,m
+,NICHOLAS SCOTT URE,7379,m
+,Dr. Luke,7381,m
+,NICHOLAS XAVIER MINUTAGLIO,7379,m
+,Rick James,7381,m
+,John Earl Harris,7377,m
+,LunchMoney Lewis,7381,m
+,Turner Wilson Jr.,7377,m
+,Vaughn Oliver,7381,m
+,Nicki Minaj,7381,f
+,Brian Wilson,7389,m
+,ATL Jacob,7390,m
+,Chuck Berry,7389,m
+,Doc Pomus,7392,m
+,Mort Schuman,7392,m
+,ALONZO H MILLER,7381,m
+,Robin Luke,7395,m
+,Doc Pomus,7396,m
+,AARON JOSEPH AGUILAR,7381,m
+,Mort Schuman,7396,m
+,BABIE MALIBU,7381,f
+,Mark James,7400,m
+,MAIK ALEXANDER TIMMERMANN,7390,m
+,BILL K KAPRI,7390,m
+,Graham Russell,7403,m
+,Lionel Richie,7404,m
+,Milan Williams,7404,m
+,Ronald LaPread,7404,m
+,Thomas McClary,7404,m
+,Walter Orange,7404,m
+,William King,7404,m
+,Arthur Conley,7410,m
+,Otis Redding,7410,m
+,Sam Cooke,7410,m
+,Chaka Khan,7413,f
+,Tony Maiden,7413,m
+,Shel Silverstein,7415,m
+,Benny Andersson,7416,m
+,Bjorn Ulvaeus,7416,m
+,Ronald Bertram Greaves,7418,m
+,Carole King,7419,f
+,Gerry Goffin,7419,m
+,GARY DEAN RICHRATH,7421,m
+,Don Henley,7422,m
+,Glenn Frey,7422,m
+,Randy Meisner,7422,m
+,Bill Danoff,7425,m
+,Taffy Danoff,7425,f
+,HAROLD LEE CLAYTON,7427,m
+,SIGIDI BASHIR ABDULLAH,7427,m
+,Al Lewis,7429,m
+,SYLVESTER BRADFORD,7429,m
+,Jack Lewis,7431,m
+,Bert Russell (Bert Berns),7432,m
+,George Davis,7433,m
+,Lee Diamond,7433,m
+,Stevie Wonder,7435,m
+,Joe Meek,7436,m
+,John Martin Sommers,7437,m
+,Sly Stone,7438,m
+,Stevie Wonder,7439,m
+,Dean Kay,7440,m
+,Kelly Gordon,7440,m
+,Eric Carmen,7442,m
+,KC,7443,m
+,Richard Finch,7443,m
+,KHALID DONNEL ROBINSON,7445,m
+,Billy Page,7446,m
+,HOWARD JOHN LAWRENCE,7445,m
+,GUY LAWRENCE,7445,m
+,TBHits,7449,m
+,"Charles ""Scootie"" Anderson",7449,m
+,Mikey Foster,7449,m
+,"Kimberly ""Kaydence"" Krysiuk",7449,f
+,Victoria Monet,7449,f
+,Tayla Parx,7449,nb
+,Njomza,7449,f
+,Robin Moore,7456,m
+,Staff Sgt. Barry Sadler,7456,m
+,Dennis DeYoung,7458,m
+,Barry Stuart,7459,m
+,Bernie Taupin,7460,m
+,Elton John,7460,m
+,Brook Benton,7462,m
+,Clyde Otis,7462,m
+,Taylor Swift,7464,f
+,Aaron Dessner,7464,m
+,Anthony Newley,7466,m
+,Leslie Bricusse,7466,m
+,Ross Bagdasarian Sr.,7468,m
+,Lil Baby,7469,m
+,Charles Miller,7470,m
+,Harold Brown,7470,m
+,Howard Scott,7470,m
+,Lee Oscar Levitin,7470,m
+,Leroy Jordan,7470,m
+,Morris Dickerson,7470,m
+,Sylvester Allen,7470,m
+,James Mtume,7477,m
+,Reggie Lucas,7477,m
+,Arthur Kent,7479,m
+,Roddy Ricch,7480,m
+,30 Roc,7480,m
+,Sylvia Dee,7479,f
+,Scott Joplin (arr. by Marvin Hamlisch),7483,m
+,Ewan MacColl,7484,m
+,RAI SHAUN DEVANTE WILLIAMS,7469,m
+,Antonio Carlos Jobim,7486,m
+,NOAH THOMAS PETTIGREW,7469,m
+,Norman Gimbel,7486,m
+,Vinicius de Moraes,7486,m
+,Michael Jackson,7490,m
+,Datboisqueeze,7480,m
+,Ennio Morricone,7492,m
+,Zentachi,7480,m
+,Larrance Dopson,7480,m
+,Khirye Tyler,7480,m
+,Brian Holland,7496,m
+,Eddie Holland,7496,m
+,Frank De Vol,7496,m
+,Lamont Dozier,7496,m
+,Jesse James,7500,m
+,Van McCoy,7501,m
+,Ahmet Ertegün,7502,m
+,Eddie Curtis,7502,m
+,Steve Miller,7502,m
+,Dewey Terry Jr.,7505,m
+,Don F. Harris,7505,m
+,Lynn Easton,7505,m
+,C.de Burgh,7508,m
+,Wayne Carson,7509,m
+,Albert Stanton,7510,m
+,George David Weiss,7510,m
+,Hugo Peretti,7510,m
+,Luigi Creatore,7510,m
+,Solomon Linda,7510,m
+,George David Weiss,7515,m
+,Hugo Peretti,7515,m
+,Luigi Creatore,7515,m
+,Solomon Linda,7515,m
+,Don Altfield,7519,m
+,Roger Christian,7519,m
+,Carole King,7521,f
+,Gerry Goffin,7521,m
+,Carole King,7523,f
+,Gerry Goffin,7523,m
+,John Lennon,7525,m
+,Paul McCartney,7525,m
+,Burt Bacharach,7527,m
+,Hal David,7527,m
+,Arnold Strals,7529,pm
+,Berry Gordy,7530,m
+,Deke Richards,7530,m
+,Fonce Mizell,7530,m
+,Freddie Perren,7530,m
+,Bob Esty,7534,m
+,Bruce Roberts,7534,m
+,Paul Jabara,7534,m
+,Al Kasha,7537,m
+,Joel Hirschhorn,7537,m
+,Billy Sherrill,7539,m
+,Norro Wilson,7539,m
+,Rory Bourke,7539,m
+,Dick St. John (Dick Gosting),7542,m
+,Lincoln Chase,7543,m
+,Shirley Elliston,7543,f
+,Mitch Murray,7545,m
+,Stefan Johnson,7546,m
+,Peter Callander,7545,m
+,Jordan Johnson,7546,m
+,Ben Weisman,7549,m
+,Dottie Wayne,7549,pf
+,Marilynn Garrett,7549,pf
+,Bobby Russell,7552,m
+,Jaime Robbie Robertson,7553,m
+,Graham Russell,7554,m
+,MARCUS DURAND LOMAX,7546,m
+,MICHAEL G TREWARTHA,7546,m
+,KYLE MARK TREWARTHA,7546,m
+,Ray Parker Jr.,7558,m
+,Artie Kornfeld,7559,m
+,Gianni Pettenati,7559,m
+,Steve Duboff,7559,m
+,ANTON ZASLAVSKI,7546,m
+,SARAH PAIGE AARONS,7546,f
+,Artie Kornfeld,7564,m
+,Steve Duboff,7564,m
+,Dominic Iris,7566,m
+,Andy Taylor,7567,m
+,John Taylor,7567,m
+,Nick Rhodes,7567,m
+,Roger Taylor,7567,m
+,Simon Le Bon,7567,m
+,BROOM AMANDA MC,7572,f
+,Linda Creed,7573,f
+,Thom Bell,7573,m
+,Leo Sayer,7575,m
+,Ray Stevens,7576,m
+,David Rose,7577,m
+,Hank Cosby,7578,m
+,Smokey Robinson,7578,m
+,Stevie Wonder,7578,m
+,Eric Stewart,7581,m
+,Graham Gouldman,7581,m
+,Denzel Baptiste,7583,m
+,David Biral,7583,m
+,Kid Cudi,7583,m
+,Howard Barrett,7586,m
+,Mike Dean,7583,m
+,John Holt,7586,m
+,Travis Scott,7583,m
+,Tyrone Evans,7586,m
+,Dave Appel,7591,m
+,Kal Mann,7591,m
+,Ernie Maresca,7593,m
+,Donna Summer,7594,f
+,GIORGIO G MORODER,7594,m
+,Toni Tennille,7596,f
+,Alan Bergman,7597,m
+,Marilyn Bergman,7597,f
+,Marvin Hamlisch,7597,m
+,Simon Le Bon,7600,m
+,Nick Rhodes,7600,m
+,Andy Taylor,7600,m
+,John Taylor,7600,m
+,Roger Taylor,7600,m
+,Dot da Genius,7583,m
+,Gordon Lightfoot,7606,m
+,George Paxton,7607,m
+,Mark Barkan,7607,m
+,Sandy Baron,7607,m
+,MIKE POST,7610,m
+,STEPHEN G GEYER,7610,m
+,Plain Pat,7583,m
+,Gerry Goffin,7613,m
+,Michael Masser,7613,m
+,Barry DeVorzon,7615,m
+,Isaac Hayes,7616,m
+,Philip Pugh,7617,m
+,Sherman Marshall,7617,m
+,David Mann,7619,m
+,Redd Evans,7619,m
+,Geoff Stephens,7621,m
+,Les Reed,7621,m
+,Al Gentile,7623,pm
+,Al Striano,7623,pm
+,Joe Luccisano,7623,pm
+,Lee Hazelwood,7626,m
+,Bruce Hawes,7627,m
+,Charles Simmons,7627,m
+,Finneas,7629,m
+,Joseph B. Jefferson,7627,m
+,Jerry Samuels,7631,m
+,Bobby Darin,7632,m
+,Al Kooper,7633,m
+,Bob Brass,7633,m
+,Irwin Levine,7633,m
+,Burt Bacharach,7636,m
+,Hal David,7636,m
+,Charlie Chaplin,7638,m
+,George Raskin,7639,m
+,Paul McCartney,7639,m
+,Lionel Richie,7641,m
+,BILLIE EILISH O'CONNELL,7629,f
+,John Lennon,7643,m
+,Young Thug,7644,m
+,Paul McCartney,7643,m
+,Irwin Levine,7646,m
+,L. Russell Brown,7646,m
+,Rolf Harris,7648,m
+,Archie Bell,7649,m
+,Billy Butler,7649,m
+,Boy George,7651,m
+,Jonathan Aubrey Moss,7651,m
+,Mikey Craig,7651,m
+,Roy Hay,7651,m
+,Cyndi Lauper,7655,f
+,Rob Hyman,7655,m
+,Rod Argent,7657,m
+,Chet Kelley,7658,m
+,Tom King,7658,m
+,Donald Glover,7644,m
+,Dewey Bunnell,7661,m
+,Albert Hammond,7662,m
+,Ludwig Gorannson,7644,m
+,Hal David,7662,m
+,Don Black,7665,m
+,Bad Bunny,7666,m
+,MAG,7666,m
+,"Robert Jose, Jr.",7666,pm
+,Rosado Torres,7666,m
+,Mark London,7665,m
+,Tony Banks,7671,m
+,Mike Rutherford,7671,m
+,Phil Collins,7671,m
+,Rod Stewart,7674,m
+,Barrett Strong,7675,m
+,Janie Branford,7675,f
+,Norman Whitfield,7675,m
+,GEORGE M BROWN,7678,m
+,Eddie Cornelius,7679,m
+,Barry Gibb,7680,m
+,Maurice Gibb,7680,m
+,Robin Gibb,7680,m
+,John Vallins,7683,m
+,Nat Kipner,7683,m
+,Chris Hamill,7685,m
+,Jeremy Strode,7685,m
+,Nick Beggs,7685,m
+,Steve Askew,7685,m
+,Stuart Neale,7685,m
+,John Bettis,7690,m
+,Richard Carpenter,7690,m
+,Cozy Cole,7692,m
+,Drake,7693,m
+,Oz,7693,m
+,Peter Yarrow,7695,m
+,Phillip Jarrell,7695,m
+,Joe Rene,7697,m
+,Ritchie Adams,7697,m
+,Robby Krieger,7699,m
+,Michael Masser,7700,m
+,Ron Miller,7700,m
+,Bob Hilliard,7702,m
+,Burt Bacharach,7702,m
+,Emory Gordy Jr.,7704,m
+,J. R. Cobb,7704,m
+,Buddy Buie,7704,m
+,Barry Gibb,7707,m
+,Maurice Gibb,7707,m
+,Robin Gibb,7707,m
+,John Fogerty,7710,m
+,Jerry Fuller,7711,m
+,Eddie Cornelius,7712,m
+,Roy Head,7713,m
+,Madonna,7714,f
+,Stephen Bray,7714,m
+,Lionel Richie,7716,m
+,6ix9ine,7717,m
+,Eugene Williams,7718,m
+,Kenny Gamble,7719,m
+,Leon Huff,7719,m
+,Andrew Green,7717,m
+,Nicki Minaj,7717,f
+,Bonnie Thompson,7723,m
+,Jack Daniels,7723,m
+,Jay Graydon,7725,m
+,Lizzo,7726,f
+,STEVEN LEE LUKATHER,7725,m
+,WILLIAM B CHAMPLIN,7725,m
+,Pete Seeger,7729,m
+,Curtis Mayfield,7730,m
+,Aaron Clarke,7717,pm
+,Derry Brownson,7732,m
+,Ian Dench,7732,m
+,SadPony,7717,m
+,Jahnei Clarke,7717,m
+,Tele,7726,m
+,James Atkin,7732,m
+,Ricky Reed,7726,m
+,Marc Decloedt,7732,m
+,Zac Foley,7732,m
+,jesse saint john,7726,m
+,Amina Patrice Bogle-Barriteau,7726,f
+,Alex North,7743,m
+,Hy Zaret,7743,m
+,Linda McCartney,7745,f
+,Paul McCartney,7745,m
+,Artie Resnick,7747,m
+,Kenny Young,7747,m
+,Alan O'Day,7749,m
+,Simon Le Bon,7750,m
+,Nick Rhodes,7750,m
+,Andy Taylor,7750,m
+,John Taylor,7750,m
+,Roger Taylor,7750,m
+,Clarence Paul,7755,m
+,Morris Broadnax,7755,m
+,Stevie Wonder,7755,m
+,John Fogerty,7758,m
+,Carole King,7759,f
+,SMITH SAMUEL FREDERICK,7760,nb
+,Gerry Goffin,7759,m
+,Buffy Sainte-Marie,7762,f
+,Jack Nitzsche,7762,m
+,Cardi B,7764,f
+,SLATKIN BLAKE,7760,m
+,WALTER HENRY RUSSELL,7760,m
+,Yung Dza,7764,m
+,Pardison Fontaine,7764,m
+,SALMANZADEH ILYA,7760,m
+,Will Jennings,7762,m
+,Bernard Edwards,7771,m
+,Nile Rodgers,7771,m
+,NAPIER JAMES JOHN,7760,m
+,FEDI OMER,7760,m
+,Henry Cosby,7775,m
+,Stevie Wonder,7775,m
+,Sylvia Moy,7775,f
+,Mick Jones,7778,m
+,Bill Withers,7779,m
+,Kenny Gamble,7780,m
+,Leon Huff,7780,m
+,Bobby Hart,7782,m
+,Tommy Boyce,7782,m
+,Jim Peterik,7784,m
+,Robbie van Leeuwen,7785,m
+,GRAMM LOU,7786,m
+,Mick Jones,7786,m
+,Drake,7788,m
+,Tems,7788,f
+,ATL Jacob,7788,m
+,PETRAS KIM,7760,f
+,Future,7788,m
+,Bob Calilli,7794,pm
+,"Isaac ""Zac"" De Boni",7788,m
+,Joshua Baker,7764,m
+,"Michael ""Finatik"" Mule",7788,m
+,Fourtee Crawford,7764,m
+,Michael Brown (Michael Lookofsky),7794,m
+,DJ SwanQo,7764,m
+,Tony Sansone,7794,m
+,Bob Crewe,7802,m
+,ISRAEL AYOMIDE FOWOBAJE,7788,pm
+,Bob Gaudio,7802,m
+,Kendall L. Hayes,7805,m
+,FLOYD E III BENTLEY,7788,m
+,OGHENETEJIRI JESSE AKPOGHENE,7788,m
+,MAJOR SONIC,7788,m
+,Bill Svanoe,7809,m
+,Erik Darling,7809,m
+,Gus Cannon,7809,m
+,Hosea Woods,7809,m
+,Michael Jackson,7813,m
+,Emma Bunton,3649,f
+,Geri Halliwell,3649,f
+,Drake,7816,m
+,Lil Baby,7816,m
+,Cardo,7816,m
+,40,7816,m
+,KEYZBABY,7820,m
+,Cardi B,7820,f
+,Pardison Fontaine,7820,m
+,Melanie Brown,3649,f
+,Melanie Chisholm,3649,f
+,Megan Thee Stallion,7820,f
+,Victoria Beckham,3649,f
+,Barney Perkins,7827,m
+,General Norman Johnson,7827,m
+,Greg Perry,7827,m
+,Barrett Strong,7830,m
+,Norman Whitfield,7830,m
+,Bob Goldstein,7832,m
+,Dylan Cleary-Krell,7816,m
+,Frank Ski,7820,m
+,Kid Harpoon,7835,m
+,Tyler Johnson,7835,m
+,Ayo the Producer,7820,m
+,Harry Styles,7835,m
+,Fred Fairbrass,7839,m
+,Richard Fairbrass,7839,m
+,Drake,7839,m
+,David Shire,7832,m
+,Lisa Lopes,7843,f
+,Marquez Etheridge,7843,m
+,Future,7839,m
+,Ray Murray,7843,m
+,Rico Wade,7843,m
+,Sleepy Brown,7843,m
+,Bernard Edwards,7849,m
+,Nile Rodgers,7849,m
+,John Lennon,7851,m
+,Paul McCartney,7851,m
+,Mitchell Rowland,7835,m
+,Lesidney Ragland,7839,pm
+,Charlotte Caffey,7855,f
+,Gale Garnett,7856,f
+,Don Brewer,7857,m
+,Paul Williams,7858,m
+,Robert Manzoli,7839,m
+,Bryan Simmons,7839,m
+,Jeffery Williams,7839,m
+,LIN-MANUEL MIRANDA,7862,m
+,Roger Nichols,7858,m
+,Laura Nyro,7864,f
+,John Sebastian,7865,m
+,Chris Lowe,7866,m
+,Neil Tennant,7866,m
+,John Durrill,7868,m
+,Mike Rabon,7868,m
+,Norman Ezell,7868,m
+,Kenny Loggins,7871,m
+,Michael McDonald,7871,m
+,Harvey Fuqua,7873,m
+,Drake,7874,m
+,Johnny Bristol,7873,m
+,Vernon Bullock,7873,m
+,Al Cleveland,7877,m
+,Marvin Gaye,7877,m
+,"Renaldo ""Obie"" Benson",7877,m
+,Lil Wayne,7880,m
+,Burt Bacharach,7881,m
+,Hal David,7881,m
+,K.Valaquen,7883,m
+,DaBaby,7880,m
+,Maneesh,7874,m
+,Supah Mario,7874,m
+,Jack Harlow,7880,m
+,P.Robb,7883,m
+,John Lennon,7889,m
+,Jimmy Torres,7890,m
+,NATHAN HARRY II WARD,7880,m
+,Richard Stephens,7890,m
+,Andrew Wright,7893,m
+,CARLOS LAMONT JR GOODWIN,7880,m
+,Calvin Lewis,7893,m
+,Jack Reardon,7896,m
+,DARRYL LORENZO CLEMONS,7880,m
+,Paul Evans,7896,m
+,Albert Hammond,7899,m
+,Carole Bayer Sager,7899,f
+,Arnold Lanni,7901,m
+,TAHJ MORGAN,7880,m
+,Phil Everly,7903,m
+,Kenny Gamble,7904,m
+,Leon Huff,7904,m
+,Kenny Loggins,7906,m
+,DAYSTAR PETERSON,7880,m
+,JOHN WESLEY LUCAS,7880,m
+,Melissa Manchester,7906,f
+,Brian Holland,7910,m
+,Eddie Holland,7910,m
+,Lamont Dozier,7910,m
+,Chuck Jackson,7913,m
+,Frank Wildhorn,7913,m
+,Ralph McDonald,7915,m
+,William Salter,7915,m
+,Howard Greenfield,7917,m
+,Neil Sedaka,7917,m
+,Terry Jacks,7919,m
+,Colin Hay,7920,m
+,Bob Gaudio,7921,m
+,Judy Parker,7921,f
+,Jonathan Cain,7923,m
+,Steve Perry,7923,m
+,Betty Crutcher,7925,f
+,Don Davis,7925,m
+,Homer Banks,7925,m
+,Raymond Jackson,7925,m
+,Jimmy Page,7929,m
+,John Bonham,7929,m
+,John Paul Jones,7929,m
+,Robert Plant,7929,m
+,Tim Thomas,7933,m
+,Jimmy Webb,7934,m
+,Aaron Dessner,7935,m
+,Taylor Swift,7935,f
+,Chip Taylor,7937,m
+,Larry Cansler,7938,m
+,Michael Martin Murphey,7938,m
+,Billy Preston,7940,m
+,Bruce Fisher,7940,m
+,Carole King,7942,f
+,Gerry Goffin,7942,m
+,Geoff Stephens,7944,m
+,Dr. Luke,7945,m
+,Juice WRLD,7945,m
+,MEINE KLAUS,7947,m
+,Ruthann Friedman,7948,f
+,James Fuller,7949,m
+,Jim Pash,7949,m
+,Patrick Connolly,7949,m
+,Robert Berryhill,7949,m
+,Halsey,7953,nb
+,Timbaland,7953,m
+,Ron Wilson,7949,m
+,Louis Bell,7953,m
+,Austin Rosen,7953,m
+,Paul McCartney,7958,m
+,Justin Timberlake,7953,m
+,Carol Connors,7960,f
+,David Shire,7960,m
+,Danny Small,7962,m
+,Pete Ham,7963,m
+,Tom Evans,7963,m
+,John Lennon,7965,m
+,DARREL L JACKSON,7945,m
+,Yoko Ono,7965,f
+,Barry Gibb,7968,m
+,Robin Gibb,7968,m
+,Jim Glaser,7970,m
+,Jimmy Payne,7970,m
+,Scott Storch,7953,m
+,Herb Alpert,7973,m
+,Delacey,7953,f
+,Lou Adler,7973,m
+,Amy Allen,7953,f
+,Sam Cooke,7973,m
+,Klaus-Gunter Neumann,7978,m
+,Lincoln Chase,7978,m
+,Ben Weisman,7980,m
+,Bert Kaempfert,7980,m
+,Austin Rosen,7982,m
+,Frank Dukes,7982,m
+,Post Malone,7982,m
+,Louis Bell,7982,m
+,Billy Walsh,7982,m
+,Fred Wise,7980,m
+,Kay Twomey,7980,f
+,Domingo Samudio,7989,m
+,Gloria Estefan,7990,f
+,John Phillips,7991,m
+,Michael Zager,7992,m
+,Jimmy Webb,7993,m
+,Henri Belolo,7994,m
+,Jacques Moralis,7994,m
+,Victor Willis,7994,m
+,Alan Bergman,7997,m
+,Marilyn Keith,7997,f
+,Norman Luboff,7997,m
+,John Lennon,8000,m
+,Paul McCartney,8000,m
+,Barbara Mason,8002,f
+,Barbara Mason,8003,f
+,John Bettis,8004,m
+,Richard Carpenter,8004,m
+,Joe South,8006,m
+,Randy Bachman,8007,m
+,Brenda Harvey-Richie,8008,f
+,Lionel Richie,8008,m
+,Jimmy Webb,8010,m
+,Stevie Wonder,8011,m
+,Brian Holland,8012,m
+,Eddie Holland,8012,m
+,Lamont Dozier,8012,m
+,Cornell Muldrow,8015,pm
+,Dee Clark,8015,m
+,ANTHOINE WALTERS,7982,m
+,Kal Mann,8015,m
+,Alan Bergman,8019,m
+,Marilyn Bergman,8019,f
+,Neil Diamond,8019,m
+,Bob Merrill,8022,m
+,Terry Shand,8022,m
+,James Dean,8024,m
+,John Glover,8024,m
+,Pino Donaggio,8026,m
+,Simon Napier-Bell,8026,m
+,Vicki Wickham,8026,f
+,Vito Pallavicini,8026,m
+,Cindy Walker,8030,f
+,Eddy Arnold,8030,m
+,George Burton,8032,pm
+,Paul Hampton,8032,m
+,David White,8034,m
+,John Madara,8034,m
+,Stevie Wonder,8036,m
+,Brian Holland,8037,m
+,Eddie Holland,8037,m
+,Lamont Dozier,8037,m
+,Joe Brooks,8040,m
+,Linda Creed,8041,f
+,Thom Bell,8041,m
+,Taylor Swift,8043,f
+,Joel Little,8043,m
+,Leo Sayer,8045,m
+,Vini Poncia,8045,m
+,Daryl Hall,8047,m
+,John Oates,8047,m
+,Morgan Wallen,8049,m
+,Sara Allen,8047,f
+,Harry Warren,8051,m
+,Charlie Handsome,8049,m
+,Johnny Mercer,8051,m
+,Randy Goodrum,8054,m
+,Al Green,8055,m
+,Al Jackson,8055,m
+,Willie Mitchell,8055,m
+,Tony Wilson,8058,m
+,Errol A.G. Brown,8058,m
+,Barry Gibb,8060,m
+,Maurice Gibb,8060,m
+,Robin Gibb,8060,m
+,Dean Pitchford,8063,m
+,Tom Snow,8063,m
+,Sylvia Fricker,8065,f
+,Kenny Gamble,8066,m
+,Leon Huff,8066,m
+,Rod Stewart,8068,m
+,ASHLEY GLENN GORLEY,8049,m
+,Clint Ballard,8070,m
+,Richard M. Sherman,8071,m
+,Robert B. Sherman,8071,m
+,Carly Simon,8073,f
+,Barry White,8074,m
+,Peter Radcliffe,8074,m
+,Tony Sepe,8074,m
+,Petula Clark,8077,f
+,Tony Hatch,8077,m
+,John Farrar,8079,m
+,Bobby Darin,8080,m
+,ERNEST KEITH SMITH,8049,m
+,Carole King,8082,f
+,Barry Mann,8083,m
+,Cynthia Weil,8083,f
+,Phil Spector,8083,m
+,Berry Gordy,8086,m
+,Brenda Holloway,8086,f
+,Frank Wilson,8086,m
+,Patrice Holloway,8086,f
+,Jerry Fuller,8090,m
+,Carmine Appice,8091,m
+,Duane Hitchings,8091,m
+,Kevin Savigar,8091,m
+,Justin Bieber,8094,m
+,Rod Stewart,8091,m
+,Poo Bear,8094,m
+,Jerry Fuller,8097,m
+,Jim Messina,8098,m
+,Kenny Loggins,8098,m
+,Nickolas Ashford,8100,m
+,Valerie Simpson,8100,f
+,Artie Resnick,8102,m
+,DANIEL ANWAR HACKETT,8094,m
+,SASHA SIROTA,8094,m
+,ASHLEY JOI SADLER,8094,f
+,Joey Levine,8102,m
+,JUSTIN THOMAS,8107,pm
+,MARCUS ANDREW PRINCE,8107,m
+,KIARI KENDRELL CEPHUS,8107,m
+,DIEUSON OCTAVE,8107,m
+,D.A. Got That Dope,8107,m
+,CHRISTINA BRITTANY DOMAN,8107,f
+,Travis Scott,8107,m

@@ -13,34 +13,30 @@
     let minFemaleSecondHighlight;
     let womenOnlyLength;
     let menOnlyLength;
+    let nbOnlyLength;
     
     dataForChart
         .forEach((d,i) => {
-            d[1].sort((a,b) => b.gender.localeCompare(a.gender));
+            d[1].sort((a,b) => b.gender_clean.localeCompare(a.gender_clean));
             if(d[0] == "2022"){
                 let womenOnly = d[1].filter(j => {
-                    return ["pf","f"].indexOf(j.gender) > -1;
+                    return ["pf","f"].indexOf(j.gender_clean) > -1;
                 })
 
                 let menOnly = d[1].filter(j => {
-                    return ["m","pm"].indexOf(j.gender) > -1;
+                    return ["m","pm"].indexOf(j.gender_clean) > -1;
+                })
+
+                let nbOnly = d[1].filter(j => {
+                    return ["nb"].indexOf(j.gender_clean) > -1;
                 })
 
                 womenOnlyLength = womenOnly.length;
                 menOnlyLength = menOnly.length
+                nbOnlyLength = nbOnly.length;
                 minFemaleSecondHighlight = `${womenOnly[0].title}-${womenOnly[0].writer}`
-            }
-            
-            
-
-
-            
+            }   
         })
-    
-    
-
-
-    
 
 </script>
 {#if dataForChart}
@@ -62,7 +58,7 @@
                         transform:translate(0px,{-s * (songGap + height)}px);
                     "
                     data-writer="{songwriter.writer}"
-                    class="songwriter {songwriter.gender == "f" ? "f" : songwriter.gender == "m" ? 'm' : 'nb'}"
+                    class="songwriter {songwriter.gender_clean == "f" ? "f" : songwriter.gender_clean == "m" ? 'm' : 'nb'}"
                 >
                 </div>
                 {#if year[0] == "1975" && s == year[1].length - 1}                  
@@ -71,10 +67,10 @@
                         transform:translate(0px,{-s * (songGap + height)}px);
                         "
                         data-writer="{songwriter.writer}"
-                        class="songwriter {songwriter.gender == "f" ? "f" : songwriter.gender == "m" ? 'm' : 'nb'} highlight"
+                        class="songwriter {songwriter.gender_clean == "f" ? "f" : songwriter.gender_clean == "m" ? 'm' : 'nb'} highlight"
                     >
                     <div class="highlight-container">
-                        <p>This bar represents <span class="woman-color">Jane Doe</span>, credited as a songwriter on Mary Smith’s Song”</p>
+                        <p>This bar represents <span class="woman-color">{songwriter.writer}</span>, credited as a songwriter on {songwriter.song_key}.</p>
                         <svg viewBox="0 0 20 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9.10511 51.5173C9.59934 52.0115 10.4007 52.0115 10.8949 51.5173L18.9489 43.4633C19.4431 42.9691 19.4431 42.1678 18.9489 41.6735C18.4546 41.1793 17.6533 41.1793 17.1591 41.6735L10 48.8326L2.84091 41.6735C2.34668 41.1793 1.54537 41.1793 1.05114 41.6735C0.556905 42.1678 0.556905 42.9691 1.05114 43.4633L9.10511 51.5173ZM8.73444 -5.53194e-08L8.73444 50.6224L11.2656 50.6224L11.2656 5.53194e-08L8.73444 -5.53194e-08Z" fill="#FFFAD7"/>
                         </svg>
@@ -95,13 +91,13 @@
                     </div>
 
                     <div
-                    class="songwriter highlight highlight-right highlight-right-men"
-                    style="
-                        transform:translate(0px,0px);
-                        height:{(year[1].length * (height + songGap))- (womenOnlyLength * (songGap + height)) - (1 * (songGap + height))}px;
-                    "
+                        class="songwriter highlight highlight-right highlight-right-men"
+                        style="
+                            transform:translate(0px,-{nbOnlyLength * (songGap + height)}px);
+                            height:{(year[1].length * (height + songGap)) - (nbOnlyLength * (songGap + height)) - (womenOnlyLength * (songGap + height)) - (2 * (songGap + height))}px;
+                        "
                 >
-                    <p>There were <span class="man-color">{menOnlyLength} men songwriters</span> with a top 5 hit in 2022.</p>
+                    <p>There were <span class="man-color-text">{menOnlyLength} men songwriters</span> with a top 5 hit in 2022.</p>
                 </div>
                 {/if}
 
@@ -113,7 +109,7 @@
                         
                     "
                 >
-                    &rsquo;{year[0].slice(2,4)}
+                    &rsquo;{JSON.stringify(year[0]).slice(2,4)}
                 </span>
             {/if}
         </div>
@@ -164,7 +160,7 @@
          fill: var(--color-women);
     }
     .nb {
-        fill: red;
+        background-color: red;
     }
     .highlight {
         border: 3px solid #FFFAD7;

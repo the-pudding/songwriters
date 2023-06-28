@@ -9,8 +9,6 @@
 	import { Divide } from "lucide-svelte";
 
     export let dataByYear;
-    export let dataByGender;
-    export let dataByYearWomenOnly;
     export let slides;
     export let cut;
 
@@ -53,14 +51,16 @@
             return 1
         }
 
-        if(cut=="two" && first.artist_gender == "m;f" && value==2) {
+        if(cut=="two" && first.artist_gender == "m" || cut=="two" && first.artist_gender.includes("m") && first.artist_gender.includes("f") && value==2 || cut=="two" && first.artist_gender.includes("nb") && value==2) {
             return 1
         }
-        if(cut=="two" && first.artist_gender == "f" && value==3) {
+        if(cut=="two" && value==3) {
             let singerSongwriter = false;
             let songwriterList = first.songwriters;
-        
-            return 1
+            if(first.songwriter_is_artist == "1"){
+                return 1
+            }
+            return 
         }
         if(value > 0){
             return .2;
@@ -86,7 +86,6 @@
             
         //     return "blue"
         // }
-
         return colorRange(first.percent);
     }
 
@@ -110,7 +109,7 @@
             );
 
             tempData = tempData.map(d => d[1]).flat(1).sort((a,b) => {
-                return b.percent - a.percent  || a.artist_gender.localeCompare(b.artist_gender);
+                return b.percent - a.percent || a.artist_gender.localeCompare(b.artist_gender);
             });
 
 
@@ -169,14 +168,18 @@
                 d.widthChange = widthChange
                 d.x = Math.floor(i % newCardCountWidth * width);
                 d.y = Math.floor(i / newCardCountWidth) * height;
-                d.id = i;
+                d.count = i;
 
                 
                 if(d.cutTwo == "only women") {
                     d.y = d.y - squareSize/2;
                 }
                 else if(d.cutTwo == "only men"){
+
+                    
                     d.y = d.y + squareSize/2;
+
+
                     d.x = d.x + squareSize;
                     minMenOnlyValues.push(d.y);
                 }
@@ -192,12 +195,10 @@
                     d.targetX = d.x;
                     d.targetY = d.y;
                 }
-
             })
 
             linearGradientHeight = Math.min(...tempData.filter(d => d.cutTwo != "only women").map(d => d.y)) + squareSize*1.5;
             secondGradientTop = Math.min(...minMenOnlyValues);
-            console.log(secondGradientTop);
 
             return groups(tempData, (d) => {
                 return d.cutTwo;
@@ -206,32 +207,12 @@
                 }
                 return "no-women";
             });
-        
-
-
-        // else if(value > 0){
-        //     tempData = JSON.parse(JSON.stringify(dataByYearWomenOnly))
-        //     tempData = tempData.filter((d) => {
-        //         return d[0] < 2023 && d[0] > 1958;
-        //     });
-
-        //     tempData = tempData.map(d => d[1]).flat(1);
-        //     tempData = tempData.sort((a,b) => {
-        //         return a.artist_gender.localeCompare(b.artist_gender);
-        //     })
-        // }        
     }
 
-    
-    
-
-    // $: console.log(dataForChart,value)
     onMount(async () => {
 		nearTermData = updateData(value,yearRange);
         dataForChart = nearTermData;
   	});
-
-    $: console.log(value)
 
     $: dataForChart = nearTermData;
 
@@ -284,7 +265,7 @@
                         {#each dataForChart as cut}
                         {@const minY = Math.min(...cut[1].map(d => d.y))}
                         {@const minX = Math.min(...cut[1].map(d => d.x))}
-                        {@const minBox = Math.min(...cut[1].filter(d => d.x == minX).map(d => d.id))}
+                        {@const minBox = Math.min(...cut[1].filter(d => d.x == minX).map(d => d.count))}
                         <div 
                             data-minY={minY}
                             data-minX={minX}
@@ -296,7 +277,7 @@
                                 "
                         >
                         {#each cut[1] as song, j}
-                            {#if song.id == minBox && Object.keys(labelTestKey).indexOf(cut[0]) > -1}
+                            {#if song.count == minBox && Object.keys(labelTestKey).indexOf(cut[0]) > -1}
                                 {#if viewControl[value] == "far" || value == undefined}
                                     <div
                                         class="label-test" 
@@ -330,7 +311,8 @@
                                 {/if}                    
                             {/if}
                             <div
-                                data-id={song.id}
+                                data-id={song.count}
+                                data-song={song.song_key}
                                 style="
                                     transform:translate3d({value == undefined || viewControl[value] == "far" ? song.x : song.targetX}px,{ value == undefined || viewControl[value] == "far" ? song.y : song.targetY}px, 0);
                                     background-color:{getColor(song,value)};
