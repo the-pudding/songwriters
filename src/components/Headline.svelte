@@ -96,17 +96,17 @@
     }
     .fixed2 {
         position: sticky;
-        /* top: -30vw; */
-        display: flex;
-        /* position: absolute; */
-        flex-wrap: wrap;
-        justify-content: center;
         transform: translate(0,-60%);
-        flex-direction: column;
     }
 
+
+    @media (max-width: 800px) {
+        .byline {
+            transform: translateY(0vw) !important;
+        }
+    }
     .byline {
-        transform: translate(0,-50%);
+        transform: translateY(-15vw);
 		text-align: center;
 		font-family: 'DM Sans';
         z-index: 10;
