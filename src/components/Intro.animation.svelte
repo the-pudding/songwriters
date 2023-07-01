@@ -53,7 +53,6 @@
         // dataForChart.push({song_key:"average by average",genderArray:["m","m","m","m","m","f"],cutTwo:"avearge"});
 	});
 
-    $: console.log(value)
     $: stepValue = value ? value : 0;
 
 </script>

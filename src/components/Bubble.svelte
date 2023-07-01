@@ -36,8 +36,15 @@
 		"nb":"non-binary"
 	}
 
+	let performerMap = {
+		"m":"men",
+		"f":"women",
+		"all":"all",
+		"m;f":"mixed gender"
+	}
+
 	let performerArray = ["m","f","all","m;f"].map(d => {
-		return {"value":`${d}`};
+		return {"value":`${d}`,"label":performerMap[d]};
 	});
 
 	let songSelected;
@@ -380,6 +387,7 @@
 		padding-top: 0;
 		margin-bottom: 5px;
 		padding-left: 0;
+		text-transform: capitalize;
 	}
 
 	.spark {
@@ -481,6 +489,7 @@
 	.song-name {
 		width: 300px;
 		margin-right: 10px;
+		text-transform: capitalize;
 		align-self: center;
 	}
 
@@ -501,6 +510,7 @@
 		margin: 0 auto;
 		width:100%;
 		display: flex;
+		justify-content: center;
 	}
 
 	.results {

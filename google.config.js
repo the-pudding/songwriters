@@ -9,5 +9,10 @@ export default [
 		"gid": "67356964",
 		"filepath": "src/data/writerKey.csv"
 	},
+	{
+		"id": "1XFcufkWlHj1GjwI8iT0BBgHWZNF18L6RkPpybuELmUc",
+		"filepath": "src/data/copy.json"
+	},
+	
 
 ]

@@ -277,21 +277,21 @@ const getNumber = (gender) => {
                         >
                             
                             <p class="year">{dataYear[0]}</p>
-                            {#each dataYear[1] as song}
+                            {#each dataYear[1].sort((a,b) => { return a["percent"] - b["percent"]}) as song}
                                 <div
                                     class=""
                                     style="width:100%; display:flex; justify-content:flex-start;">
                                     <!-- svelte-ignore a11y-mouse-events-have-key-events -->
                                     <div
-                                        class="song-container {song.womenOnly == "only women" ? "women-only" : ''}"
+                                        class="song-container {song.cutTwo == "only women" ? "women-only" : ''}"
                                     >
 
                                         <div class="song"
                                             style="
-                                            background-color:{song.menOnly == "only men" ? "rgba(0,0,255,0)" : song.womenOnly == "only women" ? 'rgba(255,0,0,0)' : ''};
+                                            background-color:{song.cutTwo == "only men" ? "rgba(0,0,255,0)" : song.cutTwo !== "only women" ? 'rgba(255,0,0,0)' : ''};
                                             "
                                         >
-                                            {#if song.womenOnly == "only women"}
+                                            {#if song.cutTwo == "only women"}
                                             <div class="bar">
 
                                             </div>
