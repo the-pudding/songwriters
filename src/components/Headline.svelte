@@ -14,7 +14,7 @@
         <SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle>
 
         <Sparkle starNumber=2 position="left:0px;top:50%"></Sparkle>
-        <img id="headline" alt="Women are superstars on stage but still rarely get to write songs" src="assets/headline-base.png">
+        <div id="headline" alt="Women are superstars on stage but still rarely get to write songs"></div>
         
     </div>
 
@@ -26,43 +26,87 @@
 
 <style>
 
+    @media (max-width: 800px) {
+        #headline {
+            background-image: url("/assets/headline-mobile.png") !important;
+            height: 216vw;
+            width: 100vw;
+        }
+    }
+    @media (min-width: 800px) {
+        #headline {
+            background-image: url("/assets/headline-base.png") !important;
+            height: 113vw;
+            width: 100vw;
+        }
+    }
+    #headline {
+        background-size: 100vw;
+        background-repeat: no-repeat;
+    }
+
     .title {
         z-index: 2;
     }
 
-    .fixed-wrapper {
-    position: relative; 
-    height: 260vh;
+    @media (max-width: 800px) {
+        .fixed-wrapper {
+        position: relative; 
+        height: 300vw;
+        }
+    }
+    @media (min-width: 800px) {
+        .fixed-wrapper {
+        position: relative; 
+        height: 150vw;
+        }
     }
 
     .microphones {
         z-index: 3;
     }
 
+
+    @media (max-width: 800px) {
+        .fixed {
+            top: -70vw !important;
+        }
+    }
+    @media (min-width: 1200px) {
+        .fixed {
+            top: -45vw !important;
+        }
+    }
     .fixed {
         position: sticky;
-        top: -70vh;
+        top: -10vw;
+
         display: flex;
         /* position: absolute; */
         flex-wrap: wrap;
         justify-content: center;
-        /* transform: translate(0,-70%); */
+        /* transform: translate(0,10%); */
         flex-direction: column;
     }
 
+    @media (max-width: 800px) {
+        .fixed2 {
+            transform: translate(0,130%) !important;
+        }
+    }
     .fixed2 {
         position: sticky;
-        top: 20vh;
-        /* top: -70vh; */
+        /* top: -30vw; */
         display: flex;
         /* position: absolute; */
         flex-wrap: wrap;
         justify-content: center;
-        /* transform: translate(0,-70%); */
+        transform: translate(0,-60%);
         flex-direction: column;
     }
 
     .byline {
+        transform: translate(0,-50%);
 		text-align: center;
 		font-family: 'DM Sans';
         z-index: 10;
