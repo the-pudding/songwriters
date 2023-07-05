@@ -140,7 +140,7 @@ const genderKey = {
         </span>
     {/if}
 </p>
-{#each song.genderArray.sort((a,b) => a.localeCompare(b)) as songwriter}
+{#each song.genderArray.sort((a,b) => b.localeCompare(a)) as songwriter}
 <!-- background:{songwriter == "m" ? "rgba(209, 36, 25,.4)" : songwriter == "f" ? "rgba(0,108,69,.6)" : 'rgba(0,108,69,.6)'};
 color:{songwriter == "m" ? "white" : songwriter == "f" ? "white" : 'white'}; -->
 

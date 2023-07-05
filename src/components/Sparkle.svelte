@@ -14,7 +14,7 @@
 <style>
     
 #big-sparkle-1 { 
-    --width: 30vw; /*temp variable placeholder*/
+    --width: 5vw; /*temp variable placeholder*/
     --height: calc(var(--width)*1.1);
     width: var(--width);
     height: var(--height);
@@ -24,7 +24,7 @@
 }
 
 #big-sparkle-2 { 
-    --width: 30vw; /*temp variable placeholder*/
+    --width: 7vw; /*temp variable placeholder*/
     --height: calc(var(--width));
     width: var(--width);
     height: var(--height);
@@ -34,7 +34,7 @@
 }
 
 #big-sparkle-3 { 
-    --width: 30vw; /*temp variable placeholder*/
+    --width: 10vw; /*temp variable placeholder*/
     --height: calc(var(--width)*0.97);
     width: var(--width);
     height: var(--height);

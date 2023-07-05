@@ -202,11 +202,14 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 </svelte:head>
-
-<Sparkle starNumber=3 position="left:0px; top: 70vh"></Sparkle>
-<Sparkle></Sparkle>
-
 {#if dataByYearTwo}
+<div class="sparkle-container">
+	<Sparkle starNumber=3 position="left:0px; top: 70vh" />
+	<Sparkle />	
+</div>
+
+
+
 	<IntroAnimation text={introAnimationText} data={dataByYearTwo.filter(d => +d[0] == 2022)[0][1]} />
 
 {#each copy["preLongScroll"].map(d => d.value) as paragraph}
@@ -227,15 +230,6 @@
 
 
 <Headline></Headline>
-               
-<!-- <div class="title center-col" style="max-width:100vw">
-	<Sparkle></Sparkle>
-	<Sparkle starNumber=2 position="left:0px;top:50%"></Sparkle>
-	<img id="headline" alt="Women are superstars on stage but still rarely get to write songs" src="assets/headline-base.png">
-	
-	<p class="byline">by Chris Dalla Riva, Design by Ashley Cai</p>
-</div> -->
-
 {#each copy["preWaffle"].map(d => d.value) as paragraph}
 	<p class="center-col para">
 		{@html paragraph}
@@ -244,6 +238,7 @@
 
 <p class="chart-summary">{@html copy.waffleHed}</p>
 <p class="chart-hed">{@html copy.waffleDek}</p>
+ 
 <Female dataByYear={dataByYearTwo} cut="two" slides={slidesTwo} yearRange={[1957,2023]}/>
 
 {#each copy["postWaffle"].map(d => d.value) as paragraph}
@@ -263,11 +258,6 @@
 		{@html paragraph}
 	</p>
 {/each}
-
-
-<!-- <WaffleWriter data={waffleWriterData}/> -->
-
-<!-- <Waffle data={data.songs}/> -->
 
 <div class="space">
 	 
@@ -293,5 +283,9 @@
 	.space {
 		height: 100px;
 		width: 100%;
+	}
+	.sparkle-container {
+		width: 100%;
+		overflow: hidden;
 	}
 </style>
