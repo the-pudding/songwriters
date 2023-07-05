@@ -10,7 +10,7 @@
     export let data;
     export let text;
     let value;
-
+    let sizeGroup = .4
     let fixedHeight;
 
     let stepValue = 0;
@@ -18,7 +18,7 @@
     let men = range(223);
     let women = range(32);
 
-    let average = {song_key:"Songwriters for Hit Songs by The Average",genderArray:["m","m","m","m","m","f"],cutTwo:"avearge"};
+    let average = {song_key:"Songwriters for Hit Songs by The Average",genderArray:["f","m","m","m","m","m"],cutTwo:"avearge"};
 
     let legendGroup = {song_key:"Songwriters for Hit Songs by The Average",genderArray:["m","f","nb"],cutTwo:"avearge"};
 
@@ -54,6 +54,7 @@
 	});
 
     $: stepValue = value ? value : 0;
+    $: sizeGroup = $viewport.width < 1100 ? .3 : .4;
 
 </script>
 
@@ -88,7 +89,7 @@
                         margin:{value == 3 && song.cutTwo == "only women" ? '0 auto' : ''};
                     "
                 >
-                    <Group {song} size={.4} labelPlacement={"first"} height={30}/>
+                    <Group {song} size={sizeGroup} labelPlacement={"first"} height={30}/>
                 </div>
                 <div class="song-key">
                     <p class="song-title">{song.song_key.split(" by ")[0].slice(0,20)}</p>
@@ -103,7 +104,7 @@
             "
         >
             <div class="legend">
-                <Group song={legendGroup} size={.3} labelPlacement={"legend"} height={20}/>
+                <Group song={legendGroup} size={sizeGroup-.1} labelPlacement={"legend"} height={20}/>
             </div>
         </div>
     </div>

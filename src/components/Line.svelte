@@ -38,6 +38,7 @@
             }   
         })
 
+
 </script>
 {#if dataForChart}
 <div 
@@ -114,19 +115,85 @@
             {/if}
         </div>
     {/each}
-
 </div>
+<div class="legend">
+    <div class="item">
+        <div class="box"
+            style="
+                background-color: var(--color-nb);
+            "
+        >
+        </div>
+        <p 
+            class="desc"
+            style=""
+        >
+            Non-binary
+        </p>
+    </div>
+    <div class="item">
+        <div class="box"
+            style="
+                background-color: var(--color-women);
+            "
+        >
+        </div>
+        <p 
+            class="desc"
+            style="
+            "
+        >
+            Women
+        </p>
+    </div>
+    <div class="item">
+        <div class="box"
+            style="
+            "
+        >
+        </div>
+        <p 
+            class="desc"
+            style="
+            "
+        >
+            Men
+        </p>
+    </div>
+</div>
+
 {/if}
 
 <style>
-
+    .desc {
+        font-family: var(--sans);
+        align-self: center;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    .legend {
+        display: flex;
+        margin-top: 20px;
+        width: calc(100% - 150px);
+        justify-content: flex-end;
+        margin-bottom: 100px;
+    }
+    .item {
+        display: flex;
+    }
+    .box {
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        align-self: center;
+        background-color: var(--color-men);
+    }
     .line-chart-container {
         display: flex;
         margin: 0 auto;
         padding-right: 150px;
         max-width: 1300px;
         width: calc(100% - 50px);
-        margin-bottom: 100px;
     }
     .year {
         display: flex;

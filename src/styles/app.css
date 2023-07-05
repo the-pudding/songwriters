@@ -81,6 +81,7 @@
 	position: relative;
 	margin: 0 auto;
 	max-width: var(--col-width);
+	width: calc(100% - 20px);
 }
 
 .double-col-para-wrapper {
@@ -104,6 +105,7 @@
 	max-width: var(--col-width);
     margin: 0 auto;
     margin-bottom: 20px;
+	width: calc(100% - 20px);
 }
 
 .chart-summary {
@@ -118,6 +120,7 @@
 	line-height: 1.1;
     margin-bottom: 20px;
 	margin-top: 100px;
+	width: calc(100% - 20px);
 }
 
 .double-col-step {

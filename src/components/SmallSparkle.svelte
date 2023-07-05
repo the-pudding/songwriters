@@ -2,8 +2,8 @@
 <script>
 
     let starNumber = Math.floor(Math.random() * 5);
-    let locationLeft = Math.floor(Math.random() * 200);
-    let locationTop = Math.floor(Math.random() * 200);
+    let locationLeft = Math.floor(Math.random() * 100);
+    let locationTop = Math.floor(Math.random() * 100);
     let randomDelay = Math.random() * 5;
 
 

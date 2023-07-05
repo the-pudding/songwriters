@@ -43,6 +43,13 @@
 		"m;f":"mixed gender"
 	}
 
+	let performerMapReverse = {
+		"men":"m",
+		"women":"f",
+		"all":"all",
+		"m;f":"mixed gender"
+	}
+
 	let performerArray = ["m","f","all","m;f"].map(d => {
 		return {"value":`${d}`,"label":performerMap[d]};
 	});
@@ -113,7 +120,15 @@
 			if(performerGender == "all") {
 				return d;
 			}
-			return  d.artist_gender == performerGender;
+			else if(performerGender == "men") {
+				return d.artist_gender == "m"; 
+			}
+			else if(performerGender == "women") {
+				return d.artist_gender == "f"; 
+			}
+			else {
+				return ["m","f"].indexOf(d.artist_gender) == -1;
+			}
 		});
 
 		tempData = tempData.filter(d => {
