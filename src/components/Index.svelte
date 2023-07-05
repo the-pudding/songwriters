@@ -233,7 +233,6 @@
 		{@html paragraph}
 	</p>
 {/each}
-
 <p class="chart-summary">{@html copy.waffleHed}</p>
 <p class="chart-hed">{@html copy.waffleDek}</p>
  

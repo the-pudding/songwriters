@@ -479,7 +479,7 @@
                             <span>{@html slide}</span>
                         </p>
                     </div>
-                    {#if $viewport.width < 600}
+                    {#if mobile < 600}
                         <div
                             class="mobile-list"
                         >
@@ -832,7 +832,7 @@
             font-size: 14px;
         }
         .text-overlay {
-            display: none;
+            /* display: none; */
         }
         
     }
