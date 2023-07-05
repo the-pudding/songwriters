@@ -136,7 +136,7 @@ const genderKey = {
 >
     {song.cutTwo}
     {#if song.genderArray.indexOf("nb") > -1}
-        <span style="color:#e67a5b;">(incl. {song.genderArray.filter(d => d == "nb").length} non-binary songwriter{song.genderArray.filter(d => d == "nb").length > 1 ? "s" : ''})
+        <span style="color:#e67a5b;">(incl. {song.genderArray.filter(d => d == "nb").length} non-binary writer{song.genderArray.filter(d => d == "nb").length > 1 ? "s" : ''})
         </span>
     {/if}
 </p>
@@ -208,4 +208,35 @@ color:{songwriter == "m" ? "white" : songwriter == "f" ? "white" : 'white'}; -->
         margin-top: 5px;
         font-size: 12px;
     }
+    @media only screen and (max-width: 1000px) {
+        .legend {
+            margin: 0 5px;
+        }
+        .legend p {
+            font-size: 12px;
+            opacity: 1;
+        }
+        .songwriters-label {
+            width: 100px;    
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .songwriters-label {
+            font-size: 12px;
+        }
+
+        .songwriters-label span {
+            display: inline;
+            margin: 0;
+        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+    }
+
+
+
+
+
 </style>

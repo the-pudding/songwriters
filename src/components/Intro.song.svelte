@@ -14,9 +14,10 @@
     let value;
     let textKeys = [];
     let textValue;
-    let songColHeight;
     let textToShow;
     let cutTotals;
+    let groupSize = .6;
+    let groupHeight = 50; 
 
     let sizes = {
         "m-1":{
@@ -201,9 +202,12 @@ const getNumber = (gender) => {
     $: progressAdjusted = clamp(progress,0,1);
     $: dataByYear, calcProgress();
     $: dataByYear, calcTotals();
-    $: console.log(progress)
 
     $: textToShow = getProgressText(progressAdjusted);
+
+    $: groupSize = $viewport.width < 900 ? $viewport.width < 600 ? .3 : .4 : .6;
+    $: groupHeight = $viewport.width < 900 ? $viewport.width < 600 ? 25 : 40 : 50;
+
 
 </script>
 
@@ -267,7 +271,7 @@ const getNumber = (gender) => {
             </div>
             <div class="song-wrapper" style="">
                 <!-- <Scrolly bind:value> -->
-                    <div bind:clientHeight={songColHeight} class="song-col-height">
+                    <div class="song-col-height">
 
                     {#each dataByYear as dataYear,i}
                         {@const active = value === i}
@@ -305,7 +309,7 @@ const getNumber = (gender) => {
                                                 <p class="song-artist">{song.song_key.split(" by ")[1]}</p>
                                             </div>
                                             <div class="songwriters">
-                                                <Group {song} size={.6} labelPlacement={"second"} height={50}/>
+                                                <Group {song} size={groupSize} labelPlacement={"second"} height={groupHeight}/>
                                             </div>    
                                         </div>
                                     </div>
@@ -578,6 +582,48 @@ const getNumber = (gender) => {
         background-color: var(--color-bg);
         padding: 10px;
     }
+    
+    @media only screen and (max-width: 1000px) {
+        .counter-label {
+            width: 120px;
+            font-size: 12px;
+        }
+        .song-key {
+            padding-left: 0;
+        }
+
+        .song {
+            padding: 0;
+            padding-right: 10px;
+        }
+        .song-artist {
+            max-width: 200px;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        .song-artist, .song-title {
+            max-width: 200px;
+            font-size: 14px;
+        }
+        .song-artist {
+            font-size: 12px;
+        }
+
+        .songwriters {
+            max-width: 200px;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .song-key {
+            max-width: 40%;
+        }
+
+        .songwriters {
+            max-width: calc(60% - 100px);
+        }
+    }
+
 </style>
 
 

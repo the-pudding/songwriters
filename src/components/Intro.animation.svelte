@@ -9,6 +9,8 @@
     
     export let data;
     export let text;
+
+    let mobile = false;
     let value;
     let sizeGroup = .4
     let fixedHeight;
@@ -54,8 +56,8 @@
 	});
 
     $: stepValue = value ? value : 0;
-    $: sizeGroup = $viewport.width < 1100 ? .3 : .4;
-
+    $: sizeGroup = $viewport.width < 1100 ? mobile ? .25 : .3 : .4;
+    $: mobile = $viewport.width < 600 ? true : false;
 </script>
 
 
@@ -82,6 +84,9 @@
                     --transitionDelay: {stepValue == 1 ? `${random*3000}ms` : ''};
                     position:{value == 3 && song.cutTwo == "only women" ? 'absolute' : ''};
                     max-width:{value == 3 && song.cutTwo == "only women" ? '150px' : ''};
+                    right:{value == 3 && song.cutTwo == "only women" ? '0' : ''};
+                    left:{value == 3 && song.cutTwo == "only women" ? '0' : ''};
+                    margin:{value == 3 && song.cutTwo == "only women" ? '0 auto' : ''};
                 "
             >
                 <div class="songwriters"
@@ -92,8 +97,21 @@
                     <Group {song} size={sizeGroup} labelPlacement={"first"} height={30}/>
                 </div>
                 <div class="song-key">
-                    <p class="song-title">{song.song_key.split(" by ")[0].slice(0,20)}</p>
-                    <p class="song-artist">{song.song_key.split(" by ")[1].slice(0,20)}</p>
+                    <p class="song-title">{song.song_key.split(" by ")[0]} 
+                        <span class="song-artist song-artist-mobile">
+                            {#if mobile}
+                                {song.song_key.split(" by ")[1].split("ft.")[0]}
+                            {:else}
+                                {song.song_key.split(" by ")[1]}
+                            {/if}
+                        </span></p>
+                    <p class="song-artist song-artist-desktop">
+                        {#if mobile}
+                            {song.song_key.split(" by ")[1].split("ft.")[0]}
+                        {:else}
+                            {song.song_key.split(" by ")[1]}
+                        {/if}
+                    </p>
                 </div>
             </div>
         {/each}   
@@ -104,7 +122,7 @@
             "
         >
             <div class="legend">
-                <Group song={legendGroup} size={sizeGroup-.1} labelPlacement={"legend"} height={20}/>
+                <Group song={legendGroup} size={mobile ? sizeGroup : sizeGroup-.1} labelPlacement={"legend"} height={20}/>
             </div>
         </div>
     </div>
@@ -290,5 +308,61 @@
         text-transform: capitalize;
         text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
     }
+    .song-artist-mobile {
+        display: none;
+    }
+
+    @media only screen and (max-width: 1000px) {
+            .song-artist-mobile {
+                display: inline;
+                max-width: 100%;
+                font-size: 12px;
+                opacity: .8;
+            }
+            .songwriters {
+                margin: 0 auto;
+                max-width: none;
+                min-width: 100px;
+            }
+
+            .song-artist-desktop {
+                max-width: 100%;
+                font-size: 12px;
+                opacity: .8;
+                line-height: 1;
+                display: none;
+            }
+            .song-title {
+                font-size: 12px;
+                line-height: 1;
+                opacity: 1;
+            }
+            .song-wrapper {
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 15px;
+                position: relative;
+            }
+            .legend-row {
+                width: auto;
+                display: flex;
+            }
+            .legend {
+                margin-top: 0;
+                align-self: center;
+                margin: 0;
+            }
+
+            .song-key {
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                top: 15px;
+            }
+    }
+
+   
+
 
 </style>

@@ -207,8 +207,7 @@
 </div>
 
 
-
-	<IntroAnimation text={introAnimationText} data={dataByYearTwo.filter(d => +d[0] == 2022)[0][1]} />
+<IntroAnimation text={introAnimationText} data={dataByYearTwo.filter(d => +d[0] == 2022)[0][1]} />
 
 {#each copy["preLongScroll"].map(d => d.value) as paragraph}
 	<p class="center-col para">
@@ -219,6 +218,7 @@
 <p class="chart-hed">{copy.longScrollHeadline}</p>
 	<IntroSong dataByYear={dataByYearTwo.filter(d => +d[0] < 2022 && +d[0] > 2009)} text={textFirst} priorStats={priorOne}/>
 
+ 
 
 {#each copy["postLongScroll"].map(d => d.value) as paragraph}
 	<p class="center-col para">
@@ -228,6 +228,8 @@
 
 
 <Headline></Headline>
+
+
 {#each copy["preWaffle"].map(d => d.value) as paragraph}
 	<p class="center-col para">
 		{@html paragraph}
@@ -236,6 +238,7 @@
 <p class="chart-summary">{@html copy.waffleHed}</p>
 <p class="chart-hed">{@html copy.waffleDek}</p>
  
+
 <Female dataByYear={dataByYearTwo} cut="two" slides={slidesTwo} yearRange={[1957,2023]}/>
 
 {#each copy["postWaffle"].map(d => d.value) as paragraph}
