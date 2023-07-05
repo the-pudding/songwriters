@@ -32,8 +32,6 @@
 
 
 
-
-
 	const songs = data.songs;
 	const writerKey = data.writerKey;
 	let writersByYear = data.writersByYear;
@@ -203,7 +201,7 @@
 	<link href="https://fonts.googleapis.com/css?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 </svelte:head>
 {#if dataByYearTwo}
-<!-- <div class="sparkle-container">
+<div class="sparkle-container">
 	<Sparkle starNumber=3 position="left:0px; top: 70vh" />
 	<Sparkle />	
 </div>
@@ -230,7 +228,6 @@
 
 
 <Headline></Headline>
-      -->         
 {#each copy["preWaffle"].map(d => d.value) as paragraph}
 	<p class="center-col para">
 		{@html paragraph}
@@ -242,7 +239,7 @@
  
 <Female dataByYear={dataByYearTwo} cut="two" slides={slidesTwo} yearRange={[1957,2023]}/>
 
-<!-- {#each copy["postWaffle"].map(d => d.value) as paragraph}
+{#each copy["postWaffle"].map(d => d.value) as paragraph}
 	<p class="center-col para">
 		{@html paragraph}
 	</p>
@@ -270,7 +267,6 @@
 		{@html paragraph}
 	</p>
 {/each}
- -->
 {/if}
 
 <!-- <Demo /> -->

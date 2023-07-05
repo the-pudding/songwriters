@@ -459,67 +459,16 @@
     </div>
 
     {#if dataForChart}
-    <Scrolly bind:value>
-        {#each slides as slide,i}
+        <Scrolly bind:value>
+            {#each slides as slide,i}
 
-            {@const active = value === i}
-            {@const songsToShow = getMobileSongs(dataForChart[0][1],mobileKey[i])}
-        
-            <div class="step"
-                style="
-                    margin-top:{i == 0 ? '400px' : ''};
-                    margin-bottom:{$viewport.width < 600 ? $viewport.height*.75 : 0}px;"
-                class:active
-            >
-                <div class="tape-wrapper">
-                    <p class="para foreground">
-                        <span>{@html slide}</span>
-                    </p>
-                    <p class="para background">
-                        <span>{@html slide}</span>
-                    </p>
-                </div>
-                {#if $viewport.width < 600}
-                    <div
-                        class="mobile-list"
-                    >
-                    <div class="tape-wrapper {songsToShow.length <= songSlice[i] ? "hide-after" : ''}">
-                        <p class="para foreground">
-                            <span class="mobile-label">Songs like:<br></span>
-                            {#each songsToShow.slice(0,songSlice[i]) as song}
-                                <span in:fade={{duration:500}} class="mobile-song"><span class="mobile-writers">{song["songwriters"].map(d => d.writer).join(", ")}</span><span class="mobile-artists">{song.song_key}</span></span>
-                            {/each}
-                            {#if songsToShow.length > songSlice[i]}
-                                <span
-                                    data-slice={songSlice[i]}
-                                    data-length={songsToShow.length}
-                                    style="
-                                    "
-                                    class="mobile-label mobile-button"><button on:click={() => expandSlice(i)}>Show 10 more songs</button>
-                                </span>
-                            {/if}
-
-                        </p>
-                        <p class="para background">
-                            <span class="mobile-label">Songs like:<br></span>
-                            {#each getMobileSongs(dataForChart[0][1],mobileKey[i]).slice(0,songSlice[i]) as song}
-                                <span class="mobile-song"><span class="mobile-writers">{song["songwriters"].map(d => d.writer).join(", ")}</span><span class="mobile-artists">{song.song_key}</span></span>
-                            {/each}
-                            {#if songsToShow.length > songSlice[i]}
-                                <span class="mobile-label mobile-button"><button style="pointer-events:none;">Show 10 more songs</button></span>
-                            {/if}
-                        </p>
-                    </div>
-
-
-                    </div>
-                {/if}               
-            </div>
-        {/each}
-        <!-- {#each slides as slide,i}
                 {@const active = value === i}
+                {@const songsToShow = getMobileSongs(dataForChart[0][1],mobileKey[i])}
+            
                 <div class="step"
-                    style="margin-top:{i == 0 ? '400px' : ''};"
+                    style="
+                        margin-top:{i == 0 ? '400px' : ''};
+                        margin-bottom:{$viewport.width < 600 ? $viewport.height*.75 : 0}px;"
                     class:active
                 >
                     <div class="tape-wrapper">
@@ -529,10 +478,61 @@
                         <p class="para background">
                             <span>{@html slide}</span>
                         </p>
-                    </div>               
+                    </div>
+                    {#if $viewport.width < 600}
+                        <div
+                            class="mobile-list"
+                        >
+                        <div class="tape-wrapper {songsToShow.length <= songSlice[i] ? "hide-after" : ''}">
+                            <p class="para foreground">
+                                <span class="mobile-label">Songs like:<br></span>
+                                {#each songsToShow.slice(0,songSlice[i]) as song}
+                                    <span in:fade={{duration:500}} class="mobile-song"><span class="mobile-writers">{song["songwriters"].map(d => d.writer).join(", ")}</span><span class="mobile-artists">{song.song_key}</span></span>
+                                {/each}
+                                {#if songsToShow.length > songSlice[i]}
+                                    <span
+                                        data-slice={songSlice[i]}
+                                        data-length={songsToShow.length}
+                                        style="
+                                        "
+                                        class="mobile-label mobile-button"><button on:click={() => expandSlice(i)}>Show 10 more songs</button>
+                                    </span>
+                                {/if}
+
+                            </p>
+                            <p class="para background">
+                                <span class="mobile-label">Songs like:<br></span>
+                                {#each getMobileSongs(dataForChart[0][1],mobileKey[i]).slice(0,songSlice[i]) as song}
+                                    <span class="mobile-song"><span class="mobile-writers">{song["songwriters"].map(d => d.writer).join(", ")}</span><span class="mobile-artists">{song.song_key}</span></span>
+                                {/each}
+                                {#if songsToShow.length > songSlice[i]}
+                                    <span class="mobile-label mobile-button"><button style="pointer-events:none;">Show 10 more songs</button></span>
+                                {/if}
+                            </p>
+                        </div>
+
+
+                        </div>
+                    {/if}               
                 </div>
-        {/each} -->
-    </Scrolly>
+            {/each}
+            <!-- {#each slides as slide,i}
+                    {@const active = value === i}
+                    <div class="step"
+                        style="margin-top:{i == 0 ? '400px' : ''};"
+                        class:active
+                    >
+                        <div class="tape-wrapper">
+                            <p class="para foreground">
+                                <span>{@html slide}</span>
+                            </p>
+                            <p class="para background">
+                                <span>{@html slide}</span>
+                            </p>
+                        </div>               
+                    </div>
+            {/each} -->
+        </Scrolly>
     {/if}
 </section>
 
