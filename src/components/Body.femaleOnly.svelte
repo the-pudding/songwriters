@@ -21,8 +21,8 @@
     let secondGradientTop = 0;
     let dataForChart;
 
-    let marginX;
-    let marginY;
+    let marginX = 25;
+    let marginY = 25;
 
     let nearTermData;  
     let allTimeData; 
@@ -113,7 +113,7 @@
     }
 
     const updateMobile = () => {
-        marginX = 10;
+        marginX = 17;
         marginY = 10;
     }
 
@@ -281,6 +281,10 @@
     }
 
     onMount(async () => {
+        if($viewport.width < 600) {
+            mobile = true;
+        }
+        updateMobile();
 		nearTermData = updateData(value,yearRange);
         dataForChart = nearTermData;
   	});
@@ -479,15 +483,16 @@
                             <span>{@html slide}</span>
                         </p>
                     </div>
-                    {#if mobile < 600}
+                    {#if mobile}
                         <div
                             class="mobile-list"
                         >
                         <div class="tape-wrapper {songsToShow.length <= songSlice[i] ? "hide-after" : ''}">
                             <p class="para foreground">
-                                <span class="mobile-label">Songs like:<br></span>
-                                {#each songsToShow.slice(0,songSlice[i]) as song}
-                                    <span in:fade={{duration:500}} class="mobile-song"><span class="mobile-writers">{song["songwriters"].map(d => d.writer).join(", ")}</span><span class="mobile-artists">{song.song_key}</span></span>
+                                <span data-value={i} class="mobile-label mobile-song">Songs like:</span>
+                                <span in:fade={{duration:500}} class="mobile-song">
+                                {#each songsToShow.slice(0,songSlice[i]) as song, j}
+                                    {j+1}. {song.title} by <span style="color:{song.artist_gender == "m" ? 'var(--color-men-text)' : i == 3 ? 'var(--color-women)' : ''};">{song.artist}</span>, written by <span class="mobile-women" style="color:var(--color-women);">{song["songwriters"].map(d => d.writer).join(", ")}</span>
                                 {/each}
                                 {#if songsToShow.length > songSlice[i]}
                                     <span
@@ -495,19 +500,27 @@
                                         data-length={songsToShow.length}
                                         style="
                                         "
-                                        class="mobile-label mobile-button"><button on:click={() => expandSlice(i)}>Show 10 more songs</button>
+                                        class="mobile-button"><button on:click={() => expandSlice(i)}>Show 10 more songs »</button>
                                     </span>
                                 {/if}
 
                             </p>
                             <p class="para background">
-                                <span class="mobile-label">Songs like:<br></span>
-                                {#each getMobileSongs(dataForChart[0][1],mobileKey[i]).slice(0,songSlice[i]) as song}
-                                    <span class="mobile-song"><span class="mobile-writers">{song["songwriters"].map(d => d.writer).join(", ")}</span><span class="mobile-artists">{song.song_key}</span></span>
+                                <span class="mobile-label mobile-song">Songs like:</span>
+                                <span in:fade={{duration:500}} class="mobile-song">
+                                {#each songsToShow.slice(0,songSlice[i]) as song, j}
+                                    {j+1}. {song.title} by {song.artist}, written by <span class="mobile-women" style="color:var(--color-women);">{song["songwriters"].map(d => d.writer).join(", ")}</span>
                                 {/each}
                                 {#if songsToShow.length > songSlice[i]}
-                                    <span class="mobile-label mobile-button"><button style="pointer-events:none;">Show 10 more songs</button></span>
+                                <span
+                                    data-slice={songSlice[i]}
+                                    data-length={songsToShow.length}
+                                    style="
+                                    "
+                                    class="mobile-button"><button on:click={() => expandSlice(i)}>Show 10 more songs »</button>
+                                </span>
                                 {/if}
+                                </span>
                             </p>
                         </div>
 
@@ -544,13 +557,10 @@
         margin-left: 100px;
     }
 
-    .mobile-label {
-        font-size: 16px;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        font-weight: 600;
-        display: inline-flex;
+    .mobile-women {
         color: var(--color-women);
+        margin-right: 15px;
+        padding:0;
     }
     .mobile-label button {
         color: white;
@@ -569,16 +579,17 @@
     }
 
     .mobile-button {
-        position: absolute;
-        z-index: 10000000;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        padding-top: 0;
+        padding: 0;
     }
     .mobile-button button {
-        background-color: #585858;
-        color: white;
+        background: none;
+        padding: 0;
+        font-weight: 300;
+        text-decoration: underline;
+    }
+
+    .foreground .mobile-button button {
+        color: var(--color-fg);
     }
 
     .only-women-label {
@@ -611,10 +622,12 @@
         font-weight: 600;
     }
     .mobile-song {
-        display: flex;
-        padding: 0;
-        padding-bottom: 5px;
-        padding-top: 5px;
+        display: inline;
+        padding: 4px 0;
+    }
+
+    .foreground .mobile-song {
+        color: rgba(255,255,255,.8);
     }
     .mobile-artists {
         flex-grow: 1;
@@ -775,6 +788,14 @@
         transition: opacity 1s 1.5s;
     }
 
+    .mobile-label {
+        font-weight: 600;
+    }
+
+    .foreground .mobile-label {
+        color: var(--color-fg);
+    }
+
     .writer-name span {
         font-weight: 400;
         font-family: var(--display);
@@ -807,6 +828,9 @@
         margin: 0;
     }
 
+    .mobile-list .foreground span {
+    }
+
     @media only screen and (max-width: 1200px) {
         .writer-name {
             word-break: break-all;
@@ -837,6 +861,9 @@
         
     }
     @media only screen and (max-width: 600px) {
+        .text-overlay {
+            display: none;
+        }
         .writer-name {
             letter-spacing: initial;
             word-break: normal;
@@ -858,7 +885,7 @@
             width: 100%;
         }
         .mobile-list .para {
-            font-size: 12px;
+            font-size: 14px;
         }
         .tape-wrapper .background {
             opacity: .95;
@@ -874,6 +901,7 @@
             right: 0;
             margin: 0 auto;
             z-index: 10000;
+            display: none;
         }
         .mobile-list .hide-after:after {
             display: none;

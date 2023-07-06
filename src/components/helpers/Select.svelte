@@ -84,4 +84,8 @@
 		cursor: not-allowed;
 		background-color: var(--color-gray-300);
 	}
+
+	@media only screen and (max-width: 1100px) {
+		
+	}
 </style>

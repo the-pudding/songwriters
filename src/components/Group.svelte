@@ -233,6 +233,9 @@ color:{songwriter == "m" ? "white" : songwriter == "f" ? "white" : 'white'}; -->
     }
     
     @media only screen and (max-width: 500px) {
+        .songwriters-label {
+            display: none;
+        }
     }
 
 

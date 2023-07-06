@@ -56,7 +56,7 @@
 	});
 
     $: stepValue = value ? value : 0;
-    $: sizeGroup = $viewport.width < 1100 ? mobile ? .25 : .3 : .4;
+    $: sizeGroup = $viewport.width < 1100 ? mobile ? $viewport.width < 400 ? .22 : .25 : .3 : .4;
     $: mobile = $viewport.width < 600 ? true : false;
 </script>
 
@@ -250,6 +250,8 @@
     min-height: 75vh;
 }
 
+
+
 .man, .woman {
 	width: 20px;
 	height: 30px;
@@ -313,6 +315,9 @@
     }
 
     @media only screen and (max-width: 1000px) {
+            .single-col {
+                width: calc(100% - 20px);
+            }
             .song-artist-mobile {
                 display: inline;
                 max-width: 100%;
@@ -361,6 +366,23 @@
                 top: 15px;
             }
     }
+
+    @media only screen and (max-width: 500px) { 
+        .song-wrapper {
+            margin-bottom: 8px;
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+        .song-title {
+            opacity: .9;
+            font-size: 11px;
+        }
+        .song-artist-mobile {
+            font-size: 11px;
+            opacity: .8;
+        }
+    }
+
 
    
 

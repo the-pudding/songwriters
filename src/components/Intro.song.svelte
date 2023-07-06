@@ -5,7 +5,7 @@
 	import viewport from "$stores/viewport.js";
     import { fade, fly } from "svelte/transition";
     import Group from "$components/Group.svelte";
-    import { group } from "d3";
+    import { group, scaleLinear } from "d3";
 
     export let dataByYear;
     export let text;
@@ -18,6 +18,8 @@
     let cutTotals;
     let groupSize = .6;
     let groupHeight = 50; 
+    let labelPlacementValue = "second";
+    let colorRange = scaleLinear().domain([0,1]).range(["#d795ff","#FFB102"]);
 
     let sizes = {
         "m-1":{
@@ -207,7 +209,8 @@ const getNumber = (gender) => {
 
     $: groupSize = $viewport.width < 900 ? $viewport.width < 600 ? .3 : .4 : .6;
     $: groupHeight = $viewport.width < 900 ? $viewport.width < 600 ? 25 : 40 : 50;
-
+    $: labelPlacementValue = $viewport.width < 500 ? "secondMobile" : "second";
+    $: console.log(progressAdjusted)
 
 </script>
 
@@ -234,7 +237,7 @@ const getNumber = (gender) => {
                                 {/key}
                             {/if}
                         </div>
-                        {#if textToShow && cutTotals && progressAdjusted < 1}
+                        {#if textToShow && cutTotals && progressAdjusted < 1 && progressAdjusted > .07}
                             <div class="counter">
                                 <p class="counter-label"># of Songs Written by...</p>
                                 <!-- {#each Object.keys(priorStats) as statCat} -->
@@ -262,9 +265,9 @@ const getNumber = (gender) => {
                             </div>
                         {/if}                            
                     {/if}
-                    {#if progressAdjusted > .07}
-                    <div class="black-overlay">
-                    </div>
+                    {#if progressAdjusted > .07 && progressAdjusted < 1}
+                        <div class="black-overlay">
+                        </div>
                     {/if}
                 </div>
 
@@ -308,8 +311,22 @@ const getNumber = (gender) => {
                                                 <p class="song-title">{song.song_key.split(" by ")[0]}</p>
                                                 <p class="song-artist">{song.song_key.split(" by ")[1]}</p>
                                             </div>
+                                            {#if $viewport.width < 500}
+                                                <p
+                                                    style="
+                                                        color: {colorRange(song.percent)};
+                                                    "
+                                                    class="songwriters-label"
+                                                >
+                                                    {song.cutTwo}
+                                                    {#if song.genderArray.indexOf("nb") > -1}
+                                                        <span style="color:#e67a5b;">(incl. {song.genderArray.filter(d => d == "nb").length} non-binary writer{song.genderArray.filter(d => d == "nb").length > 1 ? "s" : ''})
+                                                        </span>
+                                                    {/if}
+                                                </p>
+                                            {/if}                                        
                                             <div class="songwriters">
-                                                <Group {song} size={groupSize} labelPlacement={"second"} height={groupHeight}/>
+                                                <Group {song} size={groupSize} labelPlacement={labelPlacementValue} height={groupHeight}/>
                                             </div>    
                                         </div>
                                     </div>
@@ -599,6 +616,12 @@ const getNumber = (gender) => {
         .song-artist {
             max-width: 200px;
         }
+        .fixed-text-wrapper-center {
+            width: calc(100% - 20px);
+        }
+        .fixed-text-wrapper-center span {
+            padding: 0;
+        }
     }
     @media only screen and (max-width: 600px) {
         .song-artist, .song-title {
@@ -616,12 +639,33 @@ const getNumber = (gender) => {
 
     @media only screen and (max-width: 500px) {
         .song-key {
-            max-width: 40%;
+            width: 40%;
+            flex-grow: 1;
+        }
+        .song {
+            flex-wrap: nowrap;
         }
 
         .songwriters {
             max-width: calc(60% - 100px);
         }
+        .songwriters-label {
+            text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
+            color: #c498de;
+            margin-right: -3px;
+            font-size: 11px;
+            margin: 0;
+            text-align: right;
+            line-height: 1;
+            max-width: 100px;
+        }
+
+        .songwriters-label span {
+            display: inline;
+            margin-top: 5px;
+            font-size: 11px;
+        }
+
     }
 
 </style>

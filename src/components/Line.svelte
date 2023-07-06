@@ -1,5 +1,6 @@
 <script>
     export let dataByYear;
+	import viewport from "$stores/viewport.js";
 
     let width = 15;
     let gap = 3;
@@ -8,12 +9,23 @@
     let chartHeight = Math.max.apply(Math,dataByYear.map(d => d[1].length))* (height + songGap)
     let chartWidth = dataByYear.length * (width + gap) - 200;
     let columnWidth = width + gap;
+    let rectWidth = 0;
 
     let dataForChart = JSON.parse(JSON.stringify(dataByYear))
     let minFemaleSecondHighlight;
+    let minFemaleSecondHighlightMobile;
+    let womenOnlyLengthMobile;
     let womenOnlyLength;
     let menOnlyLength;
     let nbOnlyLength;
+    let mobile = false;
+
+    $: mobile = $viewport.width < 900 ? true : false;
+    $: mobile, updateMobile();
+
+    const updateMobile = () => {
+        gap = 1;
+    }
     
     dataForChart
         .forEach((d,i) => {
@@ -35,12 +47,21 @@
                 menOnlyLength = menOnly.length
                 nbOnlyLength = nbOnly.length;
                 minFemaleSecondHighlight = `${womenOnly[0].title}-${womenOnly[0].writer}`
-            }   
+            }
+            if(d[0] == "2018"){
+                let womenOnly = d[1].filter(j => {
+                    return ["pf","f"].indexOf(j.gender_clean) > -1;
+                })
+                womenOnlyLengthMobile = womenOnly.length;
+                minFemaleSecondHighlightMobile = `${womenOnly[0].song_key}-${womenOnly[0].writer}`
+            }
+
         })
 
 
 </script>
 {#if dataForChart}
+<div class="wrapper">
 <div 
     style="
     " 
@@ -68,9 +89,12 @@
                         transform:translate(0px,{-s * (songGap + height)}px);
                         "
                         data-writer="{songwriter.writer}"
+                        bind:clientWidth={rectWidth}
                         class="songwriter {songwriter.gender_clean == "f" ? "f" : songwriter.gender_clean == "m" ? 'm' : 'nb'} highlight"
                     >
-                    <div class="highlight-container">
+                    <div class="highlight-container"
+                        style="left:{rectWidth/2 - 7}px;"
+                    >
                         <p>This bar represents <span class="woman-color">{songwriter.writer}</span>, credited as a songwriter on {songwriter.song_key}.</p>
                         <svg viewBox="0 0 20 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9.10511 51.5173C9.59934 52.0115 10.4007 52.0115 10.8949 51.5173L18.9489 43.4633C19.4431 42.9691 19.4431 42.1678 18.9489 41.6735C18.4546 41.1793 17.6533 41.1793 17.1591 41.6735L10 48.8326L2.84091 41.6735C2.34668 41.1793 1.54537 41.1793 1.05114 41.6735C0.556905 42.1678 0.556905 42.9691 1.05114 43.4633L9.10511 51.5173ZM8.73444 -5.53194e-08L8.73444 50.6224L11.2656 50.6224L11.2656 5.53194e-08L8.73444 -5.53194e-08Z" fill="#FFFAD7"/>
@@ -80,27 +104,44 @@
                     </div>
                 {/if}
 
-                {#if year[0] == "2022" && `${songwriter.title}-${songwriter.writer}` == minFemaleSecondHighlight }
-                    <div
-                        class="songwriter highlight highlight-right"
-                        style="
-                            transform:translate(0px,{-s * (songGap + height)}px);
-                            height:{womenOnlyLength * (songGap + height)}px;
-                        "
-                    >
-                        <p>There were <span class="woman-color">{womenOnlyLength} women songwriters</span> with a top 5 hit in 2022.</p>
-                    </div>
 
-                    <div
-                        class="songwriter highlight highlight-right highlight-right-men"
-                        style="
-                            transform:translate(0px,-{nbOnlyLength * (songGap + height)}px);
-                            height:{(year[1].length * (height + songGap)) - (nbOnlyLength * (songGap + height)) - (womenOnlyLength * (songGap + height)) - (2 * (songGap + height))}px;
-                        "
-                >
-                    <p>There were <span class="man-color-text">{menOnlyLength} men songwriters</span> with a top 5 hit in 2022.</p>
-                </div>
+                {#if $viewport.width > 500}
+                    {#if year[0] == "2022" && `${songwriter.title}-${songwriter.writer}` == minFemaleSecondHighlight }
+                        <div
+                            class="songwriter highlight highlight-right"
+                            style="
+                                transform:translate(0px,{-s * (songGap + height)}px);
+                                height:{womenOnlyLength * (songGap + height)}px;
+                            "
+                        >
+                            <p>There were <span class="woman-color">{womenOnlyLength} women songwriters</span> with a top 5 hit in 2022.</p>
+                        </div>
+
+                        <div
+                            class="songwriter highlight highlight-right highlight-right-men"
+                            style="
+                                transform:translate(0px,-{nbOnlyLength * (songGap + height)}px);
+                                height:{(year[1].length * (height + songGap)) - (nbOnlyLength * (songGap + height)) - (womenOnlyLength * (songGap + height)) - (2 * (songGap + height))}px;
+                            "
+                        >
+                            <p>There were <span class="man-color-text">{menOnlyLength} men songwriters</span> with a top 5 hit in 2022.</p>
+                        </div>
+                    {/if}
+                {:else}
+                    {#if year[0] == "2018" && `${songwriter.song_key}-${songwriter.writer}` == minFemaleSecondHighlightMobile }
+                        <div
+                            class="songwriter highlight highlight-right highlight-mobile"
+                            style="
+                                transform:translate(-100%,{-s * (songGap + height)}px);
+                                height:{womenOnlyLengthMobile * (songGap + height)}px;
+                            "
+                        >
+                            <p>There were <span class="woman-color">{womenOnlyLengthMobile} women songwriters</span> with a top 5 hit in 2018.</p>
+                        </div>
+                    {/if}
+
                 {/if}
+
 
             {/each}
             {#if i % 5 == 0 || i == dataByYear.length - 1}
@@ -120,7 +161,7 @@
     <div class="item">
         <div class="box"
             style="
-                background-color: var(--color-nb);
+                background-color: red;
             "
         >
         </div>
@@ -161,10 +202,15 @@
         </p>
     </div>
 </div>
+</div>
 
 {/if}
 
 <style>
+    .wrapper {
+        width: 100%;
+        overflow: hidden;
+    }
     .desc {
         font-family: var(--sans);
         align-self: center;
@@ -294,4 +340,55 @@
         transform: translate(0,-50%);
         margin: 0;
     }
+
+    .highlight-mobile {
+        left: -7px;
+        right: auto;
+    }
+
+    .highlight-mobile p {
+        transform: translate(-100%,-50%);
+        text-align: right;
+        left: -10px;
+    }
+
+    .highlight-mobile:after, .highlight-mobile:before {
+        transform: translate(-2px,0);
+    }
+    @media only screen and (max-width: 900px) {
+        .year {
+            margin-left: 5px;
+        }
+        .line-chart-container {
+            width: calc(100% - 20px);
+        }
+        .year-text {
+            font-size: 12px;
+            bottom: -17px;
+        }
+        .highlight {
+            z-index: 10000;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .line-chart-container {
+            padding-right: 0;
+        }
+        .legend {
+            width: calc(100% - 10px);
+        }
+        .year {
+            margin-left: 2px;
+        }
+        
+        .highlight-container p {
+            font-size: 14px;
+            max-width: 220px;
+            text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
+        }
+    }
+
+
+
 </style>

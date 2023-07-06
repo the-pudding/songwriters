@@ -288,4 +288,10 @@
 		width: 100%;
 		overflow: hidden;
 	}
+
+	@media only screen and (max-width: 500px) {
+		.para {
+			font-size: 18px;
+		}
+	}
 </style>

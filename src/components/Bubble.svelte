@@ -5,6 +5,7 @@
 	import YearDropDown from "$components/YearDropDown.svelte";
 	import GenderToggle from "$components/GenderToggle.svelte";
 	import Search from "$components/Search.svelte";
+    import viewport from "$stores/viewport.js";
 
 	import { groups, scaleLinear, format } from "d3";
 
@@ -146,8 +147,9 @@
 				let toMatch = searchTerm.toLowerCase();
 				let songMatch = false;
 				let writerMatch = false;
+				
+				songMatch = d.song_key.toLowerCase().includes(toMatch.toLowerCase());
 
-				songMatch = d.song_key.includes(toMatch.toLowerCase());
 				if(d.songwriters){
 					writerMatch = d.songwriters.map(d => d.writer.toLowerCase()).join(",").includes(toMatch.toLowerCase())
 				}
@@ -189,13 +191,14 @@
 			</div>
 		</div>
 		<div class="gender-toggles">
-			<p class="label">Performer Gender:</p>
-
-			<YearDropDown options={performerArray} bind:value={performerGender}/>
-
-			<p class="label">Songwriter Team:</p>
-			<YearDropDown options={cutTwoArray} bind:value={cutTwo}/>
-
+			<div class="gender-toggle">
+				<p class="label">Performer Gender:</p>
+				<YearDropDown options={performerArray} bind:value={performerGender}/>
+			</div>
+			<div class="gender-toggle">
+				<p class="label">Songwriter Team:</p>
+				<YearDropDown options={cutTwoArray} bind:value={cutTwo}/>
+			</div>
 
 			<!-- <GenderToggle label={"Women Only Songs"} bind:value={onlyWomen} /> -->
 			<!-- <GenderToggle label={"Men Only Songs"} bind:value={onlyMen}/> -->
@@ -207,27 +210,43 @@
 
 
 <div class="bubble-chart">
-	<div class="cut-wrapper {dataForChart.length < 10 ? 'no-results' : ''}">
+	<div class="cut-wrapper {sliceAmount >= dataForChart.length ? "all-results" : ''} {dataForChart.length < 10 ? 'no-results' : ''}">
 		<div class="rollup-line">
-			<p class="">Gender Breakdown</p>
+			<p class="">Songwriting Team Breakdown of {commas(dataForChart.length)} Songs</p>
 		</div>
 
 		<div class="rollup">
 			<div class="spark">
-				{#each groups(dataForChart, d => d.cutTwo).sort((a,b) => sort[b[0]] - sort[a[0]]) as cut}
+				{#each groups(dataForChart, d => d.cutTwo).sort((a,b) => sort[b[0]] - sort[a[0]]) as cut, i}
 					{@const percent = Math.round(cut[1].length/dataForChart.length*100)}
 					<div style="
 							background:{colorRange(cut[1][0].percent)};
 							flex-basis:{percent}%;
+							width:{percent}%;
 						"
 						class="bar"
 					>
-						<p style="color:{cutTwoColor[cut[0]]};">{percent}%</p>
+						<p style="
+							color:{$viewport.width > 1100 ? cutTwoColor[cut[0]] : "white"};">{percent}%
+						</p>
 						{#if percent > 2 || cut[0] == "only women"}
+							<span class="bar-label">{cutTwoMap[cut[0]]}</span>
+						{:else if $viewport.width < 1101}
 							<span class="bar-label">{cutTwoMap[cut[0]]}</span>
 						{/if}
 						{#if percent > 2}
-							<span class="song-count">{commas(cut[1].length)} songs</span>
+								<span class="song-count"
+									style="
+										opacity: {$viewport.width < 899 && percent < 6 ? "0" : ''};
+										display:{ $viewport.width < 500 && percent < 10 ? "none" : ''};
+										color:{ $viewport.width < 1100 && i !== groups(dataForChart, d => d.cutTwo).length - 1 ? "var(--color-bg)" : ''};
+										font-weight:{ $viewport.width < 1100 ? "600" : ''};
+									"
+								>{commas(cut[1].length)}
+									{#if $viewport.width < 900 && i == groups(dataForChart, d => d.cutTwo).length - 1}
+									songs 
+									{/if}
+								</span>
 						{/if}
 
 					</div>
@@ -264,14 +283,18 @@
 									{#each groups(song["songwriters"], d => genderMap[d.gender]) as genderCut, i}
 										<div class="tape-wrapper"
 											style="
-												margin-top:{i > 0 ? "35px" : ''};
+												margin-top:{i > 0 ? "10px" : ''};
 											"
 										>
 											<p class="para songwriter-gender-cut foreground">
-												<span><span class="cut-head">{genderCut[0]}:</span> {genderCut[1].map(d => d.writer).join(", ")}</span>
-											</p>
-											<p class="para songwriter-gender-cut background cut-{genderCut[0]}">
-												<span><span class="cut-head">{genderCut[0]}:</span> {genderCut[1].map(d => d.writer).join(", ")}</span>
+												<span class="cut-head">{genderCut[0]}:</span>
+												{#each genderCut[1].map(d => d.writer) as writer}
+													<span
+														class="writer cut-{genderCut[0]}"	
+													>
+														{writer}
+													</span>
+												{/each}
 											</p>
 										</div>               
 									{/each}
@@ -282,7 +305,7 @@
 			<!-- 	</div>
 			</div> -->
 		<!-- {/each} -->
-		{#if dataForChart.length > 19}
+		{#if sliceAmount < dataForChart.length}
 			<button class="see-more" on:click={() => updateSlice()}>See {sliceGain} More Songs</button>
 		{/if}
 	</div>
@@ -305,28 +328,28 @@
 		z-index: 10;
 	}
 
-	.tape-wrapper .background span {
+	.tape-wrapper .writer {
 		background-color: var(--color-men);
-		color: var(--color-men);
-		box-shadow: 15px 0 var(--color-men), -15px 0 var(--color-men);
-		opacity: .4;
+		color: white;
+		padding: 5px 10px;
 		border-radius: 4px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+    	display: inline-block;
 	}
 
-	.tape-wrapper .cut-women span {
+	.tape-wrapper .cut-women {
 		background-color: var(--color-women);
-		color: var(--color-women);
-		box-shadow: 15px 0 var(--color-women), -15px 0 var(--color-women);
+		color: black;
 	}
 
-	.tape-wrapper .cut-non-binary span {
+	.tape-wrapper .cut-non-binary {
 		background-color: var(--color-nb);
-		color: var(--color-women);
-		box-shadow: 15px 0 var(--color-nb), -15px 0 var(--color-nb);
 	}
 
 	.cut-head {
 		text-transform: capitalize;
+		margin-right: 10px;
 	}
 
 	.see-more {
@@ -360,7 +383,7 @@
 		z-index: 1000;
 	}
 
-	.no-results:after {
+	.no-results:after, .all-results:after {
 		display: none;
 	}
 
@@ -488,7 +511,10 @@
 	.songwriters {
 		flex-basis: min-content;
     	flex-grow: 1;
-		padding: 20px;
+		padding: 10px 20px;
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom: 0;
 	}
 
 	.song {
@@ -519,6 +545,10 @@
 		line-height: 1;
 	}
 
+	.gender-toggle {
+		display: flex;
+	}
+
 	.rollup-line {
 		font-family: 'DM Sans';
 		max-width: 1000px;
@@ -531,6 +561,104 @@
 	.results {
 		margin-bottom: 50px;
 	}
+
+	@media only screen and (max-width: 1100px) {
+		.label {
+			margin: 0 5px;
+			font-size: 14px;
+		}
+		
+		.song {
+			width: calc(100% - 20px);
+		}
+
+		.toggle-wrapper {
+			padding: 15px 10px;
+		}
+
+		.spark {
+			flex-direction: column;
+			margin-left: 100px;
+		}
+
+		.bar .song-count {
+			top: 50%;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			transform: translate(0,-50%);
+			text-align: center;
+			
+		}
+
+		.bar span {
+			left: -5px;
+			transform: translate(-100%,-50%);
+			text-align: right;
+			top: 50%;
+			line-height: 1;
+			bottom: auto;
+			max-width: 80px;
+		}
+
+		.bar {
+			justify-content: flex-end;
+			height: 40px;
+			margin-bottom: 5px;
+		}
+
+		.bar p {
+			transform: translate(calc(100% + 5px), 0);
+			padding: 10px;
+		}
+	}
+
+	@media only screen and (max-width: 900px) {
+		
+		.results {
+			width: calc(100% - 20px);
+			flex-wrap: wrap;
+		}
+
+		.toggles {
+			width: 100%;
+		}
+		.toggle-wrapper {
+			border-radius: 0;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		.song-name {
+			font-size: 14px;
+			max-width: 200px;
+		}
+
+		.songwriters .para {
+			font-size: 14px;
+		}
+
+		.year-range {
+			margin-bottom: 10px;
+		}
+
+		.gender-toggles {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.spark {
+			margin-right: 70px;
+		}
+	}
+
+	@media only screen and (max-width: 500px) {
+		.song-name {
+			max-width: 120px;
+		}
+	}
+
+
+
 
 
 </style>
