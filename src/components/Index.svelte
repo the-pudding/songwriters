@@ -19,6 +19,7 @@
 	import Quote from "$data/quote.csv"
 	import SmallSparkle from "./SmallSparkle.svelte";
 	import Headline from "./Headline.svelte";
+	import Footer from "$components/Footer.svelte"
 
  
 	// import Footer from "$components/Footer.svelte";
@@ -182,6 +183,9 @@
 		});
 
 
+		let writersByYearThree = groups(writersWithSongData, d => d["year"], d => d["writer"])
+		console.log(writersByYearThree)
+
 		writersByYearTwo = groups(writersWithSongData, d => d["year"]).sort((a,b) => {
 			return a[0] - b[0];
 		}).filter(d => {
@@ -201,7 +205,7 @@
 	<link href="https://fonts.googleapis.com/css?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 </svelte:head>
 {#if dataByYearTwo}
-<div class="sparkle-container">
+ <div class="sparkle-container">
 	<Sparkle starNumber=3 position="left:0px; top: 70vh" />
 	<Sparkle />	
 </div>
@@ -246,11 +250,10 @@
 		{@html paragraph}
 	</p>
 {/each}
-
 <p class="chart-summary">{@html copy.lineChartHed}</p>
 <p class="chart-hed">{@html copy.lineChartDek}</p>
 
-
+ 
 <Line dataByYear={writersByYearTwo} />
 
 {#each copy["conclusion"].map(d => d.value) as paragraph}
@@ -269,6 +272,7 @@
 		{@html paragraph}
 	</p>
 {/each}
+<Footer />
 {/if}
 
 <!-- <Demo /> -->

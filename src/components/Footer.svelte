@@ -1,7 +1,6 @@
 <script>
 	import { onMount } from "svelte";
 	import inView from "$actions/inView.js";
-	import { shareVisible } from "$stores/misc.js";
 	import wordmark from "$svg/wordmark.svg";
 
 	let localURL;
@@ -32,11 +31,25 @@
 	});
 </script>
 
-<footer
-	use:inView
-	on:enter={() => ($shareVisible = false)}
-	on:exit={() => ($shareVisible = true)}
->
+
+
+<div class="center-col promote">
+	<p class="para">Enjoy this project? Consider helping fund us on Patreon.</p>
+	<a class="button" target="_blank" href="https://patreon.com/thepudding" rel="noopener">
+		<button type="button" name="button">Become a Patron
+		</button>
+	</a>
+	<p class="para">You should subscribe to our newsletter too.</p>
+	<a class="button button-purp" target="_blank" href="https://thepuddingmail.substack.com/" rel="noopener">
+		<button type="button" name="button">Join the Newsletter
+		</button>
+	</a>
+	<div class="">
+		<p class="para">Or follow us on <a target="_blank" href="https://www.instagram.com/the.pudding" rel="noopener">Instagram</a>, <a target="_blank" href="https://twitter.com/puddingviz" rel="noopener">Twitter</a>, and <a href="/feed/index.xml">RSS</a>.</p>
+	</div>
+</div>
+
+<footer>
 	<section class="stories">
 		{#each stories as { hed, url, image }}
 			{@const href = url.startsWith("http")
@@ -59,7 +72,7 @@
 			{@html wordmark}
 		</div>
 		<p>
-			<a href="https://pudding.cool">The Pudding</a>
+			<a href="https://pudding.cool" target="_self">The Pudding</a>
 			is a digital publication that explains ideas debated in culture with visual
 			essays.
 		</p>
@@ -69,7 +82,7 @@
 		<ul>
 			{#each links as link}
 				<li>
-					<a href={link.url}>
+					<a href={link.url} target="_self">
 						<span>{link.name.toUpperCase()}</span>
 					</a>
 				</li>
@@ -79,6 +92,48 @@
 </footer>
 
 <style>
+	.button button {
+		padding: 10px 20px;
+		background-color: var(--color-women);
+    	border-radius: 3px;
+		color: var(--color-bg);
+		font-weight: 300;
+		margin-bottom: 30px;
+		font-size: 18px;
+	}
+	.button-purp button {
+		background-color: var(--color-men);
+		color: var(--color-fg);
+		font-weight: 400;
+	}
+	.button {
+		margin: 0 auto;
+	}
+	.promote {
+		margin-top: 50px;
+		border-top: 1px solid var(--color-fg);
+		display: flex;
+		flex-direction: column;
+	}
+
+	.promote a {
+		border: none;
+		text-decoration: underline;
+	}
+
+	.button {
+		text-decoration: none;
+	}
+
+	.para a, .para a:visited {
+		color: var(--color-fg);
+	}
+
+	.promote .para {
+		text-align: center;
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
 	footer {
 		background-color: var(--color-fg);
 		color: var(--color-bg);
@@ -87,9 +142,9 @@
 		margin-top: 3em;
 	}
 
-	a,
-	a:visited,
-	a:hover {
+	footer a,
+	footer a:visited,
+	footer a:hover {
 		color: var(--color-bg);
 	}
 

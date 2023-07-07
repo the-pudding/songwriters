@@ -14,10 +14,15 @@
     let dataForChart = JSON.parse(JSON.stringify(dataByYear))
     let minFemaleSecondHighlight;
     let minFemaleSecondHighlightMobile;
+    let minNBSecondHighlightMobile;
+
     let womenOnlyLengthMobile;
     let womenOnlyLength;
     let menOnlyLength;
+    let nbOnlyLengthMobile;
     let nbOnlyLength;
+
+
     let mobile = false;
 
     $: mobile = $viewport.width < 900 ? true : false;
@@ -52,8 +57,19 @@
                 let womenOnly = d[1].filter(j => {
                     return ["pf","f"].indexOf(j.gender_clean) > -1;
                 })
+
                 womenOnlyLengthMobile = womenOnly.length;
                 minFemaleSecondHighlightMobile = `${womenOnly[0].song_key}-${womenOnly[0].writer}`
+            }
+            if(d[0] == "2014"){
+                let nbOnly = d[1].filter(j => {
+                    return ["nb"].indexOf(j.gender_clean) > -1;
+                })
+
+                console.log(nbOnly)
+
+                nbOnlyLengthMobile = nbOnly.length;
+                minNBSecondHighlightMobile = `${nbOnly[0].song_key}-${nbOnly[0].writer}`
             }
 
         })
@@ -114,7 +130,7 @@
                                 height:{womenOnlyLength * (songGap + height)}px;
                             "
                         >
-                            <p>There were <span class="woman-color">{womenOnlyLength} women songwriters</span> with a top 5 hit in 2022.</p>
+                            <p><span class="woman-color">Women had {womenOnlyLength} songwriting credits</span> for top 5 hits in 2022.</p>
                         </div>
 
                         <div
@@ -124,7 +140,17 @@
                                 height:{(year[1].length * (height + songGap)) - (nbOnlyLength * (songGap + height)) - (womenOnlyLength * (songGap + height)) - (2 * (songGap + height))}px;
                             "
                         >
-                            <p>There were <span class="man-color-text">{menOnlyLength} men songwriters</span> with a top 5 hit in 2022.</p>
+                            <p><span class="man-color-text">Men had {menOnlyLength}</span> songwriting credits for top 5 hits in 2022.</p>
+                        </div>
+
+                        <div
+                            class="songwriter highlight highlight-right highlight-right-nb"
+                            style="
+                                transform:translate(0px,0px);
+                                height:{(nbOnlyLength * (songGap + height))}px;
+                            "
+                        >
+                            <p>{nbOnlyLength} songwriting credits went to <span style="color:#ff8080;">non-binary writers</span> in 2022.</p>
                         </div>
                     {/if}
                 {:else}
@@ -136,8 +162,19 @@
                                 height:{womenOnlyLengthMobile * (songGap + height)}px;
                             "
                         >
-                            <p>There were <span class="woman-color">{womenOnlyLengthMobile} women songwriters</span> with a top 5 hit in 2018.</p>
-                        </div>
+                        <p><span class="woman-color">Women had {womenOnlyLength} songwriting credits</span> for top 5 hits in 2018.</p>
+                    </div>
+                    {/if}
+                    {#if year[0] == "2014" && `${songwriter.song_key}-${songwriter.writer}` == minNBSecondHighlightMobile }
+                        <div
+                        class="songwriter highlight highlight-right highlight-mobile highlight-mobile-nb"
+                        style="
+                            transform:translate(-100%,{-s * (songGap + height)}px);
+                            height:{nbOnlyLengthMobile * (songGap + height)}px;
+                        "
+                        >
+                        <p>{nbOnlyLength} songwriting credits went to <span style="color:#FFF;">non-binary writers</span> in 2014.</p>
+                    </div>
                     {/if}
 
                 {/if}
@@ -210,6 +247,7 @@
     .wrapper {
         width: 100%;
         overflow: hidden;
+        padding-top: 10px;
     }
     .desc {
         font-family: var(--sans);
@@ -283,6 +321,7 @@
         /* transform: translate(-5px,8px); */
         left: -5px;
         bottom: -5px;
+        line-height: 1.2;
     }
 
     .highlight .highlight-container {
@@ -341,6 +380,18 @@
         margin: 0;
     }
 
+    .highlight-right-nb:before {
+        display: none;
+    }
+
+
+
+    .highlight-right-nb p {
+        bottom: 0;
+        top: auto;
+        transform: translate(0,50%);
+    }
+
     .highlight-mobile {
         left: -7px;
         right: auto;
@@ -355,6 +406,16 @@
     .highlight-mobile:after, .highlight-mobile:before {
         transform: translate(-2px,0);
     }
+    .highlight-mobile-nb {
+        bottom: 0;
+        top: auto;
+    }
+    .highlight-mobile-nb p {
+        text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
+        transform: translate(-100%,-100%);
+        width: 150px;
+    }
+
     @media only screen and (max-width: 900px) {
         .year {
             margin-left: 5px;

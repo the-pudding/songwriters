@@ -157,13 +157,28 @@
                         <p class="para background">
                             <span>{@html slide}</span>
                         </p>
-                    </div>                    
+                    </div>
+                    {#if i == 1}
+                        <details><summary>How did we identify writers&rsquo; gender?</summary>test</details>
+                    {/if}
                 </div>
         {/each}
     </Scrolly>
 </section>
 
 <style>
+
+details {
+    font-family: var(--sans);
+    font-size: 14px;
+    background: var(--color-bg);
+    padding: 10px;
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+
+}   
 .single-col .para {
     text-align: center;
 }

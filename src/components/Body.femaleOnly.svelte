@@ -67,16 +67,22 @@
             return 1
         }
 
-        if(cut=="two" && first.artist_gender == "m" || cut=="two" && first.artist_gender.includes("m") && first.artist_gender.includes("f") && value==2 || cut=="two" && first.artist_gender.includes("nb") && value==2) {
+        if(cut=="two" && first.artist_gender == "m" && value == 2 || cut=="two" && first.artist_gender.includes("m") && first.artist_gender.includes("f") && value==2 || cut=="two" && first.artist_gender.includes("nb") && value==2) {
             return 1
         }
         if(cut=="two" && value==3) {
             let singerSongwriter = false;
             let songwriterList = first.songwriters;
-            if(first.songwriter_is_artist == "1"){
+            if(first.songwriter_is_artist == "1" && first.cutTwo == "only women"){
+                if(first.artist == "Milli Vanilli"){
+                    console.log(first);
+                }
+                
+                // if(first.title.toLowerCase() == "blame it on the rain") {
+                //     console.log(first)
+                // }
                 return 1
             }
-            return 
         }
         if(value > 0){
             if(mobile < 600){

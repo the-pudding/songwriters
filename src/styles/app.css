@@ -28,7 +28,7 @@
 	--color-bg: #191817;
 	--color-fg: #FFFAD7;
 	--color-primary: var(--color-black);
-	--color-link: var(--color-black);
+	--color-link: var(--color-fg);
 	--color-focus: var(--color-red);
 	--color-mark: var(--color-yellow);
 	--color-selection: var(--color-gray-300);
