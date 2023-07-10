@@ -6,7 +6,7 @@
 	import viewport from "$stores/viewport.js";
     import { flip } from 'svelte/animate';
 
-    
+    export let viewportHeight;
     export let data;
     export let text;
 
@@ -61,11 +61,9 @@
 </script>
 
 
-<section class="wrapper">
-    <!-- <div class="sticky"> -->
-        <!-- <div class="fixed-wrapper" style="height:{$viewport.height}px"> -->
-
-    <div class="fixed" bind:clientHeight={fixedHeight}>
+<section class="wrapper" data-mobile={mobile}>
+    <div data-height={fixedHeight} class="fixed" bind:clientHeight={fixedHeight}
+    >
         <div class="black-shade"
             style="
             opacity:{value > 0 ? '0' : ''};
@@ -78,15 +76,16 @@
         {#if dataForChart}
         {#each dataForChart as song (song.song_key)}
             {@const random = Math.random()}
-            <div animate:flip={{duration:1000, delay:1000}} class="song-wrapper"
+            <div animate:flip={{duration:1000, delay:0}} class="song-wrapper"
                 style="
                     opacity:{getOpacity(song,value)};
+                    transform: translate3d(0,0,0);
                     --transitionDelay: {stepValue == 1 ? `${random*3000}ms` : ''};
-                    position:{value == 3 && song.cutTwo == "only women" ? 'absolute' : ''};
-                    max-width:{value == 3 && song.cutTwo == "only women" ? '150px' : ''};
-                    right:{value == 3 && song.cutTwo == "only women" ? '0' : ''};
-                    left:{value == 3 && song.cutTwo == "only women" ? '0' : ''};
-                    margin:{value == 3 && song.cutTwo == "only women" ? '0 auto' : ''};
+                    position:{value == 3 && song.cutTwo == "only women" && !mobile ? 'absolute' : ''};
+                    max-width:{value == 3 && song.cutTwo == "only women" && !mobile ? '150px' : ''};
+                    right:{value == 3 && song.cutTwo == "only women" && !mobile ? '0' : ''};
+                    left:{value == 3 && song.cutTwo  == "only women" && !mobile ? '0' : ''};
+                    margin:{value == 3 && song.cutTwo == "only women" && !mobile ? '0 auto' : ''};
                 "
             >
                 <div class="songwriters"
@@ -97,7 +96,7 @@
                     <Group {song} size={sizeGroup} labelPlacement={"first"} height={30}/>
                 </div>
                 <div class="song-key">
-                    <p class="song-title">{song.song_key.split(" by ")[0]} 
+                    <p class="song-title">{song.song_key.split(" by ")[0].split(" (")[0]} 
                         <span class="song-artist song-artist-mobile">
                             {#if mobile}
                                 {song.song_key.split(" by ")[1].split("ft.")[0]}
@@ -118,7 +117,7 @@
         {/if}   
         <div class="legend-row"
             style="
-            opacity:{value > 0 && value < 4 ? '' : '0'};
+            opacity:{value > 0 && value < 3 ? '' : '0'};
             "
         >
             <div class="legend">
@@ -131,12 +130,12 @@
     <Scrolly bind:value>
         {#each text as slide,i}
                 {@const active = value === i}
-                <div class="step single-col {text.length - 1}-{i}" class:active
+                <div class="step single-col {text.length - 1}-{i}" class:active data-fixed={fixedHeight} data-vh={viewportHeight}
                     style="
-                        margin-top: {i == 0 ? (-fixedHeight/2) : ''}px;
+                        margin-top: {i == 0 ? -fixedHeight/2 : ''}px;
                         padding-top: {i == 0 ? '0' : ''}px;
                         opacity: {fixedHeight ? 1 : 0};
-                        min-height: {i == (text.length - 1) ? '' : ''};
+                        min-height: {viewportHeight*.75}px;
                     "
                 >
                     {#if i == 0}
@@ -230,12 +229,14 @@ details {
 }
 .fixed {
     position: sticky;
-    top: 50%;
+    top: 0;
+    padding-top: 20px;
+    /* top: 50%; */
     display: flex;
     /* position: absolute; */
     flex-wrap: wrap;
     justify-content: center;
-    transform: translate(0,-50%);
+    /* transform: translate(0,-50%); */
     /* flex-direction: column; */
     /* height: 100vh; */
 }
@@ -261,12 +262,6 @@ details {
         margin-right: 20px;
     }
 
-.step {
-    min-height: 75vh;
-}
-
-
-
 .man, .woman {
 	width: 20px;
 	height: 30px;
@@ -286,7 +281,7 @@ details {
     margin-bottom: 20px;
     opacity: 1;
     transition: opacity 2s;
-    transition-delay: var(--transitionDelay);
+    /* transition-delay: var(--transitionDelay); */
     top: 50%;
     left: 0;
     right: 0;

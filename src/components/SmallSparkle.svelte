@@ -6,10 +6,10 @@
     let locationTop = Math.floor(Math.random() * 100);
     let randomDelay = Math.random() * 5;
 
-
+    export let viewportHeight;
 </script>
 
-<div class="small-sparkle" style = "position: absolute; left:{locationLeft}vw; top:{locationTop}vh; animation-delay: {randomDelay}s">
+<div class="small-sparkle" style = "position: absolute; left:{locationLeft}vw; top:{locationTop/100 * viewportHeight}px; animation-delay: {randomDelay}s">
     <img src="assets/sparkles/small-sparkle-{starNumber}.svg" alt="">
 </div>
 

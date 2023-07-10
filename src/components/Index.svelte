@@ -20,6 +20,7 @@
 	import SmallSparkle from "./SmallSparkle.svelte";
 	import Headline from "./Headline.svelte";
 	import Footer from "$components/Footer.svelte"
+	import viewport from "$stores/viewport.js";
 
  
 	// import Footer from "$components/Footer.svelte";
@@ -28,7 +29,7 @@
 	const data = getContext("data");
 
 
-
+	let viewportHeight = 0;
 	let dataReady;
 
 
@@ -152,6 +153,7 @@
 	}
 
 	onMount(() => {
+		viewportHeight = $viewport.height;
 
 		let writersWithSongData = [];
 
@@ -195,7 +197,12 @@
 		dataByYearTwo = groups(songsTwo, d => d.year).sort((a,b) => b[0] - a[0]);
 		
 		waffleWriterDataTwo = songsTwo;
+
+
 	})
+
+	$: viewportHeight = $viewport.width < 451 ? viewportHeight : $viewport.height;
+
 
 </script>
 
@@ -204,6 +211,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 </svelte:head>
+
 {#if dataByYearTwo}
  <div class="sparkle-container">
 	<Sparkle starNumber=3 position="left:0px; top: 70vh" />
@@ -211,7 +219,7 @@
 </div>
 
 
-<IntroAnimation text={introAnimationText} data={dataByYearTwo.filter(d => +d[0] == 2022)[0][1]} />
+<IntroAnimation {viewportHeight} text={introAnimationText} data={dataByYearTwo.filter(d => +d[0] == 2022)[0][1]} />
 
 {#each copy["preLongScroll"].map(d => d.value) as paragraph}
 	<p class="center-col para">
@@ -220,7 +228,7 @@
 {/each}
 
 <p class="chart-hed">{copy.longScrollHeadline}</p>
-	<IntroSong dataByYear={dataByYearTwo.filter(d => +d[0] < 2022 && +d[0] > 2009)} text={textFirst} priorStats={priorOne}/>
+	<IntroSong {viewportHeight} dataByYear={dataByYearTwo.filter(d => +d[0] < 2022 && +d[0] > 2009)} text={textFirst} priorStats={priorOne}/>
 
  
 
@@ -231,7 +239,7 @@
 {/each}
 
 
-<Headline></Headline>
+<Headline {viewportHeight} />
 
 
 {#each copy["preWaffle"].map(d => d.value) as paragraph}
@@ -243,7 +251,7 @@
 <p class="chart-hed">{@html copy.waffleDek}</p>
  
 
-<Female dataByYear={dataByYearTwo} cut="two" slides={slidesTwo} yearRange={[1957,2023]}/>
+<Female {viewportHeight} dataByYear={dataByYearTwo} cut="two" slides={slidesTwo} yearRange={[1957,2023]}/>
 
 {#each copy["postWaffle"].map(d => d.value) as paragraph}
 	<p class="center-col para">
@@ -273,8 +281,11 @@
 	</p>
 {/each}
 <Footer />
+{:else}
+<div class="overflow">
+	<p>Loading...</p>
+</div>
 {/if}
-
 <!-- <Demo /> -->
 <style>
 	.chart-hed-bubble {
@@ -289,8 +300,22 @@
 		width: 100%;
 	}
 	.sparkle-container {
-		width: 100%;
+		max-width: 100vw;
 		overflow: hidden;
+	}
+
+	.overflow {
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.overflow p {
+		font-family: var(--sans);
+		text-align: center;
 	}
 
 	@media only screen and (max-width: 500px) {

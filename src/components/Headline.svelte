@@ -2,6 +2,9 @@
     import Sparkle from "./Sparkle.svelte";
 	import SmallSparkle from "./SmallSparkle.svelte";
     import viewport from "$stores/viewport.js";
+    import { range } from "d3";
+
+    export let viewportHeight;
 
     let value;
 
@@ -20,10 +23,11 @@
         top:{-$viewport.width * fixedOffset}px;
     ">
         <Sparkle></Sparkle>
-        <SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle>
-        <SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle>
-        <SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle><SmallSparkle></SmallSparkle>
 
+        {#each range(15) as sparkle}
+            <SmallSparkle {viewportHeight} />
+        {/each}
+        
         <Sparkle starNumber=2 position="left:0px;top:50%"></Sparkle>
         
         <div id="headline" alt="Women are superstars on stage but still rarely get to write songs"
@@ -43,8 +47,7 @@
     "
     >
 </div>
-<p class="byline">by Chris Dalla Riva, Design by Ashley Cai</p>
-
+<p class="byline">by <a target="_blank" href="https://pudding.cool/author/chris-dalla-riva">Chris Dalla Riva</a>, Design by <a target="_blank" href="https://pudding.cool/author/ashley-cai">Ashley Cai</a></p>
 
 
 <style>

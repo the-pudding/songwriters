@@ -11,7 +11,7 @@
     export let dataByYear;
     export let slides;
     export let cut;
-
+    export let viewportHeight;
     export let yearRange;
 
     let value;
@@ -74,13 +74,6 @@
             let singerSongwriter = false;
             let songwriterList = first.songwriters;
             if(first.songwriter_is_artist == "1" && first.cutTwo == "only women"){
-                if(first.artist == "Milli Vanilli"){
-                    console.log(first);
-                }
-                
-                // if(first.title.toLowerCase() == "blame it on the rain") {
-                //     console.log(first)
-                // }
                 return 1
             }
         }
@@ -127,9 +120,7 @@
 
             let tempData;
             let availableWidth = $viewport.width - (marginX*2);
-            let availableHeight = $viewport.height - (marginY*2);
-
-
+            let availableHeight = viewportHeight - (marginY*2);
 
             tempData = JSON.parse(JSON.stringify(dataByYear));
 
@@ -312,7 +303,9 @@
     <p>= 1 Song</p>
 </div>
 <section class="wrapper">
-    <div class="song-wrapper {value == 5 ? 'performer-slide' : ''}">
+    <div class="song-wrapper {value == 5 ? 'performer-slide' : ''}"
+        style="height:{viewportHeight}px;"
+    >
         {#if dataForChart}
             {@const cardWidthDecease = dataForChart[0][1][0].cardWidthDecease}
             {@const widthChange = dataForChart[0][1][0].widthChange}
@@ -478,7 +471,11 @@
                 <div class="step"
                     style="
                         margin-top:{i == 0 ? '400px' : ''};
-                        margin-bottom:{$viewport.width < 600 ? $viewport.height*.75 : 0}px;"
+                        margin-bottom:{$viewport.width < 600 ? i == 3 ? 0 : viewportHeight*.75 : 0}px;
+                        padding-bottom:{$viewport.width < 600 && i == 3 ? viewportHeight : 0}px;
+                        min-height:{.75*viewportHeight}px;
+                        "
+                        
                     class:active
                 >
                     <div class="tape-wrapper">
@@ -506,12 +503,12 @@
                                         data-length={songsToShow.length}
                                         style="
                                         "
-                                        class="mobile-button"><button on:click={() => expandSlice(i)}>Show 10 more songs »</button>
+                                        class="mobile-button here"><button on:click={() => expandSlice(i)}>Show 10 more songs »</button>
                                     </span>
                                 {/if}
 
                             </p>
-                            <p class="para background">
+                            <!-- <p class="para background">
                                 <span class="mobile-label mobile-song">Songs like:</span>
                                 <span in:fade={{duration:500}} class="mobile-song">
                                 {#each songsToShow.slice(0,songSlice[i]) as song, j}
@@ -523,11 +520,11 @@
                                     data-length={songsToShow.length}
                                     style="
                                     "
-                                    class="mobile-button"><button on:click={() => expandSlice(i)}>Show 10 more songs »</button>
+                                    class="mobile-button mobile-button-background"><button on:click={() => expandSlice(i)}>Show 10 more songs »</button>
                                 </span>
                                 {/if}
                                 </span>
-                            </p>
+                            </p> -->
                         </div>
 
 
@@ -587,9 +584,15 @@
     .mobile-button {
         padding: 0;
     }
+
+    .mobile-button-background {
+        pointer-events: none;
+        opacity: 0;
+    }
     .mobile-button button {
         background: none;
         padding: 0;
+        display: block;
         font-weight: 300;
         text-decoration: underline;
     }
@@ -718,9 +721,9 @@
         display: flex;
         flex-wrap: wrap;
         width: 100vw;
-        height: 100vh;
         transform: translate3d(0,0,0);
         overflow: hidden;
+        z-index: -1;
     }
 
     .song-col-wrapper {
@@ -769,10 +772,6 @@
     .wrapper {
         position: relative;
     }
-
-	.spacer {
-		height: 75vh;
-	}
 
     .gradient-waffle {
         width: 100%;
@@ -860,11 +859,7 @@
         }
         .only-women-label {
             font-size: 14px;
-        }
-        .text-overlay {
-            /* display: none; */
-        }
-        
+        }    
     }
     @media only screen and (max-width: 600px) {
         .text-overlay {
@@ -889,6 +884,7 @@
             position: relative;
             z-index: 1000;
             width: 100%;
+            background: var(--color-bg);
         }
         .mobile-list .para {
             font-size: 14px;
@@ -912,6 +908,7 @@
         .mobile-list .hide-after:after {
             display: none;
         }
+
     }
 </style>
 

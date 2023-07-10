@@ -243,9 +243,11 @@
 										font-weight:{ $viewport.width < 1100 ? "600" : ''};
 									"
 								>{commas(cut[1].length)}
-									{#if $viewport.width < 900 && i == groups(dataForChart, d => d.cutTwo).length - 1}
+								{#if $viewport.width > 1100}
 									songs 
-									{/if}
+								{:else if i == groups(dataForChart, d => d.cutTwo).length - 1}
+									songs
+								{/if}
 								</span>
 						{/if}
 
@@ -363,7 +365,7 @@
 		padding: 20px 50px;
 		background: white;
 		display: inline-block;
-		z-index: 10000;
+		z-index: 10000000;
 	}
 
 	.cut-wrapper {
@@ -380,7 +382,7 @@
 		background: linear-gradient(360deg, #191817 30%, rgba(0,0,0,0) 100%);
     	width: 100%;
     	height: 300px;
-		z-index: 1000;
+		z-index: 100000;
 	}
 
 	.no-results:after, .all-results:after {

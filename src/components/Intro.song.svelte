@@ -10,7 +10,8 @@
     export let dataByYear;
     export let text;
     export let priorStats;
-    
+    export let viewportHeight;
+
     let value;
     let textKeys = [];
     let textValue;
@@ -664,6 +665,10 @@ const getNumber = (gender) => {
             display: inline;
             margin-top: 5px;
             font-size: 11px;
+        }
+
+        .counter {
+            padding-bottom: 25px;
         }
 
     }
