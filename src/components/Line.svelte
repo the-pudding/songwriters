@@ -117,7 +117,7 @@
                     <div class="highlight-container"
                         style="left:{rectWidth/2 - 7}px;"
                     >
-                        <p>This bar represents <span class="woman-color">{songwriter.writer}</span>, credited as a songwriter on {songwriter.song_key}.</p>
+                        <p>This bar represents <span class="woman-color">{songwriter.writer}</span>, credited as a songwriter on &ldquo;{songwriter.song_key.split(" by ")[0]}&rdquo; by {songwriter.song_key.split(" by ")[1]}.</p>
                         <svg viewBox="0 0 20 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9.10511 51.5173C9.59934 52.0115 10.4007 52.0115 10.8949 51.5173L18.9489 43.4633C19.4431 42.9691 19.4431 42.1678 18.9489 41.6735C18.4546 41.1793 17.6533 41.1793 17.1591 41.6735L10 48.8326L2.84091 41.6735C2.34668 41.1793 1.54537 41.1793 1.05114 41.6735C0.556905 42.1678 0.556905 42.9691 1.05114 43.4633L9.10511 51.5173ZM8.73444 -5.53194e-08L8.73444 50.6224L11.2656 50.6224L11.2656 5.53194e-08L8.73444 -5.53194e-08Z" fill="#FFFAD7"/>
                         </svg>
@@ -179,7 +179,7 @@
                             height:{nbOnlyLengthMobile * (songGap + height)}px;
                         "
                         >
-                        <p>{nbOnlyLength} songwriting credits went to <span style="color:#FFF;">non-binary writers</span> in 2014.</p>
+                        <p>{nbOnlyLengthMobile} songwriting credits went to <span style="color:#FFF;">non-binary writers</span> in 2014.</p>
                     </div>
                     {/if}
 

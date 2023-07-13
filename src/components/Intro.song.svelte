@@ -519,6 +519,8 @@ const getNumber = (gender) => {
         font-family: 'DM Sans';
         font-size: 24px;
         text-align: center;
+        transform: translate3d(0,0,0);
+        will-change: transform;
     }
 
     .song-title {

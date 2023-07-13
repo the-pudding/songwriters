@@ -15,6 +15,7 @@
     export let yearRange;
 
     let value;
+    let scrollValue;
     let mobile = false;
 
     let linearGradientHeight = 0;
@@ -286,12 +287,21 @@
         dataForChart = nearTermData;
   	});
 
+    const getValue = (valueToUpdate) => {
+        if(!valueToUpdate && value == 3){
+            return 3;
+        }
+        return valueToUpdate;
+    }
+
     $: dataForChart = nearTermData;
 
     $: mobile = $viewport.width < 600 ? true : false;
     $: mobile, updateMobile();
 
-    $: console.log("mobile",mobile)
+    $: value = getValue(scrollValue);
+
+    $: console.log("value",value)
 
 </script>
 <!--  -->
@@ -462,12 +472,12 @@
     </div>
 
     {#if dataForChart}
-        <Scrolly bind:value>
+        <Scrolly bind:value={scrollValue}>
             {#each slides as slide,i}
 
-                {@const active = value === i}
+                {@const active = scrollValue === i}
                 {@const songsToShow = getMobileSongs(dataForChart[0][1],mobileKey[i])}
-                {@const toSplit = slide.split("$$$").length > 1 ? true : false};
+                {@const toSplit = slide.split("$$$").length > 1 ? true : false}
 
                 <div class="step" data-split={toSplit}
                     style="
@@ -508,9 +518,9 @@
                                         </p>
                                     </div>
                                 </div>
+                                <span>{@html slide.split("$$$")[1]}</span>
                             {/if}
 
-                            <span>{@html slide.split("$$$")[1]}</span>
                         </p>
                         <p class="para background">
                             <span>{@html slide.split("$$$")[0]}</span>
@@ -539,8 +549,8 @@
                                         </p>
                                     </div>
                                 </div>
+                                <span>{@html slide.split("$$$")[1]}</span>
                             {/if}
-                            <span>{@html slide.split("$$$")[1]}</span>
 
                         </p>
                     </div>
