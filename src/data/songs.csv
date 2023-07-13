@@ -330,8 +330,8 @@ new_028,4,high hopes by panic! at the disco,2018,1,"mixed, majority men","['m', 
 759093,1,Just Give Me A Reason by P!nk Featuring Nate Ruess,2013,1,"mixed, majority men","['f', 'm', 'm']",3,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
 778653,1,Royals by Lorde,2013,1,parity,"['f', 'm']",2,1,at least 1 woman,1 or more women in credits,1 or more men,f
 749847,5,Beauty And A Beat by Justin Bieber Featuring Nicki Minaj,2013,1,"mixed, majority men","['m', 'm', 'f', 'm', 'm']",5,1,at least 1 woman,1 or more women in credits,1 or more men,m;f
-784261,2,We Can't Stop by Miley Cyrus,2013,1,"mixed, majority men","['m', 'm', 'm', 'm', 'f', 'm', 'm']",7,1,at least 1 woman,1 or more women in credits,1 or more men,nb
-793366,1,Wrecking Ball by Miley Cyrus,2013,1,"mixed, majority men","['m', 'm', 'm', 'm', 'f']",5,1,at least 1 woman,1 or more women in credits,1 or more men,nb
+784261,2,We Can't Stop by Miley Cyrus,2013,1,"mixed, majority men","['m', 'm', 'm', 'm', 'f', 'm', 'm']",7,1,at least 1 woman,1 or more women in credits,1 or more men,#N/A
+793366,1,Wrecking Ball by Miley Cyrus,2013,1,"mixed, majority men","['m', 'm', 'm', 'm', 'f']",5,1,at least 1 woman,1 or more women in credits,1 or more men,#N/A
 802889,1,The Monster by Eminem Featuring Rihanna,2013,1,"mixed, majority men","['m', 'f', 'f', 'm', 'm', 'm', 'm']",7,2,at least 1 woman,1 or more women in credits,1 or more men,m;f
 790919,1,Roar by Katy Perry,2013,1,"mixed, majority men","['m', 'm', 'f', 'm', 'f']",5,2,at least 1 woman,1 or more women in credits,1 or more men,f
 799595,1,Timber by Pitbull Featuring Ke$ha,2013,1,"mixed, majority men","['m', 'm', 'm', 'f', 'f', 'm', 'm', 'm', 'f', 'm']",10,3,at least 1 woman,1 or more women in credits,1 or more men,m;f
@@ -453,12 +453,12 @@ new_028,4,high hopes by panic! at the disco,2018,1,"mixed, majority men","['m', 
 566378,3,Day 'N' Nite by Kid Cudi,2009,1,only men,"['m', 'm']",2,0,no women,only men,1 or more men,m
 617994,1,Fireflies by Owl City,2009,1,only men,['m'],1,0,no women,only men,1 or more men,m
 597490,5,Halo by Beyonce,2009,1,"mixed, majority men","['f', 'm', 'm']",3,1,at least 1 woman,1 or more women in credits,1 or more men,f
-603796,4,The Climb by Miley Cyrus,2009,1,parity,"['f', 'm']",2,1,at least 1 woman,1 or more women in credits,1 or more men,nb
+603796,4,The Climb by Miley Cyrus,2009,1,parity,"['f', 'm']",2,1,at least 1 woman,1 or more women in credits,1 or more men,#N/A
 612267,1,Whatcha Say by Jason Derulo,2009,1,"mixed, majority men","['m', 'f', 'm', 'm']",4,1,at least 1 woman,1 or more women in credits,1 or more men,m
 589648,1,Poker Face by Lady Gaga,2009,1,parity,"['m', 'f']",2,1,at least 1 woman,1 or more women in credits,1 or more men,f
 589649,5,LoveGame by Lady Gaga,2009,1,parity,"['m', 'f']",2,1,at least 1 woman,1 or more women in credits,1 or more men,f
 628194,2,Bad Romance by Lady Gaga,2009,1,parity,"['m', 'f']",2,1,at least 1 woman,1 or more women in credits,1 or more men,f
-619785,2,Party In The U.S.A. by Miley Cyrus,2009,1,"mixed, majority men","['m', 'm', 'f']",3,1,at least 1 woman,1 or more women in credits,1 or more men,nb
+619785,2,Party In The U.S.A. by Miley Cyrus,2009,1,"mixed, majority men","['m', 'm', 'f']",3,1,at least 1 woman,1 or more women in credits,1 or more men,#N/A
 619788,1,TiK ToK by Ke$ha,2009,1,"mixed, majority men","['m', 'm', 'f']",3,1,at least 1 woman,1 or more women in credits,1 or more men,f
 626042,1,3 by Britney Spears,2009,1,"mixed, majority men","['m', 'm', 'f']",3,1,at least 1 woman,1 or more women in credits,1 or more men,f
 606221,3,Knock You Down by Keri Hilson Featuring Kanye West & Ne-Yo,2009,1,"mixed, majority men","['m', 'm', 'm', 'f', 'm', 'm']",6,1,at least 1 woman,1 or more women in credits,1 or more men,m;f

@@ -4,10 +4,13 @@
 </script>
 
 
-<div class="sparkle" style="
-    position:absolute; {position};
-    background-image:url('assets/sparkles/big-sparkle-{starNumber}.svg');
-  " id="big-sparkle-{starNumber}"
+<div class="sparkle"
+    style="
+      position:absolute; {position};
+      background-image:url('assets/sparkles/big-sparkle-{starNumber}.svg');
+    "
+    id="big-sparkle-{starNumber}"
+    role="img" aria-label="Star that grows/shrinks every few seconds"
 >
 </div>
 

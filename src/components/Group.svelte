@@ -154,7 +154,9 @@ color:{songwriter == "m" ? "white" : songwriter == "f" ? "white" : 'white'}; -->
         height:{height}px;
         "
     >
-        <img class="gender-{sizes[identifier].width}" style="transform:translate({sizes[identifier].leftAdjust}%,{sizes[identifier].transform}%); width:{sizes[identifier].imgWidth*(size+.1)}px;" src="assets/{gender}-{number}.svg" alt="">
+        <img class="gender-{sizes[identifier].width}" style="transform:translate({sizes[identifier].leftAdjust}%,{sizes[identifier].transform}%); width:{sizes[identifier].imgWidth*(size+.1)}px;" src="assets/{gender}-{number}.svg"
+            alt="illustration of {genderKey[genderKey]} songwriter"
+        >
         {#if labelPlacement == "legend"}
             <p>{genderKey[songwriter]}</p>
         {/if}

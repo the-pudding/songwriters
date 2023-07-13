@@ -5,12 +5,19 @@
 	import viewport from "$stores/viewport.js";
     import { fade, fly } from "svelte/transition";
     import Group from "$components/Group.svelte";
-    import { group, scaleLinear } from "d3";
+    import { group, scaleLinear, groups } from "d3";
 
     export let dataByYear;
     export let text;
     export let priorStats;
     export let viewportHeight;
+    export let threshold;
+    
+    const genderKey = {
+        "f":"women",
+        "m":"men",
+        "nb":"non-binary"
+    }
 
     let value;
     let textKeys = [];
@@ -138,7 +145,7 @@ const getNumber = (gender) => {
     
 
     let index, offset, progress;
-    let threshold = 1;
+    
     let top = 1;
     let bottom = 1;
     let progressCounts = [];
@@ -148,9 +155,6 @@ const getNumber = (gender) => {
 
     let progressAdjusted;
     
-    const test = (id) => {
-        console.log(id)
-    }
     const getText = () => {
         if(textKeys.indexOf(value) > -1){
             textValue = text[value];
@@ -169,7 +173,6 @@ const getNumber = (gender) => {
 
     const calcTotals = () => {
         cutTotals = group(dataByYear.flat(2).filter(d => d.id), d => d.cutTwo);
-        console.log(cutTotals.get("only men"))
     }
 
     const calcProgress = () => {
@@ -208,10 +211,9 @@ const getNumber = (gender) => {
 
     $: textToShow = getProgressText(progressAdjusted);
 
-    $: groupSize = $viewport.width < 900 ? $viewport.width < 600 ? .3 : .4 : .6;
+    $: groupSize = $viewport.width < 900 ? $viewport.width < 600 ? .4 : .4 : .6;
     $: groupHeight = $viewport.width < 900 ? $viewport.width < 600 ? 25 : 40 : 50;
     $: labelPlacementValue = $viewport.width < 500 ? "secondMobile" : "second";
-    $: console.log(progressAdjusted)
 
 </script>
 
@@ -287,8 +289,10 @@ const getNumber = (gender) => {
                             <p class="year">{dataYear[0]}</p>
                             {#each dataYear[1].sort((a,b) => { return a["percent"] - b["percent"]}) as song}
                                 <div
-                                    class=""
-                                    style="width:100%; display:flex; justify-content:flex-start;">
+                                    class="song-container-top"
+                                    style="
+                                        margin-bottom:{song.genderArray.indexOf("nb") > -1 && $viewport.width < 500 ? "60px" : ''};
+                                        display:flex; justify-content:flex-start;">
                                     <!-- svelte-ignore a11y-mouse-events-have-key-events -->
                                     <div
                                         class="song-container {song.cutTwo == "only women" ? "women-only" : ''}"
@@ -320,13 +324,15 @@ const getNumber = (gender) => {
                                                     class="songwriters-label"
                                                 >
                                                     {song.cutTwo}
-                                                    {#if song.genderArray.indexOf("nb") > -1}
-                                                        <span style="color:#e67a5b;">(incl. {song.genderArray.filter(d => d == "nb").length} non-binary writer{song.genderArray.filter(d => d == "nb").length > 1 ? "s" : ''})
-                                                        </span>
-                                                    {/if}
                                                 </p>
+                                                {#if song.genderArray.indexOf("nb") > -1}
+                                                    <p class="nb-label" style="color:#e67a5b;">(incl. {song.genderArray.filter(d => d == "nb").length} non-binary writer{song.genderArray.filter(d => d == "nb").length > 1 ? "s" : ''})
+                                                    </p>
+                                                {/if}
                                             {/if}                                        
-                                            <div class="songwriters">
+                                            <div class="songwriters"
+                                                role="img" aria-label="Group of songwriters illustrated for {song.song_key}, representing {groups(song.genderArray, d => d).map(d => `${d[1].length} ${genderKey[d[0]]} songwriters`).join(", ")}"
+                                            >
                                                 <Group {song} size={groupSize} labelPlacement={labelPlacementValue} height={groupHeight}/>
                                             </div>    
                                         </div>
@@ -345,6 +351,9 @@ const getNumber = (gender) => {
 </div>
 
 <style>
+    .nb-label {
+        display: none;
+    }
     .long-scroll {
         margin-bottom: 300px;
     }
@@ -375,6 +384,9 @@ const getNumber = (gender) => {
         width: 100%;
     }
     
+    .song-container-top {
+        width: 100%;
+    }
 
     .count-row {
         font-family: 'DM Sans';
@@ -393,6 +405,7 @@ const getNumber = (gender) => {
         left: 0;
         height: calc(100% + 10px);
         background: linear-gradient(90deg, rgba(255,177,9,.25) 100px, rgba(0,0,0,0) 521px);
+        opacity: .7;
     }
     .song-key {
         margin-right: 10px;
@@ -639,16 +652,74 @@ const getNumber = (gender) => {
     }
 
     @media only screen and (max-width: 500px) {
+        .year-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .year {
+            width: 100%;
+        }
+
+        .fixed-text span {
+            padding: 3px;
+            font-size: 28px;
+        }
+
+        .bar {
+            height: calc(100% + 10px);
+            opacity: 1;
+            background: rgba(209,146,20,.31);
+            border: 1px solid rgba(255,177,2,.58);
+            top: 0;
+        }
+
         .song-key {
             width: 40%;
             flex-grow: 1;
+            margin: 0;
+            z-index: 1000;
+            width: auto;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            top: 5px;
+            text-align: center;
+            position: relative;
+            width: 100%;
+            order: 2;
+            margin-top: -20px;
         }
+        .song-container-top {
+            width: auto;
+            max-width: calc(33% - 10px);
+            margin-bottom: 30px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+
         .song {
             flex-wrap: nowrap;
+            width: auto;
+            padding: 0;
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            border: none;
+            margin: 0;
+        }
+
+        .song-container {
+            width: auto;
+            max-width: none;
         }
 
         .songwriters {
-            max-width: calc(60% - 100px);
+            /* max-width: calc(60% - 100px); */
+            opacity: .8;
+            margin: 0 5px;
         }
         .songwriters-label {
             text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
@@ -659,12 +730,29 @@ const getNumber = (gender) => {
             text-align: right;
             line-height: 1;
             max-width: 100px;
+            display: none;
+        }
+
+        .nb-label {
+            display: block;
+            margin: 0;
+            font-size: 12px;
+            text-align: center;
+            position: absolute;
+            bottom: -7px;
+            transform: translate(0,100%);
         }
 
         .songwriters-label span {
             display: inline;
             margin-top: 5px;
             font-size: 11px;
+        }
+
+        .song-title, .song-artist {
+            text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
+            line-height: 1.2;
+            opacity: .7;
         }
 
         .counter {

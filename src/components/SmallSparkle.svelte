@@ -10,7 +10,10 @@
 </script>
 
 <div class="small-sparkle" style = "position: absolute; left:{locationLeft}vw; top:{locationTop/100 * viewportHeight}px; animation-delay: {randomDelay}s">
-    <img src="assets/sparkles/small-sparkle-{starNumber}.svg" alt="">
+    <img src="assets/sparkles/small-sparkle-{starNumber}.svg"
+        alt="Star that grows/shrinks every few seconds"
+    >
+    
 </div>
 
 <style>

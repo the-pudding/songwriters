@@ -467,8 +467,9 @@
 
                 {@const active = value === i}
                 {@const songsToShow = getMobileSongs(dataForChart[0][1],mobileKey[i])}
-            
-                <div class="step"
+                {@const toSplit = slide.split("$$$").length > 1 ? true : false};
+
+                <div class="step" data-split={toSplit}
                     style="
                         margin-top:{i == 0 ? '400px' : ''};
                         margin-bottom:{$viewport.width < 600 ? i == 3 ? 0 : viewportHeight*.75 : 0}px;
@@ -480,54 +481,109 @@
                 >
                     <div class="tape-wrapper">
                         <p class="para foreground">
-                            <span>{@html slide}</span>
+                            <span>{@html slide.split("$$$")[0]}</span>
+
+                            {#if mobile && toSplit}
+                                <div
+                                class="mobile-list"
+                                style="margin-top:50px;"
+                                >
+                                    <div class="tape-wrapper {songsToShow.length <= songSlice[i] ? "hide-after" : ''}">
+                                        <p class="para foreground">
+                                            <span data-value={i} class="mobile-label mobile-song">Songs like:</span>
+                                            <span in:fade={{duration:500}} class="mobile-song">
+                                            {#each songsToShow.slice(0,songSlice[i]) as song, j}
+                                                {j+1}. {song.title} by <span style="color:{song.artist_gender == "m" ? 'var(--color-men-text)' : i == 3 ? 'var(--color-women)' : ''};">{song.artist}</span>, written by <span class="mobile-women" style="color:var(--color-women);">{song["songwriters"].map(d => d.writer).join(", ")}</span>
+                                            {/each}
+                                            {#if songsToShow.length > songSlice[i]}
+                                                <span
+                                                    data-slice={songSlice[i]}
+                                                    data-length={songsToShow.length}
+                                                    style="
+                                                    "
+                                                    class="mobile-button here"><button on:click={() => expandSlice(i)}>Show 10 more songs »</button>
+                                                </span>
+                                            {/if}
+
+                                        </p>
+                                    </div>
+                                </div>
+                            {/if}
+
+                            <span>{@html slide.split("$$$")[1]}</span>
                         </p>
                         <p class="para background">
-                            <span>{@html slide}</span>
+                            <span>{@html slide.split("$$$")[0]}</span>
+                            {#if mobile && toSplit}
+                                <div
+                                class="mobile-list"
+                                style="margin-top:50px;"
+                                >
+                                    <div class="tape-wrapper {songsToShow.length <= songSlice[i] ? "hide-after" : ''}">
+                                        <p class="para foreground">
+                                            <span data-value={i} class="mobile-label mobile-song">Songs like:</span>
+                                            <span in:fade={{duration:500}} class="mobile-song">
+                                            {#each songsToShow.slice(0,songSlice[i]) as song, j}
+                                                {j+1}. {song.title} by <span style="color:{song.artist_gender == "m" ? 'var(--color-men-text)' : i == 3 ? 'var(--color-women)' : ''};">{song.artist}</span>, written by <span class="mobile-women" style="color:var(--color-women);">{song["songwriters"].map(d => d.writer).join(", ")}</span>
+                                            {/each}
+                                            {#if songsToShow.length > songSlice[i]}
+                                                <span
+                                                    data-slice={songSlice[i]}
+                                                    data-length={songsToShow.length}
+                                                    style="
+                                                    "
+                                                    class="mobile-button here"><button on:click={() => expandSlice(i)}>Show 10 more songs »</button>
+                                                </span>
+                                            {/if}
+
+                                        </p>
+                                    </div>
+                                </div>
+                            {/if}
+                            <span>{@html slide.split("$$$")[1]}</span>
+
                         </p>
                     </div>
-                    {#if mobile}
+                    {#if mobile && !toSplit}
                         <div
                             class="mobile-list"
                         >
-                        <div class="tape-wrapper {songsToShow.length <= songSlice[i] ? "hide-after" : ''}">
-                            <p class="para foreground">
-                                <span data-value={i} class="mobile-label mobile-song">Songs like:</span>
-                                <span in:fade={{duration:500}} class="mobile-song">
-                                {#each songsToShow.slice(0,songSlice[i]) as song, j}
-                                    {j+1}. {song.title} by <span style="color:{song.artist_gender == "m" ? 'var(--color-men-text)' : i == 3 ? 'var(--color-women)' : ''};">{song.artist}</span>, written by <span class="mobile-women" style="color:var(--color-women);">{song["songwriters"].map(d => d.writer).join(", ")}</span>
-                                {/each}
-                                {#if songsToShow.length > songSlice[i]}
+                            <div class="tape-wrapper {songsToShow.length <= songSlice[i] ? "hide-after" : ''}">
+                                <p class="para foreground">
+                                    <span data-value={i} class="mobile-label mobile-song">Songs like:</span>
+                                    <span in:fade={{duration:500}} class="mobile-song">
+                                    {#each songsToShow.slice(0,songSlice[i]) as song, j}
+                                        {j+1}. {song.title} by <span style="color:{song.artist_gender == "m" ? 'var(--color-men-text)' : i == 3 ? 'var(--color-women)' : ''};">{song.artist}</span>, written by <span class="mobile-women" style="color:var(--color-women);">{song["songwriters"].map(d => d.writer).join(", ")}</span>
+                                    {/each}
+                                    {#if songsToShow.length > songSlice[i]}
+                                        <span
+                                            data-slice={songSlice[i]}
+                                            data-length={songsToShow.length}
+                                            style="
+                                            "
+                                            class="mobile-button here"><button on:click={() => expandSlice(i)}>Show 10 more songs »</button>
+                                        </span>
+                                    {/if}
+
+                                </p>
+                                <!-- <p class="para background">
+                                    <span class="mobile-label mobile-song">Songs like:</span>
+                                    <span in:fade={{duration:500}} class="mobile-song">
+                                    {#each songsToShow.slice(0,songSlice[i]) as song, j}
+                                        {j+1}. {song.title} by {song.artist}, written by <span class="mobile-women" style="color:var(--color-women);">{song["songwriters"].map(d => d.writer).join(", ")}</span>
+                                    {/each}
+                                    {#if songsToShow.length > songSlice[i]}
                                     <span
                                         data-slice={songSlice[i]}
                                         data-length={songsToShow.length}
                                         style="
                                         "
-                                        class="mobile-button here"><button on:click={() => expandSlice(i)}>Show 10 more songs »</button>
+                                        class="mobile-button mobile-button-background"><button on:click={() => expandSlice(i)}>Show 10 more songs »</button>
                                     </span>
-                                {/if}
-
-                            </p>
-                            <!-- <p class="para background">
-                                <span class="mobile-label mobile-song">Songs like:</span>
-                                <span in:fade={{duration:500}} class="mobile-song">
-                                {#each songsToShow.slice(0,songSlice[i]) as song, j}
-                                    {j+1}. {song.title} by {song.artist}, written by <span class="mobile-women" style="color:var(--color-women);">{song["songwriters"].map(d => d.writer).join(", ")}</span>
-                                {/each}
-                                {#if songsToShow.length > songSlice[i]}
-                                <span
-                                    data-slice={songSlice[i]}
-                                    data-length={songsToShow.length}
-                                    style="
-                                    "
-                                    class="mobile-button mobile-button-background"><button on:click={() => expandSlice(i)}>Show 10 more songs »</button>
-                                </span>
-                                {/if}
-                                </span>
-                            </p> -->
-                        </div>
-
-
+                                    {/if}
+                                    </span>
+                                </p> -->
+                            </div>
                         </div>
                     {/if}               
                 </div>

@@ -45,7 +45,7 @@
 		</button>
 	</a>
 	<div class="">
-		<p class="para">Or follow us on <a target="_blank" href="https://www.instagram.com/the.pudding" rel="noopener">Instagram</a>, <a target="_blank" href="https://twitter.com/puddingviz" rel="noopener">Twitter</a>, and <a href="/feed/index.xml">RSS</a>.</p>
+		<p class="para">Or follow us on <a target="_blank" href="https://www.instagram.com/the.pudding" rel="noopener">Instagram</a>, <a target="_blank" href="https://twitter.com/puddingviz" rel="noopener">Twitter</a>, <a target="_blank" href="https://www.youtube.com/thepudding" rel="noopener">YouTube</a>, and <a href="/feed/index.xml">RSS</a>.</p>
 	</div>
 </div>
 

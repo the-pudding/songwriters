@@ -31,10 +31,15 @@
     const updateMobile = () => {
         gap = 1;
     }
+
+    let captionData = [];
     
     dataForChart
         .forEach((d,i) => {
             d[1].sort((a,b) => b.gender_clean.localeCompare(a.gender_clean));
+
+            captionData.push(`${d[0]}: ${d[1].length} songwriters, of which ${d[1].filter(j => { return ["pf","f"].indexOf(j.gender_clean) > -1; }).length} are women`)
+
             if(d[0] == "2022"){
                 let womenOnly = d[1].filter(j => {
                     return ["pf","f"].indexOf(j.gender_clean) > -1;
@@ -78,11 +83,12 @@
 </script>
 {#if dataForChart}
 <div class="wrapper">
-<div 
+<figure 
     style="
     " 
     class="line-chart-container"
 >
+    <figcaption class="sr-only" aria-live="polite">The share of songwriters who are women, men, or non-binary, from 1958 to 2022. {captionData.join(", ")}.</figcaption>
     {#each dataForChart as year, i}
         <div class="year"
             style="
@@ -193,7 +199,8 @@
             {/if}
         </div>
     {/each}
-</div>
+    
+</figure>
 <div class="legend">
     <div class="item">
         <div class="box"

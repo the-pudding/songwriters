@@ -1,6 +1,8 @@
 <script>
 	import { getContext, onMount } from "svelte";
 	import Bubble from '$components/Bubble.svelte';
+	import Group from "$components/Group.svelte"	
+
 	import IntroSong from '$components/Intro.song.svelte'
 	import IntroAll from '$components/Intro.all.svelte'
 	import Demo from "$components/demo/Demo.svelte";
@@ -26,41 +28,51 @@
 	// import Footer from "$components/Footer.svelte";
 
 	const copy = getContext("copy");
-	const data = getContext("data");
+	// const data = getContext("data");
 
 
 	let viewportHeight = 0;
 	let dataReady;
 
 
+	let loadGroup = {song_key:"Songwriters for Hit Songs by The Average",genderArray:["m","f","nb"],cutTwo:"avearge"};
 
-	const songs = data.songs;
-	const writerKey = data.writerKey;
-	let writersByYear = data.writersByYear;
-	let cutCategories = data.cutCategories;
+	// const songs = data.songs;
+	// const writerKey = data.writerKey;
+	// let writersByYear = data.writersByYear;
+	// let cutCategories = data.cutCategories;
 	const comma = format(",");
 
-	let priorOne = {};
-	cutCategories.forEach(d => {
-		priorOne[d] = 0;
-	})
+	// let priorOne = {};
+	// cutCategories.forEach(d => {
+	// 	priorOne[d] = 0;
+	// })
 
-    let dataByYear = groups(songs, d => d.year);
+	let priorOne = {
+		"only men":0,
+		"only women":0,
+		"parity":0,
+		"mixed, majority men":0,
+		"mixed, majority women":0
+	}
+
+    // let dataByYear = groups(songs, d => d.year);
 	let dataByYearTwo;
 	let writersByYearTwo;
 	let waffleWriterDataTwo;
+	// let waffleWriterData;
 
-    let dataByGender = groups(songs.filter(d => d.cut == "only women"), d => d.artist_gender, v => v.year);
-	let dataByYearWomenOnly = groups(songs.filter(d => d.cut == "only women").map(function(d){
-		d["songwriters"] = writerKey.get(d.song_key.toLowerCase());
-		return d;
-	}), v => v.year)
+    // let dataByGender = groups(songs.filter(d => d.cut == "only women"), d => d.artist_gender, v => v.year);
+	// let dataByYearWomenOnly = groups(songs.filter(d => d.cut == "only women").map(function(d){
+	// 	d["songwriters"] = writerKey.get(d.song_key.toLowerCase());
+	// 	return d;
+	// }), v => v.year)
 
 
-	let waffleWriterData = songs.map((d) => {
-		d["songwriters"] = writerKey.get(d.song_key.toLowerCase());
-		return d;
-	})
+	// let waffleWriterData = songs.map((d) => {
+	// 	d["songwriters"] = writerKey.get(d.song_key.toLowerCase());
+	// 	return d;
+	// })
 
 	let introAnimationText = copy["intro"].map(d => d.value);
 	// [
@@ -69,6 +81,7 @@
 	// 	"Half of the songs had a songwriting team of all men.",
 	// 	"Only one song had a songwriting team consisting of just women.",
 	// ]
+	let dataNote = copy["dataNote"];
 
 	let textFirst = copy["longScroll"][0];
 	// {
@@ -219,17 +232,16 @@
 </div>
 
 
-<IntroAnimation {viewportHeight} text={introAnimationText} data={dataByYearTwo.filter(d => +d[0] == 2022)[0][1]} />
+<IntroAnimation {dataNote} {viewportHeight} text={introAnimationText} data={dataByYearTwo.filter(d => +d[0] == 2022)[0][1]} />
 
 {#each copy["preLongScroll"].map(d => d.value) as paragraph}
 	<p class="center-col para">
 		{@html paragraph}
 	</p>
 {/each}
-
 <p class="chart-hed">{copy.longScrollHeadline}</p>
-	<IntroSong {viewportHeight} dataByYear={dataByYearTwo.filter(d => +d[0] < 2022 && +d[0] > 2009)} text={textFirst} priorStats={priorOne}/>
-
+	<IntroSong threshold={$viewport.width < 500 ? .5 : 0} {viewportHeight} dataByYear={dataByYearTwo.filter(d => +d[0] < 2022 && +d[0] > 2009)} text={textFirst} priorStats={priorOne}/>
+ 
  
 
 {#each copy["postLongScroll"].map(d => d.value) as paragraph}
@@ -238,9 +250,7 @@
 	</p>
 {/each}
 
-
 <Headline {viewportHeight} />
-
 
 {#each copy["preWaffle"].map(d => d.value) as paragraph}
 	<p class="center-col para">
@@ -250,7 +260,6 @@
 <p class="chart-summary">{@html copy.waffleHed}</p>
 <p class="chart-hed">{@html copy.waffleDek}</p>
  
-
 <Female {viewportHeight} dataByYear={dataByYearTwo} cut="two" slides={slidesTwo} yearRange={[1957,2023]}/>
 
 {#each copy["postWaffle"].map(d => d.value) as paragraph}
@@ -273,21 +282,41 @@
 <div class="space">
 	 
 </div>
-<p class="chart-hed chart-hed-bubble">Explore {comma(waffleWriterData.length)} Top 5 Hits</p>
+<p class="chart-hed chart-hed-bubble">Explore {comma(waffleWriterDataTwo.length)} Top 5 Hits</p>
 <Bubble data={waffleWriterDataTwo} />
-{#each copy["note"].map(d => d.value) as paragraph}
-	<p class="center-col para">
-		{@html paragraph}
-	</p>
-{/each}
+<div id="note">
+	{#each copy["note"].map(d => d.value) as paragraph}
+		<p class="center-col para">
+			{@html paragraph}
+		</p>
+	{/each}
+</div>
+
 <Footer />
 {:else}
 <div class="overflow">
+	<div class="songwriters">
+		<Group song={loadGroup} size={.8} labelPlacement={"first"} height={30}/>
+	</div>
+	
 	<p>Loading...</p>
 </div>
 {/if}
 <!-- <Demo /> -->
 <style>
+	.songwriters {
+        display: flex;
+        align-self: center;
+        max-width: 150px;
+        flex-wrap: wrap;
+        position: absolute;
+		top: 50%;
+        z-index: -1;
+        margin: 0 auto;
+        justify-content: center;
+		transform: translate(0,-50%);
+		opacity: .5;
+    }
 	.chart-hed-bubble {
 		text-align: center;
 	}
@@ -316,6 +345,7 @@
 	.overflow p {
 		font-family: var(--sans);
 		text-align: center;
+		font-size: 24px;
 	}
 
 	@media only screen and (max-width: 500px) {

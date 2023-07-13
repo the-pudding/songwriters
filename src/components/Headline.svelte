@@ -22,26 +22,30 @@
     <div class="title fixed" style="
         top:{-$viewport.width * fixedOffset}px;
     ">
-        <Sparkle></Sparkle>
+        <div class="sparkle-container">        
+            <Sparkle></Sparkle>
 
-        {#each range(15) as sparkle}
-            <SmallSparkle {viewportHeight} />
-        {/each}
-        
-        <Sparkle starNumber=2 position="left:0px;top:50%"></Sparkle>
-        
-        <div id="headline" alt="Women are superstars on stage but still rarely get to write songs"
+            {#each range(15) as sparkle}
+                <SmallSparkle {viewportHeight} />
+            {/each}
+            
+            <Sparkle starNumber=2 position="left:0px;top:50%"></Sparkle>
+        </div>
+        <div
+            id="headline"
+            role="img"
+            aria-labelledby="header--title"
             style="
                 height:{$viewport.width * imageHeight}px;
                 width:{$viewport.width}px;
             "
         >
-
+            <title id="header--title">Women are superstars on stage but still rarely get to write songs</title>
         </div>
         
     </div>
 
-    <img class="microphones fixed2" alt="" src="assets/headline-mics.png"
+    <img class="microphones fixed2" alt="black silouette of microphones" src="assets/headline-mics.png"
     style="
     transform:translate(0,{0}px);
     "
@@ -56,6 +60,15 @@
         width: 100%;
         background-size: 100%;
         background-repeat: no-repeat;
+    }
+
+    .sparkle-container {
+        width: 100%;
+        max-width: 100vw;
+        overflow: hidden;
+        height: 100vh;
+        position: absolute;
+        top: 0;
     }
 
     @media (max-width: 800px) {

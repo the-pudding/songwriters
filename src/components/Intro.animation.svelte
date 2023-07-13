@@ -1,6 +1,6 @@
 <script>
     import Scrolly from "$components/helpers/Scrolly.svelte";
-    import { range } from "d3";
+    import { range, groups } from "d3";
     import { onMount,getContext } from "svelte";
     import Group from "$components/Group.svelte"	
 	import viewport from "$stores/viewport.js";
@@ -9,6 +9,7 @@
     export let viewportHeight;
     export let data;
     export let text;
+    export let dataNote;
 
     let mobile = false;
     let value;
@@ -16,6 +17,12 @@
     let fixedHeight;
 
     let stepValue = 0;
+
+    const genderKey = {
+        "f":"women",
+        "m":"men",
+        "nb":"non-binary"
+    }
 
     let men = range(223);
     let women = range(32);
@@ -85,10 +92,13 @@
                     max-width:{value == 3 && song.cutTwo == "only women" && !mobile ? '150px' : ''};
                     right:{value == 3 && song.cutTwo == "only women" && !mobile ? '0' : ''};
                     left:{value == 3 && song.cutTwo  == "only women" && !mobile ? '0' : ''};
+                    top:{value == 3 && song.cutTwo  == "only women" && !mobile ? 'auto' : ''};
+                    bottom:{value == 3 && song.cutTwo  == "only women" && !mobile ? '0' : ''};
                     margin:{value == 3 && song.cutTwo == "only women" && !mobile ? '0 auto' : ''};
                 "
             >
                 <div class="songwriters"
+                    role="img" aria-label="Group of songwriters illustrated for {song.song_key}, representing {groups(song.genderArray, d => d).map(d => `${d[1].length} ${genderKey[d[0]]} songwriters`).join(", ")}"
                     style="
                         margin:{value == 3 && song.cutTwo == "only women" ? '0 auto' : ''};
                     "
@@ -120,7 +130,9 @@
             opacity:{value > 0 && value < 3 ? '' : '0'};
             "
         >
-            <div class="legend">
+            <div class="legend"
+                role="graphics-symbol" aria-roledescription="legend"
+            >
                 <Group song={legendGroup} size={mobile ? sizeGroup : sizeGroup-.1} labelPlacement={"legend"} height={20}/>
             </div>
         </div>
@@ -140,7 +152,9 @@
                 >
                     {#if i == 0}
                         <div class="song-wrapper">
-                            <div class="songwriters">
+                            <div class="songwriters"
+                                role="img" aria-label="Group of songwriters illustrating the average songwriter breakdown in 2022, representing 5 men songwriters and 1 woman songwriter"
+                            >
                                 <Group song={average} size={.8} labelPlacement={"first"} height={30}/>
                             </div>
                             <!-- <div class="song-key">
@@ -158,7 +172,7 @@
                         </p>
                     </div>
                     {#if i == 1}
-                        <details><summary>How did we identify writers&rsquo; gender?</summary>test</details>
+                        <details><summary>How did we identify writers&rsquo; gender?</summary>{@html dataNote}</details>
                     {/if}
                 </div>
         {/each}
@@ -176,8 +190,14 @@ details {
     margin: 0 auto;
     text-align: center;
     cursor: pointer;
-
+    text-align: left;
 }   
+
+summary {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .single-col .para {
     text-align: center;
 }
