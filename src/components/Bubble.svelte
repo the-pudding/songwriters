@@ -17,11 +17,11 @@
 	let dateRange = [yearStart,yearEnd]
 	let onlyWomen = false;
 	let onlyMen = false;
-	let performerGender = "all"
+	let performerGender = "All"
 	let totalSongs = 1;
 	let sliceAmount = 20;
 	let sliceGain = 20;
-	let cutTwo = "all";
+	let cutTwo = "All";
 	let ogSongTotal = 0;
 	const commas = format(",");
 	let searchTerm = "";
@@ -34,24 +34,19 @@
 		"f":"women",
 		"pm":"men",
 		"pf":"women",
-		"nb":"non-binary"
+		"nb":"non-binary",
+		"-":"unknown gender"
 	}
 
 	let performerMap = {
-		"m":"men",
-		"f":"women",
-		"all":"all",
-		"m;f":"mixed gender"
+		"m":"Only Men",
+		"f":"Only Women",
+		"all":"All",
+		"m;f":"Mixed Gender",
+		"nb":"≥ 1 Non-Binary Person"
 	}
 
-	let performerMapReverse = {
-		"men":"m",
-		"women":"f",
-		"all":"all",
-		"m;f":"mixed gender"
-	}
-
-	let performerArray = ["m","f","all","m;f"].map(d => {
+	let performerArray = ["all","f","m","m;f","nb"].map(d => {
 		return {"value":`${d}`,"label":performerMap[d]};
 	});
 
@@ -71,7 +66,19 @@
 		"only women":"Only Women Songwriters",
 		"parity":"Parity",
 		"mixed, majority men":"Majority Men",
-		"mixed, majority women":"Majority Women"
+		"mixed, majority women":"Majority Women",
+		"nb":"≥ 1 Non-Binary Person",
+		"all":"All",
+	}
+
+	let cutTwoMapReverse = {
+		"Only Men Songwriters":"only men",
+		"Only Women Songwriters":"only women",
+		"Parity":"parity",
+		"Majority Men":"mixed, majority men",
+		"Majority Women":"mixed, majority women",
+		"All":"all",
+		"≥ 1 Non-Binary Person":"nb"
 	}
 
 	let cutTwoColor = {
@@ -82,8 +89,8 @@
 		"mixed, majority women":"var(--color-bg)"
 	}
 
-	let cutTwoArray = Object.keys(sort).map(d => {
-		return {"value":`${d}`};
+	let cutTwoArray = Object.keys(cutTwoMap).map(d => {
+		return {"value":`${d}`,"label":cutTwoMap[d]};
 	});
 
 	const updateSlice = d => {
@@ -109,8 +116,6 @@
 
 	function getData(data,dateRange,performerGender){
 
-		console.log("gettingData")
-
 		ogSongTotal = data.length;
 
 		let tempData = data.filter(d => {
@@ -118,29 +123,32 @@
 		})
 
 		tempData = tempData.filter(d => {
-			if(performerGender == "all") {
+			if(performerGender.toLowerCase() == "all") {
 				return d;
 			}
-			else if(performerGender == "men") {
+			else if(performerGender == "Only Men") {
 				return d.artist_gender == "m"; 
 			}
-			else if(performerGender == "women") {
+			else if(performerGender == "Only Women") {
 				return d.artist_gender == "f"; 
 			}
+			else if(performerGender == "≥ 1 Non-Binary Person") {
+				return d.artist_gender.includes("nb"); 
+			}
 			else {
-				return ["m","f"].indexOf(d.artist_gender) == -1;
+				return ["m","f","nb"].indexOf(d.artist_gender) == -1;
 			}
 		});
 
 		tempData = tempData.filter(d => {
-			if(cutTwo == "all") {
+			if(cutTwo.toLowerCase() == "all") {
 				return d;
 			}
-			// console.log(d.cutTwo)
-			return d.cutTwo == cutTwo;
+			else if(cutTwoMapReverse[cutTwo] == "nb") {
+				return d.genderArray.indexOf("nb") > -1;
+			}
+			return d.cutTwo == cutTwoMapReverse[cutTwo];
 		})
-
-		let songwriters
 
 		if(searchTerm) {
 			tempData = tempData.filter(d => {
@@ -159,7 +167,7 @@
 
 		totalSongs = tempData.length;
 
-		return tempData;
+		return tempData.sort((a,b) => a["title"].localeCompare(b["title"]));
 
 		
 	}
@@ -168,8 +176,12 @@
 		songSelected = song.song_key;
 	}
 
+	let hideRollup = false;
+
 	$: dateRange = [+yearStart,+yearEnd];
-	$: dataForChart = getData(data,dateRange,performerGender,cutTwo,searchTerm)
+	$: dataForChart = getData(data,dateRange,performerGender,cutTwo,searchTerm).sort((a,b) => b.year - a.year)
+	$: hideRollup = performerGender == "≥ 1 Non-Binary Person" || cutTwo == "≥ 1 Non-Binary Person" ? true : false;
+
 
 	onMount(async () => {
 		mounted = true;
@@ -196,7 +208,7 @@
 				<YearDropDown options={performerArray} bind:value={performerGender}/>
 			</div>
 			<div class="gender-toggle">
-				<p class="label">Songwriter Team:</p>
+				<p class="label">Songwriter Gender:</p>
 				<YearDropDown options={cutTwoArray} bind:value={cutTwo}/>
 			</div>
 
@@ -211,11 +223,11 @@
 
 <div class="bubble-chart">
 	<div class="cut-wrapper {sliceAmount >= dataForChart.length ? "all-results" : ''} {dataForChart.length < 10 ? 'no-results' : ''}">
-		<div class="rollup-line">
+		<div class:hideRollup class="rollup-line">
 			<p class="">Songwriting Team Breakdown of {commas(dataForChart.length)} Songs</p>
 		</div>
 
-		<div class="rollup">
+		<div class:hideRollup class="rollup">
 			<div class="spark">
 				{#each groups(dataForChart, d => d.cutTwo).sort((a,b) => sort[b[0]] - sort[a[0]]) as cut, i}
 					{@const percent = Math.round(cut[1].length/dataForChart.length*100)}
@@ -225,15 +237,12 @@
 							width:{percent}%;
 						"
 						class="bar"
+						data-percent={cut[1][0].percent}
 					>
 						<p style="
-							color:{$viewport.width > 1100 ? cutTwoColor[cut[0]] : "white"};">{percent}%
+							color:white;">{percent}%
 						</p>
-						{#if percent > 2 || cut[0] == "only women"}
-							<span class="bar-label">{cutTwoMap[cut[0]]}</span>
-						{:else if $viewport.width < 1101}
-							<span class="bar-label">{cutTwoMap[cut[0]]}</span>
-						{/if}
+						<span class="bar-label">{cutTwoMap[cut[0]]}</span>
 						{#if percent > 2}
 								<span class="song-count"
 									style="
@@ -243,9 +252,8 @@
 										font-weight:{ $viewport.width < 1100 ? "600" : ''};
 									"
 								>{commas(cut[1].length)}
-								{#if $viewport.width > 1100}
-									songs 
-								{:else if i == groups(dataForChart, d => d.cutTwo).length - 1}
+								
+								{#if i == groups(dataForChart, d => d.cutTwo).length - 1}
 									songs
 								{/if}
 								</span>
@@ -279,7 +287,7 @@
 						<div 
 							class="song"
 						>
-							<p class="song-name">{song.song_key}</p>
+							<p class="song-name">{song.song_key}, {song.year}</p>
 							<div class="songwriters">
 								{#if song["songwriters"]}
 									{#each groups(song["songwriters"], d => genderMap[d.gender]) as genderCut, i}
@@ -345,12 +353,16 @@
 		color: black;
 	}
 
+	.tape-wrapper .cut-unknown {
+		background-color: #ccc;
+		color: black;
+	}
+
 	.tape-wrapper .cut-non-binary {
 		background-color: var(--color-nb);
 	}
 
 	.cut-head {
-		text-transform: capitalize;
 		margin-right: 10px;
 	}
 
@@ -427,7 +439,6 @@
 		padding-top: 0;
 		margin-bottom: 5px;
 		padding-left: 0;
-		text-transform: capitalize;
 	}
 
 	.spark {
@@ -532,7 +543,6 @@
 	.song-name {
 		width: 300px;
 		margin-right: 10px;
-		text-transform: capitalize;
 		align-self: center;
 	}
 
@@ -549,6 +559,7 @@
 
 	.gender-toggle {
 		display: flex;
+		margin-bottom: 10px;
 	}
 
 	.rollup-line {
@@ -564,12 +575,52 @@
 		margin-bottom: 50px;
 	}
 
+	.bar .song-count {
+		top: 50%;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		transform: translate(0,-50%);
+		text-align: center;		
+	}
+
+	.bar span {
+		left: -5px;
+		transform: translate(-100%,-50%);
+		text-align: right;
+		top: 50%;
+		line-height: 1;
+		bottom: auto;
+		max-width: 80px;
+	}
+
+	.bar {
+		justify-content: flex-end;
+		height: 40px;
+		margin-bottom: 5px;
+	}
+
+	.bar p {
+		transform: translate(calc(100% + 5px), 0);
+		padding: 10px;
+	}
+
+	.spark {
+		flex-direction: column;
+		margin-left: 100px;
+		width: calc(100% - 200px);
+	}
+
+
+	.hideRollup {
+		display: none;
+	}
+
 	@media only screen and (max-width: 1100px) {
 		.label {
 			margin: 0 5px;
 			font-size: 14px;
 		}
-		
 		.song {
 			width: calc(100% - 20px);
 		}
@@ -578,41 +629,7 @@
 			padding: 15px 10px;
 		}
 
-		.spark {
-			flex-direction: column;
-			margin-left: 100px;
-		}
-
-		.bar .song-count {
-			top: 50%;
-			left: 0;
-			right: 0;
-			margin: 0 auto;
-			transform: translate(0,-50%);
-			text-align: center;
-			
-		}
-
-		.bar span {
-			left: -5px;
-			transform: translate(-100%,-50%);
-			text-align: right;
-			top: 50%;
-			line-height: 1;
-			bottom: auto;
-			max-width: 80px;
-		}
-
-		.bar {
-			justify-content: flex-end;
-			height: 40px;
-			margin-bottom: 5px;
-		}
-
-		.bar p {
-			transform: translate(calc(100% + 5px), 0);
-			padding: 10px;
-		}
+		
 	}
 
 	@media only screen and (max-width: 900px) {

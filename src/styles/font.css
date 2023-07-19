@@ -35,24 +35,7 @@
 
 @font-face {
 	font-family: "Gravity";
-	src: url("https://pudding.cool/assets/fonts/abc/ABCGravity-Compressed-Trial.woff2") format("woff2");
-	font-weight: 500;
-	font-style: normal;
-	font-stretch: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "Gravity";
-	src: url("https://pudding.cool/assets/fonts/abc/ABCGravity-XCompressed-Trial.woff2") format("woff2");
-	font-weight: 600;
-	font-style: normal;
-	font-stretch: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "Gravity";
-	src: url("https://pudding.cool/assets/fonts/abc/ABCGravity-ExtraCondensed-Trial.woff2") format("woff2");
+	src: url("https://pudding.cool/assets/fonts/abc/ABCGravity-ExtraCondensed.woff2") format("woff2");
 	font-weight: 400;
 	font-style: bold;
 	font-stretch: normal;

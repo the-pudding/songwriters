@@ -22,6 +22,12 @@
         width: 2vw;
         animation: spark 1.5s infinite; 
     }
+
+    @media (prefers-reduced-motion) {
+        .small-sparkle {
+            animation: none;
+        }
+    }
     
     @keyframes spark {
         0% {

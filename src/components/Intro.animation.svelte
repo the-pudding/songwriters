@@ -87,14 +87,15 @@
                 style="
                     opacity:{getOpacity(song,value)};
                     transform: translate3d(0,0,0);
+                    will-change: transform;
                     --transitionDelay: {stepValue == 1 ? `${random*3000}ms` : ''};
-                    position:{value == 3 && song.cutTwo == "only women" && !mobile ? 'absolute' : ''};
-                    max-width:{value == 3 && song.cutTwo == "only women" && !mobile ? '150px' : ''};
-                    right:{value == 3 && song.cutTwo == "only women" && !mobile ? '0' : ''};
-                    left:{value == 3 && song.cutTwo  == "only women" && !mobile ? '0' : ''};
-                    top:{value == 3 && song.cutTwo  == "only women" && !mobile ? 'auto' : ''};
-                    bottom:{value == 3 && song.cutTwo  == "only women" && !mobile ? '0' : ''};
-                    margin:{value == 3 && song.cutTwo == "only women" && !mobile ? '0 auto' : ''};
+                    position:{value == 3 && song.cutTwo == "only women" ? 'absolute' : ''};
+                    max-width:{value == 3 && song.cutTwo == "only women" ? '150px' : ''};
+                    right:{value == 3 && song.cutTwo == "only women" ? '0' : ''};
+                    left:{value == 3 && song.cutTwo  == "only women" ? '0' : ''};
+                    top:{value == 3 && song.cutTwo  == "only women" ? 'auto' : ''};
+                    bottom:{value == 3 && song.cutTwo  == "only women" ? '30px' : ''};
+                    margin:{value == 3 && song.cutTwo == "only women" ? '0 auto' : ''};
                 "
             >
                 <div class="songwriters"
@@ -103,7 +104,7 @@
                         margin:{value == 3 && song.cutTwo == "only women" ? '0 auto' : ''};
                     "
                 >
-                    <Group {song} size={sizeGroup} labelPlacement={"first"} height={30}/>
+                    <Group {song} size={value == 3 && song.cutTwo == "only women" ? sizeGroup+.3 : sizeGroup} labelPlacement={"first"} height={30}/>
                 </div>
                 <div class="song-key">
                     <p class="song-title">{song.song_key.split(" by ")[0].split(" (")[0]} 
@@ -142,7 +143,7 @@
     <Scrolly bind:value>
         {#each text as slide,i}
                 {@const active = value === i}
-                <div class="step single-col {text.length - 1}-{i}" class:active data-fixed={fixedHeight} data-vh={viewportHeight}
+                <div class="step single-col step-{i} {text.length - 1}-{i}" class:active data-fixed={fixedHeight} data-vh={viewportHeight}
                     style="
                         margin-top: {i == 0 ? -fixedHeight/2 : ''}px;
                         padding-top: {i == 0 ? '0' : ''}px;
@@ -221,6 +222,7 @@ summary {
 
 .legend-row {
     width: 100%;
+    padding-bottom: 18px;
 }
 
 .black-shade {
@@ -259,6 +261,8 @@ summary {
     /* transform: translate(0,-50%); */
     /* flex-direction: column; */
     /* height: 100vh; */
+    width: 100%;
+    overflow: hidden;
 }
 .men {
     display: flex;
@@ -323,12 +327,15 @@ summary {
     z-index: 1000;
 }
 
+.step-0 .tape-wrapper .background span {
+    background: none;
+}
+
 .song-title {
         margin: 0;
         font-size: 16px;
         opacity: .8;
         text-align: center;
-        text-transform: capitalize;
         text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
     }
 
@@ -337,7 +344,6 @@ summary {
         opacity: .65;
         font-size: 14px;
         text-align: center;
-        text-transform: capitalize;
         text-shadow: 2px 2px 0px #191817, -2px -2px 0px #191817, -2px 0px 0px #191817, 2px -2px 0px #191817, -2px 0px 0px #191817, 0px 2px 0px #191817, 0px -2px 0px #191817, 1px 1px 0px #191817, 1px 1px 0px #191817, -1px 1px 0px #191817, -1px -1px 0px #191817, -1px 0px 0px #191817, 0px 1px 0px #191817, 0px -1px 0px #191817;
     }
     .song-artist-mobile {

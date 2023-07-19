@@ -1,8 +1,8 @@
 <script>
-	export let title = "Title TK";
-	export let description = "Description TK";
-	export let url = "https://pudding.cool";
-	export let keywords = "";
+	export let title = "Women are superstars on stage, but still rarely get to write songs";
+	export let description = "Songwriting credits since 1958, broken down by gender";
+	export let url = "https://pudding.cool/2023/07/songwriters";
+	export let keywords = "songwriting,music,gender,music";
 	export let preloadFont = [];
 </script>
 
@@ -19,17 +19,17 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:locale" content="en_US" />
 
-	<meta property="og:image" content="{url}/assets/social-facebook.jpg" />
+	<meta property="og:image" content="{url}/assets/facebook.jpg" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="600" />
+	<meta property="og:image:height" content="630" />
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="https://pudding.cool" />
 	<meta name="twitter:creator" content="@puddingviz" />
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
-	<meta name="twitter:image:src" content="{url}/assets/social-twitter.jpg" />
+	<meta name="twitter:image:src" content="{url}/assets/twitter.jpg" />
 
 	<meta name="robots" content="max-image-preview:large" />
 

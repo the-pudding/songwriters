@@ -64,6 +64,9 @@
     let colorRange = scaleLinear().domain([0,1]).range(["#944EBE","#FFB102"]);
 
     const getOpacity = (first,value) => {
+        if(first.cutTwo !== "only women"){
+            return 1;
+        }
         if(cut=="two" && first.artist_gender == "m" && value==1) {
             return 1
         }
@@ -92,22 +95,9 @@
     }
 
     const getColor = (first,value) => {
-        // if(cut=="two" && first.artist_gender == "m" && value==1) {
-        //     return "grey"
-        // }
-
-        // if(cut=="two" && first.artist_gender == "m;f" && value==2) {
-        //     return "red"
-        // }
-        // if(cut=="two" && first.artist_gender == "f" && value==3) {
-        //     let singerSongwriter = false;
-        //     let songwriterList = first.songwriters;
-            
-        //     songwriterList.forEach(d => {
-        //         console.log(d.writer_is_artist);
-        //     })
-            
-        //     return "blue"
+        // return colorRange(sort[first.cutTwo]/4)
+        // if(first.genderArray.indexOf("u") > -1){
+        //     return colorRange(.25);
         // }
         return colorRange(first.percent);
     }
@@ -116,6 +106,14 @@
         marginX = 17;
         marginY = 10;
     }
+
+    let sort = {
+		"only men": 0,
+		"mixed, majority men": 1,
+		"parity":2,
+		"mixed, majority women":3,
+		"only women":4,
+	}
 
     const updateData = (value,years) => {
 
@@ -134,9 +132,17 @@
                 0,
             );
 
-            tempData = tempData.map(d => d[1]).flat(1).sort((a,b) => {
+            tempData = tempData.map(d => d[1]).flat(1);
+            tempData.forEach((d) => {
+                if(d.genderArray.indexOf("u") > -1){
+                    d.percent = d.genderArray.filter((j) => j !== "m").length/d.genderArray.length
+                }
+            })  
+            tempData = tempData.sort((a,b) => {
                 return b.percent - a.percent || a.artist_gender.localeCompare(b.artist_gender);
             });
+
+
 
 
             let viewportPixels = availableHeight * availableWidth;
@@ -241,6 +247,14 @@
             linearGradientHeight = Math.min(...tempData.filter(d => d.cutTwo != "only women").map(d => d.y)) + squareSize*1.5;
             secondGradientTop = Math.min(...minMenOnlyValues);
 
+            console.log(groups(tempData, (d) => {
+                return d.cutTwo;
+                if(d.percent == 1){
+                    return "women";
+                }
+                return "no-women";
+            }))
+
             return groups(tempData, (d) => {
                 return d.cutTwo;
                 if(d.percent == 1){
@@ -302,6 +316,11 @@
     $: value = getValue(scrollValue);
 
     $: console.log("value",value)
+
+
+    // transform:translate3d(0,0,0) scale({value == undefined || viewControl[value] == "far" ? cardWidthDecease : 1});
+    // opacity: {getOpacity(song,value)};
+
 
 </script>
 <!--  -->
@@ -366,11 +385,12 @@
                             {#if song.count == minBox && Object.keys(labelTestKey).indexOf(cut[0]) > -1}
                                 {#if viewControl[value] == "far" || value == undefined}
                                     <div
-                                        class="label-test" 
+                                        class="label-test"
                                         style="
                                         transform:translate3d({song.x}px,{song.y+(song.width)}px, 0) scale(calc(1 / {cardWidthDecease}));
                                         "
-                                        in:fade={{delay: 2000}}>
+                                        in:fade={{delay: 2000}}
+                                    >
                                             <span 
                                             class="only-women-label only-women-label-bg"
                                             style="
@@ -402,28 +422,17 @@
                                 style="
                                     transform:translate3d({value == undefined || viewControl[value] == "far" ? song.x : song.targetX}px,{ value == undefined || viewControl[value] == "far" ? song.y : song.targetY}px, 0);
                                     background-color:{getColor(song,value)};
-                                    width:{song.width-5}px;
-                                    height:{song.width-5}px;
+                                    width:{song.width - Math.max(song.width*.08, 5)}px;
+                                    height:{song.width - Math.max(song.width*.08, 5)}px;
                                     opacity: {getOpacity(song,value)};
                                     z-index:{song.cutTwo == "only women" ? '100000' : song.cutTwo == "only men" ? '1000' : '5000'};
                                 "
                                 class="song-row"
-                            >
-                                
-                                <!-- <p class="song-name"
-                                    style="color:{value == 1 ? "white" : ''};"
-                                >
-                                    {song.song_key}
-                                </p> -->
-                                <!-- {#if song["songwriters"].length > 0}
-                                    <p class="writer-name">
-                                        written by {song["songwriters"].map(d => d.writer).join(", ")}
-                                    </p>
-                                {/if} -->
+                            >                                
                             </div>
                         {/each}
                         <!-- opacity:{value == undefined || viewControl[value] == "far" ? 1 : 1}; -->
-                        {#if cut[0] == "only women"}
+                        {#if cut[0] == "only women" && $viewport.width > 599}
                             <div class="text-overlay"
                                 style=""
                             >
@@ -433,9 +442,9 @@
                                         style="
                                         opacity:{value == undefined || viewControl[value] == "far" ? 0 : 1};
                                         transform:translate3d({song.targetX}px,{song.targetY}px, 0);
-                                        width:{song.width-5}px;
-                                        height:{song.width-5}px;
-
+                                        width:{song.width - Math.max(song.width*.08, 5)}px;
+                                        height:{song.width - Math.max(song.width*.08, 5)}px;
+    
                                         transition:{value == undefined || viewControl[value] == "far" ? '' : "transform .5s 2s, opacity 2s 2.5s"};
                                         }
                                         height:{song.width-5}px;
@@ -519,7 +528,10 @@
                                     </div>
                                 </div>
                                 <span>{@html slide.split("$$$")[1]}</span>
+                            {:else if toSplit}
+                                <span>{@html slide.split("$$$")[1]}</span>
                             {/if}
+                            
 
                         </p>
                         <p class="para background">
@@ -550,6 +562,8 @@
                                     </div>
                                 </div>
                                 <span>{@html slide.split("$$$")[1]}</span>
+                            {:else if toSplit}
+                                <span>{@html slide.split("$$$")[1]}</span>
                             {/if}
 
                         </p>
@@ -576,44 +590,11 @@
                                     {/if}
 
                                 </p>
-                                <!-- <p class="para background">
-                                    <span class="mobile-label mobile-song">Songs like:</span>
-                                    <span in:fade={{duration:500}} class="mobile-song">
-                                    {#each songsToShow.slice(0,songSlice[i]) as song, j}
-                                        {j+1}. {song.title} by {song.artist}, written by <span class="mobile-women" style="color:var(--color-women);">{song["songwriters"].map(d => d.writer).join(", ")}</span>
-                                    {/each}
-                                    {#if songsToShow.length > songSlice[i]}
-                                    <span
-                                        data-slice={songSlice[i]}
-                                        data-length={songsToShow.length}
-                                        style="
-                                        "
-                                        class="mobile-button mobile-button-background"><button on:click={() => expandSlice(i)}>Show 10 more songs »</button>
-                                    </span>
-                                    {/if}
-                                    </span>
-                                </p> -->
                             </div>
                         </div>
                     {/if}               
                 </div>
             {/each}
-            <!-- {#each slides as slide,i}
-                    {@const active = value === i}
-                    <div class="step"
-                        style="margin-top:{i == 0 ? '400px' : ''};"
-                        class:active
-                    >
-                        <div class="tape-wrapper">
-                            <p class="para foreground">
-                                <span>{@html slide}</span>
-                            </p>
-                            <p class="para background">
-                                <span>{@html slide}</span>
-                            </p>
-                        </div>               
-                    </div>
-            {/each} -->
         </Scrolly>
     {/if}
 </section>
@@ -786,7 +767,7 @@
         top: 0rem;
         display: flex;
         flex-wrap: wrap;
-        width: 100vw;
+        width: 100%;
         transform: translate3d(0,0,0);
         overflow: hidden;
         z-index: -1;
@@ -809,8 +790,6 @@
 
 
     }
-
-    
 
     .fade {
         opacity: 0;
@@ -857,6 +836,7 @@
 
     .no-women {
         transition: opacity 1s 1.5s;
+        transform: translate3d(0,0,0);
     }
 
     .mobile-label {
@@ -872,7 +852,6 @@
         font-family: var(--display);
         letter-spacing: .3px;
         font-size: 14px;
-        text-transform: capitalize;
         /* background-color: rgba(0,0,0,.2); */
     }
 
@@ -899,7 +878,8 @@
         margin: 0;
     }
 
-    .mobile-list .foreground span {
+    .mobile-list .para span {
+        padding: 0;
     }
 
     @media only screen and (max-width: 1200px) {

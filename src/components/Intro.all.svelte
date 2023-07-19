@@ -23,9 +23,6 @@
             "
         >
             {gender[1].join(', ')}
-            <!-- {#each gender[1] as songwriter}
-                {songwriter},&nbsp;
-            {/each} -->
         </div>
     {/each}
 </div>

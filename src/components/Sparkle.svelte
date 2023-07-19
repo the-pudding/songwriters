@@ -46,6 +46,12 @@
     background-position: 0 0;
 }
 
+@media (prefers-reduced-motion) {
+    #big-sparkle-1, #big-sparkle-2, #big-sparkle-3 {
+        animation: none;
+    }
+}
+
 @keyframes spark {
   0% {
     background-position: 0 0;

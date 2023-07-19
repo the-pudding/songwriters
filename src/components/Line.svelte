@@ -27,6 +27,7 @@
 
     $: mobile = $viewport.width < 900 ? true : false;
     $: mobile, updateMobile();
+    
 
     const updateMobile = () => {
         gap = 1;
@@ -44,6 +45,8 @@
                 let womenOnly = d[1].filter(j => {
                     return ["pf","f"].indexOf(j.gender_clean) > -1;
                 })
+
+                console.log(womenOnly,"women in 2022")
 
                 let menOnly = d[1].filter(j => {
                     return ["m","pm"].indexOf(j.gender_clean) > -1;
@@ -80,6 +83,8 @@
         })
 
 
+
+
 </script>
 {#if dataForChart}
 <div class="wrapper">
@@ -102,7 +107,7 @@
                         transform:translate(0px,{-s * (songGap + height)}px);
                     "
                     data-writer="{songwriter.writer}"
-                    class="songwriter {songwriter.gender_clean == "f" ? "f" : songwriter.gender_clean == "m" ? 'm' : 'nb'}"
+                    class="songwriter {songwriter.gender_clean == "f" ? "f" : songwriter.gender_clean == "m" ? 'm' : songwriter.gender_clean == "u" ? 'u' : 'nb'}"
                 >
                 </div>
                 {#if year[0] == "1975" && s == year[1].length - 1}                  
@@ -168,7 +173,7 @@
                                 height:{womenOnlyLengthMobile * (songGap + height)}px;
                             "
                         >
-                        <p><span class="woman-color">Women had {womenOnlyLength} songwriting credits</span> for top 5 hits in 2018.</p>
+                        <p><span class="woman-color">Women had {womenOnlyLengthMobile} songwriting credits</span> for top 5 hits in 2018.</p>
                     </div>
                     {/if}
                     {#if year[0] == "2014" && `${songwriter.song_key}-${songwriter.writer}` == minNBSecondHighlightMobile }
@@ -243,6 +248,21 @@
             "
         >
             Men
+        </p>
+    </div>
+    <div class="item">
+        <div class="box"
+            style="
+                background-color: #ccc;
+            "
+        >
+        </div>
+        <p 
+            class="desc"
+            style="
+            "
+        >
+            Unknown
         </p>
     </div>
 </div>
@@ -320,6 +340,10 @@
     .nb {
         background-color: red;
     }
+    .u {
+        background-color: #ccc;
+    }
+
     .highlight {
         border: 3px solid #FFFAD7;
         height: 12px;

@@ -99,11 +99,23 @@ let sizes = {
             imgWidth:70,
             transform: 32,
             leftAdjust:0
+        },
+        "u-1":{
+            width:64,
+            imgWidth:64,
+            transform: 35,
+            leftAdjust:0
         }
+
     }
 
 
-
+const getCut = (song) => {
+    if(song.genderArray.indexOf("nb") > -1){
+        return "mixed gender"
+    }
+    return song.cutTwo;
+}
 function getRandomInt(min, max) {
         min = Math.ceil(min);
         max = Math.floor(max);
@@ -116,13 +128,24 @@ const getNumber = (gender) => {
     if(gender == "f") {
         return getRandomInt(1,3);
     }
+    if(gender == "u") {
+        return getRandomInt(1,1);
+    }
     return getRandomInt(1,2);
 }
 
 const genderKey = {
     "f":"women",
     "m":"men",
-    "nb":"non-binary"
+    "nb":"non-binary",
+    "u":"unknown"
+}
+
+const genderKeyTwo = {
+    "f":"woman",
+    "m":"man",
+    "nb":"non-binary",
+    "u":"unknown"
 }
 
 </script>
@@ -134,9 +157,13 @@ const genderKey = {
     display: {labelPlacement == "second" ? song.cutTwo == "only men" || song.cutTwo == "only women" ? 'block' : 'block' : 'none'};
     "
 >
-    {song.cutTwo}
+    {getCut(song)}
     {#if song.genderArray.indexOf("nb") > -1}
         <span style="color:#e67a5b;">(incl. {song.genderArray.filter(d => d == "nb").length} non-binary writer{song.genderArray.filter(d => d == "nb").length > 1 ? "s" : ''})
+        </span>
+    {/if}
+    {#if song.genderArray.indexOf("u") > -1}
+        <span style="color:#999;">(1 songwriter of unknown gender)
         </span>
     {/if}
 </p>
@@ -145,7 +172,7 @@ const genderKey = {
 color:{songwriter == "m" ? "white" : songwriter == "f" ? "white" : 'white'}; -->
 
 {@const number = getNumber(songwriter)}
-{@const gender = ["m","f","nb"].indexOf(songwriter) == -1 ? "m" : songwriter.replace(" ","")}
+{@const gender = ["m","f","nb","u"].indexOf(songwriter) == -1 ? "m" : songwriter.replace(" ","")}
 {@const identifier = `${gender}-${number}`}
 
 <div class="songwriter {labelPlacement}"
@@ -155,10 +182,10 @@ color:{songwriter == "m" ? "white" : songwriter == "f" ? "white" : 'white'}; -->
         "
     >
         <img class="gender-{sizes[identifier].width}" style="transform:translate({sizes[identifier].leftAdjust}%,{sizes[identifier].transform}%); width:{sizes[identifier].imgWidth*(size+.1)}px;" src="assets/{gender}-{number}.svg"
-            alt="illustration of {genderKey[genderKey]} songwriter"
+            alt="illustration of {genderKeyTwo[genderKey]} songwriter"
         >
         {#if labelPlacement == "legend"}
-            <p>{genderKey[songwriter]}</p>
+            <p>{genderKeyTwo[songwriter]}</p>
         {/if}
     </div>
 {/each}

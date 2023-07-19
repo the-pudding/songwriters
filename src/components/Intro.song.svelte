@@ -161,6 +161,14 @@ const getNumber = (gender) => {
         }
     };
 
+    const getCut = (song) => {
+        console.log(song.genderArray)
+        if(song.genderArray.indexOf("nb") > -1) {
+            return "mixed gender"
+        }
+        return song.cutTwo;
+    }
+
 
     const getProgressText = (progressAdjusted) => {
         if(progressAdjusted) {
@@ -291,7 +299,7 @@ const getNumber = (gender) => {
                                 <div
                                     class="song-container-top"
                                     style="
-                                        margin-bottom:{song.genderArray.indexOf("nb") > -1 && $viewport.width < 500 ? "60px" : ''};
+                                        margin-bottom:{song.genderArray.indexOf("nb") > -1 || song.genderArray.indexOf("u") > -1 ? $viewport.width < 500 ? "60px" : '' : ''};
                                         display:flex; justify-content:flex-start;">
                                     <!-- svelte-ignore a11y-mouse-events-have-key-events -->
                                     <div
@@ -323,10 +331,14 @@ const getNumber = (gender) => {
                                                     "
                                                     class="songwriters-label"
                                                 >
-                                                    {song.cutTwo}
+                                                    {getCut(song)}
                                                 </p>
                                                 {#if song.genderArray.indexOf("nb") > -1}
                                                     <p class="nb-label" style="color:#e67a5b;">(incl. {song.genderArray.filter(d => d == "nb").length} non-binary writer{song.genderArray.filter(d => d == "nb").length > 1 ? "s" : ''})
+                                                    </p>
+                                                {/if}
+                                                {#if song.genderArray.indexOf("u") > -1}
+                                                    <p class="nb-label u-label" style="color:#999;">(incl. 1 songwriter of unknown gender)
                                                     </p>
                                                 {/if}
                                             {/if}                                        
@@ -525,7 +537,6 @@ const getNumber = (gender) => {
 
     .song-title {
         margin: 0;
-        text-transform: capitalize;
         font-size: 18px;
         font-weight: 400;
         opacity: .9;
@@ -535,7 +546,6 @@ const getNumber = (gender) => {
     .song-artist {
         margin: 0;
         font-family: var(--sans);
-        text-transform: capitalize;
         font-size: 14px;
         opacity: .7;
         font-weight:400;
@@ -615,6 +625,12 @@ const getNumber = (gender) => {
         background-color: var(--color-bg);
         padding: 10px;
     }
+
+    .year-section {
+        width: 100vw;
+        overflow: hidden;
+        padding-bottom: 30px;
+    }
     
     @media only screen and (max-width: 1000px) {
         .counter-label {
@@ -658,6 +674,7 @@ const getNumber = (gender) => {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            padding-bottom: 0;
         }
         .year {
             width: 100%;

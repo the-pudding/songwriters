@@ -16,8 +16,8 @@
 	import Sparkle from "./Sparkle.svelte";
 	import { format, rollup } from "d3";
 
-	import SongData from "$data/artists.csv"
-	import WriterData from "$data/writers.csv"
+	import SongData from "$data/artists_3.csv"
+	import WriterData from "$data/writers_3.csv"
 	import Quote from "$data/quote.csv"
 	import SmallSparkle from "./SmallSparkle.svelte";
 	import Headline from "./Headline.svelte";
@@ -121,7 +121,8 @@
 		"f":"f",
 		"nb":"nb",
 		"pf":"f",
-		"pm":"m"
+		"pm":"m",
+		"-":"u"
 	}
 	let availableGenders = Object.keys(genderKey);
 
@@ -147,8 +148,7 @@
 
 		if(countOfNB > 0 && percent == 0) {
 			percent = 1 - (countOfMen / countOfSongwriters);
-		}
-		
+		}	
 		if(countOfMen == countOfSongwriters){
 			cutTwo = "only men";
 		}
@@ -226,6 +226,7 @@
 </svelte:head>
 
 {#if dataByYearTwo}
+
  <div class="sparkle-container">
 	<Sparkle starNumber=3 position="left:0px; top: 70vh" />
 	<Sparkle />	
@@ -240,10 +241,9 @@
 	</p>
 {/each}
 <p class="chart-hed">{copy.longScrollHeadline}</p>
-	<IntroSong threshold={$viewport.width < 500 ? .5 : 0} {viewportHeight} dataByYear={dataByYearTwo.filter(d => +d[0] < 2022 && +d[0] > 2009)} text={textFirst} priorStats={priorOne}/>
+	<IntroSong threshold={$viewport.width < 500 ? .5 : 0} {viewportHeight} dataByYear={dataByYearTwo.filter(d => +d[0] < 2023 && +d[0] > 2009)} text={textFirst} priorStats={priorOne}/>
  
  
-
 {#each copy["postLongScroll"].map(d => d.value) as paragraph}
 	<p class="center-col para">
 		{@html paragraph}
@@ -257,9 +257,9 @@
 		{@html paragraph}
 	</p>
 {/each}
+
 <p class="chart-summary">{@html copy.waffleHed}</p>
 <p class="chart-hed">{@html copy.waffleDek}</p>
- 
 <Female {viewportHeight} dataByYear={dataByYearTwo} cut="two" slides={slidesTwo} yearRange={[1957,2023]}/>
 
 {#each copy["postWaffle"].map(d => d.value) as paragraph}
@@ -302,7 +302,6 @@
 	<p>Loading...</p>
 </div>
 {/if}
-<!-- <Demo /> -->
 <style>
 	.songwriters {
         display: flex;

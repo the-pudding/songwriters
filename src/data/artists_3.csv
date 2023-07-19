@@ -1,0 +1,3078 @@
+﻿ignore,artist_gender,artist,title,year,songwriter_is_artist,id
+,f,Britney Spears,...Baby One More Time,1998,,1
+,f,Taylor Swift,...Ready For It?,2017,1,2
+,f,Britney Spears,3,2009,,3
+,m;f,Taylor Swift ft. Kendrick Lamar,Bad Blood,2015,1,4
+,f,"Jessie J, Ariana Grande, & Nicki Minaj",Bang Bang,2014,1,5
+,m;f,Justin Bieber ft. Nicki Minaj,Beauty And A Beat,2013,1,6
+,f,Taylor Swift,Blank Space,2014,1,7
+,m;f,Ariana Grande ft. Zedd,Break Free,2014,,8
+,m;f,Katy Perry ft. Snoop Dogg,California Gurls,2010,1,9
+,m,The Weeknd,Can't Feel My Face,2015,,10
+,m,Justin Timberlake,Can't Stop The Feeling!,2016,1,11
+,m;f,Katy Perry ft. Skip Marley,Chained To The Rhythm,2017,1,12
+,m,Usher ft. Pitbull,DJ Got Us Fallin' In Love,2010,,13
+,m;f,Katy Perry ft. Juicy J,Dark Horse,2014,1,14
+,m,Taio Cruz,Dynamite,2010,1,15
+,m;f,Katy Perry ft. Kanye West,E.T.,2011,1,16
+,m,Backstreet Boys,Everybody [Backstreet's Back],1998,,17
+,f,P!nk,Fuckin' Perfect,2011,1,18
+,f,Britney Spears,Hold It Against Me,2011,,19
+,f,Katy Perry,Hot N Cold,2008,1,20
+,f,Katy Perry,I Kissed A Girl,2008,1,21
+,f,Taylor Swift,I Knew You Were Trouble.,2012,1,22
+,m,*NSYNC,It's Gonna Be Me,2000,,23
+,f,Katy Perry,Last Friday Night,2011,1,24
+,f,Ellie Goulding,Love Me Like You Do,2015,,25
+,f,Kelly Clarkson,My Life Would Suck Without You,2009,,26
+,m,Maroon 5,One More Night,2012,,27
+,f,Katy Perry,Part Of Me,2012,1,28
+,f,Ariana Grande ft. Iggy Azalea,Problem,2014,1,29
+,m,Backstreet Boys,Quit Playing Games (With My Heart),1997,,30
+,f,P!nk,Raise Your Glass,2010,1,31
+,f,Katy Perry,Roar,2013,1,32
+,f,Taylor Swift,Shake It Off,2014,1,33
+,f,Ariana Grande ft. Nicki Minaj,Side To Side,2016,1,34
+,f,Kelly Clarkson,Since U Been Gone,2005,,35
+,f,P!nk,So What,2008,1,36
+,f,Katy Perry,Teenage Dream,2010,1,37
+,f,Katy Perry,The One That Got Away,2011,1,38
+,f,Britney Spears ft. Nicki Minaj & Kesha,Till The World Ends,2011,1,39
+,f,Taylor Swift,We Are Never Ever Getting Back Together,2012,1,40
+,f,Katy Perry,Wide Awake,2012,1,41
+,f,Taylor Swift,Wildest Dreams,2015,1,42
+,m,Boyz II Men,4 Seasons Of Loneliness,1997,,43
+,f,Janet Jackson,Again,1993,1,44
+,f,Janet,All For You,2001,1,45
+,f,Janet Jackson,Alright,1990,1,46
+,f,Mariah Carey,Always Be My Baby,1996,1,47
+,f,Janet Jackson,"Any Time, Any Place",1994,1,48
+,f,Janet Jackson,Come Back To Me,1990,1,49
+,f,Janet Jackson,Control,1987,1,50
+,m,Herb Alpert,Diamonds,1987,,51
+,f,Janet,Doesn't Really Matter,2000,1,52
+,f,Janet Jackson,Escapade,1990,1,53
+,m;f,The Human League,Human,1986,,54
+,m,Robert Palmer,I Didn't Mean To Turn You On,1986,,55
+,m;f,Janet Jackson ft. BLACKstreet,I Get Lonely,1998,1,56
+,f,Janet Jackson,If,1993,1,57
+,f,Janet Jackson,Let's Wait Awhile,1987,1,58
+,f,Janet Jackson,Love Will Never Do (Without You),1991,,59
+,f,Janet Jackson,Miss You Much,1989,,60
+,f,Janet Jackson,Nasty,1986,1,61
+,m,Boyz II Men,On Bended Knee,1994,,62
+,f,Janet Jackson,Rhythm Nation,1989,1,63
+,f,Karyn White,Romantic,1991,1,64
+,m,Johnny Gill,Rub You The Right Way,1990,,65
+,f,Janet Jackson,Runaway,1995,1,66
+,m;f,Michael Jackson & Janet Jackson,Scream,1995,1,67
+,m,Ralph Tresvant,Sensitivity,1991,,68
+,f,Janet,Someone To Call My Lover,2001,1,69
+,m;f,Mariah Carey ft. Joe & 98 Degrees,Thank God I Found You,2000,1,70
+,f,Janet Jackson,That's The Way Love Goes,1993,1,71
+,f,Janet,Together Again,1997,1,72
+,f,Janet Jackson,What Have You Done For Me Lately,1986,1,73
+,f,Janet Jackson,When I Think Of You,1986,1,74
+,f,Britney Spears,Circus,2008,,108
+,f,Kesha,Die Young,2012,1,110
+,f,Avril Lavigne,Girlfriend,2007,1,113
+,m,Flo Rida,Good Feeling,2011,,114
+,nb,Miley Cyrus,Party In The U.S.A.,2009,,121
+,m,Flo Rida,Right Round,2009,,122
+,m,Maroon 5,Sugar,2015,,125
+,f,Kesha,Tik Tok,2009,1,128
+,m;f,Pitbull ft. Kesha,Timber,2013,1,130
+,f,Kesha,We R Who We R,2010,1,131
+,f,Rihanna,Where Have You Been,2012,,132
+,nb,Miley Cyrus,Wrecking Ball,2013,,134
+,f,Toni Braxton,Breathe Again,1994,,135
+,f,TLC,Diggin' On You,1995,,136
+,m,Boyz II Men,End Of The Road,1992,,137
+,m,Bobby Brown,Every Little Step,1989,,138
+,f,Whitney Houston,Exhale,1995,,139
+,f,Pebbles,Girlfriend,1988,,140
+,f,Pebbles,Giving You The Benefit,1990,,141
+,m,Bobby Brown,Humpin' Around,1992,1,142
+,m,R. Kelly,I Can't Sleep Baby (If I),1996,,143
+,m,Boyz II Men,I'll Make Love To You,1994,,144
+,f,Whitney Houston,I'm Your Baby Tonight,1990,,145
+,f,P!nk,Most Girls,2000,,146
+,f,Mary J. Blige,Not Gon' Cry,1996,,147
+,m,Bobby Brown,On Our Own,1989,,148
+,f,TLC,Red Light Special,1995,,149
+,m,Bobby Brown,Roni,1989,,150
+,f,Brandy,Sittin' Up In My Room,1996,,151
+,f,Madonna,Take A Bow,1995,1,152
+,f,Sheena Easton,The Lover In Me,1989,,153
+,m,Boyz II Men,Water Runs Dry,1995,,154
+,f,Mariah Carey,We Belong Together,2005,1,155
+,m,Babyface,When Can I See You,1994,,156
+,f,Mariah Carey,Without You,1994,1,157
+,f,Toni Braxton,You're Makin' Me High/Let It Flow,1996,,158
+,f,Mariah Carey,Can't Let Go,1992,1,160
+,f,Mariah Carey,Don't Forget About Us,2005,1,161
+,f,Mariah Carey,Dreamlover,1993,1,162
+,f,Mariah Carey,Emotions,1991,1,163
+,f,Mariah Carey,Fantasy,1995,1,164
+,f,Mariah Carey ft. Jay-Z,Heartbreaker,1999,1,165
+,f,Mariah Carey,Hero,1993,1,166
+,f,Mariah Carey,Honey,1997,1,167
+,f,Mariah Carey,I Don't Wanna Cry,1991,1,168
+,f,Mariah Carey,Love Takes Time,1990,1,169
+,m;f,Mariah Carey ft. Cameo,Loverboy,2001,1,170
+,f,Mariah Carey,Make It Happen,1992,1,171
+,f,Mariah Carey,My All,1998,1,172
+,m;f,Mariah Carey & Boyz II Men,One Sweet Day,1995,1,173
+,f,Mariah Carey,Shake It Off,2005,1,174
+,f,Mariah Carey,Someday,1991,1,175
+,f,Mariah Carey,Touch My Body,2008,1,177
+,f,Mariah Carey,Vision Of Love,1990,1,178
+,f,Janet Jackson,Black Cat,1990,1,185
+,m;f,Beyoncé ft. Sean Paul,Baby Boy,2003,1,202
+,f,Beyoncé & Shakira,Beautiful Liar,2007,1,203
+,f,Destiny's Child,"Bills, Bills, Bills",1999,1,204
+,f,Destiny's Child,Bootylicious,2001,1,205
+,m;f,Beyoncé ft. Slim Thug,Check On It,2006,1,206
+,m;f,Beyoncé ft. Jay-Z,Crazy In Love,2003,1,207
+,m;f,Beyoncé ft. Jay-Z,Deja Vu,2006,1,208
+,m;f,Beyoncé ft. Jay-Z,Drunk In Love,2014,1,209
+,m,"Nelly ft. Paul Wall, Ali & Gipp",Grillz,2005,1,210
+,f,Beyoncé,Halo,2009,1,211
+,f,Destiny's Child,Independent Women,2000,1,212
+,f,Beyoncé,Irreplaceable,2006,1,213
+,f,Destiny's Child,"Jumpin', Jumpin'",2000,1,214
+,f,Destiny's Child,Lose My Breath,2004,1,215
+,f,Beyoncé,"Me, Myself And I",2004,1,216
+,m;f,J Balvin & Willy William ft. Beyonce,Mi Gente,2017,1,217
+,f,Beyoncé,Naughty Girl,2004,1,218
+,f,Beyoncé,Single Ladies (Put A Ring On It),2008,1,219
+,m;f,Destiny's Child ft. T.I. & Lil Wayne,Soldier,2005,1,220
+,f,Destiny's Child,Survivor,2001,1,221
+,f,Lady Gaga ft. Beyoncé,Telephone,2010,1,222
+,f,Celine Dion,Because You Loved Me,1996,,223
+,m,Milli Vanilli,Blame It On The Rain,1989,,224
+,m;f,Ace Of Base,Don't Turn Around,1994,,225
+,f,Monica,For You I Will,1997,,226
+,f,Brandy,Have You Ever?,1999,,227
+,m,Michael Bolton,How Can We Be Lovers,1990,1,228
+,f,LeAnn Rimes,How Do I Live,1997,,229
+,m,Chicago,I Don't Wanna Live Without Your Love,1988,,230
+,m,Aerosmith,I Don't Want To Miss A Thing,1998,,231
+,f,Belinda Carlisle,I Get Weak,1988,,232
+,f,Christina Aguilera,I Turn To You,2000,,233
+,f,Taylor Dayne,I'll Be Your Shelter,1990,,234
+,f,Cher,If I Could Turn Back Time,1989,,235
+,f,Celine Dion,If You Asked Me To,1992,,236
+,m,Chicago,Look Away,1988,,237
+,f,Taylor Dayne,Love Will Lead You Back,1990,,238
+,m;f,*NSYNC & Gloria Estefan,Music Of My Heart,1999,,239
+,m;f,Starship,Nothing's Gonna Stop Us Now,1987,,240
+,m;f,Debarge,Rhythm Of The Night,1985,,241
+,f,Toni Braxton,Un-Break My Heart,1996,,242
+,m,Bad English,When I See You Smile,1989,,243
+,m;f,Madonna ft. Justin Timberlake & Timbaland,4 Minutes,2008,1,244
+,f,Madonna,Angel,1985,1,245
+,f,Madonna,Causing A Commotion,1987,1,246
+,f,Madonna,Cherish,1989,1,247
+,f,Madonna,Don't Tell Me,2001,1,248
+,f,Madonna,Erotica,1992,1,249
+,f,Madonna,Frozen,1998,1,250
+,f,Madonna,I'll Remember,1994,1,251
+,f,Madonna,Justify My Love,1990,1,252
+,f,Madonna,Like A Prayer,1989,1,253
+,f,Madonna,Live To Tell,1986,1,254
+,f,Madonna,Lucky Star,1984,1,255
+,f,Madonna,Music,2000,1,256
+,f,Madonna,Papa Don't Preach,1986,1,257
+,f,Madonna,Ray Of Light,1998,1,258
+,f,Madonna,Secret,1994,1,259
+,f,Madonna,This Used To Be My Playground,1992,1,261
+,f,Madonna,Vogue,1990,1,262
+,f,Madonna,Who's That Girl,1987,1,263
+,m,Timbaland ft. OneRepublic,Apologize,2007,,265
+,m,50 Cent ft. Justin Timberlake & Timbaland,Ayo Technology,2007,1,266
+,m,Young Money ft. Lloyd,BedRock,2010,,267
+,m,Justin Timberlake,Cry Me A River,2003,1,268
+,m,Jay-Z,Dirt Off Your Shoulder,2004,,269
+,m;f,Timbaland ft. Nelly Furtado & Justin Timberlake,Give It To Me,2007,1,271
+,m,Jay-Z ft. Justin Timberlake,Holy Grail,2013,1,272
+,m,Justin Timberlake,Mirrors,2013,1,273
+,m,Justin Timberlake ft. T.I.,My Love,2006,1,274
+,m;f,Nelly Furtado ft. Timbaland,Promiscuous,2006,1,275
+,f,Nelly Furtado,Say It Right,2007,1,276
+,m,Justin Timberlake,SexyBack,2006,1,277
+,m,Justin Timberlake ft. Jay-Z,Suit & Tie,2013,1,278
+,m;f,Timbaland ft. Keri Hilson,The Way I Are,2007,1,279
+,f,Aaliyah,Try Again,2000,,280
+,m,Justin Timberlake,What Goes Around...Comes Around,2007,1,281
+,f,Missy Elliott,Work It,2002,1,282
+,m,Usher,Burn,2004,,284
+,m,Usher,Confessions Part II,2004,,285
+,m;f,LL Cool J ft. Jennifer Lopez,Control Myself,2006,1,286
+,m,Kriss Kross,Jump,1992,,289
+,f,Xscape,Just Kickin' It,1993,,290
+,m,Bow Wow ft. Omarion,Let Me Hold You,2005,,291
+,m;f,Bow Wow ft. Ciara,Like You,2005,,292
+,m;f,Usher & Alicia Keys,My Boo,2004,1,293
+,m,Usher,My Way,1998,,294
+,m,Usher,Nice & Slow,1998,,295
+,f,Monica,The First Night,1998,,297
+,m,Usher,U Got It Bad,2001,,298
+,m,Jagged Edge With Nelly,Where The Party At,2001,,300
+,m,Usher,You Make Me Wanna...,1997,,301
+,m,Maroon 5,Animals,2014,,304
+,m;f,Maroon 5 ft. Christina Aguilera,Moves Like Jagger,2011,,311
+,m,Maroon 5 ft. Wiz Khalifa,Payphone,2012,,313
+,m;f,Jay-Z ft. Beyonce Knowles,03 Bonnie & Clyde,2002,,319
+,m;f,Jay-Z & Alicia Keys,Empire State Of Mind,2009,1,325
+,m,Pharrell ft. Jay-Z,Frontin',2003,,326
+,m,Jay-Z Kanye West,Niggas in Paris,2012,,330
+,m;f,"Jay-Z, Rihanna & Kanye West",Run This Town,2009,1,331
+,m,Jay-Z & T.I. ft. Kanye West & Lil Wayne,Swagga Like Us,2008,,333
+,m;f,Rihanna ft. Jay-Z,Umbrella,2007,,334
+,m,Bruno Mars,24K Magic,2016,,335
+,m,Travie McCoy ft. Bruno Mars,Billionaire,2010,,336
+,m,Cee Lo Green,Fuck You!,2011,,337
+,m;f,Bruno Mars & Cardi B,Finesse,2018,,338
+,m,Bruno Mars,Grenade,2010,,339
+,m,Bruno Mars,It Will Rain,2011,,340
+,m,Bruno Mars,Just The Way You Are,2010,,341
+,m,Bad Meets Evil ft. Bruno Mars,Lighters,2011,,342
+,m,Bruno Mars,Locked Out Of Heaven,2012,,343
+,m,B.o.B. ft. Bruno Mars,Nothin' On You,2010,,344
+,m,Bruno Mars,That's What I Like,2017,,346
+,m,Bruno Mars,The Lazy Song,2011,,347
+,m,Bruno Mars,Treasure,2013,,348
+,m,Mark Ronson ft. Bruno Mars,Uptown Funk!,2014,,349
+,m,Bruno Mars,When I Was Your Man,2013,,350
+,f,Iggy Azalea ft. Rita Ora,Black Widow,2014,1,368
+,m;f,Major Lazer ft. Justin Bieber & MO,Cold Water,2016,1,371
+,f,Rihanna,Diamonds,2012,,372
+,m,Justin Bieber,Love Yourself,2015,,375
+,f,Selena Gomez,Same Old Love,2016,,378
+,m,Gym Class Heroes ft. Adam Levine,Stereo Hearts,2011,,379
+,f,Aaliyah,Back & Forth,1994,,383
+,m,R. Kelly,Bump N' Grind,1994,,384
+,m,B2K ft. P. Diddy,"Bump, Bump, Bump",2003,,385
+,m,R. Kelly ft. Ronald Isley,Down Low (Nobody Has To Know),1996,,386
+,m,Maxwell,Fortunate,1999,,387
+,m,Cassidy ft. R. Kelly,Hotel,2004,,388
+,m,R. Kelly,I Believe I Can Fly,1996,,389
+,m;f,R. Kelly & Céline Dion,I'm Your Angel,1998,,391
+,m,R. Kelly,Ignition,2003,,392
+,m;f,The Jets,Make It Real,1988,,393
+,m,Puff Daddy ft. R. Kelly,Satisfy You,1999,,394
+,f,Changing Faces,Stroke You Up,1994,,395
+,m;f,Ja Rule ft. R. Kelly & Ashanti,Wonderful,2004,,396
+,m,Michael Jackson,You Are Not Alone,1995,,397
+,m,R. Kelly,You Remind Me Of Something,1995,,398
+,m,Ne-Yo,Because Of You,2007,,400
+,m,Wiz Khalifa,Black And Yellow,2011,,401
+,f,Rihanna,Don't Stop The Music,2008,,404
+,f,Katy Perry,Firework,2010,1,405
+,f,Rihanna,Only Girl (In The World),2010,,407
+,f,Rihanna,Rude Boy,2010,1,408
+,m,Ne-Yo,So Sick,2006,,410
+,f,Rihanna,Take A Bow,2008,,411
+,nb,Sam Smith,Too Good At Goodbyes,2017,1,412
+,m;f,Rihanna ft. Drake,What's My Name?,2010,,413
+,m,Chris Brown,With You,2008,,414
+,m,Prince,Batdance,1989,,432
+,m,Prince & the New Power Generation,Cream,1991,,433
+,m,Prince & the New Power Generation,Diamonds And Pearls,1992,,434
+,f,Chaka Khan,I Feel For You,1984,,435
+,m,Prince & the Revolution,Kiss,1986,,436
+,m,Prince & the Revolution,Let's Go Crazy,1984,,437
+,f,Sinead O'Connor,Nothing Compares 2 U,1990,,438
+,m,MC Hammer,Pray,1990,1,439
+,m,Prince & the Revolution,Purple Rain,1984,,440
+,m,Prince & the Revolution,Raspberry Beret,1985,,441
+,m,Prince,Sign 'O' The Times,1987,,442
+,m,Prince,The Most Beautiful Girl In The World,1994,,443
+,m,Prince,U Got The Look,1987,,444
+,m,Prince,When Doves Cry,1984,,445
+,m,Drake,Find Your Love,2010,,447
+,m;f,"Rihanna, Kanye West, & Paul McCartney",FourFiveSeconds,2015,1,448
+,m,Kanye West ft. Jamie Foxx,Gold Digger,2005,,449
+,m,Kanye West,Heartless,2008,,450
+,m;f,Keri Hilson ft. Kanye West & Ne-Yo,Knock You Down,2009,1,451
+,m,Kanye West,Love Lockdown,2008,,452
+,m,Twista ft. Kanye West & Jamie Foxx,Slow Jamz,2004,,455
+,m;f,Ludacris ft. Shawnna,Stand Up,2003,,456
+,m,Kanye West,Stronger,2007,,457
+,f,Alicia Keys,You Don't Know My Name,2003,1,459
+,m,T.I. ft. Justin Timberlake,Dead And Gone,2009,1,464
+,m,*NSYNC ft. Nelly,Girlfriend,2002,,465
+,m,Justin Timberlake,Rock Your Body,2003,1,470
+,m,Robin Thicke ft. T.I. & Pharrell Williiams,Blurred Lines,2013,1,488
+,m,Snoop Dogg ft. Pharrell,Drop It Like It's Hot,2004,,489
+,m,Daft Punk ft. Pharrell Williams,Get Lucky,2013,,491
+,m,Pharrell Williams,Happy,2014,,493
+,m;f,Camila Cabello ft. Young Thug,Havana,2017,1,494
+,f,Gwen Stefani,Hollaback Girl,2005,1,495
+,m,Nelly,Hot In Herre,2002,,496
+,m,LL Cool J,Luv U Better,2002,,497
+,f,Kelis,Milkshake,2003,,498
+,m;f,Ludacris ft. Pharrell,Money Maker,2006,,499
+,m,Usher,U Don't Have To Call,2002,,501
+,m;f,Zayn & Taylor Swift,I Don't Wanna Live Forever,2017,1,505
+,f,Taylor Swift,Look What You Made Me Do,2017,1,507
+,f,Taylor Swift,Love Story,2008,1,508
+,f,Taylor Swift,Mine,2010,1,509
+,f,Taylor Swift,Today Was A Fairytale,2010,1,511
+,f,Taylor Swift,You Belong With Me,2009,1,514
+,m,Bo Bice,Inside Your Heaven,2005,,520
+,f,Carrie Underwood,Inside Your Heaven,2005,,521
+,m,One Direction,Live While We're Young,2012,,522
+,m,One Direction,What Makes You Beautiful,2012,,527
+,m,Wham! ft. George Michael,Careless Whisper,1985,1,528
+,m,Wham!,Everything She Wants,1985,,529
+,m,George Michael,Faith,1987,1,530
+,m,George Michael,Father Figure,1988,1,531
+,m,Wham!,Freedom,1985,,532
+,m,Deon Estus With George Michael,Heaven Help Me,1989,1,533
+,m,George Michael,I Want Your Sex,1987,1,534
+,m,Wham!,I'm Your Man,1986,,535
+,m,George Michael,Kissing A Fool,1988,1,536
+,m,George Michael,Monkey,1988,1,537
+,m,George Michael,One More Try,1988,1,538
+,m,George Michael,Praying For Time,1990,1,539
+,m,Wham!,Wake Me Up Before You Go-Go,1984,,540
+,m,Bryan Adams,(Everything I Do) I Do It For You,1991,1,541
+,m,"Bryan Adams, Rod Stewart, & Sting",All For Love,1993,1,542
+,m;f,Heart,All I Wanna Do Is Make Love To You,1990,,543
+,m,Bryan Adams,Can't Stop This Thing We Started,1991,1,544
+,f,Shania Twain,From This Moment On,1998,1,545
+,m,Billy Ocean,"Get Outta My Dreams, Get Into My Car",1988,1,546
+,m,Bryan Adams,Have You Ever Really Loved A Woman?,1995,1,547
+,m,Def Leppard,Love Bites,1988,,548
+,m,Billy Ocean,Lover Boy,1985,1,549
+,m,Def Leppard,Pour Some Sugar On Me,1988,,550
+,m,Billy Ocean,"When The Going Gets Tough, The Tough Get Going",1986,1,551
+,f,Shania Twain,You're Still The One,1998,1,552
+,f,Ciara ft. Missy Elliott,"1, 2 Step",2004,1,553
+,m;f,Ciara ft. Petey Pablo,Goodies,2004,,555
+,m;f,T.I. ft. Rihanna,Live Your Life,2008,,557
+,m;f,Missy Elliott ft. Ciara & Fat Man Scoop,Lose Control,2005,1,558
+,m;f,Ciara ft. Ludacris,Oh,2005,,560
+,m,T.I.,What You Know,2006,,563
+,m,T.I.,Whatever You Like,2008,,564
+,m,50 Cent ft. Nate Dogg,21 Questions,2003,,565
+,m;f,50 Cent ft. Olivia,Candy Shop,2005,,567
+,m,"Eminem, Dr. Dre, & 50 Cent",Crack A Bottle,2009,,568
+,m,50 Cent,Disco Inferno,2005,,569
+,m;f,Jeremih ft. 50 Cent,Down On Me,2011,,570
+,m,The Game ft. 50 Cent,Hate It Or Love It,2005,,571
+,m,The Game ft. 50 Cent,How We Do,2005,,572
+,m,50 Cent,In Da Club,2003,,573
+,m,50 Cent,Just A Lil Bit,2005,,574
+,m;f,Lil' Kim ft. 50 Cent,Magic Stick,2003,1,575
+,m,50 Cent,P.I.M.P.,2003,,576
+,m,Phil Collins,Another Day In Paradise,1989,,577
+,m,Phil Collins,Do You Remember?,1990,,578
+,m,Phil Collins,Don't Lose My Number,1985,,579
+,m,Phil Collins,I Wish It Would Rain Down,1990,,580
+,m,Genesis,In Too Deep,1987,,581
+,m,Genesis,Invisible Touch,1986,,582
+,m,Genesis,Land Of Confusion,1987,,583
+,m,Phil Collins,One More Night,1985,,584
+,m,Phil Collins,Something Happened On The Way To Heaven,1990,,585
+,m,Phil Collins,Sussudio,1985,,586
+,m,Genesis,Throwing It All Away,1986,,587
+,m,Phil Collins,Two Hearts,1989,,588
+,m,Michael Jackson,Bad,1987,,589
+,m,Michael Jackson,Billie Jean,1983,,590
+,m,Michael Jackson,Black Or White,1991,,591
+,m,Michael Jackson,Dirty Diana,1988,,592
+,m;f,Michael Jackson & Siedah Garrett,I Just Can't Stop Loving You,1987,,594
+,m,Michael Jackson,Remember The Time,1992,,595
+,m,The Jacksons,State of Shock,1984,,597
+,m,Michael Jackson,The Way You Make Me Feel,1988,,598
+,m;f,USA For Africa,We Are The World,1985,,599
+,m;f;nb,Artists For Haiti,We Are The World 25: For Haiti,2010,,600
+,m,Eminem,Berzerk,2013,,601
+,m,Eminem,Cleanin' Out My Closet,2002,,602
+,m;f,Dr. Dre ft. Eminem & Skylar Grey,I Need A Doctor,2011,1,604
+,m,Eminem,Lose Yourself,2002,,606
+,m;f,Eminem ft. Rihanna,Love The Way You Lie,2010,,607
+,m,Eminem,Not Afraid,2010,,608
+,m,Akon ft. Eminem,Smack That,2006,,609
+,m;f,Eminem ft. Rihanna,The Monster,2013,1,610
+,m,Eminem,The Real Slim Shady,2000,,611
+,m,Eminem,Without Me,2002,,612
+,m;f,The Black Eyed Peas,Boom Boom Pow,2009,1,613
+,f,Fergie,Clumsy,2007,1,614
+,m;f,The Black Eyed Peas,Don't Phunk With My Heart,2005,,615
+,f,Fergie,Fergalicious,2006,1,616
+,m;f,Fergie ft. Ludacris,Glamorous,2007,1,617
+,m;f,The Black Eyed Peas,I Gotta Feeling,2009,1,618
+,m;f,The Black Eyed Peas,Imma Be,2010,1,619
+,m;f,The Black Eyed Peas,Just Can't Get Enough,2011,1,620
+,m;f,The Black Eyed Peas,My Humps,2005,,621
+,m,Usher ft. will.i.am,OMG,2010,,622
+,m;f,will.i.am & Britney Spears,Scream & Shout,2013,,623
+,m;f,The Black Eyed Peas,The Time (Dirty Bit),2010,,624
+,f,Britney Spears,Gimme More,2007,,627
+,m,Justin Bieber ft. Ludacris,Baby,2010,,636
+,m,Taio Cruz ft. Ludacris,Break Your Heart,2010,1,637
+,m,Chingy ft. Ludacris & Snoop Dogg,Holidae In,2003,,639
+,m,Lil Jon & the East Side Boyz ft. Usher & Ludacris,Lovers And Friends,2005,,640
+,m;f,Ludacris ft. Mary J. Blige,Runaway Love,2007,,643
+,m,Enrique Iglesias ft. Ludacris & DJ Frank E,Tonight (I'm Lovin' You),2011,,645
+,m,Usher ft. Lil Jon & Ludacris,Yeah!,2004,,646
+,m,Drake,Best I Ever Had,2009,,648
+,m,Jay Sean ft. Lil Wayne,Down,2009,,649
+,m,Lil Wayne,How To Love,2011,,651
+,m,"DJ Khaled ft. Justin Bieber, Quavo, Chance The Rapper & Lil Wayne",I'm The One,2017,,652
+,m,Kevin Rudolf ft. Lil Wayne,Let It Rock,2008,1,653
+,m,Lil Wayne ft. Static Major,Lollipop,2008,,654
+,m,Lil Wayne ft. Drake,She Will,2011,,655
+,m;f,The Pussycat Dolls ft. Snoop Dogg,Buttons,2006,1,659
+,f,Fergie,London Bridge,2006,1,664
+,m,Chris Brown,Run It!,2005,,666
+,m,The Weeknd ft. Daft Punk,I Feel It Coming,2017,,683
+,m,The Weeknd ft. Daft Punk,Starboy,2016,,685
+,m,"Nelly ft. Kyjuan, Ali & Murphy Lee",Air Force Ones,2002,1,691
+,m;f,Nelly ft. Kelly Rowland,Dilemma,2002,,692
+,m,Nelly,Just A Dream,2010,,695
+,m,Nelly ft. Jaheim,My Place,2004,,696
+,m,Nelly ft. Tim McGraw,Over And Over,2004,,697
+,m,Nelly ft. City Spud,Ride Wit Me,2001,,698
+,m,"Nelly, P. Diddy & Murphy Lee",Shake Ya Tailfeather,2003,1,699
+,f,Lady Gaga,Alejandro,2010,1,701
+,f,Lady Gaga,Applause,2013,1,702
+,f,Lady Gaga,Bad Romance,2009,1,703
+,f,Lady Gaga,Born This Way,2011,1,704
+,m;f,Lady Gaga ft. Colby O'Donis,Just Dance,2008,1,705
+,f,Lady Gaga,LoveGame,2009,1,706
+,f,Lady Gaga,Million Reasons,2017,1,707
+,f,Lady Gaga,Poker Face,2009,1,708
+,f,Lady Gaga,The Edge Of Glory,2011,1,710
+,m;f,Terror Squad,Lean Back,2004,,715
+,f,Eve ft. Gwen Stefani,Let Me Blow Ya Mind,2001,1,716
+,m,Mario,Let Me Love You,2004,,717
+,m,Justin Bieber,Boyfriend,2012,,723
+,m,Luis Fonsi & Daddy Yankee ft. Justin Bieber,Despacito,2017,,725
+,m,DJ Snake ft. Justin Bieber,Let Me Love You,2016,,727
+,m,Justin Bieber,Sorry,2015,,729
+,m,Justin Bieber,What Do You Mean?,2015,,730
+,m,T-Pain ft. Akon,Bartender,2007,,731
+,m,Kardinal Offishall ft. Akon,Dangerous,2008,,732
+,m,Akon,Don't Matter,2007,,733
+,m,Akon ft. Snoop Dogg,I Wanna Love You,2006,,734
+,m,Akon,Lonely,2005,,736
+,m,David Guetta ft. Akon,Sexy Chick,2010,1,737
+,m,Young Jeezy ft. Akon,Soul Survivor,2005,,739
+,m;f,Gwen Stefani ft. Akon,The Sweet Escape,2007,1,740
+,m,Drake,God's Plan,2018,,744
+,m,Drake ft. Majid Jordan,"Hold On, We're Going Home",2013,,745
+,m,Drake,Hotline Bling,2015,,746
+,m;f,Drake ft. WizKid & Kyla,One Dance,2016,1,747
+,m;f,Rihanna ft. Drake,Work,2016,1,750
+,m,Puff Daddy & the Family ft. The Notorious B.I.G. & Mase,Been Around The World,1997,,751
+,m,Puff Daddy ft. Mase,Can't Nobody Hold Me Down,1997,,752
+,m,Puff Daddy ft. Jimmy Page,Come With Me,1998,,753
+,m,The Notorious B.I.G.,Hypnotize,1997,,755
+,m,P. Diddy ft. Usher & Loon,I Need A Girl (Part One),2002,,756
+,m;f,"P. Diddy & Ginuwine ft. Loon, Mario Winans, & Tammy Ruggeri",I Need A Girl (Part Two),2002,1,757
+,m,The Notorious B.I.G.,One More Chance/Stay With Me,1995,,758
+,m,112,Peaches & Cream,2001,,759
+,m,Usher ft. Young Jeezy,Love In This Club,2008,1,763
+,m,David Guetta ft. Usher,Without You,2011,1,769
+,m,Sean Kingston,Fire Burning,2009,,773
+,m,Enrique Iglesias ft. Pitbull,I Like It,2010,,774
+,m;f,Jennifer Lopez ft. Pitbull,On The Floor,2011,,777
+,f,Nicki Minaj,Starships,2012,1,779
+,m,Lionel Richie,All Night Long,1983,1,780
+,m;f,Luther Vandross & Mariah Carey,Endless Love,1994,,781
+,m;f,"Cam'Ron ft. Juelz Santana, Freekey Zekey & Toya",Hey Ma,2002,,782
+,m;f,Fabolous ft. Tamia Or Ashanti,Into You,2003,1,784
+,m,Lionel Richie,"Say You, Say Me",1985,1,785
+,m,Lionel Richie,Stuck On You,1984,1,786
+,m,Maroon 5,Makes Me Wonder,2007,,790
+,m,Maroon 5,She Will Be Loved,2004,,794
+,m,Maroon 5,This Love,2004,,797
+,f,Mary J. Blige,Family Affair,2001,1,799
+,m,2Pac,California Love,1996,,800
+,m;f,BLACKstreet ft. Dr. Dre & Queen Pen,No Diggity,1996,1,805
+,f,Toni Braxton,He Wasn't Man Enough,2000,,808
+,f,Jennifer Lopez,If You Had My Love,1999,,809
+,f,Whitney Houston,It's Not Right But It's Okay,1999,,810
+,f,Destiny's Child,Say My Name,2000,1,813
+,f,Brandy & Monica,The Boy Is Mine,1998,1,815
+,f,Fergie,Big Girls Don't Cry,2007,1,816
+,f,Nicki Minaj,Anaconda,2014,1,825
+,f,Nicki Minaj,Super Bass,2011,1,831
+,m;f,David Guetta ft. Nicki Minaj,Turn Me On,2012,1,832
+,m,Aerosmith,Angel,1988,,833
+,m,Bon Jovi,Bad Medicine,1988,,834
+,m,Bon Jovi,Born To Be My Baby,1989,,835
+,m,Ricky Martin,Livin' La Vida Loca,1999,,837
+,m,Bon Jovi,Livin' On A Prayer,1987,,838
+,m,Sisqo,Thong Song,2000,,839
+,m,Bon Jovi,You Give Love A Bad Name,1986,,840
+,m,Richard Marx,Angelia,1989,1,841
+,m,Richard Marx,Don't Mean Nothing,1987,1,842
+,m,Richard Marx,Endless Summer Nights,1988,1,843
+,m,Richard Marx,Hold On To The Nights,1988,1,844
+,m,Richard Marx,Right Here Waiting,1989,1,845
+,m,Richard Marx,Satisfied,1989,1,846
+,m,Richard Marx,Should've Known Better,1987,1,847
+,m,*NSYNC,This I Promise You,2000,,848
+,m,J. Holiday,Bed,2007,,850
+,m,Jamie Foxx ft. T-Pain,Blame It,2009,1,851
+,m,Elton John,Candle In The Wind 1997,1997,1,865
+,m,George Michael & Elton John,Don't Let The Sun Go Down On Me,1992,1,866
+,m,Elton John,I Don't Wanna Go On With You Like That,1988,1,867
+,m,Elton John,I Guess That's Why They Call It The Blues,1984,1,868
+,m,Elton John,Sad Songs (Say So Much),1984,1,869
+,m,Elton John,Someone Saved My Life Tonight,1975,1,870
+,m;f,Heart,These Dreams,1986,,871
+,m;f,Starship,We Built This City,1985,,872
+,m;f,Jennifer Lopez ft. Ja Rule,Ain't It Funny,2002,1,881
+,m;f,Ja Rule ft. Ashanti,Always On Time,2002,,882
+,f,Ashanti,Foolish,2002,1,883
+,m;f,Jennifer Lopez ft. Ja Rule,I'm Real,2001,1,884
+,m;f,Ja Rule ft. Ashanti,Mesmerize,2003,1,885
+,f,Ashanti,Rock Wit U (Awww Baby),2003,1,886
+,m;f,Fat Joe ft. Ashanti,What's Luv?,2002,,887
+,m;f,Heart,Alone,1987,,889
+,f,The Bangles,Eternal Flame,1989,1,890
+,f,The Bangles,In Your Room,1989,1,891
+,f,Madonna,Like A Virgin,1984,,892
+,f,Whitney Houston,So Emotional,1987,,893
+,f,JoJo,Too Little Too Late,2006,,894
+,f,Cyndi Lauper,True Colors,1986,,895
+,m,Bon Jovi,Always,1994,,903
+,m,Jon Bon Jovi,Blaze Of Glory,1990,1,905
+,m,Bon Jovi,I'll Be There For You,1989,,907
+,f,Mary J. Blige,Be Without You,2006,1,910
+,f,Aaliyah,Miss You,2003,,920
+,m;f,"Pitbull ft. Ne-Yo, Afrojack, & Nayer",Give Me Everything,2011,,925
+,m,Elton John,Can You Feel The Love Tonight,1994,1,931
+,m,Peter Cetera,One Good Woman,1988,,943
+,f,TLC,Creep,1994,,945
+,f,Monica,Don't Take It Personal,1995,,946
+,f,Blu Cantrell,Hit 'Em Up Style,2001,,948
+,m,Boyz II Men,Motownphilly,1991,,949
+,f,TLC,Unpretty,1999,1,951
+,m,YoungBloodZ ft. Lil Jon,Damn!,2003,,952
+,m,Lil Jon & the East Side Boyz ft. Ying Yang Twins,Get Low,2003,,953
+,m,Mims,This Is Why I'm Hot,2007,,956
+,m,DJ Snake & Lil Jon,Turn Down For What,2014,,957
+,m,Flo Rida ft. T-Pain,Low,2007,,960
+,m,Flo Rida,My House,2016,,961
+,m;f,Flo Rida ft. Wynter,Sugar,2009,,963
+,m,Flo Rida,Whistle,2012,,964
+,m;f,Flo Rida ft. Sia,Wild Ones,2012,1,965
+,f,Blaque,Bring It All To Me,2000,,967
+,m,Marc Anthony,I Need To Know,1999,,968
+,m,Marc Anthony,You Sang To Me,2000,,972
+,m,Bryan Adams,Heaven,1985,1,977
+,m,Bryan Adams,Summer Of '69,1985,1,978
+,m,Maxi Priest,Close To You,1990,,980
+,f,Nicole ft. Missy Elliott & Mocha,Make It Hot,1998,1,982
+,f,702,Where My Girls At?,1999,,983
+,f,Mya,Case Of The Ex (Whatcha Gonna Do),2000,,986
+,m;f,JT Money ft. Sole,Who Dat,1999,1,990
+,m,T-Pain ft. Yung Joc,Buy U A Drank (Shawty Snappin'),2007,,993
+,m,T-Pain ft. Mike Jones,I'm N Luv (Wit A Stripper),2006,,994
+,m,Chris Brown ft. T-Pain,Kiss Kiss,2007,,995
+,m,Dr. Dre,Nuthin' But A G Thang,1993,,1001
+,m,Jason Derulo ft. Snoop Dogg,Wiggle,2014,,1002
+,m,New Kids On The Block,Cover Girl,1989,,1003
+,m,New Kids On The Block,Hangin' Tough,1989,,1004
+,m,New Kids On The Block,I'll Be Loving You (Forever),1989,,1005
+,m,D4L,Laffy Taffy,2005,,1006
+,m,New Kids On The Block,Step By Step,1990,,1007
+,m,New Kids On The Block,You Got It (The Right Stuff),1989,,1008
+,f,Kesha,Your Love Is My Drug,2010,1,1014
+,m,Daryl Hall,Dreamtime,1986,1,1015
+,m,Daryl Hall & John Oates,Everything Your Heart Desires,1988,1,1016
+,m,Paul Young,Everytime You Go Away,1985,,1017
+,m,Daryl Hall & John Oates,Method Of Modern Love,1985,1,1018
+,m,Daryl Hall & John Oates,Out Of Touch,1984,1,1019
+,f,Alicia Keys,Fallin',2001,1,1021
+,f,Alicia Keys,If I Ain't Got You,2004,1,1022
+,f,Alicia Keys,No One,2007,1,1024
+,m;f,P!nk ft. Nate Reuss,Just Give Me A Reason,2013,1,1027
+,m,Harry Styles,Sign Of The Times,2017,1,1028
+,m,fun.,Some Nights,2012,,1029
+,m;nb,fun. ft. Janelle Monáe,We Are Young,2012,,1031
+,f,Aretha Franklin,Freeway Of Love,1985,,1038
+,f,Whitney Houston,How Will I Know,1986,,1040
+,f,Shanice,I Love Your Smile,1992,1,1042
+,m,Jermaine Stewart,We Don't Have To Take Our Clothes Off,1986,,1043
+,f,Christina Aguilera,Genie In A Bottle,1999,,1044
+,m,Chicago,Hard Habit To Break,1984,,1045
+,f,Dream,He Loves U Not,2000,,1046
+,f,Wilson Phillips,Impulsive,1990,,1047
+,m,98 Degrees,The Hardest Thing,1999,,1048
+,f,Olivia Newton-John,Twist Of Fate,1984,,1049
+,m,Jason Derulo,In My Head,2010,,1050
+,m,Iyaz,Replay,2009,,1051
+,m,Jason Derulo ft. 2 Chainz,Talk Dirty,2014,,1052
+,m,Jason Derulo,Want To Want Me,2015,,1053
+,m,Jason Derulo,Whatcha Say,2009,,1054
+,f,Rihanna,Love On The Brain,2017,1,1056
+,m;f,DJ Khaled ft. Rihanna & Bryson Tiller,Wild Thoughts,2017,1,1060
+,m,Pitbull,I Know You Want Me (Calle Ocho),2009,,1070
+,m;f,Sean Paul ft. Keyshia Cole,(When You Gonna) Give It Up To Me,2006,1,1092
+,m;f,Sia ft. Sean Paul,Cheap Thrills,2016,1,1094
+,m,Sean Paul,Get Busy,2003,,1095
+,m,Sean Paul,Temperature,2006,,1096
+,m;f,B.o.B. ft. Hayley Williams,Airplanes,2010,,1102
+,m,Imagine Dragons,Radioactive,2013,,1105
+,m,Imagine Dragons,Thunder,2017,,1106
+,m,Wiz Khalifa ft. Charlie Puth,See You Again,2015,,1109
+,m,Jack Wagner,All I Need,1985,,1112
+,f,Wilson Phillips,Hold On,1990,1,1113
+,f,Alanis Morissette,Ironic,1996,1,1114
+,m,Michael Jackson,Man In The Mirror,1988,,1115
+,f,Wilson Phillips,You're In Love,1991,1,1116
+,m,O-Town,All Or Nothing,2001,,1117
+,m,One Direction,Best Song Ever,2013,,1118
+,m,Ruben Studdard,Flying Without Wings,2003,,1119
+,m,The Wanted,Glad You Came,2012,,1120
+,m,Charlie Puth,Attention,2017,,1132
+,f,Meghan Trainor,No,2016,1,1133
+,m,Sean Kingston,Beautiful Girls,2007,,1142
+,f,Rihanna,SOS,2006,,1145
+,m;f,G-Eazy ft. A$AP Rocky & Cardi B,No Limit,2018,1,1149
+,m,Rae Sremmurd ft. Gucci Mane,Black Beatles,2016,,1152
+,m,Kendrick Lamar,DNA.,2017,,1153
+,m,Kendrick Lamar,Humble.,2017,,1154
+,nb,Miley Cyrus,We Can't Stop,2013,1,1155
+,f,P!nk,Blow Me (One Last Kiss),2012,1,1156
+,m,Bruce Springsteen,Brilliant Disguise,1987,1,1166
+,m,Bruce Springsteen,Dancing In The Dark,1984,1,1167
+,m,Bruce Springsteen,Glory Days,1985,1,1168
+,m,Bruce Springsteen,Hungry Heart,1980,1,1169
+,f,Natalie Cole,Pink Cadillac,1988,,1170
+,m,Ed Sheeran,Perfect,2017,,1178
+,m,Ed Sheeran,Shape Of You,2017,,1179
+,m,Ed Sheeran,Thinking Out Loud,2015,,1180
+,m,LL Cool J,Hey Lover,1995,,1183
+,m,LL Cool J,Loungin,1996,,1184
+,m;f,Roxette,Dangerous,1990,,1186
+,m;f,Roxette,Fading Like A Flower (Every Time You Leave),1991,,1187
+,m;f,Roxette,It Must Have Been Love,1990,,1188
+,m;f,Roxette,Listen To Your Heart,1989,,1189
+,m;f,Roxette,The Look,1989,,1190
+,m;f,Fifth Harmony ft. Ty Dolla $ign,Work From Home,2016,,1194
+,m;f,C+C Music Factory,Gonna Make You Sweat (Everybody Dance Now),1991,,1197
+,m;f,C+C Music Factory ft. Freedom Williams,Here We Go,1991,,1198
+,m;f,C+C Music Factory,Things That Make You Go Hmmmm...,1991,,1200
+,m,Dru Hill,In My Bed,1997,,1203
+,m;f,Jordin Sparks & Chris Brown,No Air,2008,,1218
+,m,Montell Jordan,Get It On Tonite,2000,,1221
+,m,Sisqo,Incomplete,2000,,1222
+,m,Montell Jordan ft. Master P & Silkk The Shocker,Let's Ride,1998,,1223
+,f,Deborah Cox,Nobody's Supposed To Be Here,1998,,1224
+,m,Montell Jordan,This Is How We Do It,1995,,1225
+,m,Peter Cetera,Glory Of Love,1986,,1226
+,f,Whitney Houston,I Have Nothing,1993,,1227
+,m,John Parr,St. Elmo's Fire (Man In Motion),1985,,1228
+,m,Chicago,Will You Still Love Me?,1987,,1229
+,m,Chicago,You're The Inspiration,1985,,1230
+,m,Mike & the Mechanics,The Living Years,1989,,1234
+,m,Soulja Boy Tell 'Em ft. Sammie,Kiss Me Thru The Phone,2009,,1237
+,m,Jim Jones,We Fly High,2007,,1239
+,m;f,Jennifer Lopez ft. LL Cool J,All I Have,2003,1,1242
+,m;f,Jennifer Lopez ft. Styles & Jadakiss,Jenny From The Block,2002,1,1245
+,m,The Weeknd,Earned It,2015,,1252
+,m,The Weeknd,The Hills,2015,,1255
+,m,The Notorious B.I.G. ft. Puff Daddy & Mase,Mo Money Mo Problems,1997,,1259
+,m,Meat Loaf,I'd Do Anything For Love (But I Won't Do That),1993,,1261
+,f,Celine Dion,It's All Coming Back To Me Now,1996,,1262
+,m,Air Supply,Making Love Out Of Nothing At All,1983,,1263
+,f,Bonnie Tyler,Total Eclipse Of The Heart,1983,,1264
+,f,Nicki French,Total Eclipse Of The Heart,1995,,1265
+,m;f,Logic ft. Alessia Cara & Khalid,1-800-273-8255,2017,1,1270
+,m;nb,The Chainsmokers ft. Halsey,Closer,2016,1,1271
+,m;f,The Chainsmokers ft. Daya,Don't Let Me Down,2016,,1272
+,m,The Chainsmokers & Coldplay,Something Just Like This,2017,,1273
+,f,Leona Lewis,Bleeding Love,2008,,1283
+,m,OneRepublic,Counting Stars,2013,,1284
+,nb,Halsey,Bad At Love,2018,1,1286
+,m,Imagine Dragons,Believer,2017,,1287
+,m;f,Selena Gomez ft. A$AP Rocky,Good For You,2015,1,1288
+,m,Enrique Iglesias,Bailamos,1999,,1294
+,m,Enrique Iglesias,Be With You,2000,,1295
+,f,Cher,Believe,1999,,1296
+,m,Enrique Iglesias,Hero,2001,,1297
+,m,The Coasters,Charlie Brown,1959,,1303
+,m,Wilbert Harrison,Kansas City,1959,,1304
+,m,Ben E. King,Stand By Me,1961,,1305
+,m,David Bowie,Fame,1975,1,1315
+,m,Vanilla Ice,Ice Ice Baby,1990,,1316
+,m,David Bowie,Let's Dance,1983,1,1317
+,m,matchbox twenty,Bent,2000,,1322
+,m,matchbox twenty,If You're Gone,2001,,1323
+,m,Santana ft. Rob Thomas,Smooth,1999,1,1324
+,m,matchbox twenty,Unwell,2003,,1325
+,f,Adele,Hello,2015,1,1328
+,f,Kelly Clarkson,Stronger (What Doesn't Kill You),2012,,1329
+,m,*NSYNC,Bye Bye Bye,2000,,1334
+,m,Soul For Real,Candy Rain,1995,,1338
+,m,Will Smith,Gettin' Jiggy Wit It,1998,1,1339
+,m,Kool & the Gang,Cherish,1985,1,1346
+,m,Bell Biv DeVoe,Do Me!,1990,,1347
+,m,Mase,Feel So Good,1997,,1348
+,m,DJ Jazzy Jeff & the Fresh Prince,Summertime,1991,,1349
+,m;f,Major Lazer & DJ Snake ft. MO,Lean On,2015,1,1351
+,f,M.I.A.,Paper Planes,2008,1,1352
+,m,INXS,Devil Inside,1988,,1358
+,m,INXS,Need You Tonight,1988,,1359
+,m,INXS,New Sensation,1988,,1360
+,m,INXS,What You Need,1986,,1361
+,m,The Police,Every Breath You Take,1983,,1374
+,m;f,"Puff Daddy, Faith Evans, & 112",I'll Be Missing You,1997,1,1375
+,m,The Police,King Of Pain,1983,,1376
+,m,Dire Straits,Money For Nothing,1985,,1377
+,m,Wang Chung,Everybody Have Fun Tonight,1986,1,1378
+,m;f,Starship,Sara,1986,,1379
+,m,El DeBarge,Who's Johnny,1986,,1381
+,m,The Beatles,Hey Jude,1968,,1383
+,m,John Lennon,Nobody Told Me,1984,,1384
+,m,The Beatles,Yesterday,1965,,1385
+,f,Debbie Gibson,Foolish Beat,1988,1,1386
+,f,Debbie Gibson,Lost In Your Eyes,1989,1,1387
+,f,Debbie Gibson,Out Of The Blue,1988,1,1388
+,f,Debbie Gibson,Shake Your Love,1987,1,1389
+,m,Paul McCartney & Michael Jackson,Say Say Say,1983,1,1396
+,m,Silk,Freak Me,1993,,1398
+,m,Keith Sweat,I Want Her,1988,1,1399
+,m;f,Keith Sweat ft. Athena Cage,Nobody,1996,1,1400
+,m,Keith Sweat,Twisted,1996,1,1401
+,m,Coolio ft. L.V.,Gangsta's Paradise,1995,,1402
+,m,Stevie Wonder,I Just Called To Say I Love You,1984,,1403
+,m,Jodeci,Lately,1993,,1404
+,m,Will Smith ft. Dru Hill & Kool Mo Dee,Wild Wild West,1999,1,1405
+,m,Billy Ocean,There'll Be Sad Songs (To Make You Cry),1986,1,1420
+,f,Nelly Furtado,Turn Off The Light,2001,1,1429
+,f,Adele,Rolling In The Deep,2011,1,1431
+,f,Adele,Set Fire To The Rain,2012,1,1432
+,f,Adele,Someone Like You,2011,1,1433
+,m;f,No Doubt ft. Bounty Killer,Hey Baby,2002,,1434
+,m;f,No Doubt ft. Lady Saw,Underneath It All,2002,,1437
+,m,Case,Missing You,2001,,1440
+,m,Hi-Five,I Like The Way (The Kissing Game),1991,,1450
+,m,Billy Joel,Tell Her About It,1983,,1462
+,m,Billy Joel,The River Of Dreams,1993,,1463
+,m,Billy Joel,Uptown Girl,1983,,1464
+,m,Billy Joel,We Didn't Start The Fire,1989,,1465
+,m,Elvis Presley,A Big Hunk O' Love,1959,,1466
+,m,Duane Eddy & the Rebels,Because They're Young,1960,,1467
+,m,Elvis Presley,It's Now Or Never,1960,,1468
+,m,Elvis Presley,Stuck On You,1960,,1469
+,f,Whitney Houston,One Moment In Time,1988,,1477
+,m;f,Shakira ft. Wyclef Jean,Hips Don't Lie,2006,1,1478
+,m,Santana ft. The Product G&B,Maria Maria,2000,,1479
+,f,Whitney Houston,My Love Is Your Love,1999,,1480
+,m,Lloyd Price,I'm Gonna Get Married,1959,1,1490
+,m,Lloyd Price,Personality,1959,1,1491
+,m,Lloyd Price,Stagger Lee,1959,1,1492
+,m,Paul Anka,It's Time To Cry,1959,1,1497
+,m,Paul Anka,Lonely Boy,1959,1,1498
+,m,Paul Anka,Puppy Love,1960,1,1499
+,m,Paul Anka,Put Your Head On My Shoulder,1959,1,1500
+,m;f,Gloria Estefan,1-2-3,1988,1,1504
+,m;f,Gloria Estefan,Anything For You,1988,1,1505
+,m;f,Gloria Estefan,Rhythm Is Gonna Get You,1987,1,1506
+,m,MC Hammer,2 Legit 2 Quit,1992,1,1507
+,m,MC Hammer,Have You Seen Her,1990,1,1508
+,m,Dion & the Belmonts,A Teenager In Love,1959,,1510
+,m,Jimmy Clanton,"Go, Jimmy, Go",1960,,1511
+,m,The Drifters,Save The Last Dance For Me,1960,,1512
+,m,Robert Palmer,Addicted To Love,1986,1,1516
+,m,Robert Palmer,Simply Irresistible,1988,1,1517
+,f,The Pussycat Dolls,Stickwitu,2005,,1518
+,m,Lenny Kravitz,Again,2001,1,1519
+,m,Lenny Kravitz,It Ain't Over 'til It's Over,1991,1,1520
+,f,Meghan Trainor,All About That Bass,2014,1,1522
+,f,Meghan Trainor,Lips Are Movin,2014,1,1523
+,f,Sheryl Crow,All I Wanna Do,1994,1,1525
+,f,Sheryl Crow,Strong Enough,1995,1,1527
+,m,John Legend,All Of Me,2014,,1528
+,f,Beyoncé,If I Were A Boy,2008,,1530
+,m,Milli Vanilli,All Or Nothing,1990,,1531
+,m,Milli Vanilli,Baby Don't Forget My Number,1989,,1532
+,m,Milli Vanilli,Girl I'm Gonna Miss You,1989,,1533
+,f,Whitney Houston,All The Man That I Need,1991,,1534
+,m,Kenny Loggins,Footloose,1984,,1535
+,m,Eric Carmen,Make Me Lose Control,1988,,1536
+,m,Harold Faltermeyer,Axel F,1985,1,1540
+,m,Bob Seger,Shakedown,1987,,1541
+,m,Glenn Frey,The Heat Is On,1985,,1542
+,m,98 Degrees,Because Of You,1998,,1552
+,m,98 Degrees,Give Me Just One Night (Una Noche),2000,,1553
+,f,Samantha Mumba,Gotta Tell You,2000,1,1554
+,m,One Direction,Drag Me Down,2015,,1571
+,f,Iggy Azalea ft. Charli XCX,Fancy,2014,1,1577
+,m,Mike Posner,I Took A Pill In Ibiza,2016,,1580
+,m,Mr. Mister,Broken Wings,1985,,1585
+,m,Mr. Mister,Kyrie,1986,,1587
+,m,Eric Clapton,Change The World,1996,,1591
+,f,Amy Grant,Every Heartbeat,1991,1,1592
+,m,Chris Gaines,Lost In You,1999,,1593
+,f,Gloria Estefan,Coming Out Of The Dark,1991,1,1594
+,m,Jon Secada,Just Another Day,1992,1,1595
+,m,Ricky Martin,She's All I Ever Had,1999,,1596
+,f,Avril Lavigne,Complicated,2002,1,1597
+,f,Avril Lavigne,I'm With You,2003,1,1599
+,m,Gnarls Barkley,Crazy,2006,,1605
+,m;f,The Pussycat Dolls ft. Busta Rhymes,Don't Cha,2005,,1606
+,f,Madonna,Crazy For You,1985,,1608
+,f,SWV,Right Here (Human Nature),1993,,1610
+,m;f,The Jets,Crush On You,1986,,1614
+,m,Tommy Page,I'll Be Your Everything,1990,,1615
+,m,Kenny Loggins,Danger Zone,1986,,1616
+,m;f,Berlin,Take My Breath Away,1986,,1618
+,m,U2,Desire,1988,,1619
+,m,U2,I Still Haven't Found What I'm Looking For,1987,,1620
+,m,U2,With or Without You,1987,,1621
+,m;f,Ginuwine,Differences,2001,,1631
+,m;f,Simply Red,If You Don't Know Me By Now,1989,,1635
+,f,Christina Milian,Dip It Low,2004,1,1637
+,f,Rihanna,Disturbia,2008,,1640
+,m,Chris Brown,Forever,2008,,1641
+,f,Seduction,Two To Make It Right,1990,,1645
+,m,Red Hot Chili Peppers,Under The Bridge,1992,,1649
+,f,Oleta Adams,Get Here,1991,,1659
+,m,Phil Collins,Groovy Kind Of Love,1988,,1673
+,m;f,Patti LaBelle & Michael McDonald,On My Own,1986,,1674
+,m;f,Dionne & Friends,That's What Friends Are For,1985,,1675
+,m,Post Malone ft. 21 Savage,Rockstar,2017,,1678
+,m,twenty one pilots,Heathens,2016,,1685
+,m,twenty one pilots,Ride,2016,,1686
+,m,twenty one pilots,Stressed Out,2016,,1687
+,m;f,Eurythmics,Here Comes The Rain Again,1984,1,1688
+,m;f,Eurythmics,Sweet Dreams (Are Made Of This),1983,1,1689
+,m;f,Eurythmics,Would I Lie To You?,1985,1,1690
+,m,3 Doors Down,Here Without You,2003,,1694
+,m,3 Doors Down,Kryptonite,2000,,1695
+,m,3 Doors Down,When I'm Gone,2003,,1696
+,m,Chad Kroeger ft. Josey Scott,Hero,2002,1,1703
+,m,Nickelback,How You Remind Me,2001,1,1704
+,m,Nickelback,Photograph,2005,1,1705
+,m,Train,"Hey, Soul Sister",2010,,1706
+,f,En Vogue,Hold On,1990,1,1712
+,f,En Vogue,My Lovin' (You're Never Gonna Get It),1992,,1713
+,m,Chingy ft. J. Weav,One Call Away,2004,,1719
+,m,Chingy,Right Thurr,2003,,1720
+,m,Michael Bolton,How Am I Supposed To Live Without You,1990,1,1730
+,m,Michael Bolton,Love Is A Wonderful Thing,1991,1,1732
+,f,Whitney Houston,I Wanna Dance With Somebody (Who Loves Me),1987,,1734
+,m;f,Boy Meets Girl,Waiting For A Star To Fall,1988,1,1735
+,f,Bananarama,I Heard A Rumour,1987,1,1742
+,m,Rick Astley,Never Gonna Give You Up,1988,,1743
+,m,Rick Astley,Together Forever,1988,,1744
+,m,Savage Garden,I Knew I Loved You,1999,,1751
+,m,Savage Garden,I Want You,1997,,1752
+,m,Savage Garden,Truly Madly Deeply,1998,,1753
+,m,John Waite,Missing You,1984,1,1775
+,f,Stevie Nicks,Talk To Me,1986,,1776
+,m,Chicago,What Kind Of Man Would I Be?,1990,,1777
+,f,Celine Dion,My Heart Will Go On,1998,,1781
+,m,Steve Winwood,Roll With It,1988,1,1782
+,m,Eric Clapton,Tears In Heaven,1992,1,1783
+,m,Ruff Endz,No More,2000,,1784
+,m,Rhythm Syndicate,P.A.S.S.I.O.N.,1991,,1790
+,f,Rihanna,Pon de Replay,2005,,1791
+,m,Donny Osmond,Soldier Of Love,1989,,1792
+,m;f,Groove Theory,Tell Me,1995,1,1796
+,m;f,Calvin Harris ft. Rihanna,This Is What You Came For,2016,,1798
+,m;f,Rihanna ft. Calvin Harris,We Found Love,2011,,1799
+,f,Tina Turner,Typical Male,1986,,1801
+,f,Tina Turner,We Don't Need Another Hero,1985,,1802
+,f,Tina Turner,What's Love Got To Do With It,1984,,1803
+,m;f,Bill Medley & Jennifer Warnes,(I've Had) The Time Of My Life,1987,,1807
+,m,Eric Carmen,Hungry Eyes,1988,,1808
+,m;f,Peabo Bryson & Regina Belle,A Whole New World,1993,,1813
+,m,Murray Head,One Night In Bangkok,1985,,1815
+,f,TLC,No Scrubs,1999,,1820
+,m;f,Fabolous ft. Mike Shorey & Lil' Mo,Can't Let You Go,2003,1,1825
+,m,Cam'Ron ft. Juelz Santana,Oh Boy,2002,,1827
+,m,Glass Tiger,Don't Forget Me (When I'm Gone),1986,1,1831
+,m,Simple Minds,Don't You (Forget About Me),1985,,1834
+,m,Bobby Brown,My Prerogative,1988,1,1847
+,m,Glenn Medeiros ft. Bobby Brown,She Ain't Worth It,1990,1,1848
+,m;f,Mario Winans ft. Enya & P. Diddy,I Don't Wanna Know,2004,1,1849
+,m,Foreigner,I Don't Want To Live Without You,1988,,1858
+,m,Foreigner,I Want To Know What Love Is,1985,,1859
+,nb,Sam Smith,I'm Not The Only One,2014,1,1864
+,nb,Sam Smith,Stay With Me,2014,1,1865
+,m,Huey Lewis & the News,Jacob's Ladder,1987,,1870
+,m,Bruce Hornsby & the Range,Mandolin Rain,1987,1,1871
+,m,Bruce Hornsby & the Range,The Valley Road,1988,,1872
+,m,Bruce Hornsby & the Range,The Way It Is,1986,1,1875
+,m,Aerosmith,Janie's Got A Gun,1990,,1876
+,m,Aerosmith,Love In An Elevator,1989,,1877
+,m,Run-D.M.C.,Walk This Way,1986,,1878
+,f,Christina Aguilera,Come On Over Baby (All I Want Is You),2000,1,1886
+,f,Alessia Cara,Here,2016,1,1890
+,f,Spice Girls,2 Become 1,1997,1,1891
+,f,Ellie Goulding,Lights,2012,1,1892
+,m,Fetty Wap ft. Remy Boyz,679,2015,,1895
+,m,Fetty Wap,Trap Queen,2015,,1896
+,f,Kelly Clarkson,A Moment Like This,2002,,1897
+,m,Duran Duran,A View To A Kill,1985,1,1899
+,m,Eddie Money,Take Me Home Tonight,1986,,1900
+,m,"Ray Parker, Jr. & Raydio",A Woman Needs Love (Just Like You Do),1981,,1901
+,m,"Ray Parker, Jr.",Ghostbusters,1984,,1902
+,f,Sarah McLachlan,Adia,1998,1,1903
+,f,Sarah McLachlan,Angel,1999,1,1904
+,f,Lisa Stansfield,All Around The World,1990,1,1915
+,m,K-Ci & JoJo,All My Life,1998,,1929
+,m,K-Ci & JoJo,Tell Me It's Real,1999,,1930
+,m;f,Ace Of Base,All That She Wants,1993,1,1933
+,m;f,Ace Of Base,The Sign,1994,,1934
+,m;f,Atlantic Starr,Always,1987,,1935
+,m;f,Atlantic Starr,Secret Lovers,1986,,1936
+,m,Pet Shop Boys,Always On My Mind,1988,,1937
+,f,The Bangles,Manic Monday,1986,,1938
+,m,Sir Mix-A-Lot,Baby Got Back,1992,,1940
+,f,Monica,Angel Of Mine,1999,,1943
+,f,Amy Grant,Baby Baby,1991,1,1951
+,m;nb,Migos ft. Lil Uzi Vert,Bad And Boujee,2017,,1955
+,m,Future,Mask Off,2017,,1956
+,m;f,Machine Gun Kelly x Camila Cabello,Bad Things,2017,1,1961
+,f,Christina Aguilera,Beautiful,2003,,1967
+,f,P!nk,Get The Party Started,2001,,1968
+,m,James Blunt,You're Beautiful,2006,1,1970
+,m,Next,Too Close,1998,,1978
+,f,Tina Turner,Better Be Good To Me,1984,,1983
+,m;f,Heart,Never,1985,1,1984
+,m;f,Jeremih,Birthday Sex,2009,,1987
+,m,French Montana ft. Swae Lee,Unforgettable,2017,,1994
+,f,Cardi B,Bodak Yellow (Money Moves),2017,1,1998
+,m,Matthew Wilder,Break My Stride,1984,,2002
+,m;f,Evanescence ft. Paul McCoy,Bring Me To Life,2003,1,2008
+,m,David Archuleta,Crush,2008,,2009
+,m,D.R.A.M. ft. Lil Yachty,Broccoli,2016,,2010
+,m,KYLE ft. Lil Yachty,iSpy,2017,,2011
+,f,Neneh Cherry,Buffalo Stance,1989,1,2016
+,m;f,Aretha Franklin & George Michael,I Knew You Were Waiting (For Me),1987,,2017
+,m,Survivor,Burning Heart,1986,,2020
+,m,Survivor,The Search Is Over,1985,,2021
+,m,Crazy Town,Butterfly,2001,,2024
+,m,Levert,Casanova,1987,,2026
+,m,Calloway,I Wanna Be Rich,1990,,2027
+,f,Cyndi Lauper,Change Of Heart,1987,1,2032
+,f,Cyndi Lauper,She Bop,1984,1,2033
+,m,Snow Patrol,Chasing Cars,2006,,2038
+,m,Taylor Hicks,Do I Make You Proud,2006,,2039
+,m,Duran Duran,I Don't Want Your Love,1988,,2045
+,m,The Fray,How To Save A Life,2006,,2047
+,f,Paula Abdul,Cold Hearted,1989,,2050
+,f,Paula Abdul,Straight Up,1989,,2051
+,f,Expose,Come Go With Me,1987,,2058
+,f,Expose,Seasons Change,1988,,2059
+,f,Christina Aguilera,What A Girl Wants,2000,,2061
+,f,Gloria Estefan,Don't Wanna Lose You,1989,1,2065
+,f,Vanessa Williams,Save The Best For Last,1992,,2071
+,m,The Moments,Love On A Two-Way Street,1970,,2091
+,m,Tears For Fears,Everybody Wants To Rule The World,1985,,2096
+,m,Tears For Fears,Shout,1985,,2097
+,m,Portugal. The Man,Feel It Still,2017,1,2102
+,f,Kim Wilde,You Keep Me Hangin' On,1987,,2103
+,f,Paula Abdul,Forever Your Girl,1989,,2124
+,m;f,Paula Abdul & Wild Pair,Opposites Attract,1990,,2125
+,f,Adina Howard,Freak Like Me,1995,,2130
+,m,Tone-Loc,Funky Cold Medina,1989,,2136
+,m,Tone-Loc,Wild Thing,1989,,2137
+,m,PSY,Gangnam Style,2012,,2142
+,m,PSY,Gentleman,2013,,2143
+,f,Lumidee,"Never Leave You - Uh Ooh, Uh Oooh!",2003,1,2149
+,m,Avicii,Wake Me Up!,2013,,2155
+,m,Baauer,Harlem Shake,2013,,2157
+,m,Fine Young Cannibals,Good Thing,1989,,2162
+,m,Fine Young Cannibals,She Drives Me Crazy,1989,,2163
+,f,Whitney Houston,Greatest Love Of All,1986,,2166
+,f,Whitney Houston,Saving All My Love For You,1985,,2169
+,f,Tove Lo,Habits,2014,1,2172
+,m,Lifehouse,Hanging By A Moment,2001,,2176
+,m,Lifehouse,You And Me,2005,,2177
+,m,Rod Stewart,Have I Told You Lately,1993,,2182
+,m;f,John Mellencamp & Me'Shell Ndegeocello,Wild Night,1994,,2183
+,m,Don Johnson,Heartbeat,1986,,2184
+,f,Whitney Houston ft. Faith Evans & Kelly Price,Heartbreak Hotel,1999,,2186
+,f,Belinda Carlisle,Heaven Is A Place On Earth,1987,,2190
+,m;f,Santana ft. Michelle Branch,The Game Of Love,2002,,2191
+,m,Whitesnake,Here I Go Again,1987,,2194
+,m,Whitesnake,Is This Love,1987,,2195
+,m,Michael Jackson,Thriller,1984,,2199
+,m,OutKast,Hey Ya!,2003,,2200
+,m,OutKast,Ms. Jackson,2001,,2201
+,m,Huey Lewis & the News,Hip To Be Square,1986,1,2202
+,m,Huey Lewis & the News,The Power Of Love,1985,1,2203
+,m;f,Simply Red,Holding Back The Years,1986,,2204
+,m,Culture Club,Karma Chameleon,1984,,2205
+,m,Daughtry,Home,2007,,2206
+,m,Daughtry,It's Not Over,2007,,2207
+,m,Eagles,Hotel California,1977,,2208
+,m,Don Henley,The Boys Of Summer,1985,1,2209
+,m,Glenn Frey,You Belong To The City,1985,1,2211
+,m,Dru Hill ft. Redman,How Deep Is Your Love,1998,,2212
+,m,Mario,Just A Friend 2002,2002,,2213
+,m,Roger,I Want To Be Your Man,1988,,2216
+,m,H-Town,Knockin' Da Boots,1993,,2218
+,f,Fantasia,I Believe,2004,,2219
+,f,Jessica Simpson,I Wanna Love You Forever,1999,,2220
+,f,Cathy Dennis,Touch Me (All Night Long),1991,,2230
+,f,Mariah Carey,I Still Believe,1999,,2241
+,m;f,Divinyls,I Touch Myself,1991,1,2243
+,m,P.M. Dawn,I'd Die Without You,1992,,2245
+,m,P.M. Dawn,Set Adrift On Memory Bliss,1991,,2246
+,m,Vanilla Ice,Play That Funky Music,1991,,2248
+,m,Queen,We Will Rock You/We Are The Champions,1978,,2250
+,m,Linkin Park,In The End,2002,,2253
+,m;f,Fort Minor ft. Holly Brook,Where'd You Go,2006,,2254
+,m,Brian Hyland,Itsy Bitsy Teenie Weenie Yellow Polkadot Bikini,1960,,2259
+,m,"Carl Dobkins, Jr.",My Heart Is An Open Book,1959,,2260
+,m,Van Halen,Jump,1984,,2261
+,m,Van Halen,Why Can't This Be Love,1986,,2262
+,m,Third Eye Blind,Jumper,1999,,2267
+,m,Third Eye Blind,Semi-Charmed Life,1997,,2268
+,m,Bone Thugs-N-Harmony,Look Into My Eyes,1997,,2275
+,m,Bone Thugs-N-Harmony,Tha Crossroads,1996,1,2276
+,f,Jody Watley,Looking For A New Love,1987,1,2277
+,f,Jody Watley,Real Love,1989,1,2278
+,m,The Cure,Love Song,1989,,2293
+,f,Suzanne Vega,Luka,1987,1,2296
+,m;f,DNA ft. Suzanne Vega,Tom's Diner,1990,1,2297
+,f,Belinda Carlisle,Mad About You,1986,,2298
+,f,Madonna,Material Girl,1985,,2299
+,m,Lou Bega,Mambo No. 5 (A Little Bit Of...),1999,1,2302
+,m,Perez Prado,Patricia,1958,1,2303
+,m,Bad English,Price Of Love,1990,,2313
+,m,The Rolling Stones,Mixed Emotions,1989,,2314
+,m,OutKast ft. Sleepy Brown,The Way You Move,2003,,2321
+,m,LSG,My Body,1997,,2322
+,m;f,Busta Rhymes ft. Janet,What's It Gonna Be?!,1999,,2323
+,m,Creed,My Sacrifice,2002,,2334
+,m,Creed,With Arms Wide Open,2000,,2335
+,m,Domenico Modugno,Nel Blu Dipinto Di Blu (Volaré),1958,1,2338
+,m,Bobby Rydell,Volare,1960,,2339
+,m,Commodores,Nightshift,1985,,2342
+,m,Howard Jones,No One Is To Blame,1986,1,2350
+,m,Howard Jones,Things Can Only Get Better,1985,1,2351
+,f,Dixie Chicks,Not Ready To Make Nice,2007,1,2354
+,m;f,LMFAO ft. Lauren Bennett & GoonRock,Party Rock Anthem,2011,,2364
+,m,LMFAO,Sexy And I Know It,2011,,2365
+,m,Kevin Lyttle ft. Spragga Benz,Turn Me On,2004,1,2369
+,f,Ashlee Simpson,Pieces Of Me,2004,1,2374
+,f,Natasha Bedingfield,Pocketful Of Sunshine,2008,1,2375
+,f,Natasha Bedingfield,Unwritten,2006,1,2377
+,m,UB40,Red Red Wine,1988,,2382
+,m,Neil Diamond,Sweet Caroline (Good Times Never Seemed So Good),1969,,2383
+,m;f,Enigma,Return To Innocence,1994,,2386
+,m;f,Enigma,Sadeness Part 1,1991,,2387
+,f,SWV,Weak,1993,,2389
+,f,Paula Abdul,Rush Rush,1991,,2390
+,f,Paula Abdul,The Promise Of A New Day,1991,1,2391
+,f,Kylie Minogue,The Loco-Motion,1988,,2395
+,m,Spandau Ballet,True,1983,,2398
+,f,Salt-N-Pepa,Shoop,1993,1,2399
+,m,Surface,Shower Me With Your Love,1989,,2400
+,m,Surface,The First Time,1991,,2401
+,m,Coldplay,Viva La Vida,2008,,2409
+,m,Poison,Something To Believe In,1990,,2416
+,m,Poison,Unskinny Bop,1990,,2417
+,m;f,The Teddy Bears,To Know Him Is To Love Him,1958,,2425
+,m,The Everly Brothers,Til I Kissed You,1959,,2436
+,m,The Everly Brothers,Cathy's Clown,1960,,2437
+,f,Vanessa Williams,Colors Of The Wind,1995,,2441
+,m;f,Dinah Washington & Brook Benton,Baby (You've Got What It Takes),1960,,2442
+,m,Brook Benton,It's Just A Matter Of Time,1959,1,2443
+,f,Destiny's Child,"No, No, No",1998,,2447
+,m,Yung Joc,It's Goin' Down,2006,,2449
+,m,Macklemore & Ryan Lewis ft. Ray Dalton,Can't Hold Us,2013,1,2450
+,m,Macklemore & Ryan Lewis ft. Wanz,Thrift Shop,2013,1,2451
+,m,Soulja Boy Tell 'Em,Crank That (Soulja Boy),2007,,2454
+,m,Kid Cudi,Day 'N' Nite,2009,,2456
+,m;f,Busta Rhymes & Mariah Carey ft. The Flipmode Squad,I Know What You Want,2003,1,2459
+,m;f,Linda Ronstadt ft. Aaron Neville,Don't Know Much,1989,,2460
+,m;f,Linda Ronstadt & James Ingram,Somewhere Out There,1987,,2461
+,f,En Vogue,Don't Let Go (Love),1996,,2464
+,f,SWV,You're The One,1996,1,2465
+,f,Connie Francis,Everybody's Somebody's Fool,1960,,2470
+,f,Connie Francis,My Heart Has A Mind Of Its Own,1960,,2471
+,f,Eve ft. Alicia Keys,Gangsta Lovin',2002,,2474
+,m,Jim Reeves,He'll Have To Go,1960,,2480
+,f,Jeanne Black,He'll Have To Stay,1960,,2481
+,m;f,Nu Shooz,I Can't Wait,1986,,2488
+,f,Tiffany,I Think We're Alone Now,1987,,2490
+,m,Billy Idol,Mony Mony,1987,,2491
+,f,Brenda Lee,I'm Sorry,1960,,2492
+,f,Brenda Lee,Sweet Nothin's,1960,,2493
+,m,Right Said Fred,I'm Too Sexy,1992,,2498
+,m,Boyz II Men,It's So Hard To Say Goodbye To Yesterday,1991,,2506
+,m;f,Lil' Romeo,My Baby,2001,,2507
+,f,"Christina Aguilera, Lil' Kim, Mya & P!nk",Lady Marmalade,2001,,2510
+,m;f,Atlantic Starr,Masterpiece,1992,,2511
+,m,Terence Trent D'Arby,Sign Your Name,1988,1,2512
+,m,Terence Trent D'Arby,Wishing Well,1988,1,2513
+,m,Bobby Rydell,Swingin' School,1960,,2514
+,m,Bobby Rydell,Wild One,1960,,2515
+,m,Cutting Crew,(I Just) Died In Your Arms,1987,,2527
+,m,The Crests,16 Candles,1959,,2540
+,m,Skid Row,18 And Life,1989,,2542
+,m,Chicago,25 Or 6 To 4,1970,,2551
+,m,The KLF,3 A.M. Eternal,1991,,2553
+,m,Lukas Graham,7 Years,2016,,2560
+,f,Nena,99 Luftballons,1984,,2564
+,m,Jimmy Charles & the Revelletts,A Million To One,1960,,2566
+,f,Vanessa Carlton,A Thousand Miles,2002,1,2568
+,m;f,Kathy Young With The Innocents,A Thousand Stars,1960,,2569
+,m,Billy Ray Cyrus,Achy Breaky Heart,1992,,2570
+,f,Celine Dion,All By Myself,1997,,2574
+,m,Smash Mouth,All Star,1999,,2590
+,f,Cyndi Lauper,All Through The Night,1984,,2595
+,m,The Hollywood Argyles,Alley-Oop,1960,,2596
+,m,Nico & Vinz,Am I Wrong,2014,,2599
+,m,Boston,Amanda,1986,,2601
+,m,Lonestar,Amazed,2000,,2602
+,m,Shaggy ft. Rayvon,Angel,2001,,2609
+,m,Elvis Presley,Are You Lonesome To-night?,1960,,2615
+,m,Billy Vera & the Beaters,At This Moment,1987,,2617
+,f,The Pointer Sisters,Automatic,1984,,2618
+,f,Brandy,Baby,1995,,2621
+,m;f,Will To Power,"Baby, I Love Your Way/Freebird Medley",1988,,2624
+,m,Brian McKnight,Back At One,1999,1,2627
+,m,Daniel Powter,Bad Day,2006,1,2631
+,m,Creedence Clearwater Revival,Bad Moon Rising,1969,,2632
+,m,Stevie B,Because I Love You (The Postman Song),1990,,2642
+,m;f,Fleetwood Mac,Big Love,1987,,2668
+,m,The Everly Brothers,Bird Dog,1958,,2669
+,f,Meredith Brooks,Bitch,1997,1,2670
+,m,Puddle Of Mudd,Blurry,2002,,2682
+,m;f,"Zac Efron, Andrew Seeley, & Vanessa Anne Hudgens",Breaking Free,2006,,2690
+,f,Faith Hill,Breathe,2000,,2691
+,f,Colbie Caillat,Bubbly,2007,1,2703
+,m,Jack Scott,Burning Bridges,1960,,2708
+,f,Carly Rae Jepsen,Call Me Maybe,2012,1,2717
+,m,UB40,Can't Help Falling In Love,1993,,2720
+,m,Europe,Carrie,1987,,2726
+,m,The J. Geils Band,Centerfold,1982,,2728
+,m,Sam Cooke,Chain Gang,1960,1,2729
+,m,OMI,Cheerleader,2015,,2737
+,m,Sammy Johns,Chevy Van,1975,,2742
+,m,Jay & the Americans,Come A Little Bit Closer,1964,,2750
+,m;f,The Fleetwoods,Come Softly To Me,1959,1,2759
+,m,New Edition,Cool It Now,1984,,2772
+,m,Billy Idol,Cradle Of Love,1990,1,2779
+,m,Florida Georgia Line ft. Nelly,Cruise,2013,,2785
+,f,Jennifer Paige,Crush,1998,,2792
+,m,Quiet Riot,Cum On Feel The Noize,1983,,2797
+,f,Sophie B. Hawkins,Damn I Wish I Was Your Lover,1992,1,2799
+,m,The Monkees,Daydream Believer,1967,,2808
+,f,The Shirelles,Dedicated To The One I Love,1961,,2810
+,m,Natural Selection,Do Anything,1991,,2828
+,m,Bobby McFerrin,"Don't Worry, Be Happy",1988,,2835
+,m,Ritchie Valens,Donna,1959,1,2836
+,f,Lauryn Hill,Doo Wop (That Thing),1998,1,2837
+,m,Rod Stewart,Downtown Train,1990,,2843
+,m,Bobby Darin,Dream Lover,1959,1,2844
+,f,Madonna,Dress You Up,1985,,2846
+,m,The Cars,Drive,1984,,2848
+,m;f,The Essex,Easier Said Than Done,1963,,2852
+,m,Marty Robbins,El Paso,1959,1,2853
+,m,Sugar Ray,Every Morning,1999,1,2858
+,f,Jody Watley,Everything,1990,,2861
+,m,Vertical Horizon,Everything You Want,2000,,2863
+,m,Billy Idol,Eyes Without A Face,1984,1,2864
+,m,Coolio,Fantastic Voyage,1994,,2876
+,f,CeCe Peniston,Finally,1992,1,2901
+,m,Owl City,Fireflies,2009,,2906
+,m,Uncle Kracker,Follow Me,2001,,2907
+,f,Jewel,You Were Meant For Me,1997,1,2909
+,m;f,Carl Anderson & Gloria Loring,Friends And Lovers,1986,,2923
+,f,Bette Midler,From A Distance,1990,,2925
+,m,DRS,Gangsta Lean,1993,,2926
+,m,Ray Charles,Georgia On My Mind,1960,,2932
+,m,The Youngbloods,Get Together,1969,,2943
+,f,Cyndi Lauper,Girls Just Want To Have Fun,1984,,2945
+,f,Tracy Chapman,Give Me One Reason,1996,1,2949
+,m,The All-American Rejects,Gives You Hell,2009,,2950
+,f,Anita Baker,Giving You The Best That I Got,1988,1,2954
+,m;f,American Idol Finalists,God Bless The U.S.A.,2003,,2959
+,m,Marky Mark & the Funky Bunch ft. Loleatta Holloway,Good Vibrations,1991,,2968
+,m,George Harrison,Got My Mind Set On You,1987,,2973
+,m,Billy Grammer,Gotta Travel On,1959,,2975
+,m,The Brothers Four,Greenfields,1960,,2982
+,m;f,Deee-Lite,Groove Is In The Heart,1990,1,2987
+,m,Lil Pump,Gucci Gang,2017,,2993
+,m,The Virtues,Guitar Boogie Shuffle,1959,,2996
+,m,Jimmy Jones,Handy Man,1960,1,3000
+,m,Elvis Presley,Hard Headed Woman,1958,,3003
+,m,The Rolling Stones,Harlem Shuffle,1986,,3005
+,m,Guy Mitchell,Heartaches By The Number,1959,,3018
+,m,Warrant,Heaven,1989,,3026
+,m,Ini Kamoze,Here Comes The Hotstepper,1994,1,3035
+,m,Damn Yankees,High Enough,1991,,3044
+,m,New Edition,Hit Me Off,1996,,3049
+,m;f,The Lumineers,Ho Hey,2012,,3054
+,m;f,Thompson Twins,Hold Me Now,1984,1,3057
+,f,Tara Kemp,Hold You Tight,1991,,3062
+,m,Extreme,Hole Hearted,1991,,3066
+,m,The Animals,House Of The Rising Sun,1964,,3077
+,m,Breathe,How Can I Fall?,1988,,3079
+,m;f,The Heights,How Do You Talk To An Angel,1992,,3087
+,m,Color Me Badd,I Adore Mi Amor,1991,1,3097
+,f,Whitney Houston,I Believe In You And Me,1997,,3099
+,m,All-4-One,I Can Love You Like That,1995,,3101
+,f,Olivia Newton-John,I Honestly Love You,1974,,3109
+,f,Dionne Farris,I Know,1995,,3112
+,f,Klymaxx,I Miss You,1985,1,3129
+,m,Elvis Presley,I Need Your Love Tonight,1959,,3131
+,m,All-4-One,I Swear,1994,,3136
+,f,Macy Gray,I Try,2000,1,3141
+,m,Joe,I Wanna Know,2000,,3148
+,f,Brenda Lee,I Want To Be Wanted,1960,,3151
+,f,Whitney Houston,I Will Always Love You,1992,,3153
+,f,Whitney Houston,I'm Every Woman,1993,,3154
+,m,Shai,If I Ever Fall In Love,1992,,3159
+,f,Sweet Sensation,If Wishes Came True,1990,,3161
+,m,Ernie Fields & Orch.,In The Mood,1959,,3175
+,m,Boyz II Men,In The Still Of The Nite,1992,,3177
+,m,Snow,Informer,1993,,3179
+,m;f,Kenny Rogers & Dolly Parton,Islands In The Stream,1983,,3187
+,m,"Shaggy ft. Ricardo ""RikRok"" Ducent",It Wasn't Me,2000,,3194
+,m,Zay Hilfigerrr & Zayion McCall,Juju On That Beat,2016,,3204
+,m,The Georgia Satellites,Keep Your Hands To Yourself,1987,,3219
+,m,Seal,Kiss From A Rose,1995,,3220
+,m;f,Sixpence None The Richer,Kiss Me,1999,,3221
+,m,The Beach Boys,Kokomo,1988,,3223
+,m;f,Edward Byrnes & Connie Stevens,"Kookie, Kookie (Lend Me Your Comb)",1959,,3226
+,m,Los Lobos,La Bamba,1987,,3227
+,m,Floyd Cramer,Last Date,1960,1,3235
+,m,Pearl Jam,Last Kiss,1999,,3236
+,f,Divine,Lately,1998,,3237
+,m,Sammy Turner,Lavender-Blue,1959,,3239
+,m;f,Club Nouveau,Lean On Me,1987,,3241
+,m,Passenger,Let Her Go,2014,,3242
+,f,Idina Menzel,Let It Go,2014,,3243
+,m;f,Far East Movement ft. The Cataracts & Dev,Like A G6,2010,,3252
+,m,Hinder,Lips Of An Angel,2006,,3261
+,f,Connie Francis,Lipstick On Your Collar,1959,,3267
+,m;f,Fleetwood Mac,Little Lies,1987,1,3270
+,m,The Elegants,Little Star,1958,,3272
+,m,Joe Public,Live And Learn,1992,,3274
+,m,James Brown,Living In America,1986,,3279
+,m,Andy Williams,Lonely Street,1959,,3286
+,m,R.E.M.,Losing My Religion,1991,,3293
+,m;f,Vanessa Williams/Brian McKnight,Love Is,1993,,3300
+,f,Pat Benatar,Love Is A Battlefield,1983,,3302
+,m,Firehouse,Love Of A Lifetime,1991,,3306
+,f,Sara Bareilles,Love Song,2008,1,3310
+,f,Teena Marie,Lover Girl,1985,1,3317
+,m,Los del Río,Macarena (Bayside Boys Mix),1996,,3321
+,m,Bobby Darin,Mack The Knife,1959,,3323
+,f,Cassie,Me & U,2006,,3338
+,f,Pebbles,Mercedes Boy,1988,1,3339
+,m,Jan Hammer,Miami Vice Theme,1985,,3348
+,m,Lou Gramm,Midnight Blue,1987,1,3349
+,m;f,Everything But The Girl,Missing,1996,1,3353
+,m;f,Crash Test Dummies,Mmm Mmm Mmm Mmm,1994,,3358
+,m,Hanson,MMMBop,1997,,3359
+,m,Alias,More Than Words Can Say,1990,,3366
+,f,Merril Bainbridge,Mouth,1996,1,3369
+,m;f,Nina Sky ft. Jabba,Move Ya Body,2004,1,3370
+,m;f,The Fleetwoods,Mr. Blue,1959,,3376
+,m,Larry Verne,Mr. Custer,1960,,3377
+,m,The Fendermen,Mule Skinner Blues,1960,,3381
+,f,Connie Francis,My Happiness,1959,,3384
+,m,Goo Goo Dolls,Name,1996,,3394
+,m;f,Lady Antebellum,Need You Now,2009,1,3398
+,f,All Saints,Never Ever,1998,1,3404
+,m,Immature,Never Lie,1994,,3409
+,m,Corey Hart,Never Surrender,1985,1,3411
+,m,Jackie Wilson,Night,1960,,3414
+,m,The Tony Rich Project,Nobody Knows,1996,,3430
+,m,Johnny Horton,North To Alaska,1960,,3432
+,m,Duran Duran,Notorious,1986,,3438
+,m,Frankie J ft. Baby Bash,Obsession (No Es Amor),2005,,3441
+,m,Ready For The World,Oh Sheila,1985,,3444
+,m,Great White,Once Bitten Twice Shy,1989,,3452
+,f,Joan Osborne,One Of Us,1996,,3458
+,m,The Fixx,One Thing Leads To Another,1983,,3462
+,m,Barenaked Ladies,One Week,1998,,3467
+,m,Roy Orbison,Only The Lonely (Know How I Feel),1960,1,3468
+,m,Yes,Owner Of A Lonely Heart,1983,,3471
+,m,Desiigner,Panda,2016,,3474
+,f,Anita Bryant,Paper Roses,1960,,3478
+,m,Eddie Murphy,Party All The Time,1985,,3480
+,m,Shop Boyz,Party Like A Rockstar,2007,,3482
+,m,Huey Lewis & the News,Perfect World,1988,,3493
+,m;f,Kid Rock ft. Sheryl Crow,Picture,2003,,3494
+,m,Zayn,Pillowtalk,2016,,3497
+,f,Dodie Stevens,Pink Shoe Laces,1959,,3502
+,m,Johnny Tillotson,Poetry In Motion,1960,,3504
+,f,Expose,Point Of No Return,1987,,3506
+,m,Bell Biv DeVoe,Poison,1990,,3507
+,m,Bastille,Pompeii,2014,,3508
+,m,Ricky Nelson,Poor Little Fool,1958,,3511
+,m,Luther Vandross,Power Of Love/Love Power,1991,1,3512
+,m;f,Technotronic ft. Felly,Pump Up The Jam,1990,1,3516
+,m,Foster The People,Pumped Up Kicks,2011,,3518
+,m,The Exotic Sounds of Martin Denny,Quiet Village,1959,,3519
+,m,Johnny & the Hurricanes,Red River Rock,1959,,3526
+,m,Warren G & Nate Dogg,Regulate,1994,,3529
+,m,Bruce Willis,Respect Yourself,1987,,3533
+,m,Mark Morrison,Return Of The Mack,1997,1,3535
+,m,Falco,Rock Me Amadeus,1986,1,3547
+,m,Michael Damian,Rock On,1989,,3550
+,f,Lorde,Royals,2013,1,3557
+,m,MAGIC!,Rude,2014,,3560
+,m;f,Real McCoy,Run Away,1995,,3565
+,m,Soul Asylum,Runaway Train,1993,,3569
+,m,Johnny Preston,Running Bear,1960,,3570
+,f,Lolita,Sailor (Your Home Is The Sea),1960,,3572
+,m,Eagle-Eye Cherry,Save Tonight,1999,1,3579
+,f,Shanice,Saving Forever For You,1993,,3580
+,m;f,A Great Big World & Christina Aguilera,Say Something,2013,,3581
+,m,Phil Phillips & the Twilights,Sea Of Love,1959,,3586
+,m,The Honeydrippers,Sea Of Love,1984,,3588
+,f,Laura Branigan,Self Control,1984,,3591
+,m,Linear,Sending All My Love,1990,,3594
+,m,Ray J & Yung Berg,Sexy Can I,2008,,3600
+,m,Gregory Abbott,Shake You Down,1986,,3604
+,m,Johnny Hates Jazz,Shattered Dreams,1988,,3607
+,f,Robin S.,Show Me Love,1993,,3617
+,m,WALK THE MOON,Shut Up And Dance,2015,,3619
+,m,Johnny Horton,Sink The Bismark,1960,1,3630
+,f,Connie Stevens,Sixteen Reasons,1960,,3632
+,m,Onyx,Slam,1993,,3634
+,m,Santo & Johnny,Sleep Walk,1959,,3638
+,m,Juvenile ft. Soulja Slim,Slow Motion,2004,,3642
+,m;f,The Platters,Smoke Gets In Your Eyes,1958,,3646
+,m,All-4-One,So Much In Love,1994,,3649
+,m,Clay Aiken,Solitaire,2004,,3650
+,m;f,Gotye ft. Kimbra,Somebody That I Used To Know,2012,,3652
+,f,Bonnie Raitt,Something To Talk About,1991,,3656
+,m,The Impalas,Sorry (I Ran All The Way Home),1959,,3658
+,m,Tears For Fears,Sowing The Seeds Of Love,1989,,3663
+,f,Lisa Loeb & Nine Stories,Stay (I Missed You),1994,1,3666
+,m,Maurice Williams & the Zodiacs,Stay,1960,1,3667
+,m;f,Rihanna ft. Mikky Ekko,Stay,2013,1,3668
+,m,Shawn Mendes,Stitches,2015,,3675
+,m,Joe ft. Mystikal,Stutter,2001,,3682
+,m,LFO,Summer Girls,1999,,3702
+,m,Hozier,Take Me To Church,2014,,3715
+,m,a-ha,Take On Me,1985,,3716
+,m,The Romantics,Talking In Your Sleep,1984,,3724
+,m,Mark Dinning,Teen Angel,1960,,3729
+,m,Sandy Nelson,Teen Beat,1959,1,3731
+,f,Dido,Thank You,2001,1,3739
+,m,Bill Parsons,The All American Boy,1959,1,3741
+,m,Johnny Horton,The Battle Of New Orleans,1959,,3743
+,f,Miss Toni Fisher,The Big Hurt,1959,,3744
+,nb,Miley Cyrus,The Climb,2009,,3748
+,m,The Charlie Daniels Band,The Devil Went Down To Georgia,1979,1,3750
+,m,Cheap Trick,The Flame,1988,,3760
+,m,The Verve Pipe,The Freshmen,1997,,3762
+,m,"Dave ""Baby"" Cortez",The Happy Organ,1959,1,3764
+,m;f,Peter Cetera & Amy Grant,The Next Time I Fall,1986,,3776
+,m;f,The Browns,The Old Lamplighter,1960,,3778
+,m;f,Snap!,The Power,1990,,3780
+,f,Celine Dion,The Power Of Love,1994,,3784
+,m,Hoobastank,The Reason,2004,,3794
+,m,Men Without Hats,The Safety Dance,1983,,3796
+,m,Simon & Garfunkel,The Sound Of Silence,1965,,3797
+,f,Sade,The Sweetest Taboo,1986,1,3798
+,m,Percy Faith,Theme From A Summer Place,1960,,3800
+,m;f,The Browns,The Three Bells,1959,,3801
+,m,David Cook,The Time Of My Life,2008,,3804
+,m,Chubby Checker,The Twist,1960,,3805
+,m,The Drifters,There Goes My Baby,1959,,3811
+,f,Tracie Spencer,This House,1991,,3815
+,m,Clay Aiken,This Is The Night,2003,,3819
+,m,Fabian,Tiger,1959,,3825
+,m,Jim Croce,Time In A Bottle,1973,1,3831
+,m,J-Kwon,Tipsy,2004,,3832
+,m,Mr. Big,To Be With You,1992,,3835
+,m,Julian Lennon,Too Late For Goodbyes,1985,1,3842
+,f,Samantha Fox,Touch Me (I Want Your Body),1987,,3847
+,f,Martika,Toy Soldiers,1989,1,3850
+,m,Thomas Wayne & the Delons,Tragedy,1959,,3852
+,m,The Beatles,Twist And Shout,1964,,3863
+,f,Stacey Q,Two Of Hearts,1986,,3866
+,m,Usher,U Remind Me,2001,,3869
+,m,Kings Of Leon,Use Somebody,2009,,3886
+,f,Bananarama,Venus,1986,,3890
+,m,Frankie Avalon,Venus,1959,,3891
+,f,The Bangles,Walk Like An Egyptian,1986,,3895
+,f,Spice Girls,Wannabe,1997,1,3896
+,m,Silento,Watch Me,2015,,3902
+,m,Stonewall Jackson,Waterloo,1959,,3904
+,m,Freddie Cannon,Way Down Yonder In New Orleans,1959,,3906
+,f,Pat Benatar,We Belong,1985,,3908
+,m;f,Pet Shop Boys & Dusty Springfield,What Have I Done To Deserve This?,1988,,3916
+,f,Salt-N-Pepa ft. En Vogue,Whatta Man,1994,1,3926
+,m,Michael Bolton,When A Man Loves A Woman,1991,,3929
+,m,ABC,When Smokey Sings,1987,,3931
+,m,White Lion,When The Children Cry,1989,,3933
+,m,No Mercy,Where Do You Go,1996,,3935
+,f,Celine Dion,Where Does My Heart Beat Now,1991,,3937
+,m,Dion & the Belmonts,Where Or When,1960,,3942
+,m,The Calling,Wherever You Will Go,2002,,3945
+,m,Frankie Avalon,Why,1959,,3953
+,f,Bette Midler,Wind Beneath My Wings,1989,,3967
+,f,Taylor Dayne,With Every Beat Of My Heart,1989,,3969
+,f,Britney Spears,Womanizer,2008,,3978
+,f,Whitney Houston,You Give Good Love,1985,,3990
+,m;f,The Jets,You Got It All,1987,,3991
+,m,Joe Jones,You Talk Too Much,1960,1,3992
+,m,Nelson,(Can't Live Without Your) Love And Affection,1990,,3995
+,m,Elvis Presley,A Fool Such As I,1959,,3998
+,m,Stray Cats,She's Sexy + 17,1983,,3999
+,m,Coolio,"1, 2, 3, 4 (Sumpin' New)",1996,,4000
+,m,The Chipmunks,Alvin's Harmonica,1959,1,4006
+,m,Public Announcement,Body Bumpin' Yippie-Yi-Yo,1998,,4012
+,m,Deep Blue Something,Breakfast At Tiffany's,1996,,4017
+,m,Jonas Brothers,Burnin' Up,2008,,4018
+,m,Robbie Nevil,C'est La Vie,1987,1,4021
+,m;f,Quad City DJ's,C'mon N' Ride It (The Train),1996,,4024
+,m,REO Speedwagon,Can't Fight This Feeling,1985,,4028
+,f,Tiffany,Could've Been,1988,,4035
+,m,Gym Class Heroes ft. Patrick Stump,Cupid's Chokehold,2007,,4036
+,m,Cheap Trick,Don't Be Cruel,1988,,4039
+,m,The System,Don't Disturb This Groove,1987,,4041
+,m,Crowded House,Don't Dream It's Over,1987,,4043
+,f,Taylor Dayne,Don't Rush Me,1989,,4052
+,m;f,Glee Cast,Don't Stop Believin',2009,,4053
+,f,Jade,Don't Walk Away,1993,,4061
+,f,Jane Child,Don't Wanna Fall In Love,1990,1,4063
+,f,Della Reese,Don't You Know,1959,,4065
+,m;f,The Human League,Don't You Want Me,1982,,4066
+,m,Milli Vanilli,Girl You Know It's True,1989,,4075
+,m,Jimmy Jones,Good Timin',1960,,4082
+,m;f,T'Pau,Heart And Soul,1987,1,4085
+,m,Plain White T's,Hey There Delilah,2007,,4088
+,m,James Ingram,I Don't Have The Heart,1990,,4094
+,f,Taylor Dayne,I'll Always Love You,1988,,4106
+,m,Edwin McCain,I'll Be,1998,1,4107
+,f,Mariah Carey,I'll Be There,1992,,4110
+,m,The Proclaimers,I'm Gonna Be (500 Miles),1993,,4116
+,m,Londonbeat,I've Been Thinking About You,1991,,4125
+,m,Tommy Edwards,It's All In The Game,1958,,4129
+,m,Conway Twitty,It's Only Make Believe,1958,1,4140
+,f,Jennifer Lopez,Love Don't Cost A Thing,2001,,4159
+,m,Rod Stewart,My Heart Can't Tell You No,1989,,4170
+,m;f,Somethin' For The People ft. Trina & Tamara,My Love Is The Shhh!,1997,1,4172
+,m,Guns N' Roses,November Rain,1992,,4181
+,m,Chris Barber's Jazz Band,Petite Fleur (Little Flower),1959,,4184
+,m,Taco,Puttin' On The Ritz,1983,,4185
+,m,John Mellencamp,R.O.C.K. In The U.S.A.,1986,1,4186
+,m,Chamillionaire ft. Krayzie Bone,Ridin',2006,,4187
+,f,Spice Girls,Say You'll Be There,1997,1,4194
+,m,Hi-Five,She's Playing Hard To Get,1992,,4198
+,m,Rockwell,Somebody's Watching Me,1984,,4200
+,f,Shakespear's Sister,Stay,1992,1,4202
+,m;f,Lil' Flip ft. Lea,Sunshine,2004,,4206
+,m,Fall Out Boy,"This Ain't A Scene, It's An Arms Race",2007,1,4211
+,m,The Ventures,Walk Don't Run,1960,,4225
+,m,Jack Scott,What In The World's Come Over You,1960,1,4229
+,m,Van Halen,When It's Love,1988,,4231
+,f,Des'ree,You Gotta Be,1995,1,4240
+,m,Dan + Shay & Justin Bieber,"10,000 Hours",2019,,4248
+,f,Ariana Grande ft. Doja Cat & Megan Thee Stallion,34+35,2021,1,4254
+,m,Burl Ives,A Holly Jolly Christmas,2020,,4265
+,f,GAYLE,ABCDEFU,2022,1,4266
+,f,Lizzo,About Damn Time,2022,1,4269
+,f,Taylor Swift,All Too Well (Taylor's Version),2021,1,4276
+,m,J. Cole,amari,2021,,4278
+,f,Taylor Swift,Anti-Hero,2022,1,4282
+,m,Harry Styles,As It Was,2022,,4284
+,m,Steve Lacy,Bad Habit,2022,,4287
+,m,Ed Sheeran,Bad Habits,2021,,4292
+,m,Post Malone,Better Now,2018,,4295
+,f,Latto,Big Energy,2022,1,4301
+,f,Ella Mai,Boo'd Up,2018,1,4312
+,f,Beyoncé,Break My Soul,2022,1,4316
+,f,Ariana Grande,"Break Up With Your Girlfriend, I'm Bored",2019,1,4324
+,m,BTS,Butter,2021,,4330
+,m,Lil Baby,California Breeze,2022,,4337
+,m,The Weeknd,Call Out My Name,2018,,4340
+,m,Lil Tjay ft. 6LACK,Calling My Phone,2021,,4343
+,m,Drake,Champagne Poetry,2021,,4349
+,m,Juice WRLD & Marshmello,Come & Go,2020,1,4358
+,m,"Metro Boomin, The Weeknd, & 21 Savage",Creepin',2022,,4360
+,m,Bad Bunny & Jhay Cortez,Dakiti,2020,,4368
+,f,Tones & I,Dance Monkey,2020,1,4376
+,f,Olivia Rodrigo,Deja Vu,2021,1,4377
+,m;f,"Kendrick Lamar, Blxst & Amanda Reifer",Die Hard,2022,1,4382
+,m;f,Nicki Minaj & Lil Baby,Do We Have A Problem?,2022,1,4396
+,m,Lil Wayne ft. XXXTENTACION,Don't Cry,2018,,4400
+,f,Dua Lipa,Don't Start Now,2020,1,4405
+,m,Lil Baby & Gunna,Drip Too Hard,2018,,4409
+,f,Adele,Easy On Me,2021,1,4412
+,m,Imagine Dragons & JID,Enemy,2022,,4414
+,m,Drake ft. Travis Scott,Fair Trade,2021,,4422
+,m,Walker Hayes,Fancy Like,2021,1,4436
+,m;f,6ix9ine ft. Nicki Minaj & Murda Beatz,FEFE,2018,1,4440
+,m,Jack Harlow,First Class,2022,,4446
+,m,Luke Combs,Forever After All,2020,,4459
+,nb,Lil Uzi Vert,Futsal Shuffle 2020,2019,,4462
+,m,Justin Bieber,Ghost,2022,1,4467
+,m,Drake ft. Lil Baby,Girls Want Girls,2021,,4472
+,m,Chris Brown & Young Thug,Go Crazy,2021,,4476
+,m,Eminem ft. Juice WRLD,Godzilla,2020,,4486
+,m,6ix9ine,Gooba,2020,,4491
+,f,Lizzo,Good As Hell,2019,1,4495
+,m,Post Malone ft. Young Thug,Goodbyes,2019,,4497
+,m,Marshmello & Bastille,Happier,2018,1,4504
+,m,Glass Animals,Heat Waves,2022,,4507
+,m,Panic! At The Disco,High Hopes,2018,,4508
+,m,Justin Bieber ft. Chance The Rapper,Holy,2020,1,4517
+,m,Logic ft. Eminem,Homicide,2019,,4525
+,m,Ed Sheeran & Justin Bieber,I Don't Care,2019,1,4532
+,m;f,Gabby Barrett ft. Charlie Puth,I Hope,2020,1,4538
+,m;f,Post Malone ft. Doja Cat,I Like You,2022,1,4542
+,m,Shawn Mendes,If I Can't Have You,2019,1,4547
+,m,Lil Nas X & Jack Harlow,Industry Baby,2021,,4551
+,m,Justin Bieber ft. Quavo,Intentions,2020,1,4560
+,m,Andy Williams,It's The Most Wonderful Time Of The Year,2021,,4565
+,m,Drake ft. 21 Savage,Jimmy Cooks,2022,,4567
+,m,Bobby Helms,Jingle Bell Rock,2020,,4577
+,f,SZA,Kill Bill,2022,1,4579
+,m,Eminem,Killshot,2018,,4582
+,f,Doja Cat ft. SZA,Kiss Me More,2021,1,4584
+,m,Drake ft. 21 Savage & Project Pat,Knife Talk,2021,,4593
+,m,Wham!,Last Christmas,2022,,4602
+,m,Harry Styles,Late Night Talking,2022,1,4603
+,m,Drake ft. Lil Durk,Laugh Now Cry Later,2020,1,4605
+,f,Taylor Swift,Lavender Haze,2022,1,4611
+,m,Silk Sonic,Leave The Door Open,2021,1,4617
+,m,Drake ft. Rick Ross,Lemon Pepper Freestyle,2021,1,4621
+,m;f,Dua Lipa ft. DaBaby,Levitating,2021,1,4631
+,f,Dua Lipa,Levitating,2021,1,4636
+,m,Future ft. Drake,Life Is Good,2020,,4640
+,f,Rihanna,Lift Me Up,2022,1,4645
+,m,BlocBoy JB ft. Drake,Look Alive,2018,1,4649
+,m,Juice WRLD,Lucid Dreams,2018,,4655
+,m,Drake & 21 Savage,Major Distribution,2022,,4660
+,f,Taylor Swift,Maroon,2022,1,4666
+,m;f,Taylor Swift ft. Brendon Urie,ME!,2019,1,4668
+,m;f,Bebe Rexha & Florida Georgia Line,Meant To Be,2018,1,4671
+,m,Maroon 5,Memories,2019,,4675
+,m,Bad Bunny ft. Drake,MIA,2018,,4682
+,m,J. Cole,Middle Child,2019,,4689
+,f,Taylor Swift,Midnight Rain,2022,1,4693
+,m,Lil Wayne ft. Kendrick Lamar,Mona Lisa,2018,,4695
+,m,Bad Bunny,Moscow Mule,2022,,4699
+,m,Coldplay & BTS,My Universe,2021,,4705
+,m,"J. Cole, 21 Savage, & Morray",my.life,2021,,4715
+,m,Kendrick Lamar,N95,2022,,4723
+,m,"DJ Khaled ft. Justin Bieber, Chance The Rapper & Quavo",No Brainer,2018,1,4729
+,m,Chris Brown ft. Drake,No Guidance,2019,,4738
+,f,Ariana Grande,No Tears Left To Cry,2018,1,4748
+,m,Drake,Nonstop,2018,,4750
+,f,Adele,Oh My God,2021,1,4755
+,m,Drake & 21 Savage,On BS,2022,,4757
+,m,BTS,ON,2020,,4762
+,m,Lil Nas X,Panini,2019,,4772
+,m,BTS,Permission To Dance,2021,,4777
+,m;f,Cardi B & Bruno Mars,Please Me,2019,1,4781
+,m,DJ Khaled ft. Drake,Popstar,2020,,4788
+,m,Future,Puffin On Zootiez,2022,,4793
+,m,Lil Tecca,Ran$om,2019,,4797
+,m,Drake & 21 Savage,Rich Flex,2022,,4800
+,f,Brenda Lee,Rockin' Around The Christmas Tree,2019,,4814
+,m,SAINt JHN,Roses,2020,,4815
+,m,Arizona Zervas,Roxanne,2019,1,4820
+,f,Lizzo ft. Cardi B,Rumors,2021,1,4824
+,f,Kate Bush,Running Up That Hill,2022,1,4830
+,m,Ed Sheeran,Shivers,2021,,4831
+,m,Silk Sonic,Smokin Out The Window,2021,,4835
+,f,Taylor Swift ft. Lana Del Rey,Snow On The Beach,2022,1,4838
+,m,Drake & 21 Savage,Spin Bout U,2022,,4841
+,m,The Kid LAROI & Justin Bieber,Stay,2021,1,4847
+,m,DJ Khaled ft. Drake & Lil Baby,Staying Alive,2022,,4856
+,f,Lady Gaga,Stupid Love,2020,1,4864
+,m ,Nicky Youre & dazy,Sunroof,2022,,4869
+,f,Nicki Minaj,Super Freaky Girl,2022,1,4872
+,m,Kodak Black,Super Gremlin,2022,,4880
+,m,Khalid,Talk,2019,,4883
+,f,Taylor Swift,The 1,2020,1,4886
+,m,Lil Baby,The Bigger Picture,2020,,4888
+,m;f,"Zedd, Maren Morris, & Grey",The Middle,2018,,4891
+,f,Billie Eilish,Therefore I Am,2020,1,4898
+,m,Bad Bunny,Titi Me Pregunto,2022,,4900
+,f;nb,Sam Smith & Kim Petras,Unholy,2022,1,4903
+,m;f,Future ft. Drake & Tems,Wait For U,2022,1,4910
+,m,Drake ft. Lil Baby,Wants And Needs,2021,,4920
+,m,Drake ft. Future & Young Thug,Way 2 Sexy,2021,,4925
+,m;f,Encanto Cast,We Don't Talk About Bruno,2022,,4933
+,m,"Jack Harlow ft. DaBaby, Tory Lanez, & Lil Wayne",Whats Poppin,2020,,4934
+,m,Juice WRLD,Wishing Well,2020,,4943
+,m,Post Malone,Wow.,2019,,4946
+,f,Taylor Swift,You Need To Calm Down,2019,1,4952
+,m,Morgan Wallen,You Proof,2022,,4954
+,m,Justin Bieber,Yummy,2020,1,4958
+,m,Kodak Black ft. Travis Scott & Offset,ZEZE,2018,,4963
+,f,Ariana Grande,7 Rings,2019,1,4970
+,f,Mariah Carey,All I Want for Christmas is You,2019,1,4980
+,f,Billie Eilish,Bad Guy,2019,1,4982
+,m,The Weeknd,Blinding Lights,2020,1,4984
+,f,Taylor Swift,Cardigan,2020,1,4989
+,m,Post Malone,Circles,2019,1,4991
+,f,Olivia Rodrigo,Drivers License,2021,1,4996
+,m,BTS,Dynamite,2020,,4998
+,m;f,Travis Scott ft. Young Thug & M.I.A.,Franchise,2020,1,5000
+,m;f,Maroon 5 ft. Cardi B,Girls Like You,2018,1,5009
+,f,Olivia Rodrigo,Good 4 U,2021,1,5015
+,m,The Weeknd,Heartless,2019,1,5019
+,m,Travis Scott,HIGHEST IN THE ROOM,2019,1,5023
+,m;f,"Cardi B, Bad Bunny & J Balvin",I Like It,2018,1,5027
+,m,Drake,In My Feelings,2018,1,5042
+,m,BTS,Life Goes On,2020,,5056
+,f,Selena Gomez,Lose You To Love Me,2019,1,5063
+,m,Lil Nas X,Montero (Call Me By Your Name),2021,1,5068
+,m,24kGoldn ft. iann dior,Mood,2020,1,5073
+,m,Drake,Nice For What,2018,1,5078
+,m,Lil Nas X ft. Billy Ray Cyrus,Old Town Road,2019,1,5100
+,m,Justin Bieber ft. Daniel Caesar & Giveon,Peaches,2021,1,5106
+,f,Ariana Grande,Positions,2020,1,5116
+,m,Post Malone ft. Ty Dolla $ign,Psycho,2018,1,5123
+,f,Lady Gaga & Ariana Grande,Rain On Me,2020,1,5127
+,m,Polo G,Rapstar,2021,1,5138
+,m,DaBaby ft. Roddy Ricch,Rockstar,2020,1,5143
+,m,XXXTENTACION,SAD!,2018,1,5146
+,f,Megan Thee Stallion,Savage,2020,1,5148
+,f,Megan Thee Stallion ft. Beyoncé,Savage Remix,2020,1,5151
+,m,Jawsh 685 & Jason Derulo,Savage Love (Laxed - Siren Beat),2020,1,5160
+,m;f,The Weeknd & Ariana Grande,Save Your Tears,2021,1,5164
+,f,Doja Cat ft. Nicki Minaj,Say So,2020,1,5170
+,m;f,Shawn Mendes & Camila Cabello,Señorita,2019,1,5175
+,m;f,Lady Gaga & Bradley Cooper,Shallow,2018,1,5183
+,m,Travis Scott,Sicko Mode,2018,1,5187
+,m,Lewis Capaldi,Someone You Loved,2019,1,5218
+,m;f,Ariana Grande & Justin Bieber,Stuck With U,2020,1,5223
+,m,Jonas Brothers,Sucker,2019,,5230
+,m,Post Malone & Swae Lee,Sunflower,2018,1,5239
+,f,Ariana Grande,"Thank U, Next",2018,,5245
+,m,Roddy Ricch,The Box,2020,1,5252
+,m,The Scotts,The Scotts,2020,1,5258
+,m,Childish Gambino,This is America,2018,,5265
+,m,Drake,Toosie Slide,2020,1,5268
+,m;f,6ix9ine & Nicki Minaj,Trollz,2020,1,5270
+,f,Lizzo,Truth Hurts,2019,1,5276
+,f,Cardi B,Up,2021,1,5281
+,f,Cardi B ft. Megan Thee Stallion,WAP,2020,1,5287
+,m,Harry Styles,Watermelon Sugar,2020,1,5293
+,m,Drake,What's Next,2021,1,5297
+,f,Taylor Swift,Willow,2020,1,5300
+,nb,Halsey,Without Me,2018,1,5302
+,m,Train,Drops Of Jupiter,2001,1,5365
+,m,Staind,It's Been Awhile,2001,1,5367
+,m,Jesus Jones,Real Real Real,1991,1,5371
+,m,Love & Rockets,So Alive,1989,1,5372
+,m,The Kingston Trio,Tom Dooley,1958,,5373
+,m,Tag Team,Whoomp! (There It Is),1993,1,5375
+,m,The Escape Club,"Wild, Wild West",1988,1,5376
+,m,LTD,(Every Time I Turn Around) Back In Love Again,1977,,5377
+,m,Luther Ingram,(If Loving You Is Wrong) I Don't Want To Be Right,1972,,5379
+,f,Paula Abdul,(It's Just) The Way That You Love Me,1989,,5382
+,m,Elvis Presley,(Marie's The Name) His Latest Flame,1961,,5383
+,f,Aretha Franklin,(Sweet Sweet Baby) Since You've Been Gone,1968,1,5385
+,m,Gene Pitney,(The Man Who Shot) Liberty Valance,1962,,5387
+,f,Dionne Warwick,Theme From Valley Of The Dolls,1968,,5389
+,m,Ronnie Milsap,(There's) No Gettin' Over Me,1981,,5391
+,m,Blues Magoos,(We Ain't Got) Nothin' Yet,1967,,5393
+,m,Elvis Presley,Devil In Disguise,1963,,5397
+,f,Rita Coolidge,(Your Love Has Lifted Me) Higher And Higher,1977,,5400
+,m,Len Barry,1-2-3,1965,,5403
+,m,1910 Fruitgum Co.,"1, 2, 3, Red Light",1968,,5409
+,m,The Rolling Stones,19th Nervous Breakdown,1966,,5411
+,m,Tommy Tutone,867-5309,1982,,5418
+,m,The Rascals,A Beautiful Morning,1968,,5420
+,m,Johnny Cash,A Boy Named Sue,1969,,5422
+,m,The Mindbenders,A Groovy Kind Of Love,1966,,5423
+,m,Gene McDaniels,A Hundred Pounds Of Clay,1961,,5425
+,m,The Monkees,"A Little Bit Me, A Little Bit You",1967,,5428
+,f,Olivia Newton-John,A Little More Love,1979,,5429
+,f,The Toys,A Lover's Concerto,1965,,5430
+,m,Procol Harum,A Whiter Shade Of Pale,1967,,5437
+,m,Dion,"Abraham, Martin And John",1968,,5439
+,m,"Earth, Wind & Fire",After The Love Has Gone,1979,,5440
+,m,Bob Seger,Against The Wind,1980,1,5443
+,m,Ray Stevens,"Ahab, The Arab",1962,,5444
+,m,Bill Withers,Ain't No Sunshine,1971,1,5445
+,m,Four Tops,Ain't No Woman (Like The One I've Got),1973,,5446
+,m,Simple Minds,Alive & Kicking,1985,,5448
+,f,Brenda Lee,All Alone Am I,1962,,5451
+,m,Eric Carmen,All By Myself,1976,1,5453
+,m;f,Allure ft. 112,All Cried Out,1997,,5454
+,m,Backstreet Boys,All I Have To Give,1999,,5460
+,m,Mike & the Mechanics,All I Need Is A Miracle,1986,,5466
+,m,Air Supply,All Out Of Love,1980,,5468
+,m,Free,All Right Now,1970,,5470
+,m,Sting,All This Time,1991,1,5472
+,m,George Harrison,All Those Years Ago,1981,1,5473
+,m,Deodato,Also Sprach Zarathustra,1973,,5474
+,m,Willie Nelson,Always On My Mind,1982,,5476
+,m,Byron MacGregor,Americans,1974,,5479
+,m,Andy Gibb,An Everlasting Love,1978,,5480
+,m,Three Dog Night,An Old Fashioned Love Song,1971,,5481
+,m,"Blood, Sweat & Tears",And When I Die,1969,,5482
+,m;f,Rosie & the Originals,Angel Baby,1961,1,5483
+,m,The Jeff Healey Band,Angel Eyes,1989,,5484
+,f,Juice Newton,Angel Of The Morning,1981,,5486
+,m,Paul McCartney,Another Day,1971,1,5487
+,m;f,Real McCoy,Another Night,1994,,5488
+,m,Jorgen Ingmann & His Guitar,Apache,1961,,5491
+,m,Def Leppard,Armageddon It,1989,,5492
+,f,Janis Ian,At Seventeen,1975,1,5497
+,f,Aretha Franklin,Baby I Love You,1967,,5498
+,m,Johnny Rivers,Baby I Need Your Lovin',1967,,5499
+,m,Bread,Baby I'm-a Want You,1971,,5502
+,m,Smith,Baby It's You,1969,,5503
+,m,Jackie Wilson,Baby Workout,1963,1,5506
+,f,TLC,Baby-Baby-Baby,1992,,5508
+,m,Chicago,"Baby, What A Big Surprise",1977,,5511
+,m,John Denver,Back Home Again,1974,1,5512
+,m;f,Pretenders,Back On The Chain Gang,1983,1,5513
+,m,The O'Jays,Back Stabbers,1972,,5514
+,m;f,Soul II Soul,Back To Life,1989,1,5517
+,m,Grand Funk,Bad Time,1975,,5521
+,m,Gerry Rafferty,Baker Street,1978,1,5522
+,m,The Temptations,Ball Of Confusion,1970,,5523
+,m,Sweet,Ballroom Blitz,1975,,5525
+,f,Freda Payne,Band Of Gold,1970,,5527
+,f,Cher,Bang Bang (My Baby Shot Me Down),1966,,5531
+,m,The Beach Boys,Barbara Ann,1966,,5532
+,f,The Ronettes,Be My Baby,1963,,5533
+,m,William DeVaughn,Be Thankful For What You Got,1974,1,5536
+,m,First Class,Beach Baby,1974,,5537
+,m,The Temptations,Beauty Is Only Skin Deep,1966,,5539
+,m,The Dave Clark Five,Because,1964,1,5541
+,m,The Playmates,Beep Beep,1958,,5542
+,m,Smokey Robinson,Being With You,1981,1,5544
+,m,The American Breed,"Bend Me, Shape Me",1968,,5545
+,m,Four Tops,Bernadette,1967,,5547
+,m;f,Gladys Knight & the Pips,Best Thing That Ever Happened To Me,1974,,5550
+,m,"The Stylistics ft. Russell Thompkins, Jr.","Betcha By Golly, Wow",1972,,5551
+,m,Ambrosia,Biggest Part Of Me,1980,,5553
+,m,The Dave Clark Five,Bits And Pieces,1964,1,5554
+,m,Los Bravos,Black Is Black,1966,,5556
+,m,Santana,Black Magic Woman,1970,,5559
+,m;f,"Peter, Paul & Mary",Blowin' In The Wind,1963,,5560
+,f,Linda Ronstadt,Blue Bayou,1977,,5561
+,m,Bobby Vinton,Blue On Blue,1963,,5563
+,f,Marcie Blane,Bobby's Girl,1962,,5565
+,m,Queen,Bohemian Rhapsody,1992,,5567
+,m,Eddie Kendricks,Boogie Down,1974,,5568
+,m,Heatwave,Boogie Nights,1977,,5571
+,m,Stevie Wonder,Boogie On Reggae Woman,1975,1,5572
+,m,Shaggy,Boombastic,1995,,5573
+,m,Steppenwolf,Born To Be Wild,1968,,5576
+,m,Green Day,Boulevard Of Broken Dreams,2005,1,5577
+,m,The Newbeats,Bread And Butter,1964,,5580
+,f,Brenda Lee,Break It To Me Gently,1962,,5582
+,m,The Stylistics,Break Up To Make Up,1973,,5584
+,m,Commodores,Brick House,1977,,5587
+,m,The Dovells,Bristol Stomp,1961,,5593
+,m,The Foundations,Build Me Up Buttercup,1969,,5595
+,m,Elvis Presley,Burning Love,1972,,5597
+,m,The Hollies,Bus Stop,1966,,5598
+,m,Ray Charles,Busted,1963,,5599
+,m,Clarence Henry,But I Do,1961,,5600
+,m,Bobby Freeman,C'mon And Swim,1964,,5602
+,m,Neil Sedaka,Calendar Girl,1961,1,5604
+,m;f,The Mamas & the Papas,California Dreamin',1966,1,5606
+,m,David Lee Roth,California Girls,1985,,5608
+,m,The Beach Boys,California Girls,1965,,5609
+,m,The Rivieras,California Sun,1964,,5611
+,m,Tyrone Davis,Can I Change My Mind,1969,,5613
+,m,Bad Company,Can't Get Enough,1974,,5615
+,m,Andy Williams,Can't Get Used To Losing You,1963,,5616
+,m,Elvis Presley,Can't Help Falling In Love,1962,,5618
+,m,Barry Manilow,Can't Smile Without You,1978,,5622
+,m,Frankie Valli,Can't Take My Eyes Off You,1967,,5625
+,m,Herman's Hermits,Can't You Hear My Heartbeat,1965,,5627
+,m,The Dave Clark Five,Can't You See That She's Mine,1964,1,5629
+,m;f,Dawn,Candida,1970,,5631
+,m,Frankie Valli & the Four Seasons,Candy Girl,1963,,5633
+,m,Jay & the Americans,Cara Mia,1965,,5634
+,m,The Dave Clark Five,Catch Us If You Can,1965,1,5636
+,m,Simon & Garfunkel,Cecilia,1970,,5638
+,f,Aretha Franklin,Chain Of Fools,1968,,5639
+,f,Rickie Lee Jones,Chuck E.'s In Love,1979,1,5647
+,m,Gilbert O'Sullivan,Clair,1972,1,5648
+,m,Mason Williams,Classical Gas,1968,1,5649
+,m,Redbone,Come And Get Your Love,1974,,5650
+,m,Bobby Vee,Come Back When You Grow Up,1967,,5651
+,m,The Spinners,Could It Be I'm Falling In Love,1973,,5652
+,m,Climax Blues Band,Couldn't Get It Right,1977,,5654
+,m,Gary Lewis & the Playboys,Count Me In,1965,,5659
+,m,Kenny Rogers,Coward Of The County,1980,,5660
+,m;f,The Mamas & the Papas,Creeque Alley,1967,1,5662
+,m,Smokey Robinson,Cruisin',1980,1,5664
+,m;f,Garnet Mimms & the Enchanters,Cry Baby,1963,,5666
+,m,Box Tops,Cry Like A Baby,1968,,5668
+,m,Don McLean,Crying,1981,,5670
+,m,Roy Orbison,Crying,1961,1,5672
+,m,Elvis Presley,Crying In The Chapel,1965,,5674
+,m,Tommy James & the Shondells,Crystal Blue Persuasion,1969,1,5675
+,m,The Spinners,Cupid/I've Loved You For A Long Time,1980,,5678
+,f,The Crystals,Da Doo Ron Ron,1963,,5679
+,m,Wayne Newton,Daddy Don't You Walk So Fast,1972,,5682
+,m,Shep & the Limelites,Daddy's Home,1961,,5684
+,f,Martha & the Vandellas,Dancing In The Street,1964,,5688
+,m,The Jackson 5,Dancing Machine,1974,,5691
+,m,Lionel Richie,Dancing On The Ceiling,1986,,5694
+,m,Herman's Hermits,Dandy,1966,,5697
+,m,Elton John,Daniel,1973,1,5698
+,m,Frankie Valli & the Four Seasons,Dawn (Go Away),1964,,5700
+,m,Badfinger,Day After Day,1972,,5702
+,f,Aretha Franklin,Day Dreaming,1972,1,5703
+,m,The Beatles,Day Tripper,1966,,5704
+,m,The Lovin' Spoonful,Daydream,1966,,5706
+,m,Brick,Dazz,1977,,5707
+,m;f,The Mamas & the Papas,Dedicated To The One I Love,1967,,5710
+,m,After The Fire,Der Kommissar,1983,,5712
+,m,Andy Gibb,Desire,1980,,5714
+,m,Mitch Ryder & the Detroit Wheels,Devil With A Blue Dress On & Good Golly Miss Molly,1966,,5717
+,m,The Lovin' Spoonful,Did You Ever Have To Make Up Your Mind?,1966,,5721
+,f,Donna Summer,Dim All The Lights,1979,1,5722
+,m,Don Henley,Dirty Laundry,1982,1,5723
+,m;f,B.T. Express,Do It ('til You're Satisfied),1974,,5725
+,m,The Contours,Do You Love Me,1962,,5726
+,m,Culture Club,Do You Really Want To Hurt Me,1983,,5727
+,m,Peter Mccann,Do You Wanna Make Love,1977,1,5731
+,m,The Beatles,Do You Want To Know A Secret,1964,,5732
+,m,Lonnie Donegan & His Skiffle Group,Does Your Chewing Gum Lose It's Flavor (On The Bedpost Over Night),1961,,5734
+,m,Electric Light Orchestra,Don't Bring Me Down,1979,,5737
+,m;f,Kenny Rogers & Kim Carnes,Don't Fall In Love With A Dreamer,1980,1,5738
+,m;f,The Orlons,Don't Hang Up,1962,,5743
+,f,Crystal Gayle,Don't It Make My Brown Eyes Blue,1977,,5745
+,m,Gerry & the Pacemakers,Don't Let The Sun Catch You Crying,1964,,5748
+,m,Elton John,Don't Let The Sun Go Down On Me,1974,1,5751
+,m,Boston,Don't Look Back,1978,,5753
+,m,"Hamilton, Joe Frank & Reynolds",Don't Pull Your Love,1971,,5760
+,f,Petula Clark,Don't Sleep In The Subway,1967,,5762
+,m;f,Fleetwood Mac,Don't Stop,1977,1,5764
+,m,Rick Springfield,Don't Talk To Strangers,1982,1,5765
+,m,Marty Robbins,Don't Worry,1961,1,5766
+,m,Foreigner,Double Vision,1978,,5767
+,m,The Osmonds,Down By The Lazy River,1972,,5769
+,m,Creedence Clearwater Revival,Down On The Corner,1969,,5771
+,m,Tommy James,Draggin' The Line,1971,1,5772
+,m,Roy Orbison,Dream Baby,1962,,5774
+,m,Gary Wright,Dream Weaver,1976,1,5775
+,m,Dobie Gray,Drift Away,1973,,5778
+,m,Eddie Rabbitt,Drivin' My Life Away,1980,,5779
+,m,Eric Weissberg & Steve Mandell,Dueling Banjos,1973,1,5786
+,f,Brenda Lee,Dum Dum,1961,,5788
+,m,Commodores,Easy,1977,,5790
+,m,Philip Bailey & Phil Collins,Easy Lover,1985,,5791
+,m,Three Dog Night,Easy To Be Hard,1969,,5794
+,m,The Righteous Brothers,Ebb Tide,1966,,5797
+,m,Eddy Grant,Electric Avenue,1983,1,5799
+,m,Bob Lind,Elusive Butterfly,1966,1,5800
+,m,The Oak Ridge Boys,Elvira,1981,,5801
+,f,Samantha Sang,Emotion,1978,,5802
+,m,The Rolling Stones,Emotional Rescue,1980,,5804
+,m,Air Supply,Even The Nights Are Better,1982,,5806
+,m,The Police,Every Little Thing She Does Is Magic,1981,,5809
+,m,Air Supply,Every Woman In The World,1981,,5818
+,m,Tommy Roe,Everybody,1963,1,5820
+,m,Gary Lewis & the Playboys,Everybody Loves A Clown,1965,1,5823
+,m,The Main Ingredient,Everybody Plays The Fool,1972,,5826
+,m,Bread,Everything I Own,1972,,5829
+,m,Ferrante & Teicher,Exodus,1960,,5830
+,m;f,B.T. Express,Express,1975,1,5831
+,f,Madonna,Express Yourself,1989,1,5838
+,m,Soul Survivors,Expressway (To Your Heart),1967,,5840
+,m,The Alan Parsons Project,Eye In The Sky,1982,1,5842
+,f,Irene Cara,Fame,1980,,5844
+,m,Foreigner,Feels Like The First Time,1977,,5852
+,m,Chuck Mangione,Feels So Good,1978,1,5853
+,m,The Isley Brothers,Fight The Power,1975,,5854
+,m,James Taylor,Fire And Rain,1970,1,5859
+,m,The Crazy World Of Arthur Brown,Fire,1968,1,5860
+,f,The Pointer Sisters,Fire,1979,,5864
+,m,The Vogues,Five O'Clock World,1966,,5865
+,m,The Floaters,Float On,1977,,5866
+,m,The Statler Brothers,Flowers On The Wall,1966,,5869
+,m,Steve Miller,Fly Like An Eagle,1977,1,5870
+,f,Brenda Lee,Fool #1,1961,,5871
+,m,Elvin Bishop,Fooled Around And Fell In Love,1976,1,5872
+,f,The Shirelles,Foolish Little Girl,1963,,5873
+,m;f,The Carpenters,For All We Know,1971,,5875
+,m,Stevie Wonder,For Once In My Life,1968,,5878
+,f,Sheena Easton,For Your Eyes Only,1981,,5880
+,m,Bobby Rydell,Forget Him,1964,,5882
+,m,Sweet,Fox On The Run,1976,,5883
+,m,Curtis Mayfield,Freddie's Dead,1972,1,5887
+,m,The J. Geils Band,Freeze-frame,1982,,5888
+,m,The Beach Boys,"Fun, Fun, Fun",1964,,5890
+,f,Donna Fargo,Funny Face,1973,1,5892
+,m,Ronny & the Daytonas,G.T.O.,1964,,5893
+,m,Glen Campbell,Galveston,1969,,5894
+,m;f,The Seekers,Georgy Girl,1967,,5895
+,m,Rare Earth,Get Ready,1970,,5897
+,f,Silver Convention,Get Up And Boogie (That's Right),1976,,5898
+,m,The O'Kaysions,Girl Watcher,1968,,5900
+,m,Chairman Of The Board,Give Me Just A Little More Time,1970,,5903
+,m,George Benson,Give Me The Night,1980,,5907
+,f,Laura Branigan,Gloria,1982,,5908
+,m,Raspberries,Go All The Way,1972,,5911
+,m,John Stewart,Gold,1979,1,5912
+,m,Oliver,Good Morning Starshine,1969,,5913
+,m,Paul Revere & the Raiders ft. Mark Lindsay,Good Thing,1967,1,5916
+,m,James Darren,Goodbye Cruel World,1961,,5919
+,m,Elton John,Goodbye Yellow Brick Road,1973,1,5920
+,m;f,Paul McCartney & Wings,Goodnight Tonight,1979,,5924
+,m,Michael Jackson,Got To Be There,1971,,5925
+,m;f,The Friends Of Distinction,Grazing In The Grass,1969,,5926
+,m,Booker T. & the MG's,Green Onions,1962,,5928
+,m,Creedence Clearwater Revival,Green River,1969,,5932
+,m,Sugarloaf,Green-Eyed Lady,1970,,5933
+,m;f,Barbra Streisand & Barry Gibb,Guilty,1981,,5936
+,m,Brian Hyland,Gypsy Woman,1970,,5939
+,m;f,The Cowsills,Hair,1969,,5940
+,m,Breathe,Hands To Heaven,1988,,5943
+,m,James Taylor,Handy Man,1977,,5945
+,m,Pratt & McClain ft. Brother Love,Happy Days,1976,,5948
+,m;f,Quarterflash,Harden My Heart,1982,,5950
+,m,Del Shannon,Hats Off To Larry,1961,,5951
+,m;f,The Honeycombs,Have I The Right?,1964,,5952
+,m,The Chi-lites,Have You Seen Her,1971,,5954
+,m,The Ventures,Hawaii Five-O,1969,,5956
+,f,The Bangles,Hazy Shade Of Winter,1988,,5957
+,f,The Pointer Sisters,He's So Shy,1980,,5958
+,m,Tears For Fears,Head Over Heels,1985,,5960
+,m;f,Lisa Lisa & Cult Jam,Head To Toe,1987,,5962
+,f,Olivia Newton-John,Heart Attack,1982,,5968
+,m;f,The DeFranco Family ft. Tony DeFranco,Heartbeat - It's A Lovebeat,1973,,5970
+,m,Neil Diamond,Heartlight,1982,1,5972
+,m,Asia,Heat Of The Moment,1982,,5975
+,f,Martha & the Vandellas,Heat Wave,1963,,5977
+,f,Linda Ronstadt,Heat Wave/love Is A Rose,1975,,5980
+,m;f,Donna Summer & Brooklyn Dreams,Heaven Knows,1979,1,5983
+,m,Todd Rundgren,Hello It's Me,1973,1,5986
+,m,Allan Sherman,"Hello Mudduh, Hello Fadduh!",1963,,5987
+,f,Barbara Lewis,Hello Stranger,1963,1,5989
+,m,Air Supply,Here I Am (Just When I Thought I Was Over You),1981,,5990
+,f,Dolly Parton,Here You Come Again,1978,,5991
+,m,The Rip Chords,Hey Little Cobra,1964,,5993
+,m,Eddie Holman,Hey There Lonely Girl,1970,,5995
+,m,Stevie Wonder,Higher Ground,1973,1,5997
+,m,Paul Revere & the Raiders,Him Or Me - What's It Gonna Be?,1967,,5998
+,m,Vanity Fare,Hitchin' A Ride,1970,,6000
+,m;f,Fleetwood Mac,Hold Me,1982,1,6002
+,m,Johnny Nash,Hold Me Tight,1968,1,6004
+,m,Toto,Hold The Line,1979,,6009
+,m,Joe Tex,Hold What You've Got,1965,1,6010
+,m,Argent,Hold Your Head Up,1972,,6011
+,m,Simon & Garfunkel,Homeward Bound,1966,,6013
+,m,B.J. Thomas,Hooked On A Feeling,1969,,6015
+,f,Olivia Newton-John,Hopelessly Devoted To You,1978,,6016
+,m,Foreigner,Hot Blooded,1978,,6017
+,m;f,Missy Elliott ft. Nas,Hot Boyz,2000,1,6019
+,m;f,Sly & the Family Stone,Hot Fun In The Summertime,1969,,6022
+,m;f,The Sylvers,Hot Line,1977,,6023
+,m,Brook Benton,Hotel Happiness,1963,,6025
+,m,The Young Rascals,How Can I Be Sure,1967,,6027
+,m,Ace,How Long,1975,,6030
+,m,Ambrosia,How Much I Feel,1978,,6031
+,m,James Taylor,How Sweet It Is (To Be Loved By You),1975,,6032
+,m,Duran Duran,Hungry Like The Wolf,1983,,6035
+,m,Donovan,Hurdy Gurdy Man,1968,,6040
+,f,Timi Yuro,Hurt,1961,,6041
+,m;f,The Carpenters,Hurting Each Other,1972,,6043
+,m,John Cougar,Hurts So Good,1982,,6045
+,m,Deep Purple,Hush,1968,,6047
+,m,Simon & Garfunkel,I Am A Rock,1966,,6053
+,m,Neil Diamond,I Am...I Said/Done Too Soon,1971,1,6054
+,m,Kenny Rogers,I Don't Need You,1981,,6055
+,m,Elvis Presley,I Feel So Bad,1961,,6056
+,m,The Happenings,I Got Rhythm,1967,,6057
+,m,James Brown & the Famous Flames,I Got You (I Feel Good),1965,1,6059
+,m,Joe Tex,I Gotcha,1972,1,6060
+,m,Dave Edmunds,I Hear You Knocking,1971,,6061
+,m;f,Gladys Knight & the Pips,I Heard It Through The Grapevine,1967,,6064
+,m,Gino Vannelli,I Just Wanna Stop,1978,,6066
+,m,Michael McDonald,I Keep Forgettin' (Every Time You're Near),1982,1,6067
+,f,Barbara George,I Know,1962,1,6071
+,f,Petula Clark,I Know A Place,1965,,6072
+,m,Kenny Nolan,I Like Dreamin',1977,1,6073
+,m,Chris Kenner,I Like It Like That,1961,1,6074
+,f,The Paris Sisters,I Love How You Love Me,1961,,6076
+,m,The O'Jays,I Love Music (Part 1),1976,,6078
+,f,Alicia Bridges,I Love The Nightlife,1978,1,6080
+,f,Donna Lewis,I Love You Always Forever,1996,1,6082
+,m,Al Martino,I Love You Because,1963,,6083
+,m,Frank Ifield,I Remember You,1962,,6084
+,m;f,The Mamas & the Papas,I Saw Her Again,1966,,6086
+,f,Dionne Warwick,I Say A Little Prayer,1967,,6088
+,m;f,Smokey Robinson & the Miracles,I Second That Emotion,1967,,6090
+,m,Tommy James & the Shondells,I Think We're Alone Now,1967,,6092
+,m,Color Me Badd,I Wanna Sex You Up,1991,,6093
+,m,Stevie Wonder,I Was Made To Love Her,1967,1,6100
+,m,The Temptations,I Wish It Would Rain,1968,,6104
+,m,Lobo,I'd Love You To Want Me,1972,,6107
+,m,England Dan & John Ford Coley,I'd Really Love To See You Tonight,1976,,6108
+,m,The Spinners,I'll Be Around,1972,,6109
+,m,The Brothers Johnson,I'll Be Good To You,1976,,6111
+,m;f,Method Man ft. Mary J. Blige,I'll Be There For You/You're All I Need To Get By,1995,,6114
+,m;f,The Seekers,I'll Never Find Another You,1965,,6118
+,f,Dionne Warwick,I'll Never Love This Way Again,1979,,6119
+,f,Diana Ross,I'm Coming Out,1980,,6121
+,m,Barry White,I'm Gonna Love You Just A Little More Baby,1973,1,6123
+,m;f,Diana Ross & the Supremes & the Temptations,I'm Gonna Make You Love Me,1969,,6124
+,m,Peter Frampton,I'm In You,1977,1,6127
+,m;f,Donny & Marie Osmond,I'm Leaving It (All) Up To You,1974,,6128
+,m,10cc,I'm Not In Love,1975,,6130
+,f,Jessi Colter,I'm Not Lisa,1975,1,6132
+,m,Al Green,I'm Still In Love With You,1972,1,6133
+,m;f,The Free Movement,I've Found Someone Of My Own,1971,,6136
+,f,Natalie Cole,I've Got Love On My Mind,1977,,6137
+,m;f,Gladys Knight & the Pips,I've Got To Use My Imagination,1974,,6139
+,f,Charlene,I've Never Been To Me,1982,,6141
+,f,Linda Scott,I've Told Every Little Star,1961,,6143
+,m,Bread,If,1971,,6145
+,m,Trini Lopez,If I Had A Hammer,1963,,6146
+,m,Gordon Lightfoot,If You Could Read My Mind,1971,1,6148
+,m,Harold Melvin & the Blue Notes,If You Don't Know Me By Now,1972,,6149
+,m,Orchestral Manoeuvres In The Dark,If You Leave,1986,,6152
+,f,Olivia Newton-John,If You Love Me (Let Me Know),1974,,6155
+,m,Sting,If You Love Somebody Set Them Free,1985,1,6156
+,m;f,John Lennon,Imagine,1971,1,6157
+,m,Elvis Presley,In The Ghetto,1969,,6158
+,m,Village People,In The Navy,1979,,6159
+,m,The Dramatics,In The Rain,1972,,6162
+,m,Mungo Jerry,In The Summertime,1970,,6163
+,m,1910 Fruitgum Co.,Indian Giver,1969,,6164
+,m,R. Dean Taylor,Indiana Wants Me,1970,1,6167
+,m,John Lennon,Instant Karma (We All Shine On),1970,,6168
+,m,Duran Duran,Is There Something I Should Know,1983,,6171
+,m,Ringo Starr,It Don't Come Easy,1971,,6176
+,m,Johnny Tillotson,It Keeps Right On A-Hurtin',1962,1,6177
+,f,Vikki Carr,It Must Be Him,1967,,6178
+,m,Albert Hammond,It Never Rains In Southern California,1972,1,6180
+,f,Bonnie Tyler,It's A Heartache,1978,,6182
+,m,The Impressions,It's All Right,1963,,6184
+,m,Barry White,It's Ecstasy When You Lay Down Next To Me,1977,,6188
+,f,Linda Ronstadt,It's So Easy,1977,,6190
+,m,Four Tops,It's The Same Old Song,1965,,6192
+,m,The Isley Brothers,It's Your Thing,1969,,6195
+,m,Ozark Mountain Daredevils,Jackie Blue,1975,,6198
+,m,Al Hirt,Java,1964,,6200
+,f,Carole King,Jazzman,1974,1,6204
+,m,Oliver,Jean,1969,,6206
+,m,Greg Kihn Band,Jeopardy,1983,1,6207
+,m,Kool & the Gang,Joanna,1984,,6209
+,f,Lesley Gore,Judy's Turn To Cry,1963,,6217
+,m,Bobby Sherman,"Julie, Do Ya Love Me",1970,,6219
+,f,The Pointer Sisters,Jump (for My Love),1984,,6220
+,m,House Of Pain,Jump Around,1992,,6223
+,m,The Rolling Stones,Jumpin' Jack Flash,1968,,6225
+,m,Kool & the Gang,Jungle Boogie,1974,,6227
+,m;f,Paul McCartney & Wings,Junior's Farm/Sally G,1975,1,6235
+,m,Jimmy Clanton & His Rockets,Just A Dream,1958,1,6236
+,m;f,The First Edition,Just Dropped In (To See What Condition My Condition Was In),1968,,6237
+,m,"Grover Washington, Jr. & Bill Withers",Just The Two Of Us,1981,,6238
+,m,Billy Joel,Just The Way You Are,1978,1,6241
+,m,Randy VanWarmer,Just When I Needed You Most,1979,1,6242
+,m,Chicago,Just You 'n' Me,1973,,6243
+,m,KC & the Sunshine Band,Keep It Comin' Love,1977,,6246
+,m,The Gentrys,Keep On Dancing,1965,,6248
+,m,Paul Revere & the Raiders ft. Mark Lindsay,Kicks,1966,,6249
+,m,Roger Miller,King Of The Road,1965,1,6251
+,m,Paul Simon,Kodachrome,1973,1,6253
+,m,The Delfonics,La - La - Means I Love You,1968,,6254
+,f,Madonna,La Isla Bonita,1987,1,6256
+,m,The Beatles,Lady Madonna,1968,,6259
+,m,Gary Puckett & the Union Gap,Lady Willpower,1968,,6261
+,f,Donna Summer,Last Dance,1978,,6262
+,m,J. Frank Wilson & the Cavaliers,Last Kiss,1964,,6263
+,m,Mar-Keys,Last Night,1961,,6264
+,m,Edward Bear,Last Song,1973,,6269
+,m,Eric Clapton,Lay Down Sally,1978,1,6270
+,f,Maxine Nightingale,Lead Me On,1979,,6273
+,f,Helen Reddy,Leave Me Alone (Ruby Red Dress),1973,,6276
+,m;f,Paul McCartney & Wings,Let 'em In,1976,,6277
+,m;f,Betty Everett & Jerry Butler,Let It Be Me,1964,,6278
+,m,Dazz Band,Let It Whip,1982,,6280
+,m;f,The Sensations,Let Me In,1962,1,6282
+,m,Chris Montez,Let's Dance,1962,,6283
+,m,"Earth, Wind & Fire",Let's Groove,1981,,6284
+,m,Frankie Valli & the Four Seasons,Let's Hang On!,1965,,6286
+,m,Jose Feliciano,Light My Fire,1968,,6289
+,m,Bob Dylan,Like A Rolling Stone,1965,1,6293
+,m,Sam The Sham & the Pharaohs,Lil' Red Riding Hood,1966,,6294
+,m,Chubby Checker,Limbo Rock,1962,,6295
+,m,Herman's Hermits,Listen People,1966,,6297
+,m,The Music Explosion,Little Bit O' Soul,1967,,6298
+,m,O.C. Smith,Little Green Apples,1968,,6300
+,m,Elton John,Little Jeannie,1980,1,6301
+,m,Bill Cosby,Little Ole Man (Uptight-Everything's Alright),1967,,6303
+,m,Elvis Presley,Little Sister,1961,,6306
+,m,The Sweet,Little Willy,1973,,6308
+,m,Bobby Sherman,Little Woman,1969,,6310
+,m;f,Paul McCartney & Wings,Live And Let Die,1973,,6311
+,m,Bee Gees,Lonely Days,1971,,6312
+,m;f,Captain & Tennille,Lonely Night (angel Face),1976,,6315
+,m,America,Lonely People,1975,,6316
+,m,The Hollies,Long Cool Woman (In A Black Dress),1972,,6317
+,m,Dan Fogelberg,Longer,1980,,6320
+,m,Neil Diamond,Longfellow Serenade,1974,1,6321
+,m,Al Green,Look What You Done For Me,1972,1,6327
+,m,Johnny Lee,Lookin' For Love,1980,,6330
+,m,Creedence Clearwater Revival,Lookin' Out My Back Door,1970,,6333
+,m,Johnny Thunder,Loop De Loop,1963,,6334
+,m;f,Lisa Lisa & Cult Jam,Lost In Emotion,1987,,6335
+,m,Air Supply,Lost In Love,1980,,6341
+,m,The Kingsmen,Louie Louie,1963,,6342
+,m;f,Mercy,Love (Can Make You Happy),1969,,6343
+,m,Edison Lighthouse,Love Grows (Where My Rosemary Goes),1970,,6344
+,m,Gary Wright,Love Is Alive,1976,1,6346
+,f,Ketty Lester,Love Letters,1962,,6347
+,m;f,The Ray Charles Singers,Love Me With All Your Heart (Cuando Calienta El Sol),1964,,6349
+,m,Neil Diamond,Love On The Rocks,1980,1,6351
+,m,The Searchers,Love Potion Number Nine,1965,,6353
+,m;f,The B-52s,Love Shack,1989,1,6355
+,m,Bee Gees,Love So Right,1976,,6359
+,m,Rick Springfield,Love Somebody,1984,1,6362
+,f,Donna Summer,Love To Love You Baby,1976,,6363
+,m,Major Harris,Love Won't Let Me Wait,1975,,6365
+,m,Dion,Lovers Who Wander,1962,,6367
+,m,Paul Simon & the Dixie Hummingbirds,Loves Me Like A Rock,1973,1,6369
+,m,Boz Scaggs,Lowdown,1976,1,6370
+,m,Kenny Rogers,Lucille,1977,,6372
+,m,Eagles,Lyin' Eyes,1975,,6374
+,m,The Tee Set,Ma Belle Amie,1970,,6376
+,m,Richard Harris,MacArthur Park,1968,,6378
+,m,Pilot,Magic,1975,,6379
+,m,Steppenwolf,Magic Carpet Ride,1968,,6381
+,f,Olivia Newton-John,Make A Move On Me,1982,,6384
+,m,David Naughton,Makin' It,1979,,6386
+,f,The Shirelles,Mama Said,1961,,6388
+,m,The Jackson 5,Mama's Pearl,1971,,6390
+,f,Dee Dee Sharp,Mashed Potato Time,1962,,6394
+,m,Stevie Wonder,Master Blaster (Jammin'),1980,1,6396
+,m,Lobo,Me And You And A Dog Named Boo,1971,,6397
+,m,Roy Orbison,Mean Woman Blues,1963,,6398
+,m,Donovan,Mellow Yellow,1966,,6399
+,m,Johnny Rivers,Memphis,1964,,6400
+,m,Lonnie Mack,Memphis,1963,,6401
+,m,Marvin Gaye,"Mercy, Mercy Me (The Ecology)",1971,1,6402
+,m,The Buckinghams,"Mercy, Mercy, Mercy",1967,,6403
+,m,The Grass Roots,Midnight Confessions,1968,,6406
+,m,Kenny Ball & his Jazzmen,Midnight In Moscow,1962,,6407
+,m;f,Jefferson Starship,Miracles,1975,,6408
+,m,Culture Club,Miss Me Blind,1984,1,6409
+,f,Dorothy Moore,Misty Blue,1976,,6413
+,m;f,Carly Simon & James Taylor,Mockingbird,1974,1,6414
+,m,Tommy James & the Shondells,Mony Mony,1968,1,6417
+,m,Starbuck,Moonlight Feels Right,1976,,6421
+,m,Boston,More Than A Feeling,1976,,6422
+,m,Leo Sayer,More Than I Can Say,1980,,6423
+,f,Andrea True Connection,"More, More, More",1976,,6425
+,m,Paul Simon,Mother And Child Reunion,1972,1,6426
+,f,Jean Knight,Mr. Big Stuff,1971,,6433
+,m,Dickie Goodman,Mr. Jaws,1975,1,6436
+,m,Styx,Mr. Roboto,1983,,6438
+,m,Frank Mills,Music Box Dancer,1979,1,6439
+,m;f,Captain & Tennille,Muskrat Love,1976,,6440
+,f,Millie Small,My Boy Lollipop,1964,,6441
+,m,Stevie Wonder,My Cherie Amour,1969,1,6444
+,f,Barbra Streisand,My Heart Belongs To Me,1977,,6445
+,m,Billy Joel,My Life,1978,1,6446
+,m,Lionel Richie,My Love,1983,1,6447
+,m,Bobby Vinton,My Melody Of Love,1974,1,6448
+,m,Jack Scott,My True Love,1958,1,6450
+,m,The Jive Five,My True Story,1961,,6451
+,f,The Supremes,My World Is Empty Without You,1966,,6454
+,f,Samantha Fox,Naughty Girls (Need Love Too),1988,,6457
+,m;f,Gladys Knight & the Pips,Neither One Of Us (Wants To Be The First To Say Goodbye),1973,,6463
+,m,Three Dog Night,Never Been To Spain,1972,,6464
+,m,The Jackson 5,Never Can Say Goodbye,1971,,6467
+,m,Sergio Mendes,Never Gonna Let You Go,1983,,6468
+,m,The Association,Never My Love,1967,,6470
+,m,Neil Sedaka,Next Door To An Angel,1962,1,6471
+,m,Gallery,Nice To Be With You,1972,,6473
+,m,Bob Seger,Night Moves,1977,1,6474
+,m,The Moody Blues,Nights In White Satin,1972,,6475
+,m,The T-Bones,No Matter What Shape (Your Stomach's In),1966,,6476
+,m,Ringo Starr,No No Song,1975,,6477
+,m,The Guess Who,No Time,1970,,6480
+,f,Carly Simon,Nobody Does It Better,1977,,6482
+,f,Sue Thompson,Norman,1962,,6484
+,m,The Beatles,Nowhere Man,1966,,6485
+,m;f,The Edwin Hawkins' Singers ft. Dorothy Combs Morrison,Oh Happy Day,1969,1,6487
+,m,Ringo Starr,Oh My My,1974,1,6488
+,m,Commodores,Oh No,1981,,6490
+,m,Hurricane Smith,"Oh, Babe, What Would You Say?",1973,,6491
+,m,Steve Perry,"Oh, Sherrie",1984,,6492
+,m,Chicago,Old Days,1975,,6496
+,m,Walter Brennan,Old Rivers,1962,,6497
+,m;f,Gladys Knight & the Pips,On And On,1974,,6498
+,f,Donna Summer,On The Radio,1980,1,6499
+,m,Floyd Cramer,On The Rebound,1961,1,6501
+,m,Three Dog Night,One,1969,,6502
+,f,The Chiffons,One Fine Day,1963,,6503
+,m;f,The 5th Dimension,One Less Bell To Answer,1970,,6505
+,m,Elvis Presley,One Night,1958,,6507
+,f,Debbie Gibson,Only In My Dreams,1987,1,6510
+,m,Gene Pitney,Only Love Can Break A Heart,1962,,6511
+,m,Jerry Butler,Only The Strong Survive,1969,1,6513
+,m;f,The Carpenters,Only Yesterday,1975,,6516
+,m,Journey,Open Arms,1982,,6518
+,m,Duran Duran,Ordinary World,1993,1,6520
+,m,The Marketts,Out Of Limits,1964,,6524
+,m,Billy Preston,Outa-Space,1972,1,6525
+,m,Men At Work,Overkill,1983,,6526
+,m,Freddy Cannon,Palisades Park,1962,,6528
+,f,Marie Osmond,Paper Roses,1973,,6529
+,m,Guns N' Roses,Paradise City,1989,1,6531
+,f,Claudine Clark,Party Lights,1962,1,6536
+,m,Rod Stewart,Passion,1981,,6537
+,m,Clarence Carter,Patches,1970,,6542
+,m,Guns N' Roses,Patience,1989,1,6544
+,f,Barbra Streisand,People,1964,,6549
+,m,Lou Monte,Pepino The Italian Mouse,1963,,6551
+,m;f,Ed Sheeran & Beyoncé,Perfect Duet,2018,1,6553
+,f,Sylvia,Pillow Talk,1973,1,6558
+,m,Chantay's,Pipeline,1963,,6559
+,m,Clint Holmes,Playground In My Mind,1973,,6561
+,m,The Monkees,Pleasant Valley Sunday,1967,,6563
+,m,Dave Loggins,Please Come To Boston,1974,1,6565
+,f,Olivia Newton-John,Please Mr. Please,1975,,6566
+,m,The Beatles,Please Please Me,1964,,6568
+,f,Phoebe Snow,Poetry Man,1975,1,6570
+,f,The Murmaids,Popsicles And Icicles,1964,,6571
+,m,Climax,Precious And Few,1972,,6572
+,m,The Everly Brothers,Problems,1958,,6573
+,m,Creedence Clearwater Revival,Proud Mary,1969,,6575
+,m;f,Ike & Tina Turner,Proud Mary,1971,,6576
+,m,Count Five,Psychotic Reaction,1966,,6577
+,m;f,"Peter, Paul & Mary",Puff (The Magic Dragon),1963,,6582
+,m,Donny Osmond,Puppy Love,1972,,6584
+,f,Jackie DeShannon,Put A Little Love In Your Heart,1969,1,6585
+,m;f,Ocean,Put Your Hand In The Hand,1971,,6588
+,f,Juice Newton,Queen Of Hearts,1981,,6589
+,m,Dee Clark,Raindrops,1961,1,6590
+,m,Bob Dylan,Rainy Day Women #12 & 35,1966,1,6591
+,m;f,The Carpenters,Rainy Days And Mondays,1971,,6592
+,m,Brook Benton,Rainy Night In Georgia,1970,,6594
+,m,The Allman Brothers Band,Ramblin Man,1973,,6595
+,m,Nat King Cole,Ramblin' Rose,1962,,6596
+,m,The Doobie Brothers,Real Love,1980,,6598
+,m,The Cyrkle,Red Rubber Ball,1966,,6600
+,f,Diana Ross & the Supremes,Reflections,1967,,6602
+,m,Engelbert Humperdinck,Release Me (And Let Me Love Again),1967,,6605
+,f,Wilson Phillips,Release Me,1990,1,6608
+,f,The Shangri-Las,Remember (Walkin' in the Sand),1964,,6611
+,m,Little River Band,Reminiscing,1978,,6612
+,f,Fontella Bass,Rescue Me,1965,,6613
+,m,Elvis Presley,Return To Sender,1962,,6615
+,m;f,Snap!,Rhythm Is A Dancer,1993,1,6617
+,m,Rod Stewart,Rhythm Of My Heart,1991,,6621
+,m,The Cascades,Rhythm Of The Rain,1963,,6623
+,m,Blues Image,Ride Captain Ride,1970,,6624
+,m,Christopher Cross,Ride Like The Wind,1980,,6626
+,f,Dee Dee Sharp,Ride!,1962,,6627
+,f,Maxine Nightingale,Right Back Where We Started From,1976,,6629
+,m,Jesus Jones,"Right Here, Right Now",1991,,6631
+,m,Steely Dan,Rikki Don't Lose That Number,1974,,6632
+,m;f,The B-52s,Roam,1990,1,6634
+,m,The Righteous Brothers,Rock And Roll Heaven,1974,,6639
+,m,The Beach Boys,Rock And Roll Music,1976,,6641
+,m,David Essex,Rock On,1974,1,6642
+,m,Bobby Day,Rock-in Robin,1958,,6643
+,m,Michael Jackson,Rockin' Robin,1972,,6644
+,m,Toto,Rosanna,1982,,6645
+,f,Lynn Anderson,Rose Garden,1971,,6646
+,m,Dion,Ruby Baby,1963,,6647
+,m,Wreckx-N-Effect,Rump Shaker,1992,,6649
+,m,David Geddes,Run Joey Run,1975,,6653
+,m,Bobby Vee,Run To Him,1961,,6655
+,f,Sue Thompson,Sad Movies (Make Me Cry),1961,,6657
+,m,Commodores,Sail On,1979,,6658
+,f,The Jaynetts,"Sally, Go 'round The Roses",1963,,6659
+,m,Scott McKenzie,San Francisco (Be Sure To Wear Flowers In Your Hair),1967,,6661
+,m,Daryl Hall & John Oates,Sara Smile,1976,1,6662
+,m,Chicago,Saturday In The Park,1972,,6664
+,m,Gary Lewis & the Playboys,Save Your Heart For Me,1965,,6665
+,m,Daryl Hall & John Oates,Say It Isn't So,1983,1,6667
+,m;f,Tony Orlando & Dawn,"Say, Has Anybody Seen My Sweet Gypsy Rose",1973,,6674
+,m,Gary U.S. Bonds,School Is Out,1961,,6676
+,m,Brian Hyland,Sealed With A Kiss,1962,,6678
+,m,Johnny Rivers,Secret Agent Man,1966,,6680
+,m,The Happenings,See You In September,1966,,6686
+,m,Stevie Wonder,Send One Your Love,1979,1,6688
+,m,Marvin Gaye,Sexual Healing,1983,,6689
+,m,Dr. Hook,Sexy Eyes,1980,,6692
+,m,The Cars,Shake It Up,1982,,6695
+,m;f,Peaches & Herb,Shake Your Groove Thing,1979,,6696
+,m,Three Dog Night,Shambala,1973,,6698
+,m,Bob Seger & the Silver Bullet Band,Shame On The Moon,1983,,6699
+,m,Kenny Rogers,She Believes In Me,1979,,6700
+,m,Thomas Dolby,She Blinded Me With Science,1983,,6701
+,m,Jay & the Americans,She Cried,1962,,6703
+,f,Donna Summer,She Works Hard For The Money,1983,1,6705
+,m,The Turtles,She'd Rather Be With Me,1967,,6707
+,f,Lesley Gore,She's A Fool,1963,,6709
+,m,Tom Jones,She's A Lady,1971,,6711
+,m,The Beatles,She's A Woman,1964,,6712
+,m,Gary Lewis & the Playboys,She's Just My Style,1966,1,6714
+,m;f,Patrick Swayze ft. Wendy Fraser,She's Like The Wind,1988,1,6718
+,m,The Zombies,She's Not There,1964,,6720
+,m,Elvis Presley,She's Not You,1962,,6721
+,m,The Manhattans,Shining Star,1980,,6724
+,m;f,Captain & Tennille,Shop Around,1976,,6726
+,m,The Miracles,Shop Around,1961,,6728
+,m,Randy Newman,Short People,1978,1,6730
+,m,Jr. Walker & the All Stars,Shotgun,1965,,6731
+,m,Styx,Show Me The Way,1991,,6732
+,m,Stevie Wonder,"Signed, Sealed, Delivered I'm Yours",1970,1,6733
+,m,Five Man Electrical Band,Signs,1971,,6737
+,m,Herman's Hermits,Silhouettes,1965,,6738
+,m,1910 Fruitgum Co.,Simon Says,1968,,6740
+,m,Lenny Welch,Since I Fell For You,1963,,6741
+,m,"Earth, Wind & Fire",Sing A Song,1976,,6742
+,m;f,The Carpenters,Sing,1973,,6744
+,m,Night Ranger,Sister Christian,1984,,6745
+,m,Jigsaw,Sky High,1975,,6746
+,m,Paul Simon,Slip Slidin' Away,1978,1,6748
+,m,The Beach Boys,Sloop John B,1966,,6749
+,f,The Pointer Sisters,Slow Hand,1981,,6750
+,m;f,Chubby Checker & Dee Dee Sharp,Slow Twistin',1962,,6752
+,m,The Flying Machine,Smile A Little Smile For Me,1969,,6753
+,m;f,The Undisputed Truth,Smiling Faces Sometimes,1971,,6755
+,m,Deep Purple,Smoke On The Water,1973,,6757
+,m,Brownsville Station,Smokin' In The Boy's Room,1974,,6762
+,f,Sade,Smooth Operator,1985,1,6764
+,m,The Royal Guardsmen,Snoopy Vs. The Red Baron,1966,,6766
+,m,Grand Funk,Some Kind Of Wonderful,1975,,6770
+,m;f,Jefferson Airplane,Somebody To Love,1967,,6771
+,m,The Beatles,Something,1969,,6772
+,m;f,Patty Smyth With Don Henley,Sometimes Love Just Ain't Enough,1992,1,6773
+,m,Dan Hill,Sometimes When We Touch,1978,1,6775
+,m,Kenny G,Songbird,1987,1,6777
+,m,Sam & Dave,Soul Man,1967,,6778
+,m,Young-Holt Unlimited,Soulful Strut,1969,,6780
+,m;f,The Orlons,South Street,1963,,6782
+,m,Billy Preston,Space Race,1973,1,6784
+,f,Aretha Franklin,Spanish Harlem,1971,,6785
+,m,"Ray, Goodman & Brown",Special Lady,1980,,6787
+,m,Jim Stafford,Spiders & Snakes,1974,1,6790
+,m,Eric Burdon & War,Spill The Wine,1970,,6792
+,m,"Blood, Sweat & Tears",Spinning Wheel,1969,,6799
+,m,Norman Greenbaum,Spirit In The Sky,1970,1,6800
+,m,Bobby Darin,Splish Splash,1958,1,6802
+,m,Classics IV,Spooky,1968,,6804
+,f,Stevie Nicks,Stand Back,1983,1,6808
+,m,The Rolling Stones,Start Me Up,1981,,6810
+,m,Eddie Rabbitt,Step By Step,1981,,6813
+,m,Orleans,Still The One,1976,,6816
+,m,Bob Seger & the Silver Bullet Band,Still The Same,1978,1,6818
+,m;f,The 5th Dimension,Stoned Soul Picnic,1968,,6819
+,m;f,Stevie Nicks & Tom Petty,Stop Draggin' My Heart Around,1981,1,6820
+,m,Classics IV,Stormy,1968,,6822
+,m,The Brothers Johnson,Strawberry Letter 23,1977,,6824
+,m,Stray Cats,Stray Cat Strut,1983,,6825
+,m;f,Suzi Quatro & Chris Norman,Stumblin' In,1979,,6826
+,m,Billy Ocean,Suddenly,1985,,6828
+,f,Nancy Sinatra,Sugar Town,1966,,6830
+,m;f,A Taste Of Honey,Sukiyaki,1981,,6831
+,m,Dire Straits,Sultans Of Swing,1979,,6833
+,m;f,John Travolta & Olivia Newton-John,Summer Nights,1978,,6834
+,m,Bobby Hebb,Sunny,1966,1,6836
+,m,Jonathan Edwards,Sunshine,1972,1,6837
+,m,Cream,Sunshine Of Your Love,1968,,6838
+,m,Ben E. King,Supernatural Thing,1975,,6841
+,m;f,The Carpenters,Superstar,1971,,6843
+,m,The Trashmen,Surfin' Bird,1964,,6845
+,m,The Beach Boys,Surfin' U.S.A.,1963,,6849
+,m,Robin Luke,Susie Darlin',1958,1,6851
+,m,Terry Stafford,Suspicion,1964,,6852
+,m,Guns N' Roses,Sweet Child O' Mine,1988,1,6854
+,m,Air Supply,Sweet Dreams,1982,,6859
+,m,Commodores,Sweet Love,1976,,6860
+,m,Arthur Conley,Sweet Soul Music,1967,1,6866
+,m;f,Rufus ft. Chaka Khan,Sweet Thing,1976,1,6869
+,m,Dr. Hook & the Medicine Show,Sylvia's Mother,1972,,6871
+,m;f,ABBA,Take A Chance On Me,1978,,6872
+,m,R.B. Greaves,Take A Letter Maria,1969,,6874
+,m,REO Speedwagon,Take It On The Run,1981,,6875
+,m,Eagles,Take It To The Limit,1976,,6876
+,m,John Denver,"Take Me Home, Country Roads",1971,,6879
+,m;f,The S.O.S. Band,Take Your Time (Do It Right),1980,,6881
+,m,Little Anthony & the Imperials,Tears On My Pillow,1958,,6883
+,m,Rick Nelson,Teen Age Idol,1962,,6885
+,m;f,The Exciters,Tell Him,1963,,6886
+,m,Aaron Neville,Tell It Like It Is,1967,,6887
+,m;f,Rufus ft. Chaka Khan,Tell Me Something Good,1974,,6889
+,m,Stevie Wonder,That Girl,1982,1,6895
+,m,Frank Sinatra,That's Life,1966,,6896
+,m,Shaun Cassidy,That's Rock 'N' Roll,1977,,6898
+,m,Ramsey Lewis Trio,The In Crowd,1965,,6903
+,m,Styx,The Best Of Times,1981,,6904
+,m,Jewel Akens,The Birds And The Bees,1965,,6905
+,m,Elton John,The Bitch Is Back,1974,1,6906
+,m,Brook Benton,The Boll Weevil Song,1961,1,6908
+,m,War,The Cisco Kid,1973,,6910
+,m;f,Roberta Flack & Donny Hathaway,The Closer I Get To You,1978,,6917
+,f,Skeeter Davis,The End Of The World,1963,,6919
+,m,Marvin Hamlisch,The Entertainer,1974,,6921
+,m;f,Stan Getz & Astrud Gilberto,The Girl From Ipanema,1964,,6922
+,m,Michael Jackson & Paul McCartney,The Girl Is Mine,1982,,6925
+,m,Hugo Montenegro,"The Good, The Bad And The Ugly",1968,,6926
+,m,Cliff Nobles & Co.,The Horse,1968,,6927
+,m,The Kingsmen,The Jolly Green Giant,1965,,6928
+,m,Chris de Burgh,The Lady In Red,1987,,6931
+,m,Robert John,The Lion Sleeps Tonight,1972,,6932
+,m,Jan & Dean,The Little Old Lady (From Pasadena),1964,,6937
+,m;f,Sergio Mendes & Brasil '66,The Look Of Love,1968,,6939
+,f,Sister Janet Mead,The Lord's Prayer,1974,,6941
+,f,Barbra Streisand,The Main Event/Fight,1979,,6942
+,m,Jimmy Eat World,The Middle,2002,1,6945
+,m;f,Dick & DeeDee,The Mountain's High,1961,,6949
+,f,Shirley Ellis,The Name Game,1965,,6950
+,m,Bobby Vee,The Night Has A Thousand Eyes,1963,,6952
+,f,Joan Baez,The Night They Drove Old Dixie Down,1971,,6955
+,m,"Ray Parker, Jr.",The Other Woman,1982,1,6956
+,m,Crispian St. Peters,The Pied Piper,1966,,6957
+,m;f,The Cowsills,"The Rain, The Park & Other Things",1967,,6960
+,m,The Jaggerz,The Rapper,1970,,6962
+,f,Bette Midler,The Rose,1980,,6963
+,m,The Spinners,The Rubberband Man,1976,,6964
+,m,Three Dog Night,The Show Must Go On,1974,,6966
+,m,10cc,The Things We Do For Love,1977,,6970
+,m;f,The Orlons,The Wah Watusi,1962,,6972
+,m,Dion,The Wanderer,1962,,6974
+,f,Donna Summer,The Wanderer,1980,1,6975
+,m;f,Captain & Tennille,The Way I Want To Touch You,1975,1,6977
+,m,Duran Duran,The Wild Boys,1984,1,6978
+,m,Gordon Lightfoot,The Wreck Of The Edmund Fitzgerald,1976,1,6983
+,m,Adam Wade,The Writing On The Wall,1961,,6984
+,m,Joey Scarbury,Theme From Greatest American Hero,1981,,6987
+,m,Herman's Hermits,There's A Kind Of Hush,1967,,6989
+,m,The Capris,There's A Moon Out Tonight,1961,,6991
+,m,The Spinners,Games People Play,1975,,6994
+,m,Napoleon XIV,"They're Coming To Take Me Away, Ha-Haaa!",1966,,6997
+,m,Bobby Darin,Things,1962,1,6998
+,f,Petula Clark,This Is My Song,1967,,7001
+,f,Mary Hopkin,Those Were The Days,1968,,7002
+,m,Rolf Harris,"Tie Me Kangaroo Down, Sport",1963,1,7004
+,m,Culture Club,Time (Clock Of The Heart),1983,,7005
+,m,The Zombies,Time Of The Season,1969,,7009
+,m,The Outsiders,Time Won't Let Me,1966,,7010
+,m,America,Tin Man,1974,,7012
+,m,Julio Iglesias & Willie Nelson,To All The Girls I've Loved Before,1984,,7013
+,m,Genesis,"Tonight, Tonight, Tonight",1987,,7016
+,m,Marvin Gaye,Too Busy Thinking About My Baby,1969,,7019
+,m,Kool & the Gang,Too Hot,1980,,7022
+,m;f,Cornelius Brothers & Sister Rose,Too Late To Turn Back Now,1972,,7023
+,m,Kajagoogoo,Too Shy,1983,,7024
+,m,Cozy Cole,Topsy II,1958,1,7029
+,m,The Doors,Touch Me,1969,,7030
+,m,Gene McDaniels,Tower Of Strength,1961,,7031
+,m,Classics IV,Traces,1969,,7033
+,m,Creedence Clearwater Revival,Travelin' Band,1970,,7036
+,m;f,Cornelius Brothers & Sister Rose,Treat Her Like A Lady,1971,,7037
+,m,Roy Head & the Traits,Treat Her Right,1965,1,7038
+,f,Madonna,True Blue,1986,1,7039
+,m,Bob Seger,Tryin' To Live My Life Without You,1981,,7041
+,m,Tyrone Davis,Turn Back The Hands Of Time,1970,,7042
+,m,George Benson,Turn Your Love Around,1982,,7044
+,m,Major Lance,"Um, Um, Um, Um, Um, Um",1964,,7049
+,m,The Righteous Brothers,Unchained Melody,1965,,7050
+,m,The Drifters,Under The Boardwalk,1964,,7052
+,m,Duran Duran,Union Of The Snake,1983,1,7054
+,f,Aretha Franklin,Until You Come Back To Me (That's What I'm Gonna Do),1974,,7059
+,m,Creedence Clearwater Revival,Up Around The Bend,1970,,7062
+,m,The Drifters,Up On The Roof,1963,,7063
+,m,Stevie Wonder,Uptight (Everything's Alright),1966,1,7065
+,m,Foreigner,Urgent,1981,,7068
+,m,Bill Withers,Use Me,1972,1,7069
+,m,The O'Jays,Use Ta Be My Girl,1978,,7070
+,m,The Monkees,Valleri,1968,,7072
+,m,The Ides Of March,Vehicle,1970,,7074
+,m,Foreigner,Waiting For A Girl Like You,1981,,7075
+,m,The Left Banke,Walk Away Renee,1966,,7077
+,m,Leroy Van Dyke,Walk On By,1961,,7080
+,m,Michael Jackson,Wanna Be Startin' Somethin',1983,,7081
+,m,The Village Stompers,Washington Square,1963,,7087
+,f,Sister Sledge,We Are Family,1979,,7089
+,f,Go-Go's,We Got The Beat,1982,1,7091
+,f,Gale Garnett,We'll Sing In The Sunshine,1964,1,7092
+,m;f,The Carpenters,We've Only Just Begun,1970,,7093
+,m,The Five Americans,Western Union,1967,,7098
+,m,Jr. Walker & the All Stars,What Does It Take (To Win Your Love),1969,,7101
+,m,Marvin Gaye,What's Going On,1971,1,7104
+,m,Tom Jones,What's New Pussycat?,1965,,7107
+,m;f,Information Society,What's On Your Mind (Pure Energy),1988,,7109
+,m,The String-A-Longs,Wheels,1961,,7111
+,m,Kalin Twins,When,1958,,7113
+,f,Linda Ronstadt,When Will I Be Loved,1975,,7115
+,f,The Three Degrees,When Will I See You Again,1974,,7116
+,m,Kenny Loggins,Whenever I Call You Friend,1978,1,7118
+,m;f,Roberta Flack & Donny Hathaway,Where Is The Love,1972,,7120
+,f,Connie Francis,Where The Boys Are,1961,,7122
+,m;f,The Poppy Family ft. Susan Jacks,Which Way You Goin' Billy?,1970,,7124
+,m,Frankie Valli & the Four Seasons,Who Loves You,1975,,7125
+,m,Journey,Who's Crying Now,1981,,7127
+,m,Johnnie Taylor,Who's Making Love,1968,,7129
+,m,Led Zeppelin,Whole Lotta Love,1970,,7133
+,m,Timmy Thomas,Why Can't We Live Together,1973,,7138
+,m,Glen Campbell,Wichita Lineman,1968,,7139
+,m,Michael Murphey,Wildfire,1975,,7144
+,m,Scorpions,Wind Of Change,1991,,7146
+,m,The Surfaris,Wipe Out,1963,,7147
+,m;f,Billy Preston & Syreeta,With You I'm Born Again,1980,,7152
+,m,Tom Jones,Without Love (There Is Nothing),1970,,7154
+,m,John Lennon,Woman,1981,1,7155
+,m,Gary Puckett & the Union Gap,"Woman, Woman",1967,,7157
+,m,Herman's Hermits,Wonderful World,1965,,7159
+,m,Sam The Sham & the Pharaohs,Wooly Bully,1965,,7162
+,m;f,Gloria Estefan,Words Get In The Way,1986,1,7163
+,m;f,The Mamas & the Papas,Words Of Love,1967,,7164
+,m,The Spinners,Working My Way Back To You,1980,,7165
+,m;f,Brooklyn Bridge,Worst That Could Happen,1969,,7166
+,m,Village People,Y.M.C.A.,1979,,7167
+,m,Arthur Lyman Group,Yellow Bird,1961,,7170
+,m,The Beatles,Yellow Submarine,1966,,7173
+,f,Barbara Mason,"Yes, I'm Ready",1965,1,7175
+,m;f,Teri DeSario & K.C.,"Yes, I'm Ready",1980,,7176
+,m;f,The Carpenters,Yesterday Once More,1973,,7177
+,m,The Osmonds,Yo-Yo,1971,,7179
+,m,Lionel Richie,You Are,1983,1,7180
+,m,Joe Cocker,It's A Sin When You Love Somebody,1975,,7182
+,m,The Dovells,You Can't Sit Down,1963,,7183
+,f,The Caravelles,You Don't Have To Be A Baby To Cry,1963,,7186
+,f,Dusty Springfield,You Don't Have To Say You Love Me,1966,,7188
+,m,Ray Charles,You Don't Know Me,1962,,7192
+,m,Ral Donner,You Don't Know What You've Got (Until You Lose It),1961,,7194
+,f,Lesley Gore,You Don't Own Me,1964,,7196
+,m,The Stylistics,You Make Me Feel Brand New,1974,,7198
+,m,Daryl Hall & John Oates,You Make My Dreams,1981,,7200
+,m,Bobby Darin,You Must Have Been A Beautiful Baby,1961,,7203
+,m,Al Green,You Ought To Be With Me,1972,1,7205
+,m,Hot Chocolate,You Sexy Thing,1976,,7208
+,f,Melissa Manchester,You Should Hear How She Talks About You,1982,,7210
+,m;f,We Five,You Were On My Mind,1965,,7212
+,m,Lou Rawls,You'll Never Find Another Love Like Mine,1976,,7213
+,m,Rod Stewart,You're In My Heart (The Final Acclaim),1978,1,7218
+,m,Barry White,"You're The First, The Last, My Everything",1974,1,7220
+,m,The Vogues,You're The One,1965,,7223
+,m,Bobby Darin,You're The Reason I'm Living,1963,1,7225
+,m,"Blood, Sweat & Tears",You've Made Me So Very Happy,1969,,7226
+,m,Gary Puckett & the Union Gap,Young Girl,1968,,7230
+,m,Rod Stewart,Young Turks,1981,1,7231
+,m,Rick Nelson,Young World,1962,,7235
+,m,Kenny Loggins & Jim Messina,Your Mama Don't Dance,1973,1,7236
+,m;f,Marvin Gaye & Tammi Terrell,Your Precious Love,1967,,7238
+,m,Ohio Express,Yummy Yummy Yummy,1968,,7240
+,m,B.J. Thomas,(Hey Won't You Play) Another Somebody Done Somebody Wrong Song,1975,,7242
+,m,The Rolling Stones,(I Can't Get No) Satisfaction,1965,,7244
+,m,John Lennon,(Just Like) Starting Over,1980,1,7246
+,m,Andy Gibb,(Love Is) Thicker Than Water,1978,1,7247
+,m,KC & the Sunshine Band,"(Shake, Shake, Shake) Shake Your Booty",1976,,7249
+,m,Otis Redding,Sittin' On the Dock Of The Bay,1968,1,7251
+,m;f,The Carpenters,(They Long To Be) Close To You,1970,,7253
+,m,The Righteous Brothers,(You're My) Soul And Inspiration,1966,,7255
+,m;f,Paul Anka & Odia Coates,(You're) Having My Baby,1974,1,7257
+,m,Paul Simon,50 Ways To Leave Your Lover,1976,1,7258
+,f,Dolly Parton,9 To 5,1981,1,7259
+,m,? & the Mysterians,96 Tears,1966,,7260
+,m,Walter Murphy & the Big Apple Band,A Fifth Of Beethoven,1976,1,7261
+,m,The Beatles,A Hard Day's Night,1964,,7263
+,m,America,A Horse With No Name,1972,,7265
+,m,Peter & Gordon,A World Without Love,1964,,7266
+,m,The Jackson 5,ABC,1970,,7268
+,m,The Steve Miller Band,Abracadabra,1982,1,7272
+,m,Toto,Africa,1983,,7273
+,m;f,Starland Vocal Band,Afternoon Delight,1976,,7275
+,m,Phil Collins,Against All Odds,1984,1,7276
+,f,Diana Ross,Ain't No Mountain High Enough,1970,,7277
+,m,Color Me Badd,All 4 Love,1991,,7279
+,m,The Beatles,All You Need Is Love,1967,,7286
+,m,Gilbert O'Sullivan,Alone Again (Naturally),1972,1,7288
+,m,Don McLean,American Pie,1971,1,7289
+,m,The Guess Who,American Woman/No Sugar Tonight,1970,,7290
+,f,Helen Reddy,Angie Baby,1974,,7294
+,m,The Rolling Stones,Angie,1973,,7295
+,m,John Denver,Annie's Song,1974,1,7297
+,m,Pink Floyd,Another Brick In The Wall,1980,,7298
+,m,Queen,Another One Bites The Dust,1980,,7299
+,m;f,The 5th Dimension,Aquarius/Let The Sunshine In,1969,,7300
+,m,Christopher Cross,Arthur's Theme (Best That You Can Do),1981,1,7303
+,m,Styx,Babe,1979,,7307
+,m,Player,Baby Come Back,1978,,7308
+,m,Mac Davis,Baby Don't Get Hooked On Me,1972,1,7310
+,f,The Supremes,Baby Love,1964,,7311
+,m;f,Patti Austin & James Ingram,"Baby, Come To Me",1983,,7314
+,f,The Supremes,Back In My Arms Again,1965,,7315
+,m,Neil Sedaka,Bad Blood,1975,1,7318
+,f,Donna Summer,Bad Girls,1979,1,7320
+,m,Jim Croce,"Bad, Bad Leroy Brown",1973,1,7324
+,m;f,Paul McCartney & Wings,Band On The Run,1974,1,7325
+,m,Michael Jackson,Beat It,1983,1,7327
+,m,Freddy Fender,Before The Next Teardrop Falls,1975,,7328
+,m,Michael Jackson,Ben,1972,,7330
+,m,Elton John,Bennie And The Jets,1974,1,7332
+,m,Eagles,Best Of My Love,1975,,7334
+,f,The Emotions,Best Of My Love,1977,,7337
+,f,Kim Carnes,Bette Davis Eyes,1981,,7339
+,m,Jimmy Dean,Big Bad John,1961,1,7341
+,m,Frankie Valli & the Four Seasons,Big Girls Don't Cry,1962,,7342
+,m,Bo Donaldson & the Heywoods,"Billy, Don't Be A Hero",1974,,7344
+,m,Three Dog Night,Black & White,1972,,7346
+,f,Alannah Myles,Black Velvet,1990,,7348
+,m,The Doobie Brothers,Black Water,1975,,7350
+,m,Manfred Mann's Earth Band,Blinded By The Light,1977,,7351
+,m,The Marcels,Blue Moon,1961,,7352
+,m,Bobby Vinton,Blue Velvet,1963,,7354
+,m;f,The Sylvers,Boogie Fever,1976,,7356
+,m;f,A Taste Of Honey,Boogie Oogie Oogie,1978,1,7358
+,f,Melanie,Brand New Key,1971,1,7360
+,m,Looking Glass,Brandy (You're A Fine Girl),1972,,7361
+,m,Neil Sedaka,Breaking Up Is Hard To Do,1962,1,7362
+,m,Simon & Garfunkel,Bridge Over Troubled Water,1970,,7364
+,m,Stories,Brother Louie,1973,,7365
+,m,The Rolling Stones,Brown Sugar,1971,,7367
+,m,Lawrence Welk,Calcutta,1961,,7369
+,m;f,Blondie,Call Me,1980,1,7373
+,m,The Beatles,Can't Buy Me Love,1964,,7376
+,m,Barry White,"Can't Get Enough Of Your Love, Babe",1974,1,7378
+,m;f,Rose Royce,Car Wash,1977,,7379
+,m,Billy Ocean,Caribbean Queen (No More Love On The Run),1984,1,7380
+,m,Harry Chapin,Cat's In The Cradle,1974,1,7382
+,m,Kool & the Gang,Celebration,1981,,7384
+,f,The Dixie Cups,Chapel Of Love,1964,,7393
+,m,Vangelis,Chariots Of Fire,1982,1,7396
+,m,The Association,Cherish,1966,,7397
+,m;f,Dexys Midnight Runners,Come On Eileen,1983,,7398
+,f,The Supremes,Come See About Me,1964,,7401
+,m,The Beatles,Come Together/Something,1969,,7404
+,m;f,Paul McCartney & Wings,Coming Up (Live At Glasgow),1980,1,7406
+,m,C.W. McCall,Convoy,1976,1,7407
+,m,Neil Diamond,Cracklin' Rosie,1970,1,7409
+,m,Queen,Crazy Little Thing Called Love,1980,,7410
+,m,Tommy James & the Shondells,Crimson And Clover,1969,1,7411
+,m,Elton John,Crocodile Rock,1973,1,7413
+,m,Shaun Cassidy,Da Doo Ron Ron,1977,,7415
+,m,Rod Stewart,Da Ya Think I'm Sexy?,1979,1,7418
+,m;f,ABBA,Dancing Queen,1977,,7421
+,f,Cher,Dark Lady,1974,,7424
+,m,Frankie Valli & the Four Seasons,"December, 1963 (Oh, What a Night)",1976,,7425
+,m;f,Nino Tempo & April Stevens,Deep Purple,1963,,7427
+,f,Helen Reddy,Delta Dawn,1973,,7429
+,f,Whitney Houston,Didn't We Almost Have It All,1987,,7431
+,m,Rick Dees & His Cast Of Idiots,Disco Duck,1976,1,7433
+,m,Johnnie Taylor,Disco Lady,1976,,7434
+,m,Tommy Roe,Dizzy,1969,1,7437
+,m;f,Captain & Tennille,Do That To Me One More Time,1980,1,7439
+,m,Manfred Mann,Do Wah Diddy Diddy,1964,,7440
+,f,The Singing Nun,Dominique,1963,1,7442
+,f,Connie Francis,Don't Break The Heart That Loves You,1962,,7443
+,m,David Soul,Don't Give Up On Us,1977,,7445
+,m;f,Elton John & Kiki Dee,Don't Go Breaking My Heart,1976,1,7446
+,f,Thelma Houston,Don't Leave Me This Way,1977,,7448
+,m,Michael Jackson,Don't Stop 'til You Get Enough,1979,1,7451
+,m,Men At Work,Down Under,1983,,7452
+,f,Petula Clark,Downtown,1965,,7454
+,m;f,Fleetwood Mac,Dreams,1977,1,7455
+,m,Gene Chandler,Duke Of Earl,1962,1,7456
+,m,Paul McCartney & Stevie Wonder,Ebony And Ivory,1982,1,7459
+,m,The Beatles,Eight Days A Week,1965,,7460
+,m;f,Diana Ross & Lionel Richie,Endless Love,1981,1,7462
+,m,Rupert Holmes,Escape (The Pina Colada Song),1979,1,7463
+,m,Barry McGuire,Eve Of Destruction,1965,,7464
+,f,Barbra Streisand,Evergreen,1977,1,7466
+,m,Poison,Every Rose Has Its Thorn,1988,,7468
+,m,Dean Martin,Everybody Loves Somebody,1964,,7472
+,m;f,Sly & the Family Stone,Everyday People,1969,,7475
+,m,Ray Stevens,Everything Is Beautiful,1970,1,7476
+,m,Survivor,Eye Of The Tiger,1982,,7477
+,m,"Hamilton, Joe Frank & Reynolds",Fallin' In Love,1975,,7479
+,m;f,Sly & the Family Stone,Family Affair,1971,,7481
+,f,Roberta Flack,Feel Like Makin' Love,1974,,7482
+,m,Stevie Wonder,Fingertips,1963,,7483
+,m,Ohio Players,Fire,1975,,7485
+,f,Irene Cara,Flashdance...What A Feeling,1983,1,7492
+,f,Silver Convention,"Fly, Robin, Fly",1975,,7495
+,m,The Edgar Winter Group,Frankenstein,1973,1,7497
+,m;f,Lipps Inc.,Funkytown,1980,,7498
+,m,Wayne Fontana & the Mindbenders,Game Of Love,1965,,7499
+,m,The Beatles,Get Back,1969,,7500
+,m,KC & the Sunshine Band,Get Down Tonight,1975,,7502
+,m,The Rolling Stones,Get Off Of My Cloud,1965,,7504
+,m,George Harrison,Give Me Love (Give Me Peace On Earth),1973,1,7506
+,m,Donny Osmond,Go Away Little Girl,1971,,7507
+,m,Steve Lawrence,Go Away Little Girl,1962,,7509
+,m,Bill Conti,Gonna Fly Now,1977,1,7511
+,m,The Young Rascals,Good Lovin',1966,,7514
+,m,Elvis Presley,Good Luck Charm,1962,,7516
+,m;f,Chic,Good Times,1979,,7518
+,m,The Beach Boys,Good Vibrations,1966,,7520
+,m,Marvin Gaye,Got To Give It Up,1977,1,7522
+,m,Hugh Masekela,Grazing In The Grass,1968,,7523
+,m,Frankie Valli,Grease,1978,,7524
+,m,The Lemon Pipers,Green Tambourine,1968,,7525
+,m,The Young Rascals,Groovin',1967,,7527
+,f,Cher,"Gypsys, Tramps & Thieves",1971,,7529
+,f,Cher,Half-Breed,1973,,7530
+,m,The McCoys,Hang On Sloopy,1965,,7532
+,m,Tommy James & the Shondells,Hanky Panky,1966,,7534
+,m,The Turtles,Happy Together,1967,,7536
+,m,Chicago,Hard To Say I'm Sorry,1982,,7538
+,f,Jeannie C. Riley,Harper Valley P.T.A.,1968,,7540
+,f,Olivia Newton-John,Have You Never Been Mellow,1975,,7541
+,m;f,Tony Orlando & Dawn,He Don't Love You (Like I Love You),1975,,7542
+,f,The Crystals,He's A Rebel,1962,,7545
+,f,The Chiffons,He's So Fine,1963,,7546
+,m;f,Blondie,Heart Of Glass,1979,1,7547
+,m,Neil Young,Heart Of Gold,1972,1,7549
+,m,Eagles,Heartache Tonight,1979,,7550
+,m,Lionel Richie,Hello,1984,1,7554
+,m,The Beatles,Hello Goodbye,1967,,7555
+,m,Louis Armstrong & the All Stars,"Hello, Dolly!",1964,,7557
+,m,The Doors,"Hello, I Love You",1968,,7558
+,m,The Beach Boys,"Help Me, Rhonda",1965,,7562
+,m,The Beatles,Help!,1965,,7564
+,m;f,Paul & Paula,Hey Paula,1963,,7566
+,m,Bruce Channel,Hey! Baby,1962,1,7567
+,m,Steve Winwood,Higher Love,1986,1,7569
+,m,Ray Charles,Hit The Road Jack,1961,,7571
+,m,Bobby Goldsboro,Honey,1968,,7572
+,m,The Rolling Stones,Honky Tonk Women,1969,,7573
+,m,Blue Swede,Hooked On A Feeling,1974,,7575
+,m,Nick Gilder,Hot Child In The City,1978,1,7576
+,f,Donna Summer,Hot Stuff,1979,,7578
+,m,Bee Gees,How Can You Mend A Broken Heart,1971,,7581
+,m,Bee Gees,How Deep Is Your Love,1977,,7583
+,f,Helen Reddy,I Am Woman,1972,1,7589
+,m,Billy Swan,I Can Help,1974,,7591
+,m,Johnny Nash,I Can See Clearly Now,1972,1,7592
+,m,The Temptations,I Can't Get Next To You,1969,,7593
+,m,Daryl Hall & John Oates,I Can't Go For That (No Can Do),1981,1,7595
+,m,Four Tops,I Can't Help Myself (Sugar Pie Honey Bunch),1965,,7598
+,m,Ray Charles,I Can't Stop Loving You,1962,,7601
+,m,The Beatles,I Feel Fine,1964,,7602
+,m,The Beach Boys,I Get Around,1964,,7604
+,m;f,Sonny & Cher,I Got You Babe,1965,,7606
+,f,The Supremes,I Hear A Symphony,1965,,7607
+,m,Marvin Gaye,I Heard It Through The Grapevine,1968,,7610
+,m,Andy Gibb,I Just Want To Be Your Everything,1977,,7612
+,m,Eddie Rabbitt,I Love A Rainy Night,1981,1,7613
+,m;f,Joan Jett & the Blackhearts,I Love Rock 'N Roll,1982,,7616
+,m,Eric Clapton,I Shot The Sheriff,1974,,7618
+,m;f,The Partridge Family,I Think I Love You,1970,,7619
+,m,The Beatles,I Want To Hold Your Hand,1964,,7620
+,m,The Jackson 5,I Want You Back,1970,,7622
+,f,Little Peggy March,I Will Follow Him,1963,,7626
+,f,Gloria Gaynor,I Will Survive,1979,,7631
+,m,Stevie Wonder,I Wish,1977,1,7633
+,m,Barry Manilow,I Write The Songs,1976,,7634
+,m,The Jackson 5,I'll Be There,1970,,7635
+,m;f,The Staple Singers,I'll Take You There,1972,,7639
+,m,The Monkees,I'm A Believer,1966,,7640
+,m,Herman's Hermits,"I'm Henry VIII, I Am",1965,,7641
+,m;f,Dale & Grace,I'm Leaving It Up To You,1963,,7643
+,m,John Denver,I'm Sorry,1975,1,7645
+,m,Freddie & the Dreamers,I'm Telling You Now,1965,,7646
+,m,KC & the Sunshine Band,I'm Your Boogie Man,1977,,7648
+,f,Yvonne Elliman,If I Can't Have You,1978,,7650
+,m,Chicago,If You Leave Me Now,1976,,7653
+,m,Jimmy Soul,If You Wanna Be Happy,1963,,7654
+,m,Zager & Evans,In The Year 2525,1969,,7657
+,m,Strawberry Alarm Clock,Incense And Peppermints,1967,,7658
+,m,The Raiders,Indian Reservation (The Lament Of The Cherokee Reservation Indian),1971,,7660
+,m,Elton John,Island Girl,1975,1,7661
+,f,Lesley Gore,It's My Party,1963,,7663
+,m,Billy Joel,It's Still Rock And Roll To Me,1980,1,7667
+,f,Carole King,It's Too Late,1971,1,7668
+,m,John Cougar,Jack & Diane,1982,,7670
+,m,Rick Springfield,Jessie's Girl,1981,1,7671
+,m,Bee Gees,Jive Talkin',1975,,7672
+,f,Shelley Fabares,Johnny Angel,1962,,7675
+,m,Three Dog Night,Joy To The World,1971,,7677
+,m;f,Roxette,Joyride,1991,,7678
+,m,John Fred & His Playboy Band,Judy In Disguise (With Glasses),1968,,7679
+,m,The Temptations,Just My Imagination (Running Away With Me),1971,,7681
+,m,REO Speedwagon,Keep On Loving You,1981,,7683
+,m,Eddie Kendricks,Keep On Truckin',1973,,7684
+,f,Roberta Flack,Killing Me Softly With His Song,1973,,7687
+,m,The Buckinghams,Kind Of A Drag,1967,,7689
+,m,The Manhattans,Kiss And Say Goodbye,1976,,7690
+,m,Daryl Hall & John Oates,Kiss On My List,1981,1,7691
+,m,Exile,Kiss You All Over,1978,,7693
+,f,Amii Stewart,Knock On Wood,1979,,7695
+,m;f,Dawn,Knock Three Times,1970,,7697
+,m,Carl Douglas,Kung Fu Fighting,1974,1,7699
+,m,Kenny Rogers,Lady,1980,,7700
+,f,Labelle,Lady Marmalade,1975,,7701
+,m,The Monkees,Last Train To Clarksville,1966,,7705
+,m,Neil Sedaka,Laughter In The Rain,1975,1,7707
+,m;f,Chic,Le Freak,1978,,7709
+,f,The Shangri-Las,Leader Of The Pack,1964,,7711
+,m,Bill Withers,Lean On Me,1972,1,7714
+,m;f,"Peter, Paul & Mary",Leaving On A Jet Plane,1969,,7715
+,m,The Beatles,Let It Be,1970,,7716
+,m,The Bellamy Brothers,Let Your Love Flow,1976,,7718
+,m;f,The Staple Singers,Let's Do It Again,1975,,7719
+,m,Marvin Gaye,Let's Get It On,1973,1,7720
+,f,Deniece Williams,Let's Hear It For The Boy,1984,,7722
+,m,Al Green,Let's Stay Together,1972,1,7724
+,m,The Doors,Light My Fire,1967,,7727
+,m,Lou Christie,Lightnin' Strikes,1966,1,7731
+,m;f,Paul McCartney & Wings,Listen To What The Man Said,1975,1,7733
+,m,Barry Manilow,Looks Like We Made It,1977,,7735
+,f,Diana Ross & the Supremes,Love Child,1968,,7737
+,f,Diana Ross,Love Hangover,1976,,7741
+,m,Paul Mauriat,Love Is Blue (L'amour Est Bleu),1968,,7746
+,f,The Supremes,Love Is Here And Now You're Gone,1967,,7748
+,m,The Miracles,Love Machine (Part 1),1976,,7751
+,m,The Beatles,Love Me Do,1964,,7753
+,m,Ohio Players,Love Rollercoaster,1975,,7755
+,m,Henry Mancini,Love Theme From Romeo & Juliet,1969,,7762
+,m,The O'Jays,Love Train,1973,,7763
+,m;f,Captain & Tennille,Love Will Keep Us Together,1975,,7765
+,m,Bee Gees,Love You Inside Out,1979,,7767
+,m,Love Unlimted Orchestra,Love's Theme,1974,,7770
+,f,Minnie Riperton,Lovin' You,1975,1,7771
+,m,Elton John,Lucy In The Sky With Diamonds,1974,,7773
+,f,Donna Summer,MacArthur Park,1978,,7775
+,m,Rod Stewart,Maggie May/Reason To Believe,1971,1,7776
+,f,Olivia Newton-John,Magic,1980,,7778
+,m,Bread,Make It With You,1970,,7779
+,m,Three Dog Night,Mama Told Me (Not To Come),1970,,7780
+,m,Barry Manilow,Mandy,1975,,7781
+,m,Daryl Hall & John Oates,Maneater,1982,1,7783
+,m,Michael Sembello,Maniac,1983,1,7786
+,f,Janis Joplin,Me And Bobby McGee,1971,,7788
+,m,Billy Paul,Me And Mrs. Jones,1972,,7790
+,m;f,Stars On 45,Medley,1981,,7793
+,m,The Highwaymen,Michael,1961,,7798
+,f,Toni Basil,Mickey,1982,,7799
+,m;f,Gladys Knight & the Pips,Midnight Train To Georgia,1973,,7801
+,m,The Rolling Stones,Miss You,1978,,7802
+,m;f,The Mamas & the Papas,"Monday, Monday",1966,,7804
+,m,"Bobby ""Boris"" Pickett & the Crypt-Kickers",Monster Mash,1962,,7805
+,m,Pat Boone,Moody River,1961,,7807
+,m,Extreme,More Than Words,1991,,7808
+,f,Sheena Easton,Morning Train (Nine To Five),1981,,7810
+,m,Ernie K-Doe,Mother-In-Law,1961,,7811
+,m,Bobby Vinton,Mr. Lonely,1964,1,7812
+,m,The Byrds,Mr. Tambourine Man,1965,,7814
+,m,Herman's Hermits,Mrs. Brown You've Got A Lovely Daughter,1965,,7815
+,m,Simon & Garfunkel,Mrs. Robinson,1968,,7816
+,f,The Angels,My Boyfriend's Back,1963,,7817
+,m,Chuck Berry,My Ding-A-Ling,1972,,7820
+,m,Frankie Valli,My Eyes Adored You,1975,,7821
+,m,The Temptations,My Girl,1965,,7823
+,f,Mary Wells,My Guy,1964,,7825
+,m;f,Paul McCartney & Wings,My Love,1973,1,7826
+,f,Petula Clark,My Love,1966,,7828
+,m,The Knack,My Sharona,1979,,7829
+,m,George Harrison,My Sweet Lord/Isn't It A Pity,1970,1,7831
+,m,Steam,Na Na Hey Hey Kiss Him Goodbye,1969,,7832
+,m,Eagles,New Kid In Town,1977,,7835
+,m,Bee Gees,Night Fever,1978,,7838
+,f,Barbra Streisand & Donna Summer,No More Tears (Enough Is Enough),1979,,7841
+,m,Billy Preston,Nothing From Nothing,1974,1,7843
+,f,Bobbie Gentry,Ode To Billie Joe,1967,1,7845
+,m,The Chi-lites,Oh Girl,1972,,7846
+,m,Roy Orbison,"Oh, Pretty Woman",1964,1,7847
+,m,The Osmonds,One Bad Apple,1971,,7849
+,m,Timmy T,One More Try,1991,,7850
+,m,Eagles,One Of These Nights,1975,,7852
+,f,Madonna,Open Your Heart,1987,1,7854
+,m;f,Ruby & the Romantics,Our Day Will Come,1963,,7857
+,m,The Dave Clark Five,Over And Over,1965,,7859
+,m,The Rolling Stones,"Paint It, Black",1966,,7860
+,m,The Temptations,Papa Was A Rollin' Stone,1972,,7862
+,m,The Beatles,Paperback Writer,1966,,7864
+,m,Stevie Wonder,Part-Time Lover,1985,1,7866
+,m,The Beatles,Penny Lane,1967,,7867
+,m,The Rascals,People Got To Be Free,1968,,7869
+,m,Joey Dee & the Starliters,Peppermint Twist,1962,1,7871
+,m,Elton John,Philadelphia Freedom,1975,1,7873
+,m,Ringo Starr,Photograph,1973,1,7875
+,f,Olivia Newton-John,Physical,1981,,7877
+,m,Average White Band,Pick Up The Pieces,1975,,7879
+,m,Wild Cherry,Play That Funky Music,1976,,7885
+,m,KC & the Sunshine Band,Please Don't Go,1979,,7886
+,m;f,The Carpenters,Please Mr. Postman,1975,,7888
+,f,The Marvelettes,Please Mr. Postman,1961,,7891
+,m,Chubby Checker,Pony Time,1961,,7894
+,m,Johnny Rivers,Poor Side Of Town,1966,1,7896
+,m,M,Pop Muzik,1979,,7898
+,m,Daryl Hall & John Oates,Private Eyes,1981,1,7899
+,m,Gary U.S. Bonds,Quarter To Three,1961,,7903
+,m,Frankie Valli & the Four Seasons,Rag Doll,1964,,7907
+,m,B.J. Thomas,Raindrops Keep Fallin' On My Head,1969,,7909
+,m;f,Blondie,Rapture,1981,1,7911
+,m,Four Tops,Reach Out I'll Be There,1966,,7914
+,f,Aretha Franklin,Respect,1967,,7917
+,m;f,Peaches & Herb,Reunited,1979,,7918
+,m,Glen Campbell,Rhinestone Cowboy,1975,,7920
+,m,Daryl Hall & John Oates,Rich Girl,1977,1,7921
+,f,Anita Ward,Ring My Bell,1979,,7922
+,m,Lorne Greene,Ringo,1964,,7923
+,m,Herb Alpert,Rise,1979,,7925
+,m,Andy Kim,Rock Me Gently,1974,1,7927
+,m;f,The Hues Corporation,Rock The Boat,1974,,7928
+,m,Michael Jackson,Rock With You,1980,,7929
+,m,George McCrae,Rock Your Baby,1974,,7930
+,m,Steve Miller,Rock'n Me,1976,1,7932
+,m,Bobby Vinton,Roses Are Red (My Love),1962,,7933
+,m,The Rolling Stones,Ruby Tuesday,1967,,7935
+,m,Dion,Runaround Sue,1961,,7937
+,m,Del Shannon,Runaway,1961,1,7939
+,m,Roy Orbison,Running Scared,1961,1,7941
+,f,Rihanna ft. Britney Spears,S&M,2011,,7943
+,m,Robert John,Sad Eyes,1979,1,7947
+,m,Christopher Cross,Sailing,1980,1,7948
+,m,Bay City Rollers,Saturday Night,1975,,7949
+,m,Terry Jacks,Seasons In The Sun,1974,,7951
+,m;f,Phil Collins & Marilyn Martin,Separate Lives,1985,,7953
+,m,Andy Gibb,Shadow Dancing,1978,1,7954
+,m,The Beatles,She Loves You,1964,,7958
+,m,Tommy Roe,Sheila,1962,1,7960
+,m,Frankie Valli & the Four Seasons,Sherry,1962,,7961
+,m,"Earth, Wind & Fire",Shining Star,1975,,7962
+,m,Al Wilson,Show And Tell,1974,,7965
+,m;f,Paul McCartney & Wings,Silly Love Songs,1976,1,7966
+,m,Stevie Wonder,Sir Duke,1977,1,7968
+,m,America,Sister Golden Hair,1975,,7969
+,m,Peter Gabriel,Sledgehammer,1986,1,7970
+,m,The Tymes,So Much In Love,1963,,7971
+,f,The Shirelles,Soldier Boy,1962,,7973
+,f,Diana Ross & the Supremes,Someday We'll Be Together,1969,,7975
+,m;f,Frank Sinatra & Nancy Sinatra,Somethin' Stupid,1967,,7978
+,m,Neil Diamond,Song Sung Blue,1972,1,7979
+,m,Glen Campbell,Southern Nights,1977,,7980
+,m,Meco,Star Wars Theme,1977,,7981
+,m,Bee Gees,Stayin' Alive,1978,,7982
+,m,Commodores,Still,1979,,7985
+,f,The Supremes,Stop! In The Name Of Love,1965,,7986
+,m,Mr. Acker Bilk,Stranger On The Shore,1962,1,7989
+,m,Frank Sinatra,Strangers In The Night,1966,,7991
+,m,Huey Lewis & the News,Stuck With You,1986,1,7994
+,m,Jimmy Gilmer & the Fireballs,Sugar Shack,1963,,7996
+,m;f,The Archies,"Sugar, Sugar",1969,,7998
+,m,Kyu Sakamoto,Sukiyaki,1963,,8000
+,m,The Lovin' Spoonful,Summer In The City,1966,,8002
+,m,Gordon Lightfoot,Sundown,1974,1,8005
+,m,John Denver,Sunshine On My Shoulders,1974,1,8006
+,m,Donovan,Sunshine Superman,1966,1,8009
+,m,Stevie Wonder,Superstition,1973,1,8010
+,m,Jan & Dean,Surf City,1963,,8011
+,m,Elvis Presley,Surrender,1961,,8013
+,m,Elvis Presley,Suspicious Minds,1969,,8015
+,m,Bobby Vee,Take Good Care Of My Baby,1961,,8016
+,m,The Tornados,Telstar,1962,,8018
+,m,John Denver,Thank God I'm A Country Boy,1975,,8019
+,m;f,Sly & the Family Stone,Thank You Falettinme Be Mice Elf Agin,1970,,8020
+,m,KC & the Sunshine Band,That's The Way (I Like It),1975,,8021
+,m,SSgt. Barry Sadler,The Ballad Of The Green Berets,1966,,8023
+,m,"Sammy Davis, Jr.",The Candy Man,1972,,8025
+,m,The Chipmunks With David Seville,The Chipmunk Song,1958,,8027
+,f,Roberta Flack,The First Time Ever I Saw Your Face,1972,,8028
+,f,The Supremes,The Happening,1967,,8029
+,m,Van McCoy & the Soul City Symphony,The Hustle,1975,1,8033
+,m,The Steve Miller Band,The Joker,1973,1,8034
+,m,Box Tops,The Letter,1967,,8037
+,m,The Tokens,The Lion Sleeps Tonight,1961,,8038
+,m,Grand Funk,The Loco-Motion,1974,,8042
+,f,Little Eva,The Loco-Motion,1962,,8044
+,m,The Beatles,The Long And Winding Road,1970,,8046
+,m,The Jackson 5,The Love You Save/I Found That Girl,1970,,8048
+,f,Maureen McGovern,The Morning After,1973,,8052
+,m,Charlie Rich,The Most Beautiful Girl,1973,,8054
+,m,Paper Lace,The Night Chicago Died,1974,,8057
+,f,Vicki Lawrence,The Night The Lights Went Out In Georgia,1973,,8059
+,m,Air Supply,The One That You Love,1981,,8060
+,m,Duran Duran,The Reflex,1984,,8061
+,m,Ray Stevens,The Streak,1974,1,8066
+,m,David Rose,The Stripper,1962,1,8067
+,m;f,Smokey Robinson & the Miracles,The Tears Of A Clown,1970,1,8068
+,m;f,Blondie,The Tide Is High,1981,,8071
+,f,Barbra Streisand,The Way We Were,1974,,8074
+,f,Diana Ross,Theme From Mahogany,1975,,8077
+,m,Rhythm Heritage,Theme From S.W.A.T.,1976,,8079
+,m,Isaac Hayes,Theme From Shaft,1971,1,8080
+,m;f,Dionne Warwick & the Spinners,Then Came You,1974,,8081
+,m,Bobby Vinton,There! I've Said It Again,1963,,8083
+,f,Nancy Sinatra,These Boots Are Made For Walkin',1966,,8085
+,m,Gary Lewis & the Playboys,This Diamond Ring,1965,,8086
+,m,Herb Alpert,This Guy's In Love With You,1968,,8089
+,m,Commodores,Three Times A Lady,1978,,8091
+,m,The Beatles,Ticket To Ride,1965,,8092
+,m;f,Tony Orlando & Dawn,Tie A Yellow Ribbon Round The Ole Oak Tree,1973,,8094
+,m,Archie Bell & the Drells,Tighten Up,1968,1,8096
+,f,Cyndi Lauper,Time After Time,1984,1,8098
+,f,Lulu,To Sir With Love,1967,,8100
+,m,Rod Stewart,Tonight's The Night (Gonna Be Alright),1976,1,8102
+,m,Bee Gees,Too Much Heaven,1978,,8103
+,m;f,Johnny Mathis & Deniece Williams,"Too Much, Too Little, Too Late",1978,,8106
+,m;f,The Carpenters,Top Of The World,1973,,8108
+,f,Mary Macgregor,Torn Between Two Lovers,1977,,8110
+,m,Bobby Lewis,Tossin' And Turnin',1961,,8112
+,f,Diana Ross,Touch Me In The Morning,1973,,8114
+,m,Bee Gees,Tragedy,1979,,8116
+,m,Ricky Nelson,Travelin' Man,1961,,8119
+,m,Lionel Richie,Truly,1982,1,8120
+,m;f,MFSB ft. The Three Degrees,The Sound Of Philadelphia,1974,,8121
+,m,The Byrds,Turn! Turn! Turn!,1965,,8123
+,m,EMF,Unbelievable,1991,,8124
+,m;f,Paul McCartney & Linda McCartney,Uncle Albert/Admiral Halsey,1971,1,8129
+,m,Alan O'Day,Undercover Angel,1977,1,8131
+,m;f,Joe Cocker & Jennifer Warnes,Up Where We Belong,1982,,8132
+,f,Diana Ross,Upside Down,1980,,8135
+,m;f,Shocking Blue,Venus,1970,,8137
+,m,Frankie Valli & the Four Seasons,Walk Like A Man,1963,,8138
+,m;f,The Rooftop Singers,Walk Right In,1963,,8140
+,f,Honey Cone,Want Ads,1971,,8144
+,m,Edwin Starr,War,1970,,8147
+,f,TLC,Waterfalls,1995,1,8149
+,m,The Beatles,We Can Work It Out,1966,,8154
+,m,Grand Funk,We're An American Band,1973,,8156
+,m;f,The 5th Dimension,Wedding Bell Blues,1969,,8157
+,m,John Sebastian,Welcome Back,1976,1,8158
+,m,Pet Shop Boys,West End Girls,1986,,8159
+,m,The Doobie Brothers,What A Fool Believes,1979,,8161
+,m;f,John Lennon,Whatever Gets You Thru The Night,1974,1,8163
+,m,Percy Sledge,When A Man Loves A Woman,1966,,8164
+,m,Leo Sayer,When I Need You,1977,,8166
+,m,Sheriff,When I'm With You,1989,,8168
+,f,The Supremes,Where Did Our Love Go,1964,,8169
+,f,Whitney Houston,Where Do Broken Hearts Go,1988,,8172
+,m,Men At Work,Who Can It Be Now?,1982,,8174
+,m,The Troggs,Wild Thing,1966,,8175
+,m,Billy Preston,Will It Go Round In Circles,1973,1,8176
+,f,The Shirelles,Will You Love Me Tomorrow,1961,,8178
+,m,The New Vaudville Band,Winchester Cathedral,1966,,8180
+,m,The Association,Windy,1967,,8181
+,m;f,Paul McCartney & Wings,With A Little Luck,1978,,8182
+,m,Harry Nilsson,Without You,1972,,8183
+,f,Barbra Streisand,Woman In Love,1980,,8185
+,m,Bert Kaempfert,Wonderland By Night,1960,,8187
+,m,Joe Dowell,Wooden Heart,1961,,8189
+,m,Bachman-Turner Overdrive,You Ain't Seen Nothing Yet,1974,,8193
+,m,Stevie Wonder,You Are The Sunshine Of My Life,1973,1,8194
+,f,The Supremes,You Can't Hurry Love,1966,,8195
+,m;f,Barbra Streisand & Neil Diamond,You Don't Bring Me Flowers,1978,1,8198
+,m;f,"Marilyn McCoo & Billy Davis, Jr.",You Don't Have To Be A Star (To Be In My Show),1976,,8201
+,m,Stevie Wonder,You Haven't Done Nothin,1974,1,8203
+,f,The Supremes,You Keep Me Hangin' On,1966,,8204
+,f,Debby Boone,You Light Up My Life,1977,,8207
+,m,Leo Sayer,You Make Me Feel Like Dancing,1976,1,8208
+,f,Anne Murray,You Needed Me,1978,,8210
+,m,Bee Gees,You Should Be Dancing,1976,,8211
+,f,Linda Ronstadt,You're No Good,1975,,8214
+,m,Ringo Starr,You're Sixteen,1974,,8215
+,f,Carly Simon,You're So Vain,1972,1,8217
+,m;f,John Travolta & Olivia Newton-John,You're The One That I Want,1978,,8218
+,m,James Taylor,You've Got A Friend,1971,,8219
+,m,The Righteous Brothers,You've Lost That Lovin' Feelin',1965,,8220
